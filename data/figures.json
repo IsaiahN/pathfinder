@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-11-24T12:55:36Z",
+  "figures": [
+    {
+      "fig": "Fig 10",
+      "number": 10,
+      "file": "Figure_10_The_Ground_Maintainer.svg",
+      "url": "FRAMEWORK/figures/Figure_10_The_Ground_Maintainer.svg",
+      "title": "The Ground Maintainer"
+    },
+    {
+      "fig": "Fig 11",
+      "number": 11,
+      "file": "Figure_11_The_Habitat.svg",
+      "url": "FRAMEWORK/figures/Figure_11_The_Habitat.svg",
+      "title": "The Habitat"
+    },
+    {
+      "fig": "Fig 12",
+      "number": 12,
+      "file": "Figure_12_The_Bond.svg",
+      "url": "FRAMEWORK/figures/Figure_12_The_Bond.svg",
+      "title": "The Bond"
+    },
+    {
+      "fig": "Fig 13",
+      "number": 13,
+      "file": "Figure_13_The_Minimum_Viable_Set.svg",
+      "url": "FRAMEWORK/figures/Figure_13_The_Minimum_Viable_Set.svg",
+      "title": "The Minimum Viable Set"
+    },
+    {
+      "fig": "Fig 1",
+      "number": 1,
+      "file": "Figure_1_The_Agent_REV3.svg",
+      "url": "FRAMEWORK/figures/Figure_1_The_Agent_REV3.svg",
+      "title": "The Agent REV3"
+    },
+    {
+      "fig": "Fig 2",
+      "number": 2,
+      "file": "Figure_2_The_Ground_REV (1).svg",
+      "url": "FRAMEWORK/figures/Figure_2_The_Ground_REV%20%281%29.svg",
+      "title": "The Ground REV (1)"
+    },
+    {
+      "fig": "Fig 3",
+      "number": 3,
+      "file": "Figure_3_Dependency_Chain_REV.svg",
+      "url": "FRAMEWORK/figures/Figure_3_Dependency_Chain_REV.svg",
+      "title": "Dependency Chain REV"
+    },
+    {
+      "fig": "Fig 4",
+      "number": 4,
+      "file": "Figure_4_The_Membrane.svg",
+      "url": "FRAMEWORK/figures/Figure_4_The_Membrane.svg",
+      "title": "The Membrane"
+    },
+    {
+      "fig": "Fig 5",
+      "number": 5,
+      "file": "Figure_5_The_Mint_Pipeline_REV.svg",
+      "url": "FRAMEWORK/figures/Figure_5_The_Mint_Pipeline_REV.svg",
+      "title": "The Mint Pipeline REV"
+    },
+    {
+      "fig": "Fig 6",
+      "number": 6,
+      "file": "Figure_6_Closure_Reachability_REV.svg",
+      "url": "FRAMEWORK/figures/Figure_6_Closure_Reachability_REV.svg",
+      "title": "Closure Reachability REV"
+    },
+    {
+      "fig": "Fig 7",
+      "number": 7,
+      "file": "Figure_7_The_Room_Chain_REV.svg",
+      "url": "FRAMEWORK/figures/Figure_7_The_Room_Chain_REV.svg",
+      "title": "The Room Chain REV"
+    },
+    {
+      "fig": "Fig 8",
+      "number": 8,
+      "file": "Figure_8_The_Union_Surplus.svg",
+      "url": "FRAMEWORK/figures/Figure_8_The_Union_Surplus.svg",
+      "title": "The Union Surplus"
+    },
+    {
+      "fig": "Fig 9",
+      "number": 9,
+      "file": "Figure_9_Leave_Arrive_Search.svg",
+      "url": "FRAMEWORK/figures/Figure_9_Leave_Arrive_Search.svg",
+      "title": "Leave Arrive Search"
+    }
+  ]
+}

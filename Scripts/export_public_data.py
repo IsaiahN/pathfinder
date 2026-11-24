@@ -166,6 +166,26 @@ def main():
         if not target.exists():
             target.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
+    # Figure manifest: the SPA uses this to open clickable figure pills.
+    figures = []
+    fig_dir = ROOT / "FRAMEWORK" / "figures"
+    if fig_dir.exists():
+        for svg in sorted(fig_dir.glob("*.svg")):
+            m = re.search(r"Figure[_\s]+(\d+)", svg.name, re.IGNORECASE)
+            if not m:
+                continue
+            num = int(m.group(1))
+            figures.append({
+                "fig": f"Fig {num}",
+                "number": num,
+                "file": svg.name,
+                "url": "FRAMEWORK/figures/" + svg.name.replace(" ", "%20").replace("(", "%28").replace(")", "%29"),
+                "title": re.sub(r"^Figure[_\s]+\d+[_\s]*", "", svg.stem).replace("_", " ").strip(),
+            })
+    (DATA / "figures.json").write_text(
+        json.dumps({"generated_at": generated_at, "figures": figures}, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8")
+
     complete = sum(1 for p in problems if p["solution_status"] == "complete")
     print(f"Wrote {DATA / 'problems.json'} — {len(problems)} problems, {complete} complete")
 

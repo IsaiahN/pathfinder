@@ -24,7 +24,8 @@
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="./"><span class="brand-mark">🧭</span><span>Project Pathfinder</span></a>
+    <button class="icon-btn menu-btn" id="menu-btn" title="Toggle sections">☰</button>
+    <a class="brand" href="./"><img class="brand-icon" src="assets/favicon.svg" alt=""><span>Project Pathfinder</span></a>
     <span class="crumb-sep">/</span>
     <span class="crumb" id="crumb">Corpus</span>
     <span class="mode-pill" id="mode-pill">OPEN BENCHMARK</span>
@@ -32,6 +33,7 @@
     <button class="top-submit" id="submit-btn">＋ Submit a question</button>
     <button class="icon-btn" id="search-btn" title="Search (Ctrl+K)">⌕</button>
     <button class="icon-btn" id="shortcuts-btn" title="Keyboard shortcuts">⌨</button>
+    <button class="icon-btn" id="theme-btn" title="Appearance">◐</button>
     <a class="icon-btn" href="https://github.com/IsaiahN/pathfinder" target="_blank" rel="noopener" title="GitHub repository">⌥</a>
     <a class="icon-btn" href="README.md" title="Method and privacy">?</a>
   </header>
@@ -55,6 +57,23 @@
 
   <div class="modal-backdrop" id="modal" hidden>
     <div class="modal" id="modal-box"></div>
+  </div>
+
+  <div class="figure-backdrop" id="figure-modal" hidden>
+    <div class="figure-shell">
+      <div class="figure-toolbar">
+        <span class="figure-title" id="figure-title">Figure</span>
+        <span class="spacer"></span>
+        <button class="icon-btn" id="fig-out" title="Zoom out">−</button>
+        <span class="figure-zoom" id="fig-zoom">100%</span>
+        <button class="icon-btn" id="fig-in" title="Zoom in">＋</button>
+        <button class="icon-btn" id="fig-reset" title="Reset view">⟲</button>
+        <a class="icon-btn" id="fig-github" href="#" target="_blank" rel="noopener" title="Open SVG on GitHub">↗</a>
+        <button class="icon-btn" id="fig-close" title="Close">✕</button>
+      </div>
+      <div class="figure-stage" id="figure-stage"><img id="figure-img" alt="Figure"></div>
+      <p class="figure-hint">Scroll or pinch to zoom · drag to pan · double click to reset</p>
+    </div>
   </div>
 
   <script src="assets/app.js"></script>

@@ -11,9 +11,12 @@
   var crumb = document.getElementById('crumb');
   var modePill = document.getElementById('mode-pill');
 
+  var BRAND_ICON = '<img class="brand-icon" src="assets/favicon.svg" alt="">';
+
   var state = {
     config: {}, problems: [], validation: { problems: {} }, history: { events: [] },
     submitted: { questions: [] }, queue: { items: [], daily_cap: 100 },
+    figures: [], docs: {}, theme: 'amber',
     ui: { category: '', query: '', verdict: '', tab: 'answer' }
   };
 
@@ -175,8 +178,9 @@
     right.onclick = function (e) { if (e.target.id === 'rail-submit') openSubmission(); };
 
     app.innerHTML =
+      (meta ? '' : '<img class="dash-banner" src="assets/pathfinder-banner.png" alt="Project Path Finder">') +
       '<div class="page-head"><div class="eyebrow">Corpus · ' + esc(meta ? meta.name : 'all fields') + '</div>' +
-        '<h1>🧭 ' + esc(meta ? meta.name : 'Project Pathfinder') + '</h1>' +
+        '<h1>' + BRAND_ICON + ' ' + esc(meta ? meta.name : 'Project Pathfinder') + '</h1>' +
         '<p>' + esc(meta ? meta.summary :
           'One method, 1,300 questions, and an open record of every human verdict. Pick a problem, read the derivation, then validate, refute, or accept it.') + '</p></div>' +
       '<div class="toolbar"><div class="searchbox"><span class="muted">⌕</span>' +
@@ -250,6 +254,103 @@
     drawRows();
   }
 
+  /* ── Reader: read-only view of the full solution documents ── */
+  var READER_FILES = [
+    ["07_the_tether_answer.md", "Tether answer"],
+    ["09_watson_answer.md", "WATSON answer"],
+    ["01_figure_grounded_audit.md", "Figure audit"],
+    ["05_what_shape_means.md", "What shape means"],
+    ["06_isomers_and_order.md", "Isomers and order"],
+    ["08_expert_verification_packet.md", "Verification packet"],
+    ["11_audit.md", "Second-seat audit"],
+    ["10_source_ledger.csv", "Source ledger"],
+    ["03_public_contact_points.csv", "Public contact points"]
+  ];
+
+  function mdToHtml(text) {
+    var lines = text.split(/\r?\n/), out = [], inList = false, inTable = false;
+    function inline(s) {
+      return esc(s)
+        .replace(/`([^`]+)`/g, '<code>$1</code>')
+        .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*([^*]+)\*/g, '<em>$1</em>')
+        .replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g,
+          '<a href="$2" target="_blank" rel="noopener">$1</a>');
+    }
+    lines.forEach(function (raw) {
+      var ln = raw.trim();
+      if (/^\|.*\|$/.test(ln)) {
+        if (!inTable) { out.push('<table><tbody>'); inTable = true; }
+        if (!/^\|[\s\-:|]+\|$/.test(ln)) {
+          out.push('<tr>' + ln.split('|').slice(1, -1).map(function (c) {
+            return '<td>' + inline(c.trim()) + '</td>';
+          }).join('') + '</tr>');
+        }
+        return;
+      }
+      if (inTable) { out.push('</tbody></table>'); inTable = false; }
+      if (!ln) { if (inList) { out.push('</ul>'); inList = false; } return; }
+      var h = ln.match(/^(#{1,4})\s+(.+)$/);
+      if (h) { var n = Math.min(h[1].length, 4); out.push('<h' + n + '>' + inline(h[2]) + '</h' + n + '>'); return; }
+      if (/^[-*]\s+/.test(ln)) {
+        if (!inList) { out.push('<ul>'); inList = true; }
+        out.push('<li>' + inline(ln.replace(/^[-*]\s+/, '')) + '</li>'); return;
+      }
+      if (inList) { out.push('</ul>'); inList = false; }
+      if (/^&gt;|^>/.test(ln)) { out.push('<blockquote>' + inline(ln.replace(/^>\s?/, '')) + '</blockquote>'); return; }
+      if (/^---+$/.test(ln)) { out.push('<hr>'); return; }
+      out.push('<p>' + inline(ln) + '</p>');
+    });
+    if (inList) out.push('</ul>');
+    if (inTable) out.push('</tbody></table>');
+    return out.join('\n');
+  }
+
+  function loadReaderDoc(p, file, container) {
+    var target = document.getElementById('reader-content');
+    if (!target) return;
+    var cacheKey = p.id + '/' + file;
+    Array.prototype.forEach.call(container.querySelectorAll('.reader-file'), function (b) {
+      b.classList.toggle('active', b.getAttribute('data-file') === file);
+    });
+    function show(txt) {
+      target.innerHTML = '<div class="reader-file-meta">' + esc(file) + ' · read only</div>' +
+        (file.endsWith('.csv')
+          ? '<div class="codeblock">' + esc(txt.slice(0, 20000)) + '</div>'
+          : '<div class="reader-doc">' + mdToHtml(txt) + '</div>');
+      target.scrollTop = 0;
+    }
+    if (state.docs[cacheKey]) { show(state.docs[cacheKey]); return; }
+    target.innerHTML = '<p class="muted">Loading ' + esc(file) + '…</p>';
+    fetch(p.solution_path + '/' + encodeURIComponent(file), { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.text() : 'This document is not available.'; })
+      .then(function (txt) { state.docs[cacheKey] = txt; show(txt); });
+  }
+
+  function renderReader(p, container) {
+    var issueUrl = 'https://github.com/IsaiahN/pathfinder/issues/new?' + new URLSearchParams({
+      labels: 'question', title: '[QUESTION] ' + p.id,
+      body: 'Question: ' + p.id + ' — ' + p.question + '\nField: user_submitted\n\nMy question or comment:\n'
+    }).toString();
+    container.innerHTML =
+      '<div class="card"><div class="reader-layout">' +
+        '<div class="reader-files">' + READER_FILES.map(function (f, i) {
+          return '<button class="reader-file' + (i === 0 ? ' active' : '') + '" data-file="' + f[0] + '">' + esc(f[1]) + '</button>';
+        }).join('') + '</div>' +
+        '<div><div id="reader-content" class="reader-doc"><p class="muted">Loading…</p></div>' +
+        '<div class="form-actions" style="border-top:1px solid var(--border);margin-top:20px">' +
+          '<a class="btn btn-outline" href="' + esc(issueUrl) + '" target="_blank" rel="noopener">💬 Comment on GitHub</a>' +
+          '<a class="btn btn-primary" href="https://github.com/IsaiahN/pathfinder/tree/main/' +
+            encodeURI(p.solution_path) + '" target="_blank" rel="noopener">Open folder ↗</a>' +
+        '</div></div>' +
+      '</div></div>';
+    container.onclick = function (e) {
+      var b = e.target.closest('.reader-file'); if (!b) return;
+      loadReaderDoc(p, b.getAttribute('data-file'), container);
+    };
+    loadReaderDoc(p, READER_FILES[0][0], container);
+  }
+
   /* ── Problem view ── */
   function renderProblem(p) {
     var id = p.id;
@@ -277,7 +378,10 @@
       var sid = b.getAttribute('data-id'); if (sid) location.href = './problem/' + encodeURIComponent(sid);
     };
 
-    var figs = (p.figures_used || []).map(function (f) { return '<span class="badge count">' + esc(f) + '</span>'; }).join(' ');
+    var figs = (p.figures_used || []).map(function (f) {
+      return '<button class="badge count fig-pill" data-fig="' + esc(f) + '" title="Open ' + esc(f) +
+        ' SVG">' + esc(f) + ' ↗</button>';
+    }).join(' ');
     var folderUrl = 'https://github.com/IsaiahN/pathfinder/tree/main/' + encodeURI(p.solution_path || '');
     var figCount = (p.figures_used || []).length;
     right.innerHTML =
@@ -308,10 +412,10 @@
       '<div class="panel"><h3>Submit a verdict</h3>' + actionButtons(id) + '</div>';
 
     var tabs = [['answer', 'Answer'], ['watson', 'WATSON'], ['figures', 'Figures'], ['sources', 'Sources'],
-                ['verdicts', 'Verdicts'], ['attempts', 'Attempts']];
+                ['reader', 'Reader'], ['verdicts', 'Verdicts'], ['attempts', 'Attempts']];
     app.innerHTML =
       '<div class="page-head"><div class="eyebrow">Problem · ' + esc(p.category || '') + '</div>' +
-        '<h1 class="mono">' + esc(id) + '</h1><p>' + esc(p.question) + '</p></div>' +
+        '<h1 class="mono">' + esc(id) + '</h1><p class="question">' + esc(p.question) + '</p></div>' +
       '<div class="tabs" id="ptabs">' + tabs.map(function (t) {
         return '<button class="tab' + (state.ui.tab === t[0] ? ' active' : '') + '" data-t="' + t[0] + '">' + t[1] + '</button>';
       }).join('') + '</div><div id="tabbody"></div>';
@@ -319,7 +423,7 @@
     function drawTab() {
       var t = state.ui.tab, body = document.getElementById('tabbody'), html = '';
       if (t === 'answer') {
-        html = '<div class="card"><h2><span class="dot">✦</span> The Tether answer</h2><div class="prose">' +
+        html = '<div class="card answer-card"><h2><span class="dot">✦</span> The Tether answer</h2><div class="prose">' +
           esc(p.tether_summary || 'No summary available.') + '</div></div>' +
           '<div class="card"><h2><span class="dot">◇</span> What this is</h2><p>A simulated derivation checked for internal consistency against the figures. It is not a ground reading and does not settle the question. Mode: <span class="badge ' + esc(mode) + '">' + esc(mode) + '</span></p></div>';
       } else if (t === 'watson') {
@@ -343,6 +447,9 @@
               esc(String(x.type || '').toUpperCase()) + ' · ' + esc(String(x.created_at || '').slice(0, 10)) + '</p>' +
               '<p>' + esc(x.reason || '') + '</p>';
           }).join('') : '<p class="small">No verdicts yet.</p>') + '</div>' + actionButtons(id);
+      } else if (t === 'reader') {
+        renderReader(p, document.getElementById('tabbody'));
+        return;
       } else {
         html = '<div class="card"><h2><span class="dot">⟳</span> Attempts and rebuttals</h2>' +
           ((p.attempts && p.attempts.length) ? p.attempts.map(function (a) {
@@ -370,6 +477,148 @@
     });
     drawTab();
   }
+
+  /* ── Appearance switcher (palettes from Serendipity | StoryWeaver) ── */
+  var THEMES = {
+    amber: { name: 'Amber', bg: '#0f1117', accent: '#f0a050', prose: '#d7dbe4', vars: {
+      '--bg-primary':'#0f1117','--bg-secondary':'#1a1d27','--bg-tertiary':'#242836','--bg-card':'#1e2230',
+      '--bg-hover':'#2a2f3f','--text-primary':'#e8eaed','--text-secondary':'#9aa0b0','--text-muted':'#6b7280',
+      '--accent':'#f0a050','--accent-hover':'#e08840','--accent-subtle':'rgba(240,160,80,0.08)',
+      '--accent-border':'rgba(240,160,80,0.25)','--border':'#2a2f3f','--editor-bg':'#0d0f14','--prose-color':'#d7dbe4' } },
+    midnight: { name: 'Midnight', bg: '#0f172a', accent: '#818cf8', prose: '#dbe4f0', vars: {
+      '--bg-primary':'#0f172a','--bg-secondary':'#1e293b','--bg-tertiary':'#334155','--bg-card':'#283548',
+      '--bg-hover':'#2d3a4d','--text-primary':'#f1f5f9','--text-secondary':'#cbd5e1','--text-muted':'#64748b',
+      '--accent':'#818cf8','--accent-hover':'#6366f1','--accent-subtle':'rgba(129,140,248,0.10)',
+      '--accent-border':'rgba(129,140,248,0.25)','--border':'#334155','--editor-bg':'#0c1425','--prose-color':'#dbe4f0' } },
+    ember: { name: 'Ember', bg: '#1c1412', accent: '#f97316', prose: '#f0d6c8', vars: {
+      '--bg-primary':'#1c1412','--bg-secondary':'#2a1f1b','--bg-tertiary':'#3d2e28','--bg-card':'#332720',
+      '--bg-hover':'#3a2d25','--text-primary':'#fef2f2','--text-secondary':'#d6bcb0','--text-muted':'#8b7265',
+      '--accent':'#f97316','--accent-hover':'#ea580c','--accent-subtle':'rgba(249,115,22,0.10)',
+      '--accent-border':'rgba(249,115,22,0.25)','--border':'#3d2e28','--editor-bg':'#16100e','--prose-color':'#f0d6c8' } },
+    forest: { name: 'Forest', bg: '#0f1a14', accent: '#34d399', prose: '#d5eadd', vars: {
+      '--bg-primary':'#0f1a14','--bg-secondary':'#1a2e22','--bg-tertiary':'#264032','--bg-card':'#20362a',
+      '--bg-hover':'#253d2f','--text-primary':'#ecfdf5','--text-secondary':'#a7d1b8','--text-muted':'#5b8a6e',
+      '--accent':'#34d399','--accent-hover':'#10b981','--accent-subtle':'rgba(52,211,153,0.10)',
+      '--accent-border':'rgba(52,211,153,0.25)','--border':'#264032','--editor-bg':'#0c1510','--prose-color':'#d5eadd' } },
+    twilight: { name: 'Twilight', bg: '#1a1025', accent: '#a78bfa', prose: '#e2d9f5', vars: {
+      '--bg-primary':'#1a1025','--bg-secondary':'#261838','--bg-tertiary':'#3a2650','--bg-card':'#301f44',
+      '--bg-hover':'#352449','--text-primary':'#f5f3ff','--text-secondary':'#c4b5fd','--text-muted':'#7c5fbf',
+      '--accent':'#a78bfa','--accent-hover':'#8b5cf6','--accent-subtle':'rgba(167,139,250,0.10)',
+      '--accent-border':'rgba(167,139,250,0.25)','--border':'#3a2650','--editor-bg':'#150d20','--prose-color':'#e2d9f5' } },
+    daylight: { name: 'Daylight', bg: '#fafaf9', accent: '#2563eb', prose: '#292524', vars: {
+      '--bg-primary':'#fafaf9','--bg-secondary':'#f5f5f4','--bg-tertiary':'#e7e5e4','--bg-card':'#e8e6e4',
+      '--bg-hover':'#dddbd8','--text-primary':'#1c1917','--text-secondary':'#44403c','--text-muted':'#78716c',
+      '--accent':'#2563eb','--accent-hover':'#1d4ed8','--accent-subtle':'rgba(37,99,235,0.10)',
+      '--accent-border':'rgba(37,99,235,0.25)','--border':'#ccc9c6','--editor-bg':'#ebeae8','--prose-color':'#292524' } }
+  };
+
+  function applyTheme(key) {
+    var t = THEMES[key]; if (!t) return;
+    Object.keys(t.vars).forEach(function (p) { document.documentElement.style.setProperty(p, t.vars[p]); });
+    document.documentElement.setAttribute('data-theme', key);
+    state.theme = key;
+    try { localStorage.setItem('pathfinder-theme', key); } catch (e) {}
+  }
+  function openTheme() {
+    openModal('<div class="modal-head"><strong>◐ Appearance</strong><span class="spacer"></span><span class="esc-key">ESC</span></div>' +
+      '<div class="theme-grid">' + Object.keys(THEMES).map(function (k) {
+        var t = THEMES[k];
+        return '<div class="theme-swatch' + (state.theme === k ? ' active' : '') + '" data-theme="' + k + '">' +
+          '<div class="chipbox" style="background:' + t.bg + '"><i style="background:' + t.accent + '"></i></div>' +
+          '<span>' + t.name + '</span></div>';
+      }).join('') + '</div>' +
+      '<p class="form-note" style="padding:0 16px 16px">Your choice is saved in this browser only.</p>');
+    document.getElementById('modal-box').onclick = function (e) {
+      var s = e.target.closest('.theme-swatch'); if (!s) return;
+      applyTheme(s.getAttribute('data-theme')); openTheme();
+    };
+  }
+  try { var saved = localStorage.getItem('pathfinder-theme'); if (saved && THEMES[saved]) applyTheme(saved); } catch (e) {}
+
+  /* ── Figure viewer ── */
+  var figView = { scale: 1, x: 0, y: 0, pointers: {}, lastDist: 0 };
+
+  function applyFigureTransform() {
+    var img = document.getElementById('figure-img');
+    if (img) img.style.transform = 'translate(' + figView.x + 'px,' + figView.y + 'px) scale(' + figView.scale + ')';
+    var z = document.getElementById('fig-zoom');
+    if (z) z.textContent = Math.round(figView.scale * 100) + '%';
+  }
+
+  function openFigure(label) {
+    var f = state.figures.find(function (x) { return x.fig === label || x.fig.replace(/\s/g, '') === label.replace(/\s/g, ''); });
+    if (!f) return;
+    figView = { scale: 1, x: 0, y: 0, pointers: {}, lastDist: 0 };
+    var modal = document.getElementById('figure-modal');
+    var img = document.getElementById('figure-img');
+    img.src = f.url;
+    img.alt = f.fig + ' — ' + f.title;
+    document.getElementById('figure-title').textContent = f.fig + ' · ' + f.title;
+    document.getElementById('fig-github').href =
+      'https://github.com/IsaiahN/pathfinder/blob/main/' + f.url.split('/').map(encodeURIComponent).join('/');
+    modal.hidden = false;
+    applyFigureTransform();
+  }
+  function closeFigure() { document.getElementById('figure-modal').hidden = true; }
+
+  document.getElementById('fig-close').onclick = closeFigure;
+  document.getElementById('figure-modal').onclick = function (e) {
+    if (e.target === this) closeFigure();
+  };
+  document.getElementById('fig-in').onclick = function () { figView.scale = Math.min(6, figView.scale * 1.25); applyFigureTransform(); };
+  document.getElementById('fig-out').onclick = function () { figView.scale = Math.max(0.25, figView.scale / 1.25); applyFigureTransform(); };
+  document.getElementById('fig-reset').onclick = function () { figView.scale = 1; figView.x = 0; figView.y = 0; applyFigureTransform(); };
+
+  var stage = document.getElementById('figure-stage');
+  stage.addEventListener('wheel', function (e) {
+    if (document.getElementById('figure-modal').hidden) return;
+    e.preventDefault();
+    figView.scale = Math.max(0.25, Math.min(6, figView.scale * (e.deltaY < 0 ? 1.12 : 0.89)));
+    applyFigureTransform();
+  }, { passive: false });
+  stage.addEventListener('dblclick', function () { figView.scale = 1; figView.x = 0; figView.y = 0; applyFigureTransform(); });
+  stage.addEventListener('pointerdown', function (e) {
+    stage.setPointerCapture(e.pointerId);
+    figView.pointers[e.pointerId] = { x: e.clientX, y: e.clientY };
+    var keys = Object.keys(figView.pointers);
+    if (keys.length === 2) {
+      var a = figView.pointers[keys[0]], b = figView.pointers[keys[1]];
+      figView.lastDist = Math.hypot(a.x - b.x, a.y - b.y);
+    }
+    stage.classList.add('dragging');
+  });
+  stage.addEventListener('pointermove', function (e) {
+    if (!figView.pointers[e.pointerId]) return;
+    var prev = figView.pointers[e.pointerId];
+    var keys = Object.keys(figView.pointers);
+    if (keys.length === 2) {
+      figView.pointers[e.pointerId] = { x: e.clientX, y: e.clientY };
+      var a = figView.pointers[keys[0]], b = figView.pointers[keys[1]];
+      var dist = Math.hypot(a.x - b.x, a.y - b.y);
+      if (figView.lastDist > 0) figView.scale = Math.max(0.25, Math.min(6, figView.scale * (dist / figView.lastDist)));
+      figView.lastDist = dist;
+      applyFigureTransform();
+    } else {
+      figView.x += e.clientX - prev.x;
+      figView.y += e.clientY - prev.y;
+      figView.pointers[e.pointerId] = { x: e.clientX, y: e.clientY };
+      applyFigureTransform();
+    }
+  });
+  function endPointer(e) {
+    delete figView.pointers[e.pointerId];
+    figView.lastDist = 0;
+    if (!Object.keys(figView.pointers).length) stage.classList.remove('dragging');
+  }
+  stage.addEventListener('pointerup', endPointer);
+  stage.addEventListener('pointercancel', endPointer);
+
+  // Delegated figure pill clicks (pills live inside re-rendered tabs).
+  app.onclick = function (e) {
+    var pill = e.target.closest('.fig-pill');
+    if (pill) openFigure(pill.getAttribute('data-fig'));
+  };
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeFigure(); });
 
   /* ── Command palette / shortcuts ── */
   function openModal(html) {
@@ -412,18 +661,29 @@
       'Information theory', 'Institutional questions', 'Origins of life',
       'Physics (QM and GR)', 'Reasoning and intelligence'];
     openModal(
-      '<div class="modal-head"><strong>＋ Submit a question</strong><span class="spacer"></span><span class="esc-key">ESC</span></div>' +
+      '<div class="wizard-head">' +
+        '<span class="phase-pill"><b>USER QUESTION</b> · 1 OF 1 <span class="phase-dots"><i></i><i></i><i></i></span></span>' +
+        '<h2>What question should we check?</h2>' +
+        '<p>One clear question. We run it through WATSON and file a full derivation under USR-#####.</p>' +
+        '<div class="example-box" style="margin:12px 0">✧ Example: <em>What would count as evidence that a system has formed concepts rather than learned useful associations?</em></div>' +
+      '</div>' +
       '<div class="form-body">' +
-        '<div class="field"><label>The question</label><textarea id="s-q" placeholder="What would you like checked? One clear question."></textarea></div>' +
         '<div class="field"><label>Field</label><select id="s-f">' + fields.map(function (f) {
           return '<option value="' + esc(f) + '">' + esc(f) + '</option>';
         }).join('') + '</select></div>' +
+        '<div class="field"><label>Your question</label>' +
+          '<div class="editor-box"><div class="editor-toolbar">' +
+            '<span class="tool active">Visual</span><span class="tool">Markdown</span><span class="tool">B</span>' +
+            '<span class="tool"><i>I</i></span><span class="tool">H₂</span><span class="tool">☰</span><span class="tool">&lt;/&gt;</span>' +
+          '</div><textarea id="s-q" placeholder="Ask one concrete question…"></textarea></div></div>' +
         '<div class="field"><label>Why it matters (optional)</label><input id="s-c" placeholder="What would change if this were answered?"></div>' +
         '<div class="field"><label>Source link (optional)</label><input id="s-s" placeholder="https://…"></div>' +
-        '<p class="form-note">Submitting opens a prefilled GitHub issue. Your GitHub login is the public identity; no email is asked for. Intake is unlimited; we process up to 100 questions a day. Each answer becomes a full USR-##### solution.</p>' +
+        '<p class="wizard-help">✓ Unlimited intake · we process up to 100 per day · no email is asked for</p>' +
       '</div>' +
-      '<div class="form-actions"><button class="btn btn-outline" id="s-cancel">Cancel</button>' +
-      '<button class="btn btn-primary" id="s-go">Open GitHub issue →</button></div>');
+      '<div class="form-actions">' +
+        '<a class="btn btn-outline" href="https://github.com/IsaiahN/watson-gpt" target="_blank" rel="noopener">✧ About WATSON</a>' +
+        '<button class="btn btn-outline" id="s-cancel">Cancel</button>' +
+        '<button class="btn btn-primary" id="s-go">Submit question →</button></div>');
     document.getElementById('s-cancel').onclick = closeModal;
     document.getElementById('s-go').onclick = function () {
       var q = document.getElementById('s-q').value.trim().replace(/\s+/g, ' ');
@@ -445,6 +705,10 @@
   }
 
   document.getElementById('submit-btn').addEventListener('click', openSubmission);
+  document.getElementById('theme-btn').addEventListener('click', openTheme);
+  document.getElementById('menu-btn').addEventListener('click', function () {
+    left.classList.toggle('open');
+  });
   document.getElementById('search-btn').addEventListener('click', openSearch);
   document.getElementById('shortcuts-btn').addEventListener('click', openShortcuts);
   document.getElementById('modal').addEventListener('click', function (e) { if (e.target.id === 'modal') closeModal(); });
@@ -457,7 +721,8 @@
     Promise.all([
       fetchJSON('data/config.json'), fetchJSON('data/problems.json'),
       fetchJSON('data/validation.json'), fetchJSON('data/history.json'),
-      fetchJSON('data/submitted_questions.json'), fetchJSON('data/submission_queue.json')
+      fetchJSON('data/submitted_questions.json'), fetchJSON('data/submission_queue.json'),
+      fetchJSON('data/figures.json')
     ]).then(function (r) {
       state.config = r[0] || {};
       state.problems = (r[1] && r[1].problems) || [];
@@ -465,6 +730,7 @@
       state.history = r[3] || { events: [] };
       state.submitted = r[4] || { questions: [] };
       state.queue = r[5] || { items: [], daily_cap: 100 };
+      state.figures = (r[6] && r[6].figures) || [];
       var meta = r[1] || {};
       var g = document.getElementById('generated-at');
       if (g) g.textContent = 'data ' + String(meta.generated_at || '').slice(0, 10);
