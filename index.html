@@ -5,45 +5,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Project Pathfinder — a human-validation benchmark</title>
   <meta name="description" content="1,300 questions, one method, and an open record of every human verdict. Explore the corpus and help test the Tether/WATSON metatheory.">
-  <!-- Keep asset/data URLs rooted at the project site even on /problem/ID deep links. -->
   <base href="/pathfinder/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/app.css">
   <script>
-    // Recover a deep link that the 404 fallback encoded as ?p=...
     (function () {
       try {
         var params = new URLSearchParams(location.search);
         var p = params.get('p');
-        if (p) {
-          var clean = p.replace(/^\//, '');
-          history.replaceState(null, '', '/pathfinder/' + clean + location.hash);
-        }
-      } catch (e) { /* local file:// use — leave URL alone */ }
+        if (p) history.replaceState(null, '', '/pathfinder/' + p.replace(/^\//, '') + location.hash);
+      } catch (e) { /* local file use */ }
     })();
   </script>
 </head>
 <body>
-  <header class="site-head">
-    <a class="brand" href="./" aria-label="Project Pathfinder home">
-      <span class="brand-mark">PF</span>
-      <span>Project Pathfinder</span>
-    </a>
-    <nav>
-      <a href="./">Corpus</a>
-      <a href="README.md">Method</a>
-      <a href="https://github.com/IsaiahN/pathfinder">GitHub repo</a>
-    </nav>
+  <header class="topbar">
+    <a class="brand" href="./"><span class="brand-mark">✦</span><span>Project Pathfinder</span></a>
+    <span class="crumb-sep">/</span>
+    <span class="crumb" id="crumb">Corpus</span>
+    <span class="mode-pill" id="mode-pill">OPEN BENCHMARK</span>
+    <span class="spacer"></span>
+    <button class="icon-btn" id="search-btn" title="Search (Ctrl+K)">⌕</button>
+    <button class="icon-btn" id="shortcuts-btn" title="Keyboard shortcuts">⌨</button>
+    <a class="icon-btn" href="https://github.com/IsaiahN/pathfinder" target="_blank" rel="noopener" title="GitHub repository">⌥</a>
+    <a class="icon-btn" href="README.md" title="Method and privacy">?</a>
   </header>
 
-  <main id="app" aria-live="polite">
-    <div class="loading">Loading corpus…</div>
-  </main>
+  <div class="workspace">
+    <aside class="rail rail-left" id="left-rail"></aside>
+    <main class="main-pane" id="app" aria-live="polite"><div class="loading">Loading corpus…</div></main>
+    <aside class="rail rail-right" id="right-rail"></aside>
+  </div>
 
-  <footer class="site-foot">
-    <span>Project Pathfinder</span>
+  <footer class="statusbar">
+    <span class="status-dot"></span>
+    <span id="status-left">Corpus ready</span>
+    <span class="status-sep">·</span>
+    <span id="status-count">1,300 problems</span>
+    <span class="spacer"></span>
+    <span id="status-saved">Public benchmark · no email addresses stored</span>
+    <span class="status-sep">·</span>
     <span id="generated-at"></span>
-    <span>Votes and verdicts are public. No email addresses are stored here.</span>
   </footer>
+
+  <div class="modal-backdrop" id="modal" hidden>
+    <div class="modal" id="modal-box"></div>
+  </div>
 
   <script src="assets/app.js"></script>
 </body>
