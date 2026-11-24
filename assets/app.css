@@ -176,7 +176,12 @@ button { font-family: inherit; }
   font-family: Georgia, serif; font-size: 1.08rem; color: var(--text-primary);
   margin: 12px 0 4px; max-width: none;
 }
-.dash-banner { display: block; width: 100%; max-width: 1100px; border-radius: var(--radius-md); margin-bottom: 20px; border: 1px solid var(--border); }
+.dash-banner { display: block; width: 100%; border-radius: var(--radius-md); border: 1px solid var(--border); }
+.link-badges { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 8px; margin: 16px 0 20px; }
+.link-badge { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border: 1px solid var(--border); border-radius: 100px; background: var(--bg-card); color: var(--text-secondary); font-size: 0.76rem; font-weight: 600; transition: var(--transition); }
+.link-badge:hover { color: var(--accent); border-color: var(--accent-border); background: var(--accent-subtle); text-decoration: none; }
+.link-badge svg { width: 14px; height: 14px; fill: currentColor; flex: 0 0 auto; }
+.section-rule { border: none; border-top: 1px solid var(--border); margin: 0 0 22px; }
 .eyebrow { font-size: 0.65rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 4px; }
 .muted { color: var(--text-muted); }
 .small { font-size: 0.78rem; color: var(--text-muted); }

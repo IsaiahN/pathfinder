@@ -12,6 +12,7 @@
   var modePill = document.getElementById('mode-pill');
 
   var BRAND_ICON = '<img class="brand-icon" src="assets/favicon.svg" alt="">';
+  var GH_ICON = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>';
 
   var state = {
     config: {}, problems: [], validation: { problems: {} }, history: { events: [] },
@@ -218,8 +219,17 @@
       '</div>';
     right.onclick = function (e) { if (e.target.id === 'rail-submit') openSubmission(); };
 
-    app.innerHTML =
-      (meta ? '' : '<img class="dash-banner" src="assets/pathfinder-banner.png" alt="Project Path Finder">') +
+    var landing = meta ? '' :
+      '<img class="dash-banner" src="assets/pathfinder-banner.png" alt="Project Path Finder">' +
+      '<div class="link-badges">' +
+        '<a class="link-badge" href="https://github.com/IsaiahN/pathfinder" target="_blank" rel="noopener">' + GH_ICON + ' GitHub repo</a>' +
+        '<a class="link-badge" href="https://adventuresinml.substack.com/p/arrival-of-the-fittest-the-tether" target="_blank" rel="noopener">✦ Tether architecture</a>' +
+        '<a class="link-badge" href="https://github.com/IsaiahN/watson-gpt" target="_blank" rel="noopener">◈ WATSON</a>' +
+        '<a class="link-badge" href="https://medium.com/@IsaiahNwukor/how-intelligence-actually-works-40ac40fe32b0" target="_blank" rel="noopener">◇ How intelligence works</a>' +
+        '<a class="link-badge" href="https://adventuresinml.substack.com/" target="_blank" rel="noopener">✎ All articles</a>' +
+      '</div><hr class="section-rule">';
+
+    app.innerHTML = landing +
       '<div class="page-head"><div class="eyebrow">Corpus · ' + esc(meta ? meta.name : 'all fields') + '</div>' +
         '<h1>' + BRAND_ICON + ' ' + esc(meta ? meta.name : 'Project Pathfinder') + '</h1>' +
         '<p>' + esc(meta ? meta.summary :
