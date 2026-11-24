@@ -185,8 +185,9 @@
       Object.keys(counts).sort().map(function (k) {
         var nm = META[k] ? META[k].name : k;
         return '<div class="rail-item' + (state.ui.category === k ? ' active' : '') + '" data-cat="' + esc(k) +
-          '" title="' + esc(nm) + '">' +
-          '<span class="tree-icon">▦</span>' + esc(k) + '<span class="num">' + counts[k] + '</span></div>';
+          '" title="' + esc(k + ' - ' + nm) + '">' +
+          '<span class="tree-icon">▦</span><span class="rail-label">' + esc(k + ' - ' + nm) + '</span>' +
+          '<span class="num">' + counts[k] + '</span></div>';
       }).join('') +
       '<div class="rail-foot">13 fields · 100 questions each</div>';
 
@@ -287,7 +288,7 @@
       body.innerHTML = rows.slice(0, 300).map(function (p) {
         var mode = p.mode || 'specified';
         return '<tr><td class="id-cell"><a href="./problem/' + esc(p.id) + '">' + esc(p.id) + '</a></td>' +
-          '<td class="q-cell">' + esc(p.question) + '</td>' +
+          '<td class="q-cell"><a class="q-link" href="./problem/' + esc(p.id) + '">' + esc(p.question) + '</a></td>' +
           '<td><span class="badge ' + esc(mode) + '">' + esc(mode) + '</span></td>' +
           '<td>' + badgeFor(p.id) + '</td>' +
           '<td>' + voteArrows(p) + '</td></tr>';
