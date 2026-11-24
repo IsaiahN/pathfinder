@@ -1,0 +1,52 @@
+# Public links and distribution
+
+All links below were actually opened on 2026-11-23 unless marked otherwise. Fetch failures are recorded rather than hidden. Nothing was cited from a page that was not opened or returned by a search index.
+
+## 1. Verified sources opened in full
+
+| what | URL | verified content |
+|---|---|---|
+| Great Oxidation Event | https://en.wikipedia.org/wiki/Great_Oxidation_Event | Stages of atmospheric oxygen; the 0.001 percent of recent atmospheric level figure; detrital pyrite, uraninite and siderite as anoxic-atmosphere indicators; sulfur mass-independent fractionation as the strongest evidence; the contaminated Pilbara sterane episode; "oxygen oases"; the 500-million-year spread in published onset estimates. References include Holland 2006, Canfield 2005, Anbar 2007, Catling 2017. |
+| Geological history of oxygen | https://en.wikipedia.org/wiki/Geological_history_of_oxygen | "Earth's atmosphere was initially oxygen free"; small quantities of oxygen from geological processes that did not build up; photodissociation of water with hydrogen escape and of sulfur dioxide as continuing sources; paleo-oxybarometers and "many new techniques ... additional debates rather than consensus"; oxygen persisting in small quantities about 50 million years before the GOE. References include Carver 1981, Farquhar et al. 2001, Kendall 2021, Anbar 2007. |
+| Paleoatmosphere | https://en.wikipedia.org/wiki/Paleoatmosphere | "Appreciable concentrations of free oxygen were probably not present until about 2,500 million years ago"; indirect measurements from proxies; the 813 Myr trapped-air bubbles with 10.9 percent oxygen (Blamey et al. 2016), showing that direct gas readings exist for younger rocks but are scarce for the Archean. |
+| The Hard Problem is About Source (Isaiah N, 2026-08-28) | https://adventuresinml.substack.com/p/the-hard-problem-is-about-source | The governing essay for source: metamerism, "the instrument is speaking only about what it measured, it cannot comment on the source", "If several paths create the same behavior, then behavior is a projection with lossy information", and "the answer is unreached until a better instrument exists." Shares the framework author's evidence pool with the figures, so it is one witness, not an independent one. |
+| Source-monitoring error | https://en.wikipedia.org/wiki/Source-monitoring_error | Genuinely low-overlap cognition source: "a source-monitoring error is a type of memory error where the source of a memory is incorrectly attributed to some specific recollected experience"; Johnson, Hashtroudi and Lindsay 1993, *Source Monitoring*, Psychological Bulletin 114(1), 3-28. Corroborates the source-discrimination shape, not the geological fact. |
+| Design effect / effective sample size | https://en.wikipedia.org/wiki/Effective_sample_size (redirected to Design effect) | Genuinely low-overlap statistics source: Kish 1965 defined the effective sample size as n / Deff; correlation between observations inflates the design effect. This is the arithmetic behind Fig 2 :44's warning about correlated observations. |
+| PubMed search index for pre-GOE oxygen | https://pubmed.ncbi.nlm.nih.gov/?term=A+whiff+of+oxygen+before+the+Great+Oxidation+Event | Five primary papers with authors, venues, years, PMIDs and abstract snippets: Anbar et al. 2007 Science; Slotznick et al. 2022 Science Advances; Meixnerová et al. 2021 PNAS; Anbar et al. 2023 Science Advances technical comment; Koehler et al. 2018 PNAS. |
+| Geochemical Society | https://geochemsoc.org/ | Public society site, Goldschmidt 2027, GCA journal, Geochemical News, public contact page. |
+| American Geophysical Union | https://www.agu.org/ | Public society site, 2026 Annual Meeting, AbSciCon, ESS Open Archive, public contact routes. |
+
+## 2. Fetch failures and partial reads, recorded honestly
+
+- **PubMed individual abstract pages** (`https://pubmed.ncbi.nlm.nih.gov/17901330/`, `/34985950/` and others) returned only an HHS vulnerability-disclosure footer when fetched directly. The abstracts and bibliographic details used in this folder come from the PubMed **search index page** listed above, which was opened in full. Those rows are marked as search-index snippets with reduced weight in `10_source_ledger.csv`. No paper is claimed to have been read in full.
+- **https://en.wikipedia.org/wiki/Atmosphere_of_Earth%27s_past** returned 404. It was replaced with the Paleoatmosphere and Geological history of oxygen pages, both opened in full.
+- **https://www.frontiersin.org/journals/astrobiology** returned 404. It is not cited and is not in the contact CSV.
+- **https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2895093/** was guessed as the Anbar paper and turned out to be a 2010 influenza small-RNA paper (Perez et al., PNAS). It was discarded and is not cited in any file. A wrong identifier is not a source.
+- **PMC full texts** for the primary geology papers were not opened. Primary claims are quoted through the Wikipedia reference lists and the PubMed search index, and are marked as such.
+
+## 3. Wider literature that bears on the claim
+
+1. **Anbar et al. 2007, "A whiff of oxygen before the Great Oxidation Event?", Science 317(5846):1903-1906.** Search-index abstract: molybdenum and rhenium were "probably supplied to Archean oceans by oxidative weathering of crustal sulfide minerals", pointing to "small amounts of O2 in the environment more than 50 million years before the start of the Great Oxidation..." This is the source of the "whiff" claim and a direct instance of a redox reading being asked to carry a source attribution. Its title ends in a question mark, which is the honest form.
+2. **Slotznick et al. 2022, "Reexamination of 2.5-Ga 'whiff' of oxygen interval points to anoxic ocean before GOE", Science Advances 8(1):eabj7190.** Search-index abstract: transient oxygen was inferred "based on redox-sensitive elements such as Mo and S-most prominently from the 2.5-Ga Mount McRae Shale in Western Australia." This is a world/figure conflict trigger: the same readings were re-read. It was returned to the census and became evidence for the union verdict, not a flipped figure verdict.
+3. **Anbar et al. 2023, "Technical comment on Reexamination...", Science Advances 9(14):eabq3736.** Search-index abstract: "Many lines of inorganic geochemical evidence suggest transient 'whiffs' of environmental oxygenation before the Great Oxidation Event (GOE)." The original authors contest the reexamination. Two papers, one evidence pool: this is one witness with an internal dispute, not two independent witnesses.
+4. **Koehler et al. 2018, "Transient surface ocean oxygenation recorded in the 2.66-Ga Jeerinah Formation, Australia", PNAS 115(30):7711-7716.** Search-index abstract: "Many paleoredox proxies indicate low-level and dynamic incipient oxygenation of Earth's surface environments during the Neoarchean (2.8-2.5 Ga) before the Great Oxidation Event (GOE) at 2.4 Ga." This is the per-slot evidence: a local surface ocean signal, not a global atmosphere.
+5. **Meixnerová et al. 2021, "Mercury abundance and isotopic composition indicate subaerial volcanism prior to the end-Archean 'whiff' of oxygen", PNAS 118(33):e2107511118.** Search-index abstract: "Earth's early atmosphere witnessed multiple transient episodes of oxygenation before the Great Oxidation Event 2.4 billion years ago." Relevant because the paper attributes a preceding condition to volcanism, a different actor in the habitat.
+6. **Carver 1981, "Prebiotic atmospheric oxygen levels", Nature 292:136-138, and Farquhar et al. 2001, JGR Planets 106(E12):32829-32839.** Cited via the Geological history of oxygen reference list. They are the abiotic-source anchors: photodissociation of water followed by hydrogen escape, and of sulfur dioxide.
+7. **Kendall 2021, "Recent Advances in Geochemical Paleo-Oxybarometers", Annual Review of Earth and Planetary Sciences 49:399-433.** Cited via the Geological history of oxygen article. Governs F7: most measurements are indirect; more techniques have produced more debate rather than consensus.
+
+**Overlap declaration.** Sources 1 to 7 are all in the early Earth oxygen evidence pool. Their agreement is the pool talking (Fig 2 :40). The cognition and statistics sources (source-monitoring error, design effect) are genuinely low-overlap corroborators of the *shape* of the argument, not of the geological fact. The framework essay shares the framework author's pool with the figures and carries no independent witness weight.
+
+## 4. Distribution: offer, do not push
+
+- **Fig 10 :52**, *"Bring a characterised residual, never the source."* Lead with the per-slot shape claim and its five refuters. Send links only after the recipient has recorded a verdict.
+- **Fig 10 :42**, *"A verifier that can reconstruct the claim cannot verify it."* Do not walk a recipient through the framework before asking for the check.
+- **Fig 9 :27-28**, *"describe it before you go looking, or any frame you pick will seem to fit."* Ask what they would expect to see if pre-biological atmospheric O2 were present at trace levels, before showing them the proxy literature.
+- **Fig 2 :35**, *"Alignment is triangulation, not negotiation. A mirror cannot correct you."* Do not ask for agreement or trust.
+- **Fig 4 :22**, *"Only methods cross up. Only head starts come down."* The formula is a generator, so it may be given away. A single published concentration is a recording and must not be presented as a method.
+- **Fig 2 :42**, *"Buy independence in proportion to the cost of being wrong."* Choose recipients from different closures (field geochemistry, isotope geochemistry, atmospheric photochemistry, astrobiology) rather than from one lab or one evidence pool.
+
+**Recommended order in a reply:** (1) the shape claim and its five refuters; (2) ask what they would count as a failure and what instrument would settle it; (3) record that verdict; (4) only then offer the links, with the note that the figures, not the summary, are the authority.
+
+## 5. Honest status of the material being distributed
+
+This is a simulated derivation checked for internal consistency against the figures. It is not a ground reading, it is not peer reviewed, and it cannot settle whether oxygen was present before oxygen-producing life. Any venue with an AI or simulated-work submission policy must be checked before the packet is sent; the contact CSV records where that check is still owed. Posting a preprint is not peer review and the packet must say so.

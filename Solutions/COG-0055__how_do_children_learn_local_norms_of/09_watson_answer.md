@@ -1,0 +1,81 @@
+# WATSON answer: how do children learn local norms of sharing, reciprocity, fairness and obligation?
+
+**Mode: `specified` on the shape, `general` on the structural reading, `gap` on the mechanism. Not `grounded`.**
+
+**Status: SIMULATED DERIVATION, not a ground reading.** This WATSON run synthesizes material already in `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md` and `08_expert_verification_packet.md`. It is checked for internal consistency against the figures. By its own rule (exemplar `05` section 6, from *The Recursive Self-Improvement Trap*: LLM output is "simulacra" and "the truly testable output would need to be derived from the real architecture or working the formula yourself") it cannot settle the question it reports on. No measurement was taken.
+
+**Pre-registered refuter, written before the conclusion:** refute if (1) norm acquisition is child-only and contact-independent; (2) a verbatim recording fully fixes behaviour across contact fields with no re-derivation; (2b) the round trip norm to rule to behaviour has zero `R_T`; (3) the four norms collapse to one condition with one bond; (4) the question is not constitutively about people; (5) a genuine figure derivation names the mechanism.
+
+## QUESTION
+
+Decide, in effect terms, what the Tether says about the locally varying acquisition of sharing, reciprocity, fairness and obligation in children. Option A: treat the four as one universal module installed by teaching, so content is fixed by the rule and variation is noise. Option B: treat the capacity as child-in-habitat, the transfer as a head start that the child re-derives under local conditions, and the four as a union of differently bonded relations with a compound case. What each leads to: A predicts identical content across habitats and ignores the ingroup/conventional split, so it loses the residual it was meant to explain; B predicts local variation, early context sensitivity, re-derivation and correction, and leaves the mechanism explicitly open. The residual is per partner and per resource slot, never a pooled score.
+
+## DOMAIN CENSUS
+
+R by arity, symmetry and scale, then one line per domain with actors / currency / anchor, partition or union, and order by dependency.
+
+- **R (the residual).** The gap between a generic-learning prediction of the child's behaviour and the child's observed locally tuned behaviour. Arity: four contents bundled, so a union with a compound, not one hard question. Symmetry: the four are not interchangeable; reciprocity is a cycle, fairness a threshold comparison, obligation a designation plus sequence, sharing a comparison with self involved. Scale: one agent (child) and a population (community), with a membrane between. Fig 9 :54 "And when the split lands on a union rather than a partition, unbundle before you search again."
+- **Domain 1, the child as learner at one scale.** Actors: child, caregivers, peers, contested resources. Currency: per-slot residual R, action, observation. Anchor: the child's observed choices and corrections in interaction, a nameable ground. Type: the loop at one scale.
+- **Domain 2, the local community or practice at population scale.** Actors: members, conventions, sanctions. Currency: transmitted methods, shared library, ranked output. Anchor: what members of that community actually do and enforce. Type: population, and a binding frame for imports, not a new primitive.
+- **Domain 3, the membrane or transmission channel.** Actors: what crosses, method versus recording, head start. Currency: compressed, verified method sent down. Anchor: whether the transferred item makes the child's next search cheaper and can be re-derived. Type: filter with direction.
+- **Domain 4, the verification frame (us and a possible outside checker).** Actors: primary seat, simulated second seat, sources. Currency: agreement and residual. Anchor: the ground, never agreement. In this run independence is zero because all seats share one evidence pool.
+- **Order by dependency.** Perception of who gave what -> vocabulary for what an act counts as -> objective (what counts as doing it right) -> planning -> learn and carry (Fig 3 :20). Instrument the objective link first, because that is where chains usually break.
+
+Strain test applied: Fig 11 (capability lives in contact) and Fig 4 (only methods cross) govern different quantities, so no strain after re-census. Fig 2 :37 (human behaviour is the anchor for a question about people) and the Fig 10 seat rules (a grounded with a stake is disqualified) govern anchor legitimacy versus frame disqualification, also no strain. The one live strain is the bond assignment for sharing versus fairness in `06` Q2, reported as `specified` and unmeasured.
+
+## TETHER (primary, verbatim)
+
+Cited against `FRAMEWORK/reference/03-FIGURES_TEXT.md`. Quotes are verbatim from the SVGs. Verdicts are kept per domain and are never averaged.
+
+- Fig 11 :39 "capability is a property of agent-and-habitat, never of the agent alone." -> Domain 1+2. "Local" is structural, not a setting. Mode `specified`. **triangulated** across Fig 11 and Fig 4 :19-20 ("Only the actors, the currency and the anchor change"), low overlap between the habitat and membrane passages.
+- Fig 11 :40 "An improvement that does not change contact changes nothing, however much it improves." -> Domain 1+2. Changing the child alone does not change the outcome. Mode `specified`. **single-source** within Fig 11, corroborated at the ground by W1, W3 and W5.
+- Fig 4 :22 "Only methods cross up. Only head starts come down." -> Domain 3. What crosses the boundary is a method, not a recording. Mode `specified`. **triangulated** with Fig 12 :104 "A settled molecule becomes an atom for whatever composes over it."
+- Fig 4 :11 "a head start, never a recording" -> Domain 3. A verbatim rule is not the transmitted item. Mode `specified`. **single-source** for this exact phrasing; corroborated by the re-derivation and protest data W2 and W4.
+- Fig 4 :34-35 "A seed carries no small tree: it carries what will grow one, and the conditions it lands in decide what it becomes." -> Domain 3. Same general capacity, different local content. Mode `specified`. **triangulated** with Fig 11 :39-40.
+- Fig 9 :54 "And when the split lands on a union rather than a partition, unbundle before you search again." -> All content domains. Four norms, one compound. Mode `general`. **triangulated** with Fig 12 :117.
+- Fig 12 :117 "Same atoms, different bond, different substance." -> Domain 1+3. Strong isomer form over the shared atom set; weak functional-group form as normally described. Mode `specified`. **single-source** for the figure definition; physics-facing check unmeasured.
+- Fig 12 :121 "cycle. The output re-enters as input." -> Domain 1+3. Reciprocity is a cycle structure, not a new bond. Mode `specified`. **single-source** in Fig 12; corroborated in a low-overlap field by W6.
+- Fig 1 :19 "The residual is indexed by object slot, not aggregated." -> Domain 1. Per partner and resource, not a pooled norm score. Mode `general`. **single-source** in the figure set; corroborated by W1 and W3.
+- Fig 3 :24 "Why the middle link is where chains usually break." -> Domain 1. Instrument what the child counts as doing it right. Mode `general`. **single-source** in Fig 3; the instrument itself is supplied by W2.
+- Fig 2 :36 "An anchor is legitimate when the question is constitutively about it." -> Domain 2+4. Because the question is about people, behaviour is the anchor. Mode `general`. **triangulated** with Fig 2 :37 in the same passage.
+- Fig 2 :37 "Human judgment is the right anchor for is this a good answer for a person, because the question is about people." -> Domain 2+4. Human behaviour, not a physical instrument, settles this question. Mode `general`. **triangulated** with Fig 2 :36.
+- Fig 9 :32 "you get a kind of thing, never the answer itself" -> Mechanism question. The mechanism remains `gap`. Mode `general`. **triangulated** with the figures README's "a shape, not a name".
+- Fig 2 :35 "Alignment is triangulation, not negotiation. A mirror cannot correct you." -> Domain 4. Agreement cannot substitute for an anchor. Mode `general`. **single-source** in Fig 2.
+- Fig 2 :40 "agreement about the world is worthless when the agreeing frames share an evidence pool" -> Domain 4. The simulated second seat is not a witness. Mode `general`. **single-source** in Fig 2, and self-applying.
+- Fig 10 :42 "A verifier that can reconstruct the claim cannot verify it." -> Domain 4. Send the residual before the interiors. Mode `general`. **single-source** in Fig 10.
+- **Gap:** no figure line names a psychological mechanism for norm acquisition. This is a genuine `gap` at the figure level, not a silence; it is left to the ground.
+
+## WORLD (secondary sources read)
+
+World sources corroborate only. Fields were chosen for low overlap; overlap is declared rather than hidden.
+
+- **Human development, behavioural economics.** Ernst Fehr, Helen Bernhard and Bettina Rockenbach, "Egalitarianism in young children," Nature 454, 2008. Quote: "inequality aversion that develops strongly between the ages of 3 and 8" and "inequality aversion is strongly shaped by parochialism". Prediction from the shape: local content, ingroup gating, per-slot signal. **corroborates** F1 and F5. Overlap: moderate with W5.
+- **Developmental psychology.** Hannes Rakoczy, Felix Warneken and Michael Tomasello, "The Sources of Normativity: Young Children's Awareness of the Normative Structure of Games," Developmental Psychology 44(3), 2008. Quote: "even very young children have some grasp of the normative structure of conventional activities" and the status-function formula "an X counts as a Y in context C". Prediction: the objective link is present early and is context-relative, so re-derivation not copying. **corroborates** F2 and F7. Overlap: high with W3 and W4.
+- **Cognitive development.** Marco F. H. Schmidt, Hannes Rakoczy and Michael Tomasello, "Young children enforce social norms selectively depending on the violator's group affiliation," Cognition 124, 2012. Quote: "children enforced conventional game norms for ingroup members only" while moral norms were enforced equally. Prediction: a union with a compound, not one condition. **corroborates** F3. Overlap: high with W2 and W4.
+- **Developmental psychology review.** Marco F. H. Schmidt and Michael Tomasello, "Young Children Enforce Social Norms," Current Directions in Psychological Science 21(4), 2012. Quote: "even preschool children also actively enforce social norms on others, often using generic normative language to do so". Prediction: acquisition is tied to group identification, a method and a contact field, not a recording. **corroborates** F2. Overlap: high with W2 and W3.
+- **Cross-cultural psychology.** Joseph Henrich, Steven J. Heine and Ara Norenzayan, "The weirdest people in the world?," Behavioral and Brain Sciences 33(2 to 3), 2010. Quote: "no obvious a priori grounds for claiming that a particular behavioral phenomenon is universal based on sampling from a single subpopulation". Prediction: local content is real and the habitat must be enumerated. **corroborates** F1. Overlap: moderate with W1.
+- **Animal behaviour, low overlap.** Gerald S. Wilkinson, "Reciprocal food sharing in the vampire bat," Nature 308, 1984. Quote: "food sharing by regurgitation of blood among wild vampire bats" "depends equally and independently on degree of relatedness and an index of opportunity for reciprocation". Prediction: reciprocity is a cycle that needs repeated contact and recognition, not a one-shot rule. **corroborates** the cycle reading and F1. Overlap: low, different field and different evidence pool.
+
+No world source conflicts with the figure verdict, so the conflict rule was not triggered. Sources W2 to W4 share a laboratory lineage and W1 and W5 share a behavioural-economics pool; their agreement is one pool per cluster talking, not six independent witnesses. W6 is the only genuinely low-overlap source. The verdict comes from the figures.
+
+## VERDICT (from the figures)
+
+The shape survives; the mechanism name does not. The capacity to acquire a norm lives in the child-and-habitat, so the content is local by construction. What crosses from community to child is a head start that the child re-derives under local conditions, not a recording. Sharing, reciprocity, fairness and obligation are a union of differently bonded relations over one enumerated atom set, with the ingroup convention as a compound that needs its own loop; sharing and fairness are threshold comparisons with different operand scope, reciprocity is a returning sequence (cycle structure), and obligation is a status designation composed with sequence and subtraction. R is per partner and per resource, so a pooled norm score erases the signal. The legitimate anchor is what children actually do and judge, because the question is constitutively about people. No figure line names the underlying mechanism, so that remains a `gap`. One strain is live and declared: whether self-involved and third-party comparisons are different bonded terms under Fig 13's operand rule. This is a `specified`, ungrounded, candidate result.
+
+- **cost if wrong:** bounded and locatable. The packet states its mode, its refuters and its provenance before the conclusion, so an error is findable. The real avoidable cost is spending an outside reader's independence by sending a recording or a theory before the residual, which Fig 2 :42 prices ("Buy independence in proportion to the cost of being wrong."). The ungated cost of being wrong in the science itself is pursuing a universal mechanism where the content is actually contact-dependent, which the cross-cultural record says is the more likely error.
+- **undoable:** yes. The bond assignments and the union boundary are revisable without touching the governing shape. A superseding packet can be sent, no primitive has to be withdrawn, and a refutation adds a term rather than deleting one.
+- **reversed by:** a ground reading, not agreement. A cross-contact or cross-community design holding machinery constant that yields identical norm content would break F1. A demonstration that a verbatim rule fixes behaviour across habitats with no re-derivation, or a round trip with `R_T` equal to zero, would break F2. A result collapsing the four norms to one bond, or removing the ingroup gate for every norm at every age, would break F3. A genuine figure derivation naming a mechanism would close the `gap`. Until one of these fires, the verdict stands as `candidate`.
+
+## Sources
+
+- [Figures text extract with line numbers (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\03-FIGURES_TEXT.md)
+- [Figures README, canonical (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\FIGURES_README_canonical.md)
+- [WATSON 60: the figures as metalaws (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\60_FIGURES_AS_METALAWS.md)
+- [The Formula (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\figures\THE_FORMULA.md)
+- [Egalitarianism in young children](https://www.nature.com/articles/nature07155)
+- [The Sources of Normativity: Young Children's Awareness of the Normative Structure of Games](https://www.psych.uni-goettingen.de/de/development/pdfs/7-2008-rakoczyhwarnekenftomasellom9.pdf)
+- [Young children enforce social norms selectively depending on the violator's group affiliation](https://sites.duke.edu/tomasellolabduke/files/2016/09/Schmidt_Rakoczy_Tomasello_2012.pdf)
+- [Young Children Enforce Social Norms](https://journals.sagepub.com/doi/10.1177/0963721412448659)
+- [The weirdest people in the world?](https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/abs/weirdest-people-in-the-world/BF84F7517D56AFF7B7EB58411A554C17)
+- [Reciprocal food sharing in the vampire bat](https://www.nature.com/articles/308181a0)
+- Folder material synthesized: `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md`, `08_expert_verification_packet.md`

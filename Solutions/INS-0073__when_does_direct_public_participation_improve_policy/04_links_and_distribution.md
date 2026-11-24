@@ -1,0 +1,62 @@
+# Public links actually fetched, and distribution rules
+
+All links below were fetched on 2026-11-23. A link listed on a fetched page but not opened itself is marked as such. Nothing here is a personal contact address.
+
+## 1. Framework and canonical use
+
+| what | URL | verified content |
+|---|---|---|
+| Figures text with line numbers (local) | local: `FRAMEWORK/reference/03-FIGURES_TEXT.md` | Verbatim SVGs with line numbers. Every `Fig N :line` quote in this folder was checked against it. |
+| Figures README (local) | local: `FRAMEWORK/reference/FIGURES_README_canonical.md` | *"They outrank everything else in the repo... the quotes are the authority, not this summary."* Returns *"a shape, not a name"* and stops at the limit of instruments. |
+| The formula (local) | local: `FRAMEWORK/figures/THE_FORMULA.md` | Eight-step loop, five routing bins, mode rule `general · specified · grounded`. |
+| Seat map (local) | local: `FRAMEWORK/figures/THE_SEAT_MAP_Field_Guide_amended.md` | *"And a falsifier written before the run is a design instrument, not only an honesty device."* |
+| Arrival of the Fittest: The Tether Architecture | https://adventuresinml.substack.com/p/arrival-of-the-fittest-the-tether | Aug 19 2026. All 13 figures, the formula, Symbols and Operators tables, the citation list, and the section "Three mappings offered and declined." Says outputs *"could never be verified if the solutions presented were not contrived to fit the formula."* |
+| Figures and formula for direct download | https://github.com/IsaiahN/tether/tree/general-agent/figures | Public repo, branch `general-agent`, folder `figures/`. Listed in the exemplar; used here as the public link offered in stage 2. |
+
+## 2. Wider literature bearing on the two conditions
+
+Each item was opened; the quote is exact; the prediction is what that source would expect if the figure-derived shape were right. All are secondary corroboration only. The verdict comes from the figures (Fig 2 :45 - *"Frames range against the ground. They do not negotiate with it."*).
+
+| field | source (author, venue, year) | quote read | prediction here | relation to figure verdict |
+|---|---|---|---|---|
+| Political economy / collective action | Mancur Olson, *The Logic of Collective Action* (1965), read via https://en.wikipedia.org/wiki/The_Logic_of_Collective_Action | *"concentrated minor interests will be overrepresented and diffuse majority interests trumped, due to a free-rider problem that is stronger when a group becomes larger."* | Concentrated groups will supply the participation effort; diffuse majorities will not. Predicts the capture condition when the pool is self-selected. | Corroborates Fig 10 :73-74 (authored room) and Fig 12 :126 (description cost already paid). Overlap: low, different field and method. |
+| Social choice / probability | Condorcet jury theorem (Condorcet 1785), read via https://en.wikipedia.org/wiki/Condorcet%27s_jury_theorem | *"each voter has an independent probability p of voting for the correct decision"*; and *"If p is greater than 1/2 (each voter is more likely to vote correctly), then adding more voters increases the probability that the majority decision is correct."* | Adding voters improves a decision only if votes are independent and each voter is more often right. Predicts improvement under low overlap, not under one shared evidence pool. | Corroborates Fig 2 :31, :40 and Fig 8 :47-48. Also warns that the theorem is a *"double-edged sword"*, so it cannot by itself certify any real electorate. Overlap: low. |
+| Mathematics / social choice | Kenneth Arrow, impossibility theorem (1950), read via https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem | *"no group decision-making procedure based on ordinal utilities (citizens' rankings of different alternatives) can satisfy the requirements of rational choice"* | No aggregation rule delivers all the properties at once, so a tally cannot be treated as a verdict about policy quality. | Corroborates Fig 2 :43 and Fig 10 :47 (convention that decides an outcome). Overlap: low. Counted as one witness with Condorcet only where both address independence; they are different results, so overlap is partial, not zero. |
+| Statistics / mathematics | Simpson's paradox (Simpson 1951), read via https://en.wikipedia.org/wiki/Simpson%27s_paradox | *"a trend appears in several groups of data but disappears or reverses when the groups are combined."* | A policy can improve in each citizen group while the combined vote-derived measure says the opposite, or vice versa. Predicts the per-slot finding. | Corroborates Fig 1 :19-28. Overlap: low, different field. |
+| Economics / measurement | Goodhart's law (Goodhart 1975; Strathern 1997), read via https://en.wikipedia.org/wiki/Goodhart%27s_law | *"When a measure becomes a target, it ceases to be a good measure"*; and Goodhart's original: *"Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes."* | Turnout and vote share stop indicating policy quality once they become the target of a participation reform. | Corroborates Fig 9 :60 (filters versus witnesses) and Fig 10 :47. Overlap: low. |
+| Social psychology | Groupshift (Wallach, Kogan & Bem 1964 onward), read via https://en.wikipedia.org/wiki/Groupshift | *"Groupshift is a phenomenon in which the initial positions of individual members of a group are exaggerated toward a more extreme position."* | Like-minded discussion moves participants further in the direction they already leaned, which is the mirror-chain collapse at the group scale. | Corroborates Fig 7 :36 and Fig 2 :34 (*"the drift is coherent, which is why nobody notices"*). Overlap: low. |
+| Cognitive and social psychology | Shared information bias (Stasser, Stewart and others), read via https://en.wikipedia.org/wiki/Shared_information_bias | *"the tendency for group members to spend more time and energy discussing information that all members are already familiar with... and less time and energy discussing information that only some members are aware of"* | Unique information held by a minority slot is exactly what a shared-information discussion fails to surface. Predicts a live residual hidden by consensus. | Corroborates Fig 1 :22 and Fig 2 :40. Overlap: low. |
+| Political science / deliberative democracy | James Fishkin, deliberative opinion poll (1988), read via https://en.wikipedia.org/wiki/Deliberative_opinion_poll | *"The typical deliberative opinion poll takes a random, representative sample of citizens and engages them in deliberation on current issues or proposed policy changes through small-group discussions and conversations with competing experts to create more informed and reflective public opinion."* | A random sample plus competing experts should reduce both the authored-room failure and the shared-evidence failure. | Corroborates Fig 10 :76-78 (lottery, everyone who qualifies) and Fig 8 :48. Overlap: moderate with the framework author's essays, declared. |
+| Political science / sortition | Sortition, read via https://en.wikipedia.org/wiki/Sortition | *"Andranik Tangian critiques electoral politics as over-representing politically active people and groups in a society."* Also: *"Page argues that random selection of persons of average intelligence perform better than a collection of the best individual problem solvers."* | Random selection is the named institutional mechanism for an unauthored pool; over-representation of the active is the capture condition. | Corroborates Fig 10 :75-78. Overlap: low. |
+| Animal behaviour | Collective animal behaviour, read via https://en.wikipedia.org/wiki/Collective_animal_behavior | *"A recent investigation showed that small groups of fish used consensus decision-making when deciding which fish model to follow. The fish did this by a simple quorum rule such that individuals watched the decisions of others before making their own decisions. This technique generally resulted in the 'correct' decision but occasionally cascaded into the 'incorrect' decision."* | Copying others gives a group answer cheaply, with a built-in failure mode where the cascade goes wrong. The group is not a verdict machine. | Corroborates Fig 7 :35 (agreement is variation, not a verdict). Overlap: very low, different substrate. |
+| Institutional economics / commons | Elinor Ostrom, Nobel Prize facts (2009), read via https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/facts/ | *"She showed that when natural resources are jointly used by their users, in time, rules are established for how these are to be cared for and used in a way that is both economically and ecologically sustainable."* | Local participants can build working rules, but only where the rules are maintained over time and matched to the resource. Predicts the maintenance half of D4. | Corroborates Fig 11 :63 (*"a managed ecosystem is permanent work rather than a solved state"*). Overlap: low. |
+
+**Conflict rule check.** No source conflicts with the figure verdict. Two qualifications are kept rather than hidden: (1) the Condorcet jury theorem's independence assumption is a theorem condition, not a measurement of any actual electorate, so it cannot by itself certify condition 1; (2) Ostrom's result shows that local rule-making can work, which is a genuine constraint on any claim that participation necessarily privileges the organized. Neither sends the derivation back to census; both narrow where the conditions apply.
+
+**Evidence-pool warning.** All eight framework essays are by the same author and share the figure evidence pool. Their agreement with the figures is expected and carries little independent weight (Fig 2 :40). The world sources above are different authors and fields, but several are Wikipedia summaries of classic works, so each is recorded as a secondary summary with the original work named.
+
+## 3. Distribution: offer, do not push
+
+Figure-grounded reasons:
+
+- **Fig 10 :52** - *"Bring a characterised residual, never the source."* Sending the full architecture before anyone has described what they would expect to see sends a recording, not a generator.
+- **Fig 10 :42** - *"A verifier that can reconstruct the claim cannot verify it."* A reader who has absorbed the framework before giving a verdict has joined the frame being checked.
+- **Fig 9 :27-28** - *"describe it before you go looking, or any frame you pick will seem to fit."* Ask what they would expect to see before giving them the article.
+- **Fig 2 :40** - *"disqualifying for a verdict: agreement about the world is worthless when the agreeing frames share an evidence pool."* A list selected for receptiveness produces one witness wearing many names.
+- **Fig 4 :22** - *"Only methods cross up. Only head starts come down."* Stage 3 sends a method, which is permitted; sending a conclusion is not.
+
+**Recommended order in a reply:** (1) the two conditions and the shape; (2) the pre-registered refuter; (3) the question "what would you expect to see if each condition were doing the work?"; (4) record the verdict; (5) only then the three links, with the note that the figures, not the summary, are the authority.
+
+## 4. The two-stage offer
+
+**Stage 1:** send the residual, the two conditions, and the four refuters from `02_outreach_email.md`. Ask for a failure, not an endorsement.
+
+**Stage 2, opt-in:** if curious, offer the figures repository, the architecture article, and the Participedia public case base. The recipient's later agreement is never pooled as corroboration, because they have seen the interior (Fig 10 :42).
+
+**Stage 3, opt-in:** offer the formula as a method to reuse. The architecture article warns that outputs *"could never be verified if the solutions presented were not contrived to fit the formula"*, so each user writes down what would refute their result before running it and states the mode of what they get.
+
+**Precondition:** stages 1 to 3 only work if stage 1 survives. The four refuters are the test. If one fires, the affected finding is withdrawn before any material is sent.
+
+## 5. Practical limit
+
+I can create the packet locally. I cannot host it, upload it, or send it to anyone. Hosting and sending are yours to do. Prefer an opt-in download page or a public submission portal over an attachment pushed to a list, because the opt-in route preserves the reader's independence (Fig 2 :42 - *"Buy independence in proportion to the cost of being wrong."*).

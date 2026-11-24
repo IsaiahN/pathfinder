@@ -1,0 +1,80 @@
+# WATSON answer: why some institutional reforms endure and others are reversed
+
+**Mode: `specified`, not `grounded`.**
+
+**Status: SIMULATED DERIVATION, not a ground reading.** This run synthesizes `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md` and `08_expert_verification_packet.md`. It is checked for internal consistency against the figures. By its own rule (*The Recursive Self-Improvement Trap*: "LLMs can quickly simulate an approximate answer/output with the formula found in the architecture post"; "the truly testable output would need to be derived from the real architecture or working the formula yourself") it cannot settle the question it reports on. No measurement was taken.
+
+## QUESTION
+
+Decide, in effect terms, what closes the residual: some reforms keep being obeyed and resourced after the enacting government leaves office, others are repealed, defunded, unenforced or hollowed out. Option A: the formal strength of the rule decides. Option B: endurance tracks maintained contact with a ground that does not move with political power, an introduced habitat with a stake that survives the sponsors, and a loop that regenerates its own support. What each leads to: A treats a text as an anchor and will be surprised by identical statutes with different fates; B yields a checkable shape, separate domain verdicts and refuters written in advance, and leaves the concrete institutional slot open until a ground settles it.
+
+## DOMAIN CENSUS
+
+R by arity, symmetry, scale; one line per domain with actors / currency / anchor; partition or union; order by dependency.
+
+- **R.** Arity: several overlapping conditions, so a union compound (Fig 9 :55), not one hard question. Symmetry: the handover is ordered, since old occupants lose the seat and new ones gain it (Fig 12 :70 "A then B; B needs A to have happened"). Scale: occupants change at one scale, the rule persists at another, the regime that decides whether reversal is possible at a third (Fig 10 :68 "Different actors, a different currency, a different ground, and a lossy transform between").
+- **D1 Formal rule.** Actors: legislatures, decrees, courts, constitutional clauses. Currency: enactment and repeal. Anchor: none on its own, because the text sits inside the frame that changes hands. An independent court would be an imported anchor, not a given one. Recording, not a grounded domain.
+- **D2 Implementation and contact.** Actors: agencies, inspectors, budgets, information systems, regulated public. Currency: compliance, sanctions, reports. Anchor: behaviour and outcomes in the regulated world, which do not move with a minister. Grounded domain.
+- **D3 Constituency and stake.** Actors: beneficiaries, organized interests, client groups, agencies. Currency: support, mobilization, accumulated commitments. Anchor: the material stake already created, which outlives the original sponsors. Grounded domain.
+- **D4 Norm and narrative.** Actors: experts, professions, stories. Currency: legitimacy, interpretation. Anchor: none, because "a declared meaning is not a grounded one" (Fig 10 :18). Channel, not an anchor.
+- **D5 Verification of this answer.** Actors: researchers, reviewers, datasets. Currency: agreement and residual. Anchor: outcome data about actual persistence. In this run all seats share one literature pool, so independence is zero.
+- **Union or partition:** union of D2 and D3, with D1 and D4 carried by them. Unbundle reversal into repeal, defunding, unenforcement and reinterpretation before searching (Fig 9 :55-57).
+- **Order by dependency:** perceive whether the reform still operates, name what would count as endurance, plan the maintenance lever, carry the method, not a recording (Fig 3, Fig 4 :22).
+
+Strain test: Fig 12 :119 (catalyst) would strain if used as a direct political law, so it is retained as an analogue and marked single-source. Fig 11 :40 governs contact directly and is not strained.
+
+## TETHER (primary, verbatim)
+
+Cited against `FRAMEWORK/reference/03-FIGURES_TEXT.md`. Quotes are verbatim from the SVGs.
+
+- **D2, triangulated.** Fig 10 :24 "the ground does not decay, the channel does" -> reversal at handover is a channel failure, not the ground disappearing. Fig 11 :40 "An improvement that does not change contact changes nothing, however much it improves." -> a better statute with no contact changes nothing. Fig 2 :34 "the anchor becomes another frame, everything drifts together, and the drift is coherent, which is why nobody notices." -> the reversal looks principled from inside. Low overlap between the seat/channel figure and the habitat figure, so triangulated.
+- **D3, triangulated.** Fig 11 :39 "capability is a property of agent-and-habitat, never of the agent alone" -> the unit is rule plus habitat. Fig 11 :61 "Introduction is available; exclusion is not." -> actors and stakes can be added, the inherited habitat cannot be subtracted. Fig 11 :63 "Which is why a managed ecosystem is permanent work rather than a solved state." -> endurance is maintenance, not completion. These are one figure, so the habitat verdict is single-source; it is triangulated only where Fig 12 :121 joins: "cycle. The output re-enters as input. The sign of the loop decides whether it closes, and a chain cannot close by construction."
+- **D4, triangulated.** Fig 10 :18 "a declared meaning is not a grounded one" and Fig 2 :29 "An anchor is whatever settles the question and does not change its answer because of what any frame thinks." -> a government's narrative cannot anchor a reform. Two figures with different casts, so triangulated.
+- **D1, single-source, mostly negative.** Fig 4 :25 "A recording carried upward looks like knowledge and is a description of one occasion." -> a transplanted text is a recording. No figure line supplies a positive anchor for a bare text. Marked single-source.
+- **D5, gap for corroboration.** Fig 7 :13 "same closure, handed along; agreement compounds, evidence does not" and Fig 2 :40 "agreement about the world is worthless when the agreeing frames share an evidence pool" -> this simulated second seat is not a witness. Verdict: `gap` on independent corroboration, not silence about it.
+- **Slot, gap.** Fig 9 :32 "you get a kind of thing, never the answer itself" -> the figures return a shape. Which concrete arrangement occupies the channel is not derived. "Unreachable is a verdict here, not a silence" (Fig 13 :134).
+
+## WORLD (secondary, each source read)
+
+World sources corroborate only; they never set the verdict. Overlap is declared rather than hidden.
+
+- **Political science, historical institutionalism.** Paul Pierson, "Increasing Returns, Path Dependence, and the Study of Politics", American Political Science Review 94(2), 2000. Quote: "particular courses of action, once introduced, can be almost impossible to reverse". Predicts: early commitments raise the cost of reversal. Corroborates D3 stake, not the channel mechanism. Overlap: high, canonical pool.
+- **Institutional economics.** Douglass C. North, "Economic Performance through Time", Prize Lecture, 1993. Quote: "Political institutions will be stable only if undergirded by organizations with a stake in their perpetuation." Predicts: durability requires organizations with a stake. Corroborates D3. Overlap: high, North is shared with the policy-feedback literature.
+- **Public policy.** Daniel Béland, Andrea Louise Campbell and R. Kent Weaver, "Policy Feedback: How Policies Shape Politics", Cambridge Elements, 2022. Quote: "Policies may create incentives that encourage the emergence of elaborate social and economic networks, greatly increasing the cost of adopting once-possible alternatives and inhibiting exit from a current policy path." Predicts: policies create their own defenders and also can be self-undermining. Corroborates D3 and the union reading. Overlap: high.
+- **Political economy.** Daron Acemoglu, Georgy Egorov and Konstantin Sonin, "Institutional Change and Institutional Persistence", NBER Working Paper 27852, 2020. Quote: "strategic stability of institutions, which arises when institutions persist because of fear of subsequent, less beneficial changes that would follow initial reforms". Predicts: persistence without stasis, via forward-looking fear of what follows. Corroborates the union and order findings; it is a different mechanism from contact maintenance, so corroboration is partial. Overlap: medium.
+- **Public policy, feedback reversal.** Matthew D. Jacobs and R. Kent Weaver, "When Policies Undo Themselves: Self-Undermining Feedback as a Source of Policy Change", Governance 28(4), 2015. Quote from the indexed full text: policies can become "self-undermining over time, increasing the likelihood of a major change in policy orientation". Predicts: policies can generate their own reversal. Corroborates the union reading. Overlap: high. Full fetch returned 403; quote taken from the indexed article page, record marked accordingly in the ledger.
+- **Economic history, infrastructure.** Douglas Puffert, "Path Dependence", EH.net Encyclopedia. Quote: "Choices made on the basis of transitory conditions can persist long after those conditions change." Predicts: origin conditions outlive themselves via interrelatedness, increasing returns and quasi-irreversibility. Corroborates the shape, not the figure mechanism. Overlap: low field, shared canonical ancestor David 1985.
+- **Engineering, infrastructure.** Alysha Helmrich, Mikhail Chester, Thaddeus R Miller and Braden Allenby, "Lock-in: origination and significance within infrastructure systems", Environmental Research: Infrastructure and Sustainability 3(3), 2023. Quote: "Infrastructure systems have legacies that continue to define their priorities, goals, flexibility, and ability to make sense of their environments." Predicts: legacies constrain future pathways; lock-in is a process, not an end state. Corroborates D1 recording and D3 habitat. Overlap: low field.
+- **Evolutionary ecology.** Kevin Laland, Blake Matthews and Marcus W. Feldman, "An introduction to niche construction theory", Evolutionary Ecology 30, 2016. Quote: modified selection "remains so long as the dam, lake and lodge persist, which can be often be longer than the lifetimes of the beavers that manufactured them". Predicts: constructors leave legacies outliving the originators. Corroborates D3. Overlap: low field, no shared political-science canon.
+- **Development practice.** Kate Bridges and Michael Woolcock, "Why do we persist so long with a reform approach that does not solve problems?", Harvard Building State Capability, 2018. Quote: indicators "measure the fact that government institutions now look different (form), but not whether they actually do different (function)". Predicts: formal reform can be recorded without functional contact. Corroborates D1 and the contact discriminator. Overlap: low field.
+- **Framework author, validation.** Isaiah N, "The Recursive Self-Improvement Trap", adventuresinml, 2026. Quote: "You may all agree and be wrong... You need ground truth to define where you stand." Predicts: this derivation cannot validate itself. Corroborates its simulated status. Overlap: high, framework author.
+- **Framework author, source discrimination.** Isaiah N, "The Hard Problem is About Source", adventuresinml, 2026. Quote: "If several paths create the same behavior, then behavior is a projection with lossy information." Predicts: a single "endurance" reading cannot name its source. Corroborates the need for a discriminator. Overlap: high.
+
+No world source conflicts with the figure verdict. The institutional sources largely share one evidence pool (Arthur, David, North, Pierson), so their agreement is one witness, not several. The genuinely low-overlap witnesses are ecology and infrastructure engineering, and they corroborate the shape, not the named mechanisms. The conflict rule was not triggered.
+
+## VERDICT (from the figures)
+
+The shape survives; any named institutional mechanism remains unproven. Endurance tracks a maintained channel to a ground that does not move with political power, an introduced habitat whose stake outlives the original sponsors, and a loop in which operation regenerates support. Reversal is the drift that follows when the channel is not maintained, and it looks principled from inside the incoming government. The formal text is a recording carried by those conditions, not a generator. The four domain verdicts are kept separate: D2 triangulated, D3 triangulated for habitat with Fig 12 support, D4 triangulated, D1 single-source and negative, D5 and the mechanism slot `gap`. This is a `specified`, ungrounded, candidate result. No figure line strained after re-census.
+
+- **cost if wrong:** a wrong shape applied to real reforms could redirect effort from the channel and the constituency to the statute, where measurement is easy and leverage is low. Fig 2 :42 "Buy independence in proportion to the cost of being wrong." The cost is bounded because the packet states its mode and refuters, so an error is findable rather than invisible.
+- **undoable:** yes. No mechanism has been asserted, so nothing concrete must be withdrawn. A discriminating dataset that shows no-channel reforms enduring, or full-feature reforms reversing, would retire the shape without touching the figures. Repealing an installed institution is harder than revising this claim, which is the asymmetry Fig 11 :61 records.
+- **reversed by:** a ground reading, not agreement. A dataset that separates repeal, defunding, unenforcement and reinterpretation and measures contact, stake and loop closure independently would settle it. A multi-case pattern contradicting refuters 1 to 4 in §3b of `01_figure_grounded_audit.md` would reverse it. Agreement among institutional researchers would not, since they share one evidence pool.
+
+## Sources
+
+- [Verbatim figure text with line numbers (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\03-FIGURES_TEXT.md)
+- [Figures README, canonical local copy](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\FIGURES_README_canonical.md)
+- [WATSON 60: the figures as metalaws (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\60_FIGURES_AS_METALAWS.md)
+- [THE FORMULA (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\figures\THE_FORMULA.md)
+- [Increasing Returns, Path Dependence, and the Study of Politics](https://www.cambridge.org/core/journals/american-political-science-review/article/increasing-returns-path-dependence-and-the-study-of-politics/AC2137B913363E33D97FC5CEC17CC75D)
+- [Economic Performance through Time, Nobel Prize Lecture 1993](https://www.nobelprize.org/prizes/economic-sciences/1993/north/lecture/)
+- [Policy Feedback: How Policies Shape Politics](https://www.cambridge.org/core/elements/policy-feedback/3231877106C458D0CF766173080B0409)
+- [Institutional Change and Institutional Persistence, NBER WP 27852](https://www.nber.org/papers/w27852)
+- [When Policies Undo Themselves](https://onlinelibrary.wiley.com/doi/full/10.1111/gove.12101)
+- [Path Dependence, EH.net Encyclopedia](https://eh.net/encyclopedia/path-dependence)
+- [Lock-in: origination and significance within infrastructure systems](https://iopscience.iop.org/article/10.1088/2634-4505/acf7e6)
+- [An introduction to niche construction theory](https://pmc.ncbi.nlm.nih.gov/articles/PMC4922671)
+- [Why do we persist so long with a reform approach that does not solve problems?](https://bsc.hks.harvard.edu/why-do-we-persist-so-long-with-a-reform-approach-that-does-not-solve-problems)
+- [The Recursive Self-Improvement Trap](https://adventuresinml.substack.com/p/the-recursive-self-improvement-trap)
+- [The Hard Problem is About Source](https://adventuresinml.substack.com/p/the-hard-problem-is-about-source)
+- [Arrival of the Fittest: The Tether Architecture](https://medium.com/@IsaiahNwukor/arrival-of-the-fittest-the-tether-architecture-1de7edf641ec)

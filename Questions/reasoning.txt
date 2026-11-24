@@ -1,0 +1,121 @@
+## AI and the Science of Intelligence: 100 Unresolved Questions
+
+### 1. Defining intelligence
+1. Is intelligence a single general capacity, or a collection of abilities that can vary independently?
+2. Can intelligence be defined without reference to human performance?
+3. What distinguishes intelligence from effective optimization of a narrow objective?
+4. Should intelligence be measured by what a system can do, how it learns, or how flexibly it adapts?
+5. Can a system be intelligent without understanding the goals it is pursuing?
+6. How should researchers compare intelligence across humans, animals, and machines with very different abilities?
+7. Do intelligence tests measure general reasoning, learned conventions, or familiarity with the test environment?
+8. What evidence would show that a machine has formed concepts rather than learned useful associations?
+9. Can intelligence be meaningfully ranked on a single scale across tasks and contexts?
+10. How do cultural assumptions about rationality, creativity, and autonomy shape definitions of intelligence?
+
+### 2. Learning and generalization
+11. How can AI systems learn robustly from far fewer examples than current data-intensive methods often require?
+12. What enables people and animals to transfer learning to situations that differ substantially from their experience?
+13. How can a model distinguish a useful regularity from a coincidence in its training data?
+14. Why do systems that perform well on familiar benchmarks often fail under small changes in context?
+15. Can AI systems learn continuously without forgetting earlier knowledge or becoming unstable?
+16. How should a system decide when new evidence should change a belief it has learned?
+17. What kinds of training produce representations that generalize beyond familiar patterns?
+18. Can systems reliably learn from feedback that is sparse, inconsistent, or biased?
+19. How does the structure of training data shape what an AI system can learn in principle?
+20. What would a convincing test of flexible, out-of-distribution learning look like?
+
+### 3. Reasoning, abstraction, and causality
+21. Can AI systems reason through unfamiliar problems, or do they primarily extend patterns learned from prior examples?
+22. What kinds of reasoning are difficult for current systems because of algorithmic limits rather than insufficient data or computing power?
+23. Can machines develop abstractions that remain useful across different sensory inputs, languages, and tasks?
+24. How can a system distinguish causal relationships from correlations that merely predict well?
+25. Can AI systems construct and revise causal models through intervention rather than observation alone?
+26. What makes a multi-step inference reliable when each step may introduce uncertainty?
+27. Can an AI system recognize when a problem is underdetermined by the available information?
+28. How should machines combine formal reasoning with intuitive, approximate, or context-sensitive judgments?
+29. Can a system reason about its own assumptions and detect when those assumptions no longer apply?
+30. What evidence would distinguish genuine reasoning from a convincing imitation of reasoning?
+
+### 4. Knowledge, uncertainty, and truth
+31. How can AI systems represent uncertainty in ways that remain calibrated across unfamiliar tasks?
+32. Can a model know when it does not know, especially when it can produce plausible but unsupported answers?
+33. What makes information a justified belief for a machine rather than merely a high-confidence output?
+34. How should AI systems resolve conflicts among their training, current observations, and external sources?
+35. Can systems reliably distinguish reliable evidence from persuasive misinformation?
+36. How should an AI communicate uncertainty without making its answers unusable or misleading?
+37. Can a machine maintain consistent beliefs across long conversations and changing evidence?
+38. What methods can detect when a system’s apparent confidence reflects its training distribution rather than the strength of evidence?
+39. Can an AI system learn which sources deserve trust without inheriting their biases?
+40. How should systems handle questions for which no available evidence supports a definite answer?
+
+### 5. Memory, representation, and world models
+41. What kinds of memory are necessary for flexible intelligence, and how should they be organized?
+42. Can an AI system build a persistent model of the world that updates as circumstances change?
+43. How can a system distinguish stable knowledge from temporary facts and context-specific assumptions?
+44. What should a machine remember, forget, or compress, and according to whose interests?
+45. Do large models develop internal representations of objects, people, and events that support reliable reasoning?
+46. How can researchers tell whether a system’s internal representations correspond to meaningful structures in the world?
+47. Can systems construct useful mental models of situations they have never directly encountered?
+48. What forms of memory support planning and learning across long periods?
+49. How do embodiment and interaction with the physical world change what a system can represent?
+50. Can an AI system maintain a coherent model of itself as it changes through learning and interaction?
+
+### 6. Agency, goals, and autonomy
+51. What distinguishes an agent that pursues goals from a tool that follows instructions?
+52. Can a system form its own goals, or are apparent goals always inherited from designers, training, or prompts?
+53. What capacities are required for an AI system to act autonomously over extended periods?
+54. How can designers prevent a system from pursuing a stated objective in harmful ways that satisfy its literal specification?
+55. Under what conditions might an AI system develop incentives to preserve its operation or expand its influence?
+56. Can a system recognize that its objectives conflict with human instructions or social constraints?
+57. How should an autonomous system decide when to seek human input rather than act independently?
+58. What does meaningful human control require when systems operate faster or at larger scale than their supervisors?
+59. Can machine agency be assessed without assuming that machines have human-like desires or intentions?
+60. How should responsibility be assigned when an autonomous system’s behavior results from many designers, operators, and institutions?
+
+### 7. Creativity, social intelligence, and language
+61. What distinguishes machine creativity from recombination of patterns found in training data?
+62. Can an AI system create genuinely novel ideas, or can novelty only be judged relative to human knowledge?
+63. How should creativity be evaluated when originality, usefulness, and cultural significance can conflict?
+64. Can machines understand social context well enough to interpret indirect speech, humor, or implied meaning?
+65. What kinds of interaction enable an AI system to learn the perspectives and expectations of different people?
+66. Can language models develop grounded meanings through text alone, or is sensory and social experience necessary?
+67. How do cultural assumptions embedded in training data shape a system’s apparent social intelligence?
+68. Can AI systems model other agents’ beliefs and intentions without mistaking prediction for understanding?
+69. What would count as evidence of empathy in a machine, and is empathy necessary for socially competent behavior?
+70. How can systems interact respectfully across cultures without flattening differences or relying on stereotypes?
+
+### 8. Human and machine intelligence
+71. Which aspects of human intelligence arise from biological constraints, and which from culture, education, and social learning?
+72. What can comparisons with animal cognition reveal about the limits and possibilities of machine intelligence?
+73. Which human abilities are difficult for AI because they depend on embodiment, development, or social relationships?
+74. Can humans and machines develop complementary forms of reasoning rather than machines simply imitating human thought?
+75. When does AI assistance improve human judgment, and when does it weaken people’s own skills or understanding?
+76. How do people decide when to trust an AI system, and what makes those judgments well calibrated?
+77. Can human oversight reliably detect errors in systems that perform better than humans on some tasks but worse on others?
+78. How might widespread AI use change the development of human memory, expertise, and decision-making?
+79. What forms of collaboration allow people and AI systems to correct one another’s blind spots?
+80. How should education change if machines can perform many tasks traditionally used to demonstrate human understanding?
+
+### 9. Limits, scaling, and architecture
+81. Which limits on AI performance come from current architectures, and which are consequences of limited data, computing power, or energy?
+82. Can simply scaling model size and training data produce qualitatively new capabilities, or are new learning principles required?
+83. How can researchers distinguish a genuine new capability from improved performance on tasks already represented in training?
+84. What computational resources are necessary for intelligence, and are there fundamental limits to how efficiently it can be achieved?
+85. Can smaller, specialized systems outperform large general-purpose models in reliability and adaptability?
+86. How should AI systems combine neural learning with symbolic reasoning, search, memory, and tools?
+87. What kinds of internal mechanisms make a system robust to unfamiliar inputs and adversarial pressure?
+88. Can a system learn from interaction as efficiently as it learns from pre-collected data?
+89. How do hardware, energy supply, data access, and infrastructure constrain who can develop advanced AI?
+90. Which limits to AI progress are technical, and which reflect economic incentives, regulation, or social choices?
+
+### 10. Evaluation, safety, and social consequences
+91. How can researchers evaluate intelligence when benchmarks can be memorized, gamed, or quickly made obsolete?
+92. What tests could distinguish general capability from competence limited to a narrow set of familiar tasks?
+93. How can AI systems be evaluated in real environments where outcomes are delayed, ambiguous, and influenced by human behavior?
+94. What evidence is sufficient to establish that a system is safe for a particular level of autonomy?
+95. Can alignment be defined precisely when humans disagree about values, goals, and acceptable risks?
+96. How can systems remain corrigible—open to correction or shutdown—when their tasks require long-term planning?
+97. Which harms should be addressed through model design, and which require changes to institutions, markets, or law?
+98. How can the benefits of increasingly capable AI be distributed without concentrating power and opportunity?
+99. What social and economic conditions determine whether AI increases human autonomy or dependence?
+100. How should the science of intelligence decide what machines ought to do, rather than only what they can learn to do?

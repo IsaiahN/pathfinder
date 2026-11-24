@@ -1,0 +1,136 @@
+name: Sync validation data
+
+# Harvest labeled issues + reactions into data/*.json, commit if changed.
+# Pages is set to "Deploy from branch: main", so this commit rebuilds the site.
+
+on:
+  issues:
+    types: [opened, edited, reopened, closed, labeled, unlabeled]
+  issue_comment:
+    types: [created]
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: read
+
+concurrency:
+  group: validation-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Harvest issues and reactions
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const label = 'validation';
+            const titleRe = /^\[(VALIDATE|REFUTE|ACCEPT)\]\s+([A-Z0-9]+-\d{4})/i;
+            const dataDir = path.join(process.cwd(), 'data');
+            fs.mkdirSync(dataDir, { recursive: true });
+
+            const per_page = 100;
+            let issues = [];
+            for (let page = 1; ; page++) {
+              const batch = await github.rest.issues.listForRepo({
+                owner, repo, state: 'all', labels: label, per_page, page
+              });
+              issues = issues.concat(batch.data);
+              if (batch.data.length < per_page) break;
+            }
+
+            const validation = { generated_at: new Date().toISOString(), problems: {} };
+            const history = { generated_at: new Date().toISOString(), events: [] };
+
+            for (const issue of issues) {
+              const m = titleRe.exec(issue.title || '');
+              if (!m) continue;
+              const kind = m[1].toLowerCase();
+              const pid = m[2].toUpperCase();
+
+              const reactions = await github.paginate(
+                github.rest.issues.listReactions,
+                { owner, repo, issue_number: issue.number, per_page }
+              );
+              const counts = {
+                '+1': 0, '-1': 0, hooray: 0, eyes: 0,
+                rocket: 0, heart: 0, laugh: 0, confused: 0, total: 0
+              };
+              for (const r of reactions) {
+                if (counts[r.content] !== undefined) counts[r.content]++;
+                counts.total++;
+              }
+
+              if (!validation.problems[pid]) {
+                validation.problems[pid] = { verdicts: [], counts: { validate: 0, refute: 0, accept: 0 } };
+              }
+              const entry = validation.problems[pid];
+              entry.verdicts.push({
+                type: kind,
+                validator: issue.user ? issue.user.login : 'unknown',
+                reason: (issue.body || '').slice(0, 4000),
+                issue_url: issue.html_url,
+                issue_number: issue.number,
+                created_at: issue.created_at,
+                updated_at: issue.updated_at,
+                state: issue.state,
+                reactions: counts
+              });
+              if (entry.counts[kind] !== undefined) entry.counts[kind]++;
+
+              history.events.push({
+                problem_id: pid,
+                type: kind,
+                actor: issue.user ? issue.user.login : 'unknown',
+                detail: (issue.body || '').slice(0, 200),
+                timestamp: issue.created_at,
+                source_issue: issue.html_url
+              });
+
+              // Comments on a validation issue are rebuttal rounds.
+              const comments = await github.paginate(
+                github.rest.issues.listComments,
+                { owner, repo, issue_number: issue.number, per_page }
+              );
+              for (const c of comments) {
+                if (!c.user || c.user.type === 'Bot') continue;
+                history.events.push({
+                  problem_id: pid,
+                  type: 'rebuttal',
+                  actor: c.user.login,
+                  detail: (c.body || '').slice(0, 200),
+                  timestamp: c.created_at,
+                  source_issue: issue.html_url
+                });
+              }
+            }
+
+            history.events.sort(function (a, b) {
+              return new Date(a.timestamp) - new Date(b.timestamp);
+            });
+
+            fs.writeFileSync(path.join(dataDir, 'validation.json'), JSON.stringify(validation, null, 2) + '\n');
+            fs.writeFileSync(path.join(dataDir, 'history.json'), JSON.stringify(history, null, 2) + '\n');
+            core.info('Synced ' + issues.length + ' issues -> ' + Object.keys(validation.problems).length + ' problems');
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/validation.json data/history.json
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "chore: sync validation data [skip ci]"
+            git push
+          fi

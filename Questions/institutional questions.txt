@@ -1,0 +1,121 @@
+## Institutions and Political Economy: 100 Unresolved Questions
+
+### 1. Institutional origins and development
+1. Why do some societies develop institutions that constrain powerful actors while others consolidate power in a few hands?
+2. Under what conditions do inclusive political institutions emerge, and how much do they depend on prior economic or social arrangements?
+3. Do institutions primarily reflect a society’s existing balance of power, or can they independently reshape that balance?
+4. Why do similar institutional designs produce different outcomes in different societies?
+5. How much do geography, disease environments, and resource endowments influence institutional development compared with political choices?
+6. Can institutional change be explained by general principles, or is it largely shaped by historically specific events?
+7. Why do some institutional reforms endure while others are reversed after political power changes hands?
+8. How do crises create opportunities for institutional reform, and why do some crises instead strengthen entrenched power?
+9. Can institutions be deliberately designed for conditions that do not yet exist, or do they mainly adapt through trial and error?
+10. How should researchers distinguish institutions that cause prosperity from those that arise as a consequence of it?
+
+### 2. State capacity and public administration
+11. What forms of state capacity—tax collection, public services, enforcement, or information gathering—matter most for effective governance?
+12. How can governments build administrative capacity without creating tools for repression or patronage?
+13. Why are some states able to implement policies consistently while others struggle to carry out even basic decisions?
+14. When does centralization improve coordination, and when does it undermine local knowledge and accountability?
+15. How do governments acquire reliable information about citizens, firms, and local conditions?
+16. What makes public agencies resistant to political interference without making them unresponsive to elected leaders?
+17. How can states provide services impartially when public officials depend on political networks for employment or promotion?
+18. When does privatizing or contracting public functions improve performance, and when does it weaken accountability?
+19. How do weak states maintain legitimacy, and how do capable states lose it?
+20. Can state capacity be measured separately from a government’s willingness to use that capacity fairly?
+
+### 3. Trust, legitimacy, and compliance
+21. What makes people regard an institution as legitimate, even when they disagree with its decisions?
+22. How do fairness, effectiveness, identity, and participation combine to shape trust in public institutions?
+23. When do people comply with rules because they believe the rules are legitimate rather than because they fear punishment?
+24. How can institutions earn trust after histories of discrimination, violence, or corruption?
+25. Does trust in institutions encourage cooperation, or do institutions work well mainly where trust already exists?
+26. Why do citizens sometimes trust informal authorities more than the state?
+27. How do unequal treatment and inconsistent enforcement affect institutional legitimacy over time?
+28. Can transparent decision-making increase trust when institutions produce unpopular outcomes?
+29. How do misinformation and partisan identity alter public judgments about institutional performance?
+30. What enables people to distinguish justified criticism of institutions from efforts to delegitimize them?
+
+### 4. Corruption, patronage, and accountability
+31. Under what conditions does corruption become a stable system of governance rather than isolated misconduct?
+32. Why do anti-corruption campaigns sometimes reduce corruption and sometimes become tools for political purges?
+33. Which combinations of oversight, transparency, enforcement, and public participation most reliably constrain corruption?
+34. How do patronage networks provide social protection or political coordination while also weakening impartial governance?
+35. When can informal payments help people navigate dysfunctional institutions, and when do they deepen exclusion and inefficiency?
+36. How do officials decide whether to follow formal rules or the unwritten expectations of political and social networks?
+37. Why do some accountability institutions constrain the ruling coalition while others mainly police its opponents?
+38. How can whistleblowers and investigative journalism expose corruption without facing retaliation or capture?
+39. Does increasing transparency reduce corruption if enforcement remains weak?
+40. How do citizens coordinate against corruption when individuals face high personal costs for reporting it?
+
+### 5. Power, inequality, and elite influence
+41. How do economic elites shape political rules without directly controlling government?
+42. When does wealth translate into political influence, and when can institutions prevent that conversion?
+43. How do campaign finance, lobbying, media ownership, and professional networks interact to concentrate political power?
+44. Why do some institutions constrain powerful groups while others reproduce their advantages across generations?
+45. How do social class, race, caste, ethnicity, or gender affect access to public authority and legal protection?
+46. Can institutions be formally impartial while producing systematically unequal outcomes?
+47. How do concentrated ownership and market power reshape the rules governing competition and labor?
+48. When do coalitions between business, labor, and government support broad development, and when do they exclude outsiders?
+49. How does inequality weaken collective action for institutional reform?
+50. What institutional arrangements can limit elite capture without making public decision-making unworkable?
+
+### 6. Law, rights, and rule enforcement
+51. What makes the rule of law credible when those who enforce the law are also subject to political pressure?
+52. Why are some legal systems predictable in practice while others depend heavily on personal connections or discretion?
+53. How do differences between written law and everyday enforcement shape people’s expectations and behavior?
+54. When does judicial independence protect rights, and when can it insulate judges from democratic accountability?
+55. How can legal institutions adapt to new social conditions without undermining stability and predictability?
+56. Why do some states enforce contracts reliably but fail to protect people from coercion or discrimination?
+57. How do customary, religious, and state legal systems coexist, compete, or influence one another?
+58. What determines whether citizens can effectively use legal rights that formally exist?
+59. Can institutions enforce rules consistently while allowing discretion for unusual cases?
+60. How do legal institutions shape the distribution of power between the state, employers, workers, and citizens?
+
+### 7. Collective action, conflict, and political order
+61. Why can groups facing similar grievances organize collectively in some settings but remain fragmented in others?
+62. When do political institutions channel conflict peacefully, and when do they intensify it?
+63. How do ethnic, regional, religious, and class identities become politically mobilized?
+64. What makes power-sharing agreements durable after civil conflict?
+65. Can institutions prevent violence when political actors expect future exclusion or retaliation?
+66. How do informal bargains between elites stabilize political order, and what makes them break down?
+67. When does repression deter collective action, and when does it help unify opposition?
+68. How do local institutions mediate disputes before they escalate into broader conflict?
+69. Why do some transitions from authoritarian rule produce accountable institutions while others reproduce old power structures?
+70. How can institutions make political competition credible when losing power may carry severe personal or economic risks?
+
+### 8. Democracy, representation, and participation
+71. What makes elected representatives responsive to constituents rather than donors, parties, or narrow interest groups?
+72. How do electoral systems shape party organization, representation, polarization, and accountability?
+73. When does direct public participation improve policy, and when does it privilege the best-organized groups?
+74. How can democratic institutions represent future generations and people who lack political power?
+75. Why do some democracies maintain stable public support despite severe disagreement, while others become vulnerable to breakdown?
+76. How do parties balance internal discipline with representation of diverse views?
+77. Can independent agencies protect long-term public interests without weakening democratic control?
+78. What kinds of constitutional checks prevent the abuse of power without allowing governments to become paralyzed?
+79. How do media systems and information inequality affect the quality of democratic accountability?
+80. Under what conditions can democratic institutions correct their own failures before public trust collapses?
+
+### 9. Economic institutions and distribution
+81. How do property rights affect investment when ownership is secure for some groups but precarious for others?
+82. Which labor-market institutions best balance worker security, economic adaptation, and employment opportunities?
+83. How do welfare institutions change political coalitions, social trust, and willingness to pay taxes?
+84. When do industrial policies build productive capacity, and when do they protect politically connected firms?
+85. How do financial institutions distribute risk, credit, and economic power across society?
+86. What institutional conditions help economies adapt to technological change without concentrating its gains?
+87. How do tax systems shape compliance, public capacity, inequality, and perceptions of fairness?
+88. When do public-private partnerships improve infrastructure and services, and when do they transfer public risks to private actors?
+89. How do trade rules and global economic institutions constrain or enable domestic policy choices?
+90. Which institutional arrangements help societies share the costs of economic shocks without undermining long-term investment?
+
+### 10. Institutional change, adaptation, and research
+91. How do ordinary people, officials, firms, and social movements reshape institutions through everyday practices?
+92. Why do institutions often persist after the conditions that produced them have changed?
+93. What mechanisms allow institutions to learn from policy failures rather than conceal or repeat them?
+94. When does institutional flexibility help societies adapt, and when does it create uncertainty and opportunities for capture?
+95. How can reformers change institutional incentives without triggering resistance that preserves the status quo?
+96. Why do imported institutional models sometimes succeed and sometimes fail when applied in different political and social settings?
+97. How should researchers separate institutional effects from the historical, economic, and cultural conditions that accompany them?
+98. What evidence can establish whether an institution caused a change in trust, growth, corruption, or conflict?
+99. How can comparative research account for informal rules and practices that official institutional measures overlook?
+100. What would a general theory of institutional change need to explain about how rules shape people’s choices—and how people, in turn, reshape the rules?

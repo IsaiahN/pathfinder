@@ -1,0 +1,89 @@
+# WATSON answer: regional rainfall shift and decision-scale confidence
+
+**Mode: `specified` on the structural shape, `general` on the scope of the limit, `gap` on the physical direction. Not `grounded`.**
+
+**Status: SIMULATED DERIVATION, not a ground reading.** This run synthesizes material in `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md` and `08_expert_verification_packet.md`. By *The Recursive Self-Improvement Trap*, LLM output is "simulacra" and "the truly testable output would need to be derived from the real architecture or working the formula yourself." It is checked for internal consistency against the figures and cannot settle the question it reports on. No climate observation was taken and no climate model was run.
+
+## QUESTION
+
+Decide, in effect terms, what the Tether says about two bundled effects. E1: how regional rainfall patterns will shift. E2: how confident projections can be at the scale communities need. Option A: return a signed regional rainfall direction with a single confidence class. Option B: return the shape any answer must have, keep the physical direction as a declared gap, and name the ground that would close it. What each leads to: A gives false precision at decision scale and spends the independence of the people asked to check it; B gives a checkable per-place structure with refuters and an explicit open slot until observations and decisions pay.
+
+## DOMAIN CENSUS
+
+R by arity, symmetry and scale, then one line per domain with actors, currency and anchor; partition or union; order by dependency.
+
+- **R (the residual).** The mismatch between what a community needs (a decision-relevant local rainfall statement with honest confidence) and what climate projection systems deliver (coarse, correlated, model-dependent statements usually assessed at sub-continental scale). Arity: two conditions, so a **union compound**, with a third thing in the overlap: what a community may legitimately believe about a local change. Symmetry: asymmetric under scale change, since global to local is lossy and local to global is a reconstruction rather than an inverse. Scale: global, sub-continental, local, decision horizon. Fig 9 :5 "are not one hard question but several well-formed ones. Split it rather than search."
+- **Domain 1, physical climate system.** Actors: atmosphere, ocean, land surface, aerosols, convection, circulation modes, gauges and satellites as instruments. Currency: water flux, energy, accumulated observation, per-region residual R_s. Anchor: realised rainfall and its measurement. Question type: physical direction. No figure line governs it.
+- **Domain 2, modelling and inference frame.** Actors: GCMs, RCMs, downscaling, multi-model ensembles, single-model initial-condition large ensembles. Currency: prediction minus observation, ensemble spread, effective witness count, budget in bits and actions. Anchor: observations plus instruments; agreement is not an anchor. Question type: per-slot residual, independence, cross-scale loss, budget versus principle.
+- **Domain 3, decision and community frame.** Actors: communities, planners, climate services, indigenous and local knowledge. Currency: usable information, decisions, values. Anchor: the decision outcome. Question type: distillation, describe the effect before choosing a frame, enumerate the habitat.
+- **Domain 4, verification frame.** Actors: expert readers, public institutional venues. Currency: residuals and refutations, not agreement. Anchor: the ground. Question type: verifier non-access.
+- **Partition or union.** A union of Domain 1 with Domains 2, 3 and 4; the overlap is a compound with its own loop. Fig 9 :57 "a case in two conditions is not a harder case of either."
+- **Order by dependency (Fig 3).** Describe R in effect terms, establish per-slot structure, check independence, measure the round trip, separate budget from principle, then wait for the ground. Fig 3 :20 "The chain is ordered by dependency, not by importance."
+
+Strain test applied: an early reading used Fig 8 :32 to claim that more climate models can never help. Re-census separated instruments (Fig 6 :32) from composition inside a fixed closure (Fig 8 :32); the reading was retracted in `01` section 6. One live strain remains: the figures distinguish unreachable-at-budget from underivable-in-principle but supply no instrument that classifies a named community's case.
+
+## TETHER (primary, verbatim)
+
+Cited against `FRAMEWORK/reference/03-FIGURES_TEXT.md`. Quotes are verbatim from the SVGs.
+
+- Fig 1 :19 "The residual is indexed by object slot, not aggregated." -> confidence must be indexed by place and decision horizon, not averaged over a continent.
+- Fig 1 :22 "Aggregating across slots is how a live signal disappears into an average." -> a single sub-continental confidence class hides the live local signal.
+- Symbols :43-44 "R is measured per slot, never as a single global number." -> definition-level support for per-slot indexing.
+- Fig 4 :30 "So take the round trip and measure the gap. Without it you are navigating by dead reckoning: confident about a position nobody checked." -> global to community downscaling carries a measurable loss R_T.
+- Fig 2 :31-32 "Independence, between two frames, is how little they draw on the same evidence." -> shared-code ensembles are not independent witnesses.
+- Fig 2 :44 "The effective-sample-size correction for correlated observations is standard in survey statistics and meta-analysis; the collapse is the same arithmetic read as a warning." -> 57 related models are fewer than 57 witnesses.
+- Fig 8 :49 "Two frames that overlap almost completely are one frame wearing two names." -> model families.
+- Fig 8 :40 "underivable-in-principle and unreachable-at-this-budget are different facts" -> keep chaos limits apart from resolution and observation limits.
+- Fig 6 :32 "An instrument is not built from a description. It is improved from a worse instrument already returning something." -> downscaling improves from a coarser model already returning a reading.
+- Fig 2 :29 "An anchor is whatever settles the question and does not change its answer because of what any frame thinks." -> realised rainfall is the anchor; ensemble agreement is not.
+- Fig 9 :26-28 "describe it before you go looking, or any frame you pick will seem to fit" -> describe the community residual before choosing a downscaling method.
+- Fig 11 :43 "The habitat is enumerated, never composed." -> list regional actors and conditions from the world, not from the six-term set.
+- Fig 9 :60 "Use filters for the budget and witnesses for the verdict. Never let a filter hand you a verdict." -> resolution, ensemble size and confidence class are budget filters.
+- Fig 9 :44 "Only a sealed room can be searched to the end, and no frame is a sealed room. So searching and finding nothing proves nothing." -> absence of a detected trend is not proof of no trend.
+- Fig 13 :134 "Unreachable is a verdict here, not a silence" -> the physical direction gap is stated, not hidden.
+- Fig 10 :52 "Bring a characterised residual, never the source." -> outreach order.
+- Fig 7 :35 "A room's agreement is variation, not a verdict. Selection between rooms is where the ground votes." -> no bulk send and no receptiveness ranking.
+
+Triangulation status: the per-slot verdict is triangulated across Fig 1 (agent loop) and the Symbols table (definitions), low overlap. The measured-loss verdict is triangulated across Fig 4 (membrane) and Formula step 6 with the Symbols table entry for R_T. The independence verdict is triangulated across Fig 2 (ground) and Fig 8 (union surplus). The budget-versus-principle verdict is triangulated across Fig 8 and Fig 6, with the classification of any specific case left `gap`. The physical-direction verdict is `gap` after a full census: no figure line governs it. The habitat-enumeration method is single-source within the figure set (Fig 11), corroborated methodologically by Fig 9 :26-28. The essays used in `05_what_shape_means.md` share an author and an evidence pool with the figures, so they are not independent witnesses.
+
+## WORLD (secondary sources read; corroboration only)
+
+- **Field: climate assessment / distillation.** Isaiah N (figures README, canonical local copy and GitHub `general-agent` branch, 2026): "what a missing thing would have to look like (a shape, not a name)" and "Indiscernibility is not identity." Predicts a refused direction and a recorded stop. Corroborates the figure verdict. Overlap: high, framework author, so weak corroboration.
+- **Field: climate assessment, extremes.** Seneviratne, Zhang et al., IPCC AR6 WGI Chapter 11 (Cambridge University Press, 2021): "Low confidence is assessed when there is limited evidence ... or a lack of agreement on the evidence of a change, which may be due to large variability or inconsistent changes depending on the considered sub-regions, time frame, models, assessed metrics, or studies." Predicts that confidence is necessarily per slot and per metric. Corroborates Fig 1 and Fig 2. Overlap: low with the framework, different institution and method.
+- **Field: regional climate information.** Doblas-Reyes, Sörensson et al., IPCC AR6 WGI Chapter 10 (Cambridge University Press, 2021): "internal variability can delay emergence of the anthropogenic signal in long-term precipitation changes in many land regions (high confidence)" and "ensemble spread is not a full measure of the uncertainty (very high confidence)." Predicts that budget and principle limits both matter and that spread is a filter, not a verdict. Corroborates Fig 8 and Fig 9. Overlap: low.
+- **Field: convection-permitting modelling / hydrology.** Kendon, Fischer and Short, Nature Communications 14:1133 (2023): "these changes are not realised as a smooth trend. Instead, as a result of internal variability, extreme years with record-breaking events may be followed by multiple decades with no new local rainfall records." Also reports about 4x versus 2.6x growth in events above 20 mm/h for 2.2 km versus 12 km models. Predicts a measurable cross-scale loss and a non-trending local residual. Corroborates Fig 4 and Fig 2 :44. Overlap: low.
+- **Field: climate modelling / statistics.** Pathak, Dasari, Ashok and Hoteit, npj Climate and Atmospheric Science 6:144 (2023): "After accounting for similarity, the information from 57 CMIP6, 47 CMIP5, and 24 CMIP3 models can be explained by just 11 independent models without significant differences in globally averaged climate change statistics." Predicts that nominal ensemble size overstates witness count. Corroborates Fig 2 :31-32 and :44. Overlap: low, but cites some of the same underlying CMIP literature as the assessment sources.
+- **Field: climate model evaluation.** Abramowitz et al., Earth System Dynamics 10:91-105 (2019): "nominally different models might have similar biases because of similarities in the way they represent a subset of processes, or even be near-duplicates of others, weakening the assumption that they constitute independent estimates." Predicts that agreement can be a shared-pool effect. Corroborates Fig 2 :40 and Fig 8 :49. Overlap: moderate with Pathak et al. through shared CMIP evidence pool, counted as one witness pool for that specific claim.
+- **Field: climate dynamics / uncertainty.** Hawkins and Sutton, Climate Dynamics 37:407-418 (2011): "The signal-to-noise ratio (S/N) of the precipitation projections is highest at the poles but less than 1 almost everywhere else, and is far lower than for temperature projections." Predicts that regional precipitation confidence is often low and that adaptation must proceed under uncertainty. Corroborates the per-slot shape and the budget-versus-principle distinction. Overlap: low.
+- **Field: nonlinear dynamical systems.** Krishnamurthy, Earth and Space Science 6:1043-1056 (2019): "chaos imposes limitation on the accuracy of the prediction of instantaneous state of the weather system, which is less than about 10 days" while slowly varying components provide a basis for long-range predictability of certain aspects. Predicts that a principle limit exists but is not the whole story. Corroborates Fig 8 :40. Overlap: low.
+- **Field: human cognition / source discrimination.** Isaiah N, "The Hard Problem is About Source" (adventuresinml, 2026): "If several paths create the same behavior, then behavior is a projection with lossy information (it cannot define consciousness in full)." Predicts that a confidence reading does not determine its source among forced change, internal variability and model error. Corroborates Fig 9 :32. Overlap: high, framework author.
+- **Field: search / shape.** Isaiah N, "The Library of Babel: Locating the Book of Books" (adventuresinml, 2026-10-02): "You can cut your search short if the set of books returned is small and descriptive enough that it provides a general shape of the answer that satisfies your question." Predicts stopping at a shape rather than a direction. Corroborates the canonical README. Overlap: high, framework author.
+- **Field: validation / self-validation.** Isaiah N, "The Recursive Self-Improvement Trap" (adventuresinml, 2026-11-19): "Prestige can fund an action. It can give an action a budget to be tried. But it cannot settle an action. Only the ground can settle it." Predicts that this derivation cannot settle its own claim. Corroborates its simulated status. Overlap: high, framework author.
+
+No world source conflicts with the figure verdict on the shape; the conflict rule was not triggered. All sources are secondary. The essays and the framework documents share an author and an evidence pool, so their agreement is expected and carries little independent weight. The climate sources are from genuinely different closures and carry more weight as corroboration, but they never decide the verdict.
+
+## VERDICT (from the figures)
+
+The shape survives; the direction remains a `gap`. Confidence in regional rainfall must be indexed per place and per decision horizon, carry a measured global-to-community loss, discount correlated witnesses, separate budget limits from principle limits, and wait for realised rainfall rather than agreement. That verdict is `specified` on structure and `general` on scope. It does not say whether any named region gets wetter or drier; no figure line governs that, and claiming otherwise would be strain. World sources supply candidate physical content and measured cases, never the verdict.
+
+- **cost if wrong:** bounded and locatable if the structure is right, because each sub-claim has a refuter and a named ground. The larger cost is false precision: sending one aggregate confidence class to a community that then locks in the wrong infrastructure, or claiming a direction the figures do not support. Fig 2 :42 "Buy independence in proportion to the cost of being wrong." That cost is reduced by leading with the per-slot claim and the refuter.
+- **undoable:** yes. The direction gap is not a commitment; it is an open slot. The confidence structure can be applied region by region without withdraw anything, and a wrong scale-loss estimate can be replaced by a measured one. No primitive has to be withdrawn.
+- **reversed by:** a ground reading, not agreement. Realised rainfall at decision scale over the decision horizon would settle a direction; paired coarse and fine simulations would measure R_T; code genealogy and out-of-sample tests would settle independence; an instrument starting from something already returning a reading would classify a budget limit; and a verbatim figure line or six-term derivation yielding a signed precipitation direction would close the gap verdict. Until one of these fires, the verdict stands as `candidate`.
+
+## Sources
+
+- [Figures text extract with line numbers (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\03-FIGURES_TEXT.md)
+- [Figures README, canonical local copy (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\FIGURES_README_canonical.md)
+- [WATSON 60, the figures as metalaws (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\60_FIGURES_AS_METALAWS.md)
+- [THE FORMULA (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\figures\THE_FORMULA.md)
+- [IPCC AR6 WGI Chapter 10: Linking Global to Regional Climate Change](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-10/)
+- [IPCC AR6 WGI Chapter 11: Weather and Climate Extreme Events in a Changing Climate](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-11)
+- [Variability conceals emerging trend in 100yr projections of UK local hourly rainfall extremes](https://www.nature.com/articles/s41467-023-36499-9)
+- [Effects of multi-observations uncertainty and models similarity on climate change projections](https://www.nature.com/articles/s41612-023-00473-5)
+- [ESD Reviews: Model dependence in multi-model climate ensembles](https://esd.copernicus.org/articles/10/91/2019/esd-10-91-2019.html)
+- [The potential to narrow uncertainty in projections of regional precipitation change](https://link.springer.com/article/10.1007/s00382-010-0810-6)
+- [Predictability of Weather and Climate](https://pmc.ncbi.nlm.nih.gov/articles/PMC6774281)
+- [The Recursive Self-Improvement Trap](https://adventuresinml.substack.com/p/the-recursive-self-improvement-trap)
+- [The Library of Babel: Locating the Book of Books](https://adventuresinml.substack.com/p/the-library-of-babel-locating-the)
+- [The Hard Problem is About Source](https://adventuresinml.substack.com/p/the-hard-problem-is-about-source)
+- Folder material synthesized: `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md`, `08_expert_verification_packet.md`

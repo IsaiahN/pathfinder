@@ -1,0 +1,50 @@
+name: Validate, refute, or accept a solution
+description: Record a human verdict on one Project Pathfinder problem.
+title: "[VALIDATE] PROBLEM-ID"
+labels: ["validation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking a swing at a problem. One verdict per issue, please.
+        Your GitHub login is the public identity; no email is requested or stored.
+  - type: input
+    id: problem_id
+    attributes:
+      label: Problem ID
+      description: The ID shown on the corpus page, e.g. QMGR-0037.
+      placeholder: QMGR-0037
+    validations:
+      required: true
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Verdict
+      options:
+        - VALIDATE
+        - REFUTE
+        - ACCEPT
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: What did you check, and what did you find?
+    validations:
+      required: true
+  - type: input
+    id: evidence
+    attributes:
+      label: Evidence links
+      description: Optional public URLs supporting your verdict.
+  - type: input
+    id: lean
+    attributes:
+      label: Lean certificate
+      description: Optional path to a committed Lean proof, e.g. certificates/QMGR-0037.lean.
+  - type: markdown
+    attributes:
+      value: |
+        A sync Action reads labeled issues and their reactions, then commits the
+        aggregate results to `data/validation.json` and `data/history.json`.

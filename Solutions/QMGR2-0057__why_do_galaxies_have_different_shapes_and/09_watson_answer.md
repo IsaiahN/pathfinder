@@ -1,0 +1,80 @@
+# WATSON answer: why galaxies have different shapes, and how often mergers set their structure
+
+**Mode: `general` on the shape, `specified` on world-sourced claims, `gap` at the figures for the frequency. Not `grounded`.**
+
+**Status: SIMULATED DERIVATION, not a ground reading.** This run synthesizes `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md` and `08_expert_verification_packet.md`. It is checked for internal consistency against the figures. By its own rule (*The Recursive Self-Improvement Trap*: "the truly testable output would need to be derived from the real architecture or working the formula yourself") it cannot settle the question it reports on. No measurement was taken by this derivation.
+
+## QUESTION
+
+Decide, in effect terms, what the Tether says about a two-part astronomy question. Part one: why do galaxies have different shapes? Part two: how often do mergers set their structure? Option A: treat this as one question and answer it from a single mechanism plus a universal frequency. Option B: split the union, give the figure-derived structural shape for part one, and import a conditional frequency from the astronomy ground for part two with provenance shown. What each leads to: A presents an unmeasured shape as a verdict and smuggles an import with no source gate, and it spends the independence of the people checking it. B sends a checkable shape, written refuters, and an explicit gap where the figures stop.
+
+## DOMAIN CENSUS
+
+R by arity, symmetry and scale, then one line per domain with actors / currency / anchor, partition or union, and order by dependency.
+
+- **R (the residual).** Arity: two conditions, a structural one and a quantitative one, so a union compound, not one hard problem (Fig 9 :54 "And when the split lands on a union rather than a partition, unbundle before you search again"). Symmetry: morphology classes are arrangement dependent, so the bond carrying the difference is not a free symmetric join (Fig 12 :94 "The arrangement is the substance"). Scale: one object slot per galaxy, with population aggregates at a second scale (Fig 1 :19 "The residual is indexed by object slot, not aggregated").
+- **Domain 1, morphology and classification.** Actors: morphological types, bulge, disk, bar, arms, rings, classifiers and structural indices. Currency: description length and class membership. Anchor: the image and the measured light distribution. Question type: graded classification, not a clean partition.
+- **Domain 2, mechanism and habitat.** Actors: mergers, secular evolution, gas accretion, halo spin, environment. Currency: causal contribution to structure. Anchor: simulations and observations. Question type: enumeration of a habitat, with valence relative to the residual.
+- **Domain 3, measurement and frequency.** Actors: merger fraction, merger rate, ex situ stellar mass fraction. Currency: counts and rates per mass and redshift bin. Anchor: imaging, kinematics and merger trees. Question type: ground reading, imported into the figures.
+- **Order by dependency.** Classify before attributing mechanism (Fig 9 :27-28), enumerate habitat before counting (Fig 11 :43), settle per-object readings before aggregating (Fig 1 :19, Fig 3 :20), refuse before mint (Formula step 2).
+
+Strain test applied: Fig 13's cross-kind composition rule was tried against the Hubble taxonomy and strained, so re-census placed it in the physics substrate frame, not the classification frame. This follows the canonical rule that a reading making figures contradict one another has misidentified its domain. Recorded in section 8 of `01_figure_grounded_audit.md`.
+
+## TETHER (primary, verbatim)
+
+Cited against `FRAMEWORK/reference/03-FIGURES_TEXT.md`. Quotes are verbatim from the SVGs. Verdicts are kept per domain, never averaged.
+
+- Fig 12 :117 "isomer. Same atoms, different bond, different substance. The difference is invisible in the formula and decisive in the behaviour." -> D1: morphological types are arrangements over a shared component set. `general`, triangulated with the cognition source below. Single figure line for the definition, so figure-internal status is single-source; the low-overlap world source supplies the second frame.
+- Fig 12 :124 "functional group. A substructure whose presence fixes the outcome. The group says what kind; the qualifier says which member." -> D1: a bar or bulge fixes the family, the qualifier picks the member. `general`, single-source.
+- Fig 9 :32 "you get a kind of thing, never the answer itself" -> D1: the framework does not name which component occupies which slot. `general`, triangulated with the canonical figures README (same author and pool, so weak independent weight).
+- Fig 11 :43 "The habitat is enumerated, never composed." -> D2: the channel list is read off the world, not composed from the figures. `general`, single-source.
+- Fig 11 :49 "An actor's valence is relative to the residual, not a property it carries." -> D2: mergers are not uniformly morphology-setting. `general`, single-source at the figure; the world sources below carry the mass dependence.
+- Fig 1 :19 "The residual is indexed by object slot, not aggregated." -> D3: a single aggregate hides the per-object signal. `general`, triangulated with the world's conditional fractions.
+- Fig 8 :32 "Closure is idempotent. Composing inside a closed set never leaves it, so no search, however long, adds an atom." -> D3: no frequency is derivable from the figures. Verdict `gap` at the figures for the number.
+- Fig 6 :23 "No frame escapes its own closure. The bound moves only on contact with a frame whose closure differs." -> D3: the number enters by OUTWARD import with a source gate and shadow test.
+- Fig 4 :30 "So take the round trip and measure the gap. Without it you are navigating by dead reckoning: confident about a position nobody checked." -> cross-domain: collapsing morphology to a merger flag is lossy; report R_T, do not set it to zero.
+- Fig 2 :40 "disqualifying for a verdict: agreement about the world is worthless when the agreeing frames share an evidence pool" -> verification: the two Illustris papers are one pool, not two witnesses.
+- Fig 7 :6 "the limit: no last room" -> cross-domain: the Hubble sequence is a room, not a final classification.
+
+Triangulation summary: D1's isomer reading is triangulated across Fig 12 and the cognitive-science family-resemblance source (low overlap). D1's shape-not-a-name limit is triangulated across Fig 9 and the canonical README (high overlap, weak). D2's habitat rule is single-source at the figure, with three separate astronomy sources carrying the world content. D3 is a `gap` at the figures for the number, with the world frame supplying a conditional import. One strain was resolved by re-census (Fig 13 versus taxonomy); one gap is priced rather than hidden (R_T).
+
+## WORLD (secondary, each source read)
+
+World sources corroborate only. They never overrule the figures. Each was opened 2026-11-23.
+
+- **Galaxy evolution, observational review.** John Kormendy and Robert Kennicutt, "Secular Evolution and the Formation of Pseudobulges in Disk Galaxies," Annual Review of Astronomy and Astrophysics 42:603, 2004, opened at https://ned.ipac.caltech.edu/level5/March10/Kormendy/Kormendy1.html. Quote: "we need a better understanding of the relative importance of mergers and secular evolution as a function of galaxy type and luminosity." Predicts that channel valence is conditional; corroborates D2. Overlap: independent of the figures, shares the astronomy evidence pool with the other astronomy sources.
+- **Galaxy structure, observational review.** Christopher Conselice, "The Evolution of Galaxy Structure Over Cosmic Time," Annual Review of Astronomy and Astrophysics 52:291, 2014, opened at https://ned.ipac.caltech.edu/level5/March14/Conselice/Conselice6.html. Quote: "In many ways morphology is still a descriptive science." Also: "the galaxy merger fraction increases with redshift at all stellar mass and luminosity selections." Predicts description-before-mechanism and a conditional frequency; corroborates D1 and D3. Overlap: same astronomy pool.
+- **Environment, morphology-density relation.** Alan Dressler, NED essay based on Dressler 1980, Astrophysical Journal 236:351, opened at https://ned.ipac.caltech.edu/level5/ESSAYS/Dressler/dressler.html. Quote: "Over four orders of magnitude of increasing local density, the fraction of spirals decreases steadily as the fraction of SOs and ellipticals increases." Predicts environment as a habitat actor at all densities; corroborates D2. Overlap: same astronomy pool, different dataset.
+- **Simulations, stellar assembly.** Vicente Rodriguez-Gomez et al., "The stellar mass assembly of galaxies in the Illustris simulation," MNRAS 458:2371, 2016, opened at https://arxiv.org/abs/1511.08804. Quote: "the stellar mass growth of galaxies below a few times 10^11 solar masses is dominated by in situ star formation at all redshifts." Predicts mass-dependent merger contribution; corroborates D3. Overlap: shares the Illustris simulation with the next source, so the two are one pool.
+- **Simulations, morphology specifically.** Vicente Rodriguez-Gomez et al., "The role of mergers and halo spin in shaping galaxy morphology," MNRAS 467:3083, 2017, opened at https://arxiv.org/abs/1609.09498. Quote: "mergers do not seem to play any significant role in determining the morphology" below about 10^11 solar masses. Predicts exactly the valence claim in D2; corroborates. Overlap: same Illustris pool as the previous source, so not independent corroboration.
+- **Human cognition, category structure.** Eleanor Rosch and Carolyn Mervis, "Family Resemblances: Studies in the Internal Structure of Categories," Cognitive Psychology 7:573, 1975, opened at http://matt.colorado.edu/teaching/categories/rm75.pdf. Quote: "family resemblance offers an alternative to criterial features in defining categories." Predicts graded families rather than sharp definitions; corroborates the isomer and functional-group reading in D1. Overlap: genuinely low overlap, different field and evidence pool.
+- **Framework essay, validation.** Isaiah N, "The Recursive Self-Improvement Trap," Substack, 2026, opened at https://adventuresinml.substack.com/p/the-recursive-self-improvement-trap. Quote: "the output is only as good as the validator. The agent, or the tool, or the frame, or the theory, cannot validate itself." Predicts that this derivation cannot settle its own claim; corroborates the simulated status. Overlap: high, framework author.
+- **Framework essay, search.** Isaiah N, "The Library of Babel: Locating The Book of Books," Substack, 2026, opened at https://adventuresinml.substack.com/p/the-library-of-babel-locating-the. Quote: "You can cut your search short if the set of books returned is small and descriptive enough that it provides a general shape of the answer that satisfies your question." Predicts a narrowed shape; corroborates the method. Overlap: high, framework author.
+- **Framework essay, instruments.** Isaiah N, "The Hard Problem is About Source," Substack, 2026, opened at https://adventuresinml.substack.com/p/the-hard-problem-is-about-source. Quote: "If several paths create the same behavior, then behavior is a projection with lossy information." Predicts that naming "merger" from a disturbed morphology alone is the metamerism error; corroborates the need for a source-discriminating instrument. Overlap: high, framework author.
+- **Framework essay, contact.** Isaiah N, "Decoding Tacit Knowledge," Substack, 2026, opened at https://adventuresinml.substack.com/p/decoding-tacit-knowledge-why-context. Quote: "When contact isn't possible, the best you can send is a plain description of what you'd expect to see, because anyone can check that against the world." Predicts the residual-first outreach order. Overlap: high, framework author.
+
+No world source conflicts with the figure verdict; the conflict rule was not triggered. The four framework essays share an author and an evidence pool with the figures, so their agreement is expected and carries little independent weight. The two Illustris papers likewise are one pool. The only genuinely low-overlap corroboration is the cognition source.
+
+## VERDICT (from the figures)
+
+The figures give a shape for the first half and a `gap` for the second. Morphological diversity reads as different arrangements of a shared component set (isomers and functional groups), with the arranging channels enumerated from a habitat whose actors have valence relative to a mass- and environment-dependent residual. The figures do not name which component sits in which slot, and they do not yield a frequency. "How often" is answered only by importing the astronomy ground, and the imported answer is conditional on mass, gas fraction, environment and epoch: mergers dominate the most massive systems, are negligible near Milky Way mass, give way to halo spin in dwarfs, and the frequency rises with redshift. There is no universal percentage. This is `general` for the shape, `specified` for the imported content, and ungrounded.
+
+- **cost if wrong:** bounded and locatable. The shape is mode-labelled, states refuters before the conclusion and records the lineage, so an error is findable rather than invisible. The real cost is presenting an import with no source gate, or spending the independence of outside readers by sending a recording instead of a generator (Fig 2 :42 "Buy independence in proportion to the cost of being wrong"). Both are avoidable by leading with the shape claim and its refuter, and by showing the provenance of the frequency.
+- **undoable:** yes. The import is a binding onto held components, not a new primitive, so the number can be revised without touching the shape. A sent claim can be superseded by the corrected packet. Nothing has to be withdrawn except a universal percentage, which was never asserted.
+- **reversed by:** a ground reading, not agreement. A source-discriminating instrument that separates merger-built from secularly built structure per object would name the slot; a mass- and epoch-independent frequency surviving the per-object check would break the conditional claim; a figure line yielding a population frequency would close the `gap`; two types sharing no component set would break the isomer reading. Until one of these fires, the verdict stands as `candidate`.
+
+## Sources
+
+- [Figures text extract with line numbers (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\03-FIGURES_TEXT.md)
+- [Figures README, canonical local copy](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\FIGURES_README_canonical.md)
+- [The Formula (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\figures\THE_FORMULA.md)
+- [Secular Evolution and the Formation of Pseudobulges in Disk Galaxies](https://ned.ipac.caltech.edu/level5/March10/Kormendy/Kormendy1.html)
+- [The Evolution of Galaxy Structure Over Cosmic Time](https://ned.ipac.caltech.edu/level5/March14/Conselice/Conselice6.html)
+- [Galaxies, Properties in Relation to Environment](https://ned.ipac.caltech.edu/level5/ESSAYS/Dressler/dressler.html)
+- [The stellar mass assembly of galaxies in the Illustris simulation](https://arxiv.org/abs/1511.08804)
+- [The role of mergers and halo spin in shaping galaxy morphology](https://arxiv.org/abs/1609.09498)
+- [Family Resemblances: Studies in the Internal Structure of Categories](http://matt.colorado.edu/teaching/categories/rm75.pdf)
+- [The Recursive Self-Improvement Trap](https://adventuresinml.substack.com/p/the-recursive-self-improvement-trap)
+- [The Library of Babel: Locating The Book of Books](https://adventuresinml.substack.com/p/the-library-of-babel-locating-the)
+- [The Hard Problem is About Source](https://adventuresinml.substack.com/p/the-hard-problem-is-about-source)
+- [Decoding Tacit Knowledge](https://adventuresinml.substack.com/p/decoding-tacit-knowledge-why-context)

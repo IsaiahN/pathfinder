@@ -1,0 +1,53 @@
+# Public links and distribution
+
+Every link below was fetched and read on 2026-11-23. All World sources are secondary corroboration; the figures decide. Where a fetch failed it is named rather than hidden.
+
+## Verified sources actually opened
+
+| what | URL | verified content |
+|---|---|---|
+| Interstellar Objects in the Solar System (Jewitt, 2024, Handbook of Exoplanets 2nd ed, arXiv:2407.06475) | https://arxiv.org/html/2407.06475 | States that the field is data-limited and "the literature is heavily loaded with speculative, model-based papers"; gives n near 0.1 au^-3, roughly 10^4 bodies inside Neptune, roughly 10^26 in the Galaxy; states that the 2I discovery survey parameters were never published so no density can be extrapolated from it; notes the alien-probe reading fails on abundance grounds. |
+| The Interstellar Interlopers (Jewitt and Seligman, 2023, Annual Review of Astronomy and Astrophysics 61, 197-236) | https://doi.org/10.1146/annurev-astro-071221-054221 | Abstract read: number density near 0.1 AU^-3 implying 10^25 to 10^26 similar objects in the Milky Way; both objects show nongravitational acceleration; the interlopers likely formed in and were ejected from protoplanetary disks but "we currently possess too little data to firmly reject other explanations." |
+| The New Astronomical Frontier of Interstellar Objects / Preliminary Evidence That Protoplanetary Disks Eject More Mass Than They Retain (Siraj and Loeb, 2022, arXiv:2108.13429) | https://ar5iv.labs.arxiv.org/html/2108.13429 | Full text read. Minimum Ejection Fraction near 10 percent of stellar mass with a 95 percent interval of roughly 2 to 50 percent; Poisson intervals on the Oumuamua-like and Borisov-like abundances; explicit statement that future Rubin/LSST detections will test the prediction. |
+| Interstellar planetesimals (Moro-Martin, 2022, arXiv:2205.04277) | https://arxiv.org/html/2205.04277 | Full text read. Describes the objects as "time capsules of their planetary system most distant past"; enumerates ejection mechanisms; records that inferred densities are generally higher than expected but that the observed value stays uncertain until more objects are found; details Pan-STARRS and pre-discovery LSST expectations. |
+| On the Compositions of Interstellar Objects (Hopkins, Bannister, Bitsch, Lintott and Forbes, 2026, submitted to AJ, arXiv:2609.30827) | https://arxiv.org/abs/2609.30827 | Abstract read. Predicts a strong correlation between ammonia abundance and parent-star metallicity; infers near-solar metallicity for 2I/Borisov and lower metallicity for 3I/ATLAS; states compositions vary significantly between stars. |
+| Interstellar Objects Outnumber Solar System Objects in the Oort Cloud (Siraj and Loeb, 2020/2021, MNRAS Letters, arXiv:2011.14900) | https://arxiv.org/abs/2011.14900 | Abstract read: Borisov implies interstellar objects outnumber solar system objects in the Oort cloud, and roughly 1 percent of Galactic carbon and oxygen may be locked in interstellar objects. |
+| Interstellar Objects and Exocomets (Fitzsimmons, Meech, Matra and Pfalzner, 2023, review chapter for Comets III, arXiv:2303.17980) | https://arxiv.org/abs/2303.17980 | Abstract read: reviews ejection mechanisms and the surprising differences between the first two ISOs. Full text section used via the search extract: mechanisms span 0.1 to 30 Earth masses per star with no clear winner from mass alone, and velocity plus composition are the discriminators. |
+| The natural history of Oumuamua (Jewitt et al., 2019, Nature Astronomy 3, 594-602) | https://doi.org/10.1038/s41550-019-0816-x | Citation and abstract content read: number density near 0.1 per cubic au; the claim that the observed density is higher than planet-formation expectations is not supported while the size-frequency distribution is unconstrained. |
+| Implications of 1I/Oumuamua for planetary dynamics and planetesimal formation (Raymond, Armitage, Veras, Quintana and Barclay, 2018, MNRAS 476, 3031-3038) | https://doi.org/10.1093/mnras/sty468 | Citation and abstract content read: roughly 1 Earth mass of planetesimals ejected per solar mass for mono-sized bodies, rising implausibly for a top-heavy distribution unless a small fraction are tidally disrupted. |
+| Where do 3I/ATLAS and other interstellar visitors come from? (Stahl and Betts, 2025, The Planetary Society) | https://www.planetary.org/articles/where-do-3i-atlas-and-other-interstellar-visitors-come-from | Full article read. Reports roughly 60 interstellar objects inside Jupiter's orbit at any time and up to 70 discoveries per year from Rubin plus NEO Surveyor; states shape and chemistry constrain origin and ejection; notes streams make a unique origin hard to pin down. |
+| The eight essays by Isaiah N (Adventures in Machine Learning, 2026) | https://adventuresinml.substack.com/p/the-library-of-babel-locating-the ; https://adventuresinml.substack.com/p/the-hard-problem-is-about-source ; https://adventuresinml.substack.com/p/the-recursive-self-improvement-trap ; https://adventuresinml.substack.com/p/decoding-tacit-knowledge-why-context ; https://adventuresinml.substack.com/p/how-a-society-of-agents-would-work ; https://adventuresinml.substack.com/p/theyre-scanning-books-when-they-should ; https://adventuresinml.substack.com/p/how-intelligence-actually-works ; https://adventuresinml.substack.com/p/arrival-of-the-fittest-the-tether | All eight opened 2026-11-23. Used in `05_what_shape_means.md`. High overlap with the figures (same author) so they corroborate weakly. |
+| Canonical figures repository (Isaiah N, GitHub, branch general-agent) | https://github.com/IsaiahN/tether/tree/general-agent/figures | Figures and formula for direct download; README states the figures outrank everything else in the repo. |
+
+**Fetch failure recorded honestly:** the Astrobiology journal author page at `https://journals.sagepub.com/journals/ast` returned HTTP 403, and the IOP Planetary Science Journal and Oxford MNRAS author-guideline pages returned 404 and 403 respectively. Those venues are listed in `03_public_contact_points.csv` with the failure noted, and no quote is taken from them. The arXiv and DOI versions were used instead.
+
+## What the wider literature bears on the question
+
+1. **The count half is budget-limited, not paradox-limited.** Jewitt 2024, Jewitt and Seligman 2023 and Moro-Martin 2022 all attribute the large uncertainty to a sample of three objects and unpublished survey selection functions, not to a defect in planet formation theory. Jewitt et al. 2019 and Raymond et al. 2018 show that the number-to-mass conversion is dominated by the assumed SFD. That is the empirical counterpart of Fig 8 :40-43 (unreachable-at-budget versus underivable-in-principle) and Fig 4 :30 (measure the round trip).
+2. **The reveal half is a class constraint, not an identification.** Hopkins et al. 2026 turn a production-rate ratio into a metallicity range, which is a kind of parent system. Jewitt 2024 notes that streams make a unique origin "much harder to tell" and that only after hundreds of discoveries might siblings identify a common source. That is the empirical counterpart of Fig 9 :32 (a kind of thing, never the answer itself) and Fig 13 :121 (different routes to the same substance).
+3. **The ejection habitat is enumerated, not derived.** Fitzsimmons et al. 2023, Moro-Martin 2022 and Jewitt 2024 independently list scattering, flybys, post-main-sequence loss, tidal shredding and exo-Oort release, and agree that mass alone cannot select a winner. That is Fig 11 :43-44 applied to a real residual.
+4. **Agreement here is one pool.** Every source above draws on 1I, 2I and (where dated 2025 or later) 3I. Their convergence on 0.1 au^-3 is corroboration at best within a shared evidence pool, not two independent witnesses (Fig 2 :40).
+
+## Distribution: offer, do not push
+
+- **Fig 10 :52** - *"Bring a characterised residual, never the source."* Lead with the shape claim and its refuter. A recipient who has absorbed the whole framework before being asked for a verdict has joined the frame being checked.
+- **Fig 2 :45** - *"Frames range against the ground. They do not negotiate with it."* Ask what they would expect to see if the shape claim were true, before giving them the article.
+- **Fig 9 :27-28** - *"describe it before you go looking, or any frame you pick will seem to fit."* Describe the count and source residuals in effect terms; do not open with the name of a preferred ejection model.
+- **Fig 7 :13** - *"agreement compounds, evidence does not"* and **Fig 2 :40** - *"agreement about the world is worthless when the agreeing frames share an evidence pool"*: do not send to a list selected for likely agreement, and do not pool later agreement as corroboration.
+- **Fig 9 :60** - *"Use filters for the budget and witnesses for the verdict. Never let a filter hand you a verdict."* Survey depth and meeting tier choose what gets tried first; they never decide whether the shape is true.
+
+**Recommended order in a reply:** (1) the shape claim and its four refuters; (2) ask what the recipient would count as a failure and record that verdict; (3) only then the three links, with the note that the figures, not the summary, are the authority; (4) offer the formula as a method to reuse, with the instruction that each user write their own refuter and state their own mode.
+
+## The two-stage offer
+
+**Stage 1, before any theory:** send the residual, the shape claim and the pre-registered refuter. The verdict is recorded here, before the framework interior is shown (Fig 10 :42: *"A verifier that can reconstruct the claim cannot verify it."*).
+
+**Stage 2, opt-in only:** if they are curious after recording a verdict, offer the astronomy links. Their later agreement is never pooled as corroboration (Fig 2 :40).
+
+**Stage 3:** offer the formula as a method. Fig 4 :22: *"Only methods cross up. Only head starts come down."* A generator can be given away without giving away an answer. Each user still needs a ground and a written refuter for their own problem (`THE_FORMULA.md`, "Direction").
+
+**Hard precondition:** stages 1 to 3 only work if stage 1 survives. The current shape is `specified`, not `grounded`; the count half is explicitly budget-limited and the reveal half explicitly refuses a name. If a recipient returns a refutation, copy it into `11_audit.md` with provenance and re-evaluate it as if it came from any other source.
+
+## Practical note
+
+This agent hosts nothing and sends nothing. An opt-in download page lets a recipient decline contact, which is closer to the figures' rule than an attachment pushed to a list.

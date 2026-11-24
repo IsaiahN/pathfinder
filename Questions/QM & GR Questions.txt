@@ -1,0 +1,271 @@
+Yes. A unified theory of quantum gravity would bear on far more than black holes and the Big Bang. Many of the open problems below depend on how quantum mechanics and gravitation fit together, while others are classic puzzles that such a theory might dissolve or reframe. I've grouped them by domain, and I've marked the most speculative ones as you read.
+
+## Cosmology and the Early Universe
+
+1. The origin of the universe's initial state, including the Hartle-Hawking no-boundary proposal and the Vilenkin tunneling proposal
+2. The nature of the singularity at the Big Bang and whether time has a beginning
+3. The cosmological constant problem, where vacuum energy predicted by quantum field theory exceeds the observed value by about 120 orders of magnitude
+4. The origin of dark energy and whether it is constant, evolving, or an artifact of gravity at large scales
+5. Inflation: what drove it, what field caused it, and whether it is testable at the energy scales involved
+6. The arrow of time and why the early universe had such low entropy
+7. The cosmic horizon problem and how causally disconnected regions came to share the same temperature
+8. The flatness problem and why the universe's spatial geometry is so close to flat
+9. The Hubble tension, the discrepancy between early- and late-universe measurements of the expansion rate
+10. Whether the universe is finite or infinite, and what its global topology is
+11. Eternal inflation and the multiverse, and whether those ideas can be tested or are unfalsifiable
+12. The fate of the universe in the far future, including heat death, Big Rip, and Big Crunch scenarios
+
+## Black Holes and Strong Gravity
+
+13. The black hole information paradox: whether information that falls into a black hole is lost or encoded in Hawking radiation
+14. The microscopic origin of black hole entropy, which Bekenstein and Hawking tied to horizon area
+15. Hawking radiation's exact mechanism and whether its spectrum depends on the details of collapse
+16. The firewall paradox, which asks what an infalling observer actually experiences at the horizon
+17. Whether singularities are real features of nature or artifacts of classical theory
+18. The end state of gravitational collapse and what replaces the singularity
+19. Black hole microstates and whether counting them reproduces the Bekenstein-Hawking entropy
+20. The information content of horizons in de Sitter space
+21. Whether black holes can form and evaporate without leaving a remnant, and what a remnant would be
+22. Quantum effects near the Planck scale that change the causal structure of spacetime
+23. Whether black hole mergers emit detectable quantum signatures in gravitational-wave data
+24. The thermodynamics of spacetime and whether gravity is emergent from thermodynamic principles
+
+## Quantum Foundations and Measurement
+
+25. The measurement problem: why a single outcome occurs when a quantum superposition is measured
+26. Whether the wavefunction is physically real or only a representation of knowledge
+27. Whether time is fundamental or emergent, and how quantum evolution relates to it
+28. The role of the observer, and whether consciousness plays any part in measurement
+29. Whether quantum collapse is real, as in GRW-type models, or apparent, as in the many-worlds interpretation
+30. Nonlocality and whether it can be reconciled with relativistic causality in a deeper theory
+31. The preferred basis problem and why measurements pick out certain observables
+32. Quantum gravity-induced decoherence, and whether gravity itself causes wavefunction collapse
+33. The status of probability in quantum mechanics and whether it is fundamental or epistemic
+34. Whether the Hilbert space structure of quantum theory is fundamental or emerges from something more basic
+35. Quantum reference frames and how to define observables in a spacetime without a fixed background
+36. Whether the principles of quantum mechanics are uniquely determined or could be modified at extreme scales
+
+## Spacetime Structure and Emergence
+
+37. Whether spacetime is a fundamental continuum or emerges from discrete building blocks
+38. The nature of spacetime at the Planck length, roughly 10^-35 meters
+39. Whether spacetime dimensionality is fixed at four, or emerges from quantum dynamics
+40. Causal set theory and whether causality alone can generate the structure of spacetime
+41. Loop quantum gravity's predictions for area and volume quantization
+42. Whether the holographic principle reflects a deep fact about how information relates to geometry
+43. The emergence of locality, meaning why distant regions of spacetime can be treated as separate
+44. Whether general relativity is an effective description of a deeper microscopic theory
+45. Background independence and whether a quantum theory can be formulated without a fixed spacetime
+46. The status of diffeomorphism invariance and gauge redundancy in a quantum setting
+47. Whether spacetime foam exists at small scales and what it would look like
+48. The relationship between entanglement and geometry, as in the ER=EPR conjecture
+
+## Particle Physics and the Standard Model
+
+49. The hierarchy problem: why the Higgs mass is so much smaller than the Planck mass
+50. The naturalness problem and whether supersymmetry or other mechanisms resolve it
+51. The origin of the three generations of fermions and their mass hierarchy
+52. The values of the Standard Model's roughly 19 free parameters, which are not predicted by the theory
+53. Whether the strong, weak, and electromagnetic forces unify at high energies
+54. The strong CP problem, meaning why the neutron has no measurable electric dipole moment
+55. Neutrino masses and whether neutrinos are Dirac or Majorana particles
+56. The nature of dark matter and whether it is a particle, a modification of gravity, or something else
+57. The matter-antimatter asymmetry and whether new physics explains it
+58. The Higgs vacuum's metastability and whether it could decay catastrophically
+59. Whether magnetic monopoles exist, and what their existence would imply about grand unification
+60. The origin of the neutron star equation of state at extreme densities, where quantum chromodynamics and gravity interact
+
+## Condensed Matter and Analogue Gravity
+
+61. Emergent gravity in condensed matter systems and whether it can model real spacetime behavior
+62. Analogue black holes built from fluids, Bose-Einstein condensates, and other laboratory systems
+63. Topological phases of matter and their possible connection to the structure of spacetime
+64. Whether quantum error correction explains the structure of spacetime
+65. Quantum critical points and whether their scaling reflects a deeper gravitational structure
+66. The emergence of effective field theories from microscopic quantum systems
+67. Strange metals and whether their behavior hints at a holographic description
+68. Quantum spin liquids and their relationship to lattice gauge theories
+69. Whether non-equilibrium quantum systems follow universal laws that mirror those of gravity
+70. Thermalization in isolated quantum systems and its relationship to black hole dynamics
+71. The scrambling of quantum information and whether it sets a universal speed limit
+72. Quantum chaos and whether it connects to the chaos bound in black holes
+
+## Computation, Information, and Complexity
+
+73. The computational complexity of quantum gravity and whether spacetime has a computational description
+74. Whether the universe is a quantum computer and what that would mean for physical law
+75. Quantum complexity growth in black holes and its relation to the interior of the horizon
+76. Whether the Bekenstein bound limits the information capacity of any region of space
+77. The relationship between entanglement entropy and gravitational entropy
+78. Quantum error-correcting codes as models of holographic bulk-boundary correspondence
+79. Whether physical laws are fundamentally algorithmic and what limits algorithmic description
+80. The thermodynamic cost of computation in a gravitational setting
+81. Whether information is conserved in all physical processes, including quantum gravity
+82. Quantum advantage and whether it implies new physical principles beyond quantum mechanics
+
+## Fundamental Constants and Symmetries
+
+83. The origin of the fine-structure constant and whether it is truly constant over time
+84. The values of the fundamental constants and whether they are fixed or vary across the universe
+85. Whether the Planck units are the natural scale of quantum gravity
+86. The origin of Lorentz invariance and whether it is exact at all energies
+87. Possible violations of CPT symmetry and their implications for a unified theory
+88. The status of parity violation in the weak interaction and whether it reflects a deeper principle
+89. Whether gauge symmetries are fundamental or emergent
+90. The nature of gravitational charge and whether it can be quantized
+91. Whether the dimensionless numbers of physics, such as the mass ratios, have a common origin
+92. Anthropic reasoning and whether the constants are fine-tuned for life
+
+## Experimental and Observational Frontiers
+
+93. Tests of quantum gravity through gravitational-wave observations at high precision
+94. Gravitational-wave background signatures from the early universe
+95. Quantum gravity phenomenology, such as Lorentz-violating effects in gamma-ray bursts
+96. Tabletop experiments that test whether gravity can entangle quantum systems
+97. Searches for quantum effects in massive objects, such as levitated nanoparticles
+98. Detection of primordial gravitational waves in the cosmic microwave background
+99. Tests of the equivalence principle at quantum scales
+100. Atomic interferometry experiments that probe gravity on quantum states
+
+
+Let’s do **one field at a time**. I’ll start with **astronomy and cosmology**, organized into modules. These are research questions, not 100 equally likely theories: some are major mainstream uncertainties; others are narrower questions researchers are actively measuring. The biggest debates often concern how to interpret evidence, not whether the evidence exists. For example, dark matter’s gravitational effects are supported by multiple kinds of observations, while its physical identity is unknown. <citation src="3,5"></citation>
+
+## Astronomy and cosmology: 100 research questions
+
+### A. Dark matter
+
+1. What particle or object, if any, makes up most dark matter?
+2. Is dark matter made of **WIMPs**, **axions**, another undiscovered particle, or several components?
+3. Could some or all dark matter consist of **primordial black holes** formed in the early universe?
+4. Does dark matter interact with ordinary matter through anything besides gravity?
+5. Does dark matter interact with itself, and could that explain the structures seen in galaxies?
+6. Is dark matter “cold,” “warm,” or a mixture—and what observations best distinguish these possibilities?
+7. How much dark matter exists in the smallest galaxies and dark-matter clumps?
+8. Do observations of galaxy centers match the dense dark-matter profiles predicted by simulations?
+9. Why do some galaxies appear to have less dark matter than expected?
+10. Could a single dark-matter model explain galaxies, clusters, gravitational lensing, and the early universe?
+
+**Main approaches to compare:** particle searches; astronomical observations and simulations; alternatives that modify gravity. The strongest evidence supports some form of unseen gravitating mass, but no dark-matter particle has been confirmed. <citation src="3"></citation>
+
+### B. Dark energy and cosmic expansion
+
+11. Is dark energy a constant property of space, as in the standard cosmological model?
+12. Does dark energy change in strength over time?
+13. If it changes, is that change smooth, temporary, or connected to a new field?
+14. Could cosmic acceleration instead mean that gravity behaves differently on very large scales?
+15. Does dark energy have any connection to the vacuum energy predicted by quantum physics?
+16. Why is the observed value associated with dark energy so small compared with some theoretical estimates?
+17. Could apparent acceleration arise partly from how cosmic structure affects observations?
+18. Which combination of supernovae, galaxy clustering, and gravitational lensing best measures the expansion history?
+19. How much do current results depend on assumptions built into the analysis?
+20. What future observation would most clearly distinguish a cosmological constant from changing dark energy?
+
+**Main approaches to compare:** a constant cosmological term; dynamical dark energy; modified gravity; and possible observational or modeling effects. The standard model remains a central baseline, while new results are tested against it. <citation src="1,2"></citation>
+
+### C. The Hubble tension and cosmological measurements
+
+21. Why do some early-universe and nearby-universe methods give different expansion-rate estimates?
+22. Could the difference come from measurement calibration or other systematic errors?
+23. Could new physics in the early universe shift the inferred expansion rate?
+24. Could new physics affecting the late universe explain the same difference?
+25. How much could dust, stellar populations, or distance-ladder choices affect nearby measurements?
+26. How much do assumptions about the early universe affect estimates from the cosmic microwave background?
+27. Do independent measurement methods converge when they use overlapping data?
+28. Is the disagreement consistent across different teams and analysis pipelines?
+29. Are other cosmological parameters also in tension, or is the problem confined to the expansion rate?
+30. What combination of future measurements could tell a real physical discrepancy from an analysis problem?
+
+### D. The early universe and inflation
+
+31. Did the universe undergo a very brief period of extremely rapid expansion called **inflation**?
+32. If inflation happened, what physical process or field drove it?
+33. Which inflation models produce predictions that future observations can distinguish?
+34. Should inflation have produced a detectable background of primordial gravitational waves?
+35. What do the patterns in the cosmic microwave background say about the earliest expansion?
+36. Did inflation generate the small density differences that later grew into galaxies?
+37. Could a different early-universe process explain those patterns without inflation?
+38. What set the initial conditions for inflation, if it occurred?
+39. Can inflation be tested without relying on assumptions that are difficult to verify?
+40. What does “before inflation” mean within a theory where space and time themselves may have changed?
+
+### E. The Big Bang, time, and the universe’s overall history
+
+41. Does the Big Bang describe the beginning of time, or only the earliest era current theories can explain?
+42. Was there a prior universe, a bounce, or another phase before the hot Big Bang?
+43. Does the universe continue forever, or is its total extent finite?
+44. Is the universe spatially flat, or does it have a small but measurable curvature?
+45. Are there regions beyond the observable universe, and can any of their properties be tested?
+46. Why did the early universe begin in a state of unusually low entropy?
+47. Why is there more matter than antimatter in the observable universe?
+48. Could the universe’s expansion eventually slow, continue forever, or change dramatically?
+49. Are current estimates of the universe’s age consistent across independent methods?
+50. What observations could distinguish a cosmic bounce or cyclic model from standard cosmology?
+
+### F. Galaxies and cosmic structure
+
+51. How did the first stars and galaxies form from the early universe’s gas?
+52. Why do some early galaxies appear more developed or brighter than models predicted?
+53. Are the apparent early-galaxy puzzles caused by measurement, modeling assumptions, or a real problem for standard galaxy-formation theory?
+54. How do supermassive black holes grow so quickly in the early universe?
+55. What regulates the growth of galaxies and their central black holes?
+56. How important are supernovae and black-hole activity in pushing gas out of galaxies?
+57. Why do galaxies have different shapes, and how often do mergers set their structure?
+58. How do small galaxies form, and why do some stop forming stars?
+59. How accurately do simulations capture the behavior of ordinary gas, stars, and dust?
+60. What can the cosmic web’s structure reveal about dark matter, dark energy, and gravity?
+
+### G. Black holes and gravitational waves
+
+61. What happens to information that falls into a black hole?
+62. How does a black hole’s event horizon fit with quantum physics?
+63. What physical process powers the brightest jets from some black holes?
+64. How did the earliest supermassive black holes form?
+65. Are there black holes in mass ranges where current models predict few or none?
+66. How often do black holes merge, and what does that tell us about how they formed?
+67. Can gravitational waves reveal black-hole populations that telescopes cannot see?
+68. Do black holes have observable properties that could distinguish them from other compact objects?
+69. Can the intense gravity near black holes reveal departures from general relativity?
+70. How can researchers test black-hole theories without directly observing the interior?
+
+### H. Exoplanets and the search for life
+
+71. How common are rocky planets in the potentially habitable zones of different kinds of stars?
+72. How often do planets retain atmospheres over billions of years?
+73. Which atmospheric chemicals could be signs of life—and which can arise without life?
+74. How can astronomers distinguish a genuine biosignature from confusing chemistry or instrument noise?
+75. What combination of atmospheric gases would be persuasive evidence of life?
+76. How do stellar flares affect the atmospheres and habitability of planets orbiting red dwarfs?
+77. How often do planets have stable surface water over long periods?
+78. Could life exist in subsurface oceans on icy worlds, and how could it be detected?
+79. Are Earth-like planets common, or is Earth unusual in important ways?
+80. What kind of evidence would justify saying that life has been detected beyond Earth?
+
+Astronomers have confirmed thousands of exoplanets, but determining whether any are habitable—or inhabited—is a harder and separate problem. <citation src="4"></citation>
+
+### I. Stars, planets, and the Solar System
+
+81. How do stars form, and what determines their final masses?
+82. How do planets form from disks of gas and dust around young stars?
+83. Why do planetary systems differ so much in their arrangement and composition?
+84. How do giant planets migrate, and how does that reshape planetary systems?
+85. How often do planets form in systems that later become unstable?
+86. What are the origins of water on Earth?
+87. How did the Moon form, and what can its composition tell us about early Earth?
+88. How did the Solar System’s small bodies—comets, asteroids, and icy objects—acquire their current distributions?
+89. How common are interstellar objects, and what can they reveal about other planetary systems?
+90. What processes control the long-term habitability of planets?
+
+### J. Methods, evidence, and competing explanations
+
+91. Which cosmological conclusions depend most heavily on a particular model or calibration?
+92. How can independent teams make measurements comparable when they use different instruments and assumptions?
+93. When should an unusual observation be treated as a possible discovery rather than a statistical fluctuation?
+94. How should researchers compare a complex new theory with a simpler model that already fits many observations?
+95. What does it mean for a theory to be “falsifiable” when its predictions are statistical?
+96. How can simulations be tested when the early universe cannot be recreated in a laboratory?
+97. When do disagreements between datasets indicate new physics, and when do they indicate underestimated errors?
+98. How much should a theory’s mathematical elegance matter compared with its testable predictions?
+99. What kinds of evidence would make the scientific community abandon or substantially revise the standard cosmological model?
+100. Which upcoming observations are most likely to resolve major cosmology debates, rather than merely add more data?
+
+A good next step is to pick **one module**—for example, dark matter or the Hubble tension—and expand it into a separate question list with the main camps, their evidence, and what would count as a decisive test. <citation src="1,3"></citation>

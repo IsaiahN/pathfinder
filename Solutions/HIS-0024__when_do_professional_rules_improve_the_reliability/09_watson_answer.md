@@ -1,0 +1,79 @@
+# WATSON answer: when do professional rules improve reliability, and when do they protect established interests?
+
+**Mode: `general` on the shape, `specified` on the placement of any named rule. Not `grounded`.**
+
+**Status: SIMULATED DERIVATION, not a ground reading.** This run synthesizes `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md` and `08_expert_verification_packet.md`. It is checked for internal consistency against the verbatim figure text. By the framework's own rule in *The Recursive Self-Improvement Trap* (*"the truly testable output would need to be derived from the real architecture or working the formula yourself"*) it cannot settle the question it reports on. No measurement was taken.
+
+## QUESTION
+
+Decide, in effect terms, what the Tether says about professional rules. Option A: treat professional rules as one thing and ask whether they are good or bad on average. Option B: treat the question as a union compound, unbundle the rules that change ground contact from the rules that change standing, and give each its own loop and its own verdict, never averaged. What each leads to: A aggregates slots and throws away the only signal that says where to look; B yields a per-rule partition test with a verbatim figure line and a refuter in each column, and an honest `unreachable` for any named case without a ground reading. The answer shape was bound as an ordinary term before the run (formula step "Direction").
+
+## DOMAIN CENSUS
+
+R by arity, symmetry and scale, then one line per domain with actors / currency / anchor, partition or union, and order by dependency.
+
+- **R (the residual).** A community installs a rule; afterwards claims either track the world better or the rule preserves incumbents. Arity: two or more conditions in one institution plus a ground. Symmetry: the rule-to-claim relation is ordered (production, sequence, threshold), not symmetric. Scale: first order at one claim and its checker, second order at the institution that sets the rule. Fig 9 names this a union compound, not one hard question.
+- **Domain 1, knowledge production.** Actors: researchers, claims, instruments, data. Currency: residual per claim, predictions paid or not. Anchor: experiment, measurement, outcome. Nameable anchor, yes.
+- **Domain 2, the professional institution.** Actors: editors, referees, boards, licensers. Currency: conventions, rulings, routing, allocation, refresh. Anchor: the same ground, but the channel can die (Fig 10 :24). Nameable anchor, yes; the failure is the anchor becoming a party.
+- **Domain 3, verification and outside frames.** Actors: independent searchers, rival schools, newcomers, public. Currency: independence, imports, disagreement. Anchor: the ground triangulated across low-overlap frames. Nameable anchor, yes.
+- **Domain 4, the habitat.** Actors: everything in contact with the residual, funders, journals, instruments, careers. Currency: introduction, not exclusion; contact cascades. Anchor: the ground, which is not the habitat. Nameable anchor, yes.
+- **Partition or union:** union (Fig 9 :54). Unbundle before searching.
+- **Order by dependency:** refuse before mint (formula step 2); describe the residual before naming a frame (Fig 9 :27-28); settle first order before composing second order (Fig 12 :104).
+
+Strain test: Fig 2 :40 (correlation disqualifies a verdict) and Fig 2 :41 (correlation is efficient for a convention) strained when read as one claim. Re-census: different quantities, verdict about the world versus convention about shared meaning. Not strained. Fig 10 :45 (the seat authors conventions) and Fig 10 :47 (a convention that decides an outcome has stopped being one) resolved the same way.
+
+## TETHER (primary, verbatim, per domain)
+
+Cited against `FRAMEWORK/reference/03-FIGURES_TEXT.md`. Quotes are verbatim. Each domain keeps its own verdict; none is averaged.
+
+- **Domain 1, knowledge production (`triangulated`).** Fig 1 :19 "The residual is indexed by object slot, not aggregated." Fig 2 :29 "An anchor is whatever settles the question and does not change its answer because of what any frame thinks." Together: reliability is per claim and is measured against an unmoved anchor. Low overlap between a measurement rule and an anchor definition.
+- **Domain 2, the professional institution (`triangulated`).** Fig 10 :47 "a convention that decides an outcome has stopped being one" and Fig 2 :47 "A ground listed as one of the parties has already become a frame." Together: a rule improves reliability while it stays a convention and becomes interest-protecting when it becomes the ground. Fig 10 :61 "And standing is a stake that survives the outcome it was earned on." governs the object that carries the interest. Fig 10 :24 "the ground does not decay, the channel does" governs the failure mode where the rule leaves the institution intact but kills the reading.
+- **Domain 3, verification (`triangulated`).** Fig 2 :40 "disqualifying for a verdict: agreement about the world is worthless when the agreeing frames share an evidence pool" and Fig 7 :35 "A room's agreement is variation, not a verdict. Selection between rooms is where the ground votes." Fig 2 :42 "Buy independence in proportion to the cost of being wrong." Together: more peers from one pool cannot substitute for an independent frame.
+- **Domain 4, habitat (`single-source` for the figure wording).** Fig 11 :61 "The seat's power is asymmetric. Introduction is available; exclusion is not." and Fig 11 :66 "Isolation is not removal of the habitat. It is substitution of one habitat for another." A rule can introduce actors, cannot subtract contact, and a closed shop substitutes a habitat it did not choose. Both clauses are from one figure; a distinct corroborating route is Fig 6 :14 "the only operator that moves the wall", which is about imports.
+- **Union and structure (`triangulated`).** Fig 9 :54 "And when the split lands on a union rather than a partition, unbundle before you search again." Fig 12 :117 "isomer. Same atoms, different bond, different substance. The difference is invisible in the formula and decisive in the behaviour." Two regimes are isomers over a shared institutional atom set.
+- **Provenance (`triangulated`).** Fig 8 :51 "Convergent derivation and adopted import look identical in the contents. Only the record of where each came from separates them" and Fig 10 :65 "a perfectly provenanced wrong ruling is an unimpeachable record of nothing, and it is still to be corrected." Provenance is necessary and insufficient.
+- **`gap` check.** No domain ends in `gap`: every domain has a governing line after re-census. What is `unreachable` is the placement of a named case, which needs a ground reading this run did not perform (Fig 8 :39 "So a search that finds nothing is never a proof of absence."). That is a verdict, not a silence.
+
+## WORLD (secondary sources read 2026-11-23)
+
+World sources corroborate only. The figures decide. Overlap with other sources is stated, not hidden.
+
+- **Field: biomedicine / metascience.** Ioannidis JPA, "Why Most Published Research Findings Are False", PLOS Medicine, 2005. Quote: "Adherence to common standards is likely to increase the proportion of true findings." Also: "Prestigious investigators may suppress via the peer review process the appearance and dissemination of findings that refute their findings, thus condemning their field to perpetuate false dogma." Prediction: a standard that reduces bias improves column A; prestige plus peer review can produce column B. **corroborates** both columns. Overlap: shares the modern publishing and metascience pool with the COS and peer-review sources.
+- **Field: metascience / psychology.** Center for Open Science, "Registered Reports" (web page, 2026), with a quote attributed to Chris Chambers. Quote: "Because the study is accepted in advance, the incentives for authors change from producing the most beautiful story to the most accurate one." Prediction: a rule that fixes the decision before results are known changes contact and carries provenance. **corroborates** column A. Overlap: same metascience pool as Ioannidis.
+- **Field: sociology of science.** Wikipedia summary of Merton (1942) and Mitroff (1974), "Mertonian norms", 2026 page version. Quote: "Organized skepticism is countered by 'Organized dogmatism': 'Scientists invest their careers in promoting their own most important findings, theories, or innovations.'" Prediction: career investment in prior findings is the standing stake in Fig 10 :61. **corroborates** column B. Overlap: distinct field from metascience, low.
+- **Field: history of science.** Matthew Wills, "The History of Peer Review Is More Interesting Than You Think", JSTOR Daily, 2024, summarizing Moxham and Fyfe, The Historical Journal, 2018. Quote: refereeing was "more about institution-building (and fortification) than what we know as peer reviewing today" and served "to award prestige to members of the nascent profession of natural scientists." Prediction: the historical origin of refereeing was partly interest-protection, later reformed to rise above cronyism. **corroborates** the coexistence of both columns. Overlap: low with metascience, moderate with the peer-review page.
+- **Field: economics / law.** Wikipedia, "Occupational licensing", 2026 page version. Quote: "licensing boards frequently enact arbitrary standards that hinder competition while also turning a blind eye towards unethical behavior by incumbent practitioners." Also: in midwifery, licensing "led to substantial reductions in maternal mortality." Prediction: one instrument produces both rent protection and improved outcomes. **corroborates** the union reading. Overlap: low with the other sources.
+- **Field: institutional studies of science.** Wikipedia, "Peer review", 2026 page version. Quote: "A particular concern in peer review is 'role duality' as people are in parallel in the role of being an evaluator and being evaluated." Also: "Peer review methods are used to maintain quality standards, improve performance, and provide credibility." Prediction: both columns in one mechanism. **corroborates** the union. Overlap: moderate with the JSTOR history source and the metascience sources.
+- **Field: metatheory / essays.** Isaiah N, "The Library of Babel: Locating The Book of Books", adventuresinml Substack, 2026. Quote: "Perhaps your problem was a bundle or conflation of several problems masquerading as one? You will need to search all of those problems individually." Prediction: unbundle before answering. **corroborates** Fig 9 :54. Overlap: high with the framework, so weak independent weight.
+- **Field: validation / prestige.** Isaiah N, "The Recursive Self-Improvement Trap", adventuresinml Substack, 2026. Quote: "Prestige can fund an action. It can give an action a budget to be tried. But it cannot settle an action. Only the ground can settle it." Prediction: credentials are a budget filter, not a verdict. **corroborates** Fig 9 :60. Overlap: high with the framework.
+- **Field: instrument discrimination.** Isaiah N, "The Hard Problem is About Source", adventuresinml Substack, 2026. Quote: "If several paths create the same behavior, then behavior is a projection with lossy information." Prediction: a rule's label cannot discriminate ground-keeping from rent-protection; a better instrument is owed. **corroborates** the shape-not-a-name limit. Overlap: high with the framework.
+
+No world source conflicts with the figure verdict; the conflict rule was never triggered. Four of the nine world sources (Ioannidis, COS, JSTOR history, peer review page) share parts of the modern publishing / metascience pool, so their agreement counts as one witness with several names, not several. The three framework essays share an author with the figures and carry little independent weight.
+
+## VERDICT (from the figures)
+
+Professional rules improve reliability when they keep the ground reachable, buy independence in proportion to the cost of being wrong, carry provenance, stay conventions rather than deciding outcomes, and resolve the residual per claim. They protect established interests when the institution becomes the ground, a convention decides an outcome, standing earned on an earlier result is shielded, or the checkers share one evidence pool. The two regimes are isomers over a shared institutional atom set and can coexist in one body, so verdicts are per rule and are never netted. This is a `general` shape. Placing any named rule in a column is `specified` and ungrounded until a case-level measurement exists. The framework returns the grammar, not a verdict on a profession.
+
+- **cost if wrong:** bounded and locatable. The packet states mode, three checkable sub-claims and four refuters before the conclusion, so an error is findable rather than invisible. The real cost is spending the independence of outside readers by sending them the whole framework before their verdict; Fig 2 :42 prices that ("Buy independence in proportion to the cost of being wrong."). That cost is avoidable by leading with the partition test and its refuter.
+- **undoable:** yes. A failed sub-claim can be withdrawn without touching the other two or the domain census. A case placement can be superseded by a ground reading. No atom has to be invented and no historical verdict is permanently committed.
+- **reversed by:** a ground reading, not agreement. Specifically: a final-arbiter institution shown by independent held-out measurement to track the world better than a low-correlation frame; an interest-protecting rule shown to raise the refutation rate of incumbents' claims; correlated checkers whose agreement survives independent replication; a rule that improves per-claim prediction without changing contact; or a demonstration that both effects are one residual on one slot. Until one of these fires, the verdict stands as `candidate`.
+
+## Sources
+
+- [The figures, as text (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\03-FIGURES_TEXT.md)
+- [Figures README, canonical (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\FIGURES_README_canonical.md)
+- [THE FORMULA (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\figures\THE_FORMULA.md)
+- [THE SEAT MAP Field Guide (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\figures\THE_SEAT_MAP_Field_Guide_amended.md)
+- [Why Most Published Research Findings Are False](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124)
+- [Registered Reports, Center for Open Science](https://www.cos.io/initiatives/registered-reports)
+- [Center for Open Science, contact page](https://www.cos.io/contact-us)
+- [Mertonian norms](https://en.wikipedia.org/wiki/Mertonian_norms)
+- [Occupational licensing](https://en.wikipedia.org/wiki/Occupational_licensing)
+- [Peer review](https://en.wikipedia.org/wiki/Peer_review)
+- [The History of Peer Review Is More Interesting Than You Think](https://daily.jstor.org/the-history-of-peer-review-is-more-interesting-than-you-think/)
+- [The Library of Babel: Locating The Book of Books](https://adventuresinml.substack.com/p/the-library-of-babel-locating-the)
+- [The Recursive Self-Improvement Trap](https://adventuresinml.substack.com/p/the-recursive-self-improvement-trap)
+- [The Hard Problem is About Source](https://adventuresinml.substack.com/p/the-hard-problem-is-about-source)
+- [Society for Social Studies of Science](https://www.4sonline.org/)
+- [Professions and Professionalism](https://journals.oslomet.no/pp)
+- Folder material synthesized: `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md`, `08_expert_verification_packet.md`.

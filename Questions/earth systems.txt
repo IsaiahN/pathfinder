@@ -1,0 +1,133 @@
+Here are **100 unresolved Earth-system science questions**, grouped into ten modules. They treat Earth as a coupled system: changes in the atmosphere, oceans, ice, land, ecosystems, and human systems can interact, sometimes through feedbacks or abrupt shifts. A “tipping point” is a useful research concept, but its meaning and application vary across systems; thresholds, timing, and interactions are often uncertain, so the questions below don’t assume every major change is a tipping point. <citation src="1,4,5"></citation>
+
+## 1. Earth as a coupled system
+
+1. Which interactions among atmosphere, oceans, ice, land, and ecosystems most strongly shape Earth’s long-term behavior?
+2. Which Earth-system processes are still studied too separately to understand their combined effects?
+3. How do fast processes—storms, fires, and seasonal cycles—interact with slow processes such as soil formation, ice-sheet change, and ocean circulation?
+4. How much can local changes in land or water use affect regional and global climate?
+5. Which feedbacks stabilize the Earth system, and which amplify change?
+6. Can researchers identify the most important links in the Earth system without oversimplifying the rest?
+7. How do human activities alter natural feedbacks, rather than simply add external pressure?
+8. Which Earth-system interactions are strongest at local, regional, continental, or global scales?
+9. How do climate variability and long-term human-driven change combine to produce observed trends?
+10. What does it mean to define a “safe” or “stable” Earth system when natural conditions have always varied?
+
+## 2. Climate sensitivity, variability, and extremes
+
+11. How much will global temperature rise in response to a given increase in greenhouse gases?
+12. How will climate sensitivity change as ice, clouds, forests, and oceans respond to warming?
+13. Why do climate models differ in how they represent clouds and their effects on warming?
+14. How will warming change the frequency and intensity of compound extremes, such as heat combined with drought?
+15. Can researchers reliably distinguish human-caused changes in extreme events from natural variability?
+16. How will regional rainfall patterns shift, and how confident can projections be at the scale communities need?
+17. How will climate change alter the strength, location, and timing of monsoons?
+18. Can a region experience long-term drying even while global average rainfall increases?
+19. How do aerosol pollution and greenhouse gases interact to affect regional climate?
+20. Which climate extremes are poorly represented in models because they are rare, local, or compound?
+
+## 3. Oceans and circulation
+
+21. How will global warming and freshwater from melting ice affect major ocean circulation systems?
+22. How stable is the Atlantic Meridional Overturning Circulation, and what observations best track its long-term changes?
+23. How will changes in ocean circulation affect rainfall, temperatures, and ecosystems far from the ocean?
+24. What determines whether an ocean circulation change is gradual, abrupt, or reversible?
+25. How will warming, acidification, and declining oxygen interact in different ocean regions?
+26. How will changing ocean currents redistribute heat, nutrients, and carbon?
+27. How much carbon can the ocean continue to absorb as it warms and its chemistry changes?
+28. Could changes in plankton and marine food webs substantially alter the ocean’s role in the carbon cycle?
+29. How will sea-level rise vary regionally as ocean circulation, gravity, and land movement change?
+30. Which ocean changes are approaching thresholds, and which are better described as continuing trends?
+
+## 4. Ice, sea level, and frozen regions
+
+31. How quickly will Greenland and Antarctic ice loss raise sea levels under different warming pathways?
+32. Which processes control the stability of ice shelves that restrain glaciers?
+33. Can small changes in ocean heat trigger large or persistent changes in ice-sheet flow?
+34. How much sea-level rise is already committed because ice sheets respond slowly?
+35. How will thawing permafrost release carbon dioxide and methane, and how will those releases vary by place?
+36. Could thawing permafrost destabilize buildings, roads, pipelines, and other northern infrastructure faster than expected?
+37. How will shrinking sea ice affect Arctic ecosystems, weather, and human activity?
+38. What observations would give early warning of a major change in a glacier or ice sheet?
+39. How will mountain glaciers’ retreat affect water supplies for communities and agriculture?
+40. Which ice-related changes can partly recover if temperatures stabilize, and which would take centuries or longer to reverse?
+
+## 5. Forests, ecosystems, and biodiversity
+
+41. How will heat, drought, fire, pests, and land conversion interact to affect forest survival?
+42. Under what conditions can forests shift from absorbing carbon to releasing it?
+43. How close are major forests, including the Amazon and boreal forests, to persistent shifts in structure or function?
+44. How do biodiversity losses affect ecosystem resilience, carbon storage, and recovery after disturbance?
+45. Which species or ecological relationships are essential for maintaining ecosystem functions?
+46. How quickly can species move or adapt as climate zones shift?
+47. How will climate change alter fire regimes, and how much can land management influence them?
+48. Do ecosystems recover gradually after disturbance, or can they settle into a different stable state?
+49. How can scientists tell whether an ecosystem’s decline is driven chiefly by climate, direct human pressure, or their interaction?
+50. Which ecological changes are reversible through restoration, and which require different expectations or adaptation?
+
+## 6. Soils, water, and land systems
+
+51. How will warming and changes in rainfall affect soil carbon storage?
+52. How quickly can soil degradation reduce crop productivity, water retention, and ecosystem resilience?
+53. When does drought become a persistent shift in water availability rather than a temporary event?
+54. How do groundwater depletion and changing rainfall interact to affect rivers and wetlands?
+55. Can soil restoration meaningfully increase carbon storage while also improving food production and water quality?
+56. How will climate change alter erosion, landslides, and sediment flows?
+57. Which water systems are most vulnerable to simultaneous pressure from warming, extraction, pollution, and population growth?
+58. How will changes in snowpack affect river flow and water supply across seasons?
+59. Can wetlands and peatlands remain carbon sinks as temperatures rise and hydrology changes?
+60. How should water be managed when past patterns no longer reliably predict future supply?
+
+## 7. Food, agriculture, and land use
+
+61. How will heat, drought, floods, pests, and soil change combine to affect major crops?
+62. Which crops and farming systems are most likely to adapt successfully to future climate conditions?
+63. How can agriculture reduce emissions without shifting environmental harm to other regions?
+64. Could changes in crop yields trigger land conversion that worsens biodiversity loss and climate change?
+65. How do irrigation, fertilizer use, and agricultural runoff affect regional water and climate systems?
+66. How resilient are global food supplies to simultaneous harvest failures in major producing regions?
+67. Would diversified crops and farming systems improve resilience enough to offset possible yield or cost trade-offs?
+68. How will changes in pollinators, pests, and soil organisms affect food production?
+69. What land-use changes can reduce climate risk while protecting food security and ecosystems?
+70. How should food systems prepare for climatic extremes that are too rare to estimate confidently from historical records?
+
+## 8. Tipping points, thresholds, and early warning
+
+71. What precise evidence should qualify a change as a tipping point rather than a gradual trend or abrupt event?
+72. How can researchers estimate thresholds in systems that cannot be experimentally pushed through them?
+73. Can early-warning signals—such as slower recovery after disturbances—reliably indicate an approaching threshold?
+74. How often do real Earth systems show those warning signals, and when do they fail?
+75. Can a threshold move as the climate, ecosystem, or human pressures around a system change?
+76. How should researchers estimate tipping risks when observations are short and geological evidence is incomplete?
+77. Could one major shift trigger changes in other parts of the Earth system?
+78. Are tipping cascades physically plausible at the global scale, and which links in proposed chains are well supported?
+79. Can a system cross a threshold gradually, with impacts appearing only much later?
+80. How should decision-makers act when a potentially irreversible risk is plausible but its timing and probability are uncertain? <citation src="1,4,5"></citation>
+
+## 9. Human infrastructure, society, and adaptation
+
+81. How will climate extremes interact with power grids, transport, water, communications, and health systems?
+82. Which infrastructure failures could cascade across regions or sectors?
+83. How should cities adapt when heat, flooding, water stress, and sea-level rise occur together?
+84. Which adaptation measures reduce risk in the long term, and which may create new vulnerabilities?
+85. How do housing, income, health, and access to services shape who bears climate impacts?
+86. Can early warning systems and local knowledge reduce harm even when forecasts remain uncertain?
+87. How should communities plan for climate conditions unlike anything in their historical experience?
+88. When does moving away from high-risk locations become safer than continued protection or reconstruction?
+89. How can climate adaptation avoid shifting risk to neighboring communities or future generations?
+90. What kinds of governance can coordinate local, national, and international responses to Earth-system risks?
+
+## 10. Observation, modeling, and decision-making
+
+91. Which missing observations most limit understanding of interactions among atmosphere, ocean, ice, land, and ecosystems?
+92. How can satellites, field measurements, historical records, and Indigenous and local knowledge be combined responsibly?
+93. Which Earth-system processes are most poorly represented in global models?
+94. How can models represent feedbacks between ecosystems, climate, and human land use without losing useful detail?
+95. How should researchers compare model projections when they disagree about the probability, timing, or severity of change?
+96. Can machine learning reveal useful patterns in Earth-system data, and how can scientists guard against misleading correlations?
+97. What observations would most improve forecasts at the scales where infrastructure and land-use decisions are made?
+98. How should uncertainty be communicated so it is neither overstated nor mistaken for lack of risk?
+99. What indicators should be monitored to detect changes early enough for practical action?
+100. How can societies decide which risks to prevent, which to prepare for, and which to accept when resources are limited?
+
+A strong next module to expand would be **tipping points and thresholds**: it connects climate, oceans, ice, ecosystems, and the practical problem of deciding what to do before a change is certain. <citation src="1,4"></citation>

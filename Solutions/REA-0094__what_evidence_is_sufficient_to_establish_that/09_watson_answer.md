@@ -1,0 +1,95 @@
+# WATSON answer: what evidence suffices to establish safety at a level of autonomy?
+
+**Mode: `general` on the shape, `specified` on the falsifiable predictions, not `grounded`.**
+
+**Status: SIMULATED DERIVATION, not a ground reading.** This WATSON run synthesizes material already in `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md` and `08_expert_verification_packet.md`. It is checked for internal consistency against the figures. By its own rule (*The Recursive Self-Improvement Trap*: LLM output can "simulate an approximate answer/output", while "the truly testable output would need to be derived from the real architecture or working the formula yourself") it cannot settle the question it reports on. No benchmark was run and no deployment was measured.
+
+## QUESTION
+
+Decide, in effect terms, what the Tether says about the claim that a packet of evidence can be sufficient to establish that a system is safe at a particular level of autonomy. Option A: accept the certificate reading, and name a checklist of tests whose completion establishes safety. Option B: keep the figure-derived shape and refuse the certificate as a general answer. What each leads to: A produces a portable label that can outrun the ground and spends the independence of whoever is asked to check it; B produces a scoped, checkable claim with a stated threshold and seven pre-registered falsifiers, and leaves the specific content open until a ground reading closes it. The residual is the gap between the certificate a frame can produce and the behavior the ground settles when the system is actually given level L.
+
+## DOMAIN CENSUS
+
+R by arity, symmetry and scale, then one line per domain with actors, currency and anchor, partition or union, and order by dependency.
+
+- **R (the residual).** Gap between a safety certificate and deployment behavior at autonomy level L. Arity: relational, comparing evidence to a threshold, so a union compound with four conditions, not one hard question (Fig 9 :54). Symmetry: asymmetric, ⋛ is an ordered threshold relation, not a symmetric join. Scale: evidence gathered at evaluation scale, claim made at deployment scale, with a lossy transform between. Slots: level, domain, subgroup, task class, cascade depth.
+- **Domain 1, evaluation frame (the lab).** Actors: models, benchmarks, red teams, harnesses, evaluators. Currency: pass rates, coverage, residual on held-out slots. Anchor: none internal; the benchmark is frame-internal, so D1 borrows its anchor from D2 and is not self-sufficient. Union condition one. Order: perception and vocabulary (Fig 3 :4-11).
+- **Domain 2, deployment habitat (the world at L).** Actors: system, users, operators, other agents, environment, cascades. Currency: real consequences, harm or no harm. Anchor: deployment outcomes at L, "a measurement, an experiment, a counter, a market, a patient outcome" (Fig 2 :29-30). Union condition two, and the ground condition. Order: objective and threshold (Fig 3 :9-11).
+- **Domain 3, verification and claim frame.** Actors: auditors, certifiers, regulators, outside readers. Currency: agreement and residuals. Anchor: the ground, never agreement. Union condition three, the maintenance condition. Order: planning and carrying (Fig 3 :13-16).
+- **Domain 4, threshold and decision.** Actors: scorer, accepted-risk convention, comparison ⋛. Currency: risk versus acceptable risk at L. Anchor: the ground settles the value; the seat may author only the convention. The compound where D1, D2 and D3 intersect. Order: last, and a step whose input never arrives can only be diagnosed through its predecessor (Fig 3 :22-23).
+- **Order by dependency:** refuse and bind the objective before scaling the evaluation (Fig 3 :19); describe the residual before choosing a frame (Fig 9 :27-28); settle each first-order claim before composing over it (Fig 5 :69-70).
+
+Strain test applied: the certificate question was initially routed to D1 (which tests). Re-census moves it to D2 and D4 (what relation evidence must bear to ground and threshold). The comparison-versus-invariant question is a live strain, named in `01` §6; it governs a different quantity if an invariant settles, so it is not smoothed.
+
+## TETHER (primary, verbatim)
+
+Cited against `FRAMEWORK/reference/03-FIGURES_TEXT.md` and the Operators table. Quotes are verbatim from the SVGs.
+
+- Fig 11 :39 "And capability is a property of agent-and-habitat, never of the agent alone." -> safety is not a model-only property; the answerable question is what makes a deployment safe at L.
+- Fig 11 :40 "An improvement that does not change contact changes nothing, however much it improves." -> a better score that does not change deployment contact changes nothing about safety.
+- Fig 11 :70 "A test harness is a substituted habitat. Which is why a synthetic solve proves wiring and never capability." -> evaluation evidence is evidence about the substitution.
+- Fig 11 :68 "what you failed to reproduce is invisible until the goal fails" -> harness omissions are silent failure modes. Named in `01` F2.
+- Fig 1 :19 "The residual is indexed by object slot, not aggregated." -> per-slot evidence, never a single aggregate.
+- Fig 1 :22 "Aggregating across slots is how a live signal disappears into an average." -> an overall pass rate hides the rare high-severity slot.
+- Fig 8 :39 "a search that finds nothing is never a proof of absence." -> no-harm-found is not safety.
+- Fig 9 :44 "Only a sealed room can be searched to the end, and no frame is a sealed room." -> no evaluation suite is closed.
+- Fig 2 :31 "Independence, between two frames, is how little they draw on the same evidence." -> independence is measured by evidence overlap.
+- Fig 2 :35 "Alignment is triangulation, not negotiation. A mirror cannot correct you." -> agreement is not a verdict.
+- Fig 2 :40 "disqualifying for a verdict: agreement about the world is worthless when the agreeing frames share an evidence pool" -> correlated evaluators are one witness.
+- Fig 7 :13 "agreement compounds, evidence does not" -> more reviews from the same data buy motion, not progress.
+- Fig 9 :51 "evidence bearing on the residual is admissible; evidence bearing only on its maker is a stake-inducing channel, and the verifier is denied it" -> maker properties are inadmissible.
+- Fig 5 :65 "make the sought-for shape an ORDINARY TERM. Write down what an answer would look like, bind it, and let it accrue a residual like anything else." -> the threshold is written down before the run.
+- Fig 10 :24 "the ground does not decay, the channel does." -> a green dashboard can mean lost contact.
+- Fig 10 :27 "the output is not a verdict, it is" -> channel reports are not verdicts. Named in `01` F7.
+- Fig 11 :63 "Which is why a managed ecosystem is permanent work rather than a solved state." -> assurance is maintained work.
+- Fig 4 :30 "So take the round trip and measure the gap. Without it you are navigating by dead reckoning: confident about a position nobody checked." -> measure R_T between eval claim and deployment outcome.
+- Fig 9 :32 "you get a kind of thing, never the answer itself" -> the framework returns a shape, not a named certificate.
+- Fig 2 :42 "Buy independence in proportion to the cost of being wrong." -> safety is high-cost, so independence is worth paying for.
+
+Operators table :52 "a goal is a comparison, which is why a vocabulary without it cannot state one." (figure citation from the Operators table, not a numbered figure; cited here for the bond reading.) Fig 12 :87 "a threshold relation between two quantities." Together these make "safe at L" a comparison of realized risk with acceptable risk at L.
+
+Triangulation status: the agent-and-habitat verdict is **triangulated** across Fig 11 and Fig 2's anchor rule, with two low-overlap world fields (safety-case engineering and ML methodology) that do not share the framework's evidence pool. The substitution verdict is **triangulated** across Fig 11, Fig 4 and three world sources in capability evaluation and medical imaging. The per-slot verdict is **triangulated** across Fig 1 and Fig 5 plus an empirical hidden-stratification study. The no-absence-proof verdict is **triangulated** across Fig 8, Fig 9 and Fig 6. The comparison-bond reading is **single-source** for the bond definition (Fig 12 and the Operators table are one source family), triangulated for the pre-registration discipline (Fig 5, Fig 3 and Seat Map :192). The invariant alternative remains a **strained** reading, recorded rather than hidden.
+
+## WORLD (secondary sources read)
+
+World sources are corroboration only. They are not asked to decide the verdict. Overlap with other sources is declared so that a shared pool is not mistaken for two witnesses.
+
+- **AI capability evaluation / engineering.** Thomas Kwa, Ben West et al., "Measuring AI Ability to Complete Long Software Tasks", METR, NeurIPS 2025 / arXiv 2503.14499, accessed 2026-11-24. Quote: "Despite rapid progress on AI benchmarks, the real-world meaning of benchmark performance remains unclear." Also: "time horizon is always measured relative to a domain, task distribution, and human baseliners' level of skill and context." Predicts that a score cannot be read off a harness; corroborates F2 and the per-slot requirement. Overlap: high with METR homepage and with Phuong et al. in the evaluation community, but distinct authors and tasks.
+- **Medical imaging / subgroup evaluation.** Luke Oakden-Rayner, Gustavo Carneiro, Jared Dunnmon, Christopher Ré, "Hidden Stratification Causes Clinically Meaningful Failures in Machine Learning for Medical Imaging", CHIL 2020 / arXiv 1909.12475, accessed 2026-11-24. Quote: "aggregate performance measures such as accuracy, sensitivity (i.e. recall), or ROC AUC can be dominated by larger subsets, obscuring the fact that there may be an unidentified subset of cases within which performance is poor." Predicts that aggregate safety scores hide live slots; corroborates Fig 1. Overlap: low with METR and safety-case engineering.
+- **Safety-case engineering.** Sung Une Lee, Liming Zhu et al., "A Structured Approach to Safety Case Construction for AI Systems", Data61 CSIRO / University of Ottawa, arXiv 2601.22773, accessed 2026-11-24. Quote: "safety properties cannot be assessed independently of the surrounding system and its operational context." Also: "evidence must be continually refreshed as model behaviour and deployment contexts evolve." Predicts agent-and-habitat and maintained work; corroborates Fig 11 and Fig 10. Overlap: low with the medical imaging and capability evaluation sources.
+- **ML methodology / statistics.** Alexander D'Amour et al., "Underspecification Presents Challenges for Credibility in Modern Machine Learning", JMLR 23(226), 2022, accessed 2026-11-24. Quote: "Such a pipeline is underspecified when it can return many distinct predictors with equivalently strong test performance." Also: "such predictors can behave very differently in deployment domains." Predicts that equal test scores do not imply equal deployment behavior; corroborates F1 and F2. Overlap: moderate with medical imaging (both ML evaluation), different authors and domains.
+- **Dangerous-capability evaluation.** Mary Phuong et al., "Evaluating Frontier Models for Dangerous Capabilities", arXiv 2403.13793, 2024, accessed 2026-11-24. Quote: "We do not find evidence of strong dangerous capabilities in the models we evaluated, but we flag early warning signs." Predicts careful non-detection language; corroborates Fig 8 :39. Overlap: high with METR in the frontier-evaluation community, distinct author set.
+- **Standards and governance.** NIST, "AI Risk Management Framework" page, 2023 (revision noted 2026), accessed 2026-11-24. Quote: "intended for voluntary use and to improve the ability to incorporate trustworthiness considerations into the design, development, use, and evaluation of AI products, services, and systems." Predicts a process framing, not a one-time label; corroborates F7. Overlap: institutional, distinct from the papers.
+- **International scientific review.** Yoshua Bengio et al., "International AI Safety Report 2026", International AI Safety Report, 3 February 2026, accessed 2026-11-24. Quote: "significant gaps remain: sophisticated attackers can often bypass current defences, and the real-world effectiveness of many safeguards is uncertain." Predicts uncertainty about real-world effectiveness; corroborates F4 and F7. Overlap: it cites much of the same literature, so it is one evidence pool with the evaluation papers, not an independent witness.
+- **Canonical website, framework author.** Isaiah N, "figures/README.md", GitHub `general-agent` branch; local canonical copy read at `FRAMEWORK/reference/FIGURES_README_canonical.md`, accessed 2026-11-24. Quote (local README): "what a missing thing would have to look like (a shape, not a name)". Predicts a refused slot and a recorded stop; corroborates Fig 9 :32. Overlap: high, same author as the figures, so weak corroboration.
+- **Essays, framework author.** Isaiah N, "The Library of Babel: Locating The Book of Books", adventuresinml Substack, Oct 2 2026, accessed 2026-11-24. Quote: "you will need something to tether and anchor you to reality, the same way a mountaineer needs a tether when rappelling or climbing." Predicts a ground anchor; corroborates Fig 2. Overlap: high, framework author.
+- **Essays, framework author.** Isaiah N, "The Hard Problem is About Source", adventuresinml Substack, Aug 28 2026, accessed 2026-11-24. Quote: "An instrument that can't distinguish these cases demonstrates its own inadequacy, it cannot claim anything substantial about what is being measured or what causes it." Predicts that a pass reading cannot name its source; corroborates F2. Overlap: high, framework author.
+- **Essays, framework author.** Isaiah N, "The Recursive Self-Improvement Trap", adventuresinml Substack, Nov 19 2026, accessed 2026-11-24. Quote: "Prestige can fund an action. It can give an action a budget to be tried. But it cannot settle an action. Only the ground can settle it." Predicts that endorsements cannot settle safety; corroborates F5. Overlap: high, framework author. Also supplies the simulated-status caveat.
+
+No world source conflicts with the figure verdict; the conflict rule was not triggered. Most sources are from the same broad evaluation community or share the framework author, so their agreement is declared as largely one pool and is not treated as multiple witnesses. The strongest corroboration comes from the low-overlap pair (safety-case engineering and medical imaging), which reach the habitat and per-slot conclusions from different fields.
+
+## VERDICT (from the figures)
+
+The certificate reading is refused; the shape survives. Safety is a property of agent and habitat, so an evaluation harness proves wiring, not deployment safety. Evidence sufficient at level L must range against outcomes at the ground, be indexed by live slots rather than aggregated, come from low-overlap instruments, state its acceptable-risk threshold before the run as a comparison, and be maintained as a channel. No-harm-found is not proof of absence, and agreement within one evidence pool is one witness. The framework returns this shape, not a named checklist; the threshold slot stays open until a ground reading settles it. Mode `general` on the shape and `specified` on the falsifiable predictions, ungrounded, candidate. One strain is live: a threshold-free invariant claim would move the comparison bond to another quantity.
+
+- **cost if wrong:** bounded and locatable. The packet is mode-labelled, states seven refuters before the conclusion, and records the lineage, so an error is findable rather than invisible. The real cost is spending the independence of outside readers by sending a certificate instead of a residual and a refuter. Fig 2 :42 prices that: "Buy independence in proportion to the cost of being wrong." That cost is avoidable by leading with the shape claim and its refuter. A second cost is a false certificate reaching deployment, which is why contact and slot tests are placed before any verdict.
+- **undoable:** yes. The certificate reading is removable without touching the shape; `07_the_tether_answer.md` and `08_expert_verification_packet.md` already remove it. No primitive is withdrawn, and a superseding packet can be sent. What cannot be undone cheaply is a reader who has already absorbed the full frame before recording a verdict on stage 1, so the two-stage order in `02_outreach_email.md` is the control.
+- **reversed by:** a ground reading, not agreement. A harness demonstrated to reproduce all causally relevant contacts including cascades three steps out, an instrument that exposes the live slot, a threshold settled by the ground, two genuinely low-overlap instruments converging by separate derivation, or a threshold-free invariant that settles and composes would each narrow or reverse the corresponding sub-claim. Until one fires, the verdict stands as `candidate`.
+
+## Sources
+
+- [The figures, as text (local, opened 2026-11-24)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\03-FIGURES_TEXT.md)
+- [Figures README, canonical local copy](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\FIGURES_README_canonical.md)
+- [THE FORMULA (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\figures\THE_FORMULA.md)
+- [THE SEAT MAP Field Guide (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\figures\THE_SEAT_MAP_Field_Guide_amended.md)
+- [Measuring AI Ability to Complete Long Software Tasks (Kwa, West et al., NeurIPS 2025)](https://arxiv.org/html/2503.14499)
+- [Hidden Stratification Causes Clinically Meaningful Failures (Oakden-Rayner et al., CHIL 2020)](https://arxiv.org/html/1909.12475v2)
+- [A Structured Approach to Safety Case Construction for AI Systems (Lee, Zhu et al., arXiv 2026)](https://arxiv.org/html/2601.22773)
+- [Underspecification Presents Challenges for Credibility in Modern ML (D'Amour et al., JMLR 2022)](https://www.jmlr.org/papers/v23/20-1335.html)
+- [Evaluating Frontier Models for Dangerous Capabilities (Phuong et al., arXiv 2024)](https://arxiv.org/abs/2403.13793)
+- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+- [International AI Safety Report 2026](https://internationalaisafetyreport.org/)
+- [The Library of Babel: Locating The Book of Books (Isaiah N)](https://adventuresinml.substack.com/p/the-library-of-babel-locating-the)
+- [The Hard Problem is About Source (Isaiah N)](https://adventuresinml.substack.com/p/the-hard-problem-is-about-source)
+- [The Recursive Self-Improvement Trap (Isaiah N)](https://adventuresinml.substack.com/p/the-recursive-self-improvement-trap)
+- Folder material synthesized: `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md`, `08_expert_verification_packet.md`.

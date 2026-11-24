@@ -1,0 +1,137 @@
+Here are **100 unresolved research questions about the origin of life**, organized into ten modules. They span prebiotic chemistry, geology, planetary science, and evolutionary theory. The big competing research programs include **RNA-first**, **metabolism-first**, **membrane/protocell-first**, and hybrid scenarios—but these are not always mutually exclusive. A central challenge is explaining how chemistry could link together replication, energy use, and compartmentalization, not just how one potentially useful molecule formed. <citation src="2"></citation>
+
+## 1. What counts as “life,” and what counts as its origin?
+
+1. What minimum properties must a system have to count as alive?
+2. Did life begin in one identifiable transition, or through many gradual steps from chemistry to biology?
+3. What is the simplest system that can undergo Darwinian evolution?
+4. Must the first life have had genes, metabolism, a boundary, or some combination?
+5. Did the first evolving system consist of individual molecules, chemical networks, or compartments?
+6. Can a system evolve before it has genes in the modern sense?
+7. How can researchers distinguish a genuinely evolving chemical system from a reaction that merely repeats?
+8. Is there a clear scientific boundary between prebiotic chemistry and the first life?
+9. Did “life” begin only when a system could reproduce independently, or earlier when chemical selection began?
+10. Could there be multiple scientifically reasonable definitions of life, each useful for a different question?
+
+## 2. Early Earth: where and when?
+
+11. When did Earth first have environments capable of supporting prebiotic chemistry?
+12. How soon after Earth formed could the first life have appeared?
+13. Was the early Earth’s surface continuously habitable, or did impacts repeatedly disrupt it?
+14. What were the atmosphere’s composition and pressure during the relevant period?
+15. How much oxygen, if any, was present before oxygen-producing life evolved?
+16. Were early oceans acidic, alkaline, or chemically varied from place to place?
+17. Which settings lasted long enough for complicated chemistry to build up?
+18. Did life emerge in deep-sea hydrothermal systems, shallow ponds, volcanic land, ice, or another setting?
+19. Could life have begun in more than one environment, with only one lineage surviving?
+20. What geological evidence could distinguish these proposed settings?
+
+## 3. Prebiotic ingredients and chemical supply
+
+21. How were amino acids, sugars, nucleobases, and membrane-forming molecules produced on early Earth?
+22. Which ingredients could have formed locally, and which may have arrived on meteorites or comets?
+23. Were the necessary molecules present in the same place at the same time?
+24. How could useful molecules become concentrated instead of remaining dilute in water?
+25. Could minerals or rock surfaces have helped assemble and organize prebiotic molecules?
+26. How important were ultraviolet light, lightning, heat, or chemical gradients as energy sources?
+27. Could meteorite-delivered organic compounds have supplied a meaningful share of life’s building blocks?
+28. How did prebiotic chemistry avoid producing complex mixtures dominated by unwanted or harmful compounds?
+29. Which chemicals would have been stable enough to accumulate on early Earth?
+30. Can laboratory experiments reproduce a plausible sequence of natural conditions rather than a single isolated reaction?
+
+## 4. RNA-first and genetic information
+
+31. Could RNA have been the first molecule able to store information and catalyze reactions?
+32. Could the building blocks of RNA form naturally under realistic early-Earth conditions?
+33. How could RNA nucleotides link into long strands without enzymes?
+34. Could short RNA strands join or copy one another often enough to support evolution?
+35. How could an early RNA replicator copy itself accurately enough to persist but inaccurately enough to evolve?
+36. How would RNA replication avoid being overwhelmed by defective or parasitic sequences?
+37. Could a small RNA system sustain multiple generations of replication under natural conditions?
+38. Did RNA emerge directly, or was it preceded by a simpler genetic polymer?
+39. If another polymer came first, what chemical properties would it need to pass useful information to RNA?
+40. Did RNA-based evolution require a membrane or some other form of compartment from the start?
+
+RNA-first research faces a key gap between showing that particular RNA reactions can occur in the lab and establishing that a complete, sustained RNA-based evolutionary system could arise under plausible environmental conditions. <citation src="2"></citation>
+
+## 5. Metabolism-first and chemical networks
+
+41. Could self-sustaining chemical networks have formed before genetic molecules?
+42. What is the smallest chemical network capable of harvesting energy and maintaining itself?
+43. Could iron, sulfur, or other minerals catalyze early metabolic reactions?
+44. Did the first metabolism resemble any modern pathway, or was it fundamentally different?
+45. Could naturally occurring chemical gradients power primitive metabolic networks?
+46. How might a network of reactions become inherited from one generation of compartments to another?
+47. Can metabolism evolve before genes encode enzymes?
+48. How could a primitive metabolic network avoid losing essential reactions when conditions changed?
+49. Did early metabolism produce the building blocks needed for genetic polymers, or did it depend on those polymers?
+50. Can researchers experimentally create a chemical system that grows, maintains itself, and undergoes heritable change without modern enzymes?
+
+## 6. Membranes, compartments, and protocells
+
+51. What kinds of simple molecules could form the first cell-like boundaries?
+52. Could early membranes grow and divide without complex cellular machinery?
+53. How could a membrane retain useful molecules while still allowing nutrients and waste to pass?
+54. Did compartments form before replicating molecules, or did molecules become enclosed afterward?
+55. Could simple protocells compete and reproduce differently from one another?
+56. How could genetic molecules, catalysts, and energy-producing chemistry become gathered in the same compartment?
+57. Would a primitive membrane survive heat, salt, acidity, or other plausible early-Earth conditions?
+58. How could compartments divide without losing all their contents or genetic information?
+59. Could mineral pores or rock structures have acted as compartments before free-floating membranes evolved?
+60. What experimental result would demonstrate that a protocell can undergo sustained Darwinian evolution?
+
+A central unresolved problem is how replication, metabolism, and boundaries became coupled: a replicating molecule alone is not yet a cell, while a simple compartment alone does not automatically reproduce information. <citation src="2"></citation>
+
+## 7. Energy, environment, and chemical cycles
+
+61. What energy source powered the earliest self-maintaining chemical systems?
+62. Could natural heating and cooling cycles concentrate molecules and encourage reactions?
+63. Could wet–dry cycles help build long polymers from smaller molecules?
+64. Could freeze–thaw cycles support copying or assembly of genetic molecules?
+65. Were hydrothermal chemical gradients strong and stable enough to drive early chemistry?
+66. How could early systems capture energy without modern enzymes and membranes?
+67. Did early metabolism rely on sunlight, chemical reactions, or multiple sources?
+68. How could chemical cycles persist despite dilution, degradation, and changing environmental conditions?
+69. Could environmental cycles provide a kind of “external memory” that helped organize reactions?
+70. Which geochemical settings combine the right energy, concentration, stability, and chemical ingredients?
+
+## 8. From chemical evolution to cells
+
+71. How did early genetic systems begin to produce peptides or proteins?
+72. Why did the modern genetic code arise, and could alternative codes have worked?
+73. How did translation—converting genetic sequences into proteins—begin?
+74. Why do modern organisms use DNA for long-term information storage and RNA for many intermediate roles?
+75. When and why did DNA replace RNA as the main hereditary material?
+76. How did early catalysts become genetically encoded?
+77. What were the first cellular systems like before the last universal common ancestor?
+78. Did early life evolve in a network of gene-sharing communities rather than as cleanly separated lineages?
+79. How much can scientists infer about the earliest life from features shared by modern organisms?
+80. Could the first cells have been radically unlike any organisms alive today?
+
+## 9. Evidence, experiments, and competing explanations
+
+81. What evidence would most strongly favor RNA-first over metabolism-first—or a hybrid model?
+82. How should experiments balance chemical plausibility against the need to produce a complete, evolving system?
+83. Which prebiotic experiments rely on conditions that may have been unrealistic for early Earth?
+84. Can researchers reconstruct a plausible sequence of connected steps rather than demonstrate isolated reactions?
+85. How can laboratory results be scaled from tiny, carefully controlled systems to a geologically realistic environment?
+86. What ancient rocks or chemical signatures might preserve evidence of prebiotic chemistry?
+87. How can scientists tell a biological signature from a nonbiological chemical process?
+88. What does the oldest surviving evidence of life actually establish—and what does it leave unknown?
+89. How should researchers compare theories when each explains some stages but not others?
+90. What finding would cause researchers to abandon or substantially revise a leading origin-of-life model?
+
+## 10. Life beyond Earth and broader implications
+
+91. If life arose on Mars, Venus, or an icy moon, how could scientists determine whether it shares ancestry with Earth life?
+92. Could the same basic origin-of-life pathway work on planets with very different oceans, atmospheres, and minerals?
+93. Is life likely to emerge wherever conditions are suitable, or could its origin require a very rare chain of events?
+94. Which planetary environments are most likely to support prebiotic chemistry today?
+95. What would a second, independent origin of life in our Solar System reveal about how common life is?
+96. Could alien life use different genetic molecules, cellular boundaries, or energy systems from those on Earth?
+97. How can a spacecraft distinguish living organisms from complex nonliving chemistry?
+98. What measurements should a mission prioritize to test for past or present life?
+99. If Earth life began elsewhere and arrived here, what evidence could distinguish that from an Earth-based origin?
+100. How would discovering independent life beyond Earth change scientific estimates of how often life emerges?
+
+A useful way to narrow this list is to pick one bottleneck—**the first replicator, the first metabolism, the first protocell, or the transition to genetic encoding**—and map the competing hypotheses, supporting experiments, and missing links for that specific problem.

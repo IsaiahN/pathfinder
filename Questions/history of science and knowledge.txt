@@ -1,0 +1,121 @@
+## History of Science and Knowledge: 100 Unresolved Questions
+
+### 1. Evidence and standards of proof
+1. How have different societies defined convincing evidence, and what explains the differences?
+2. When do standards of evidence change because of new discoveries, and when do they change because of political or institutional pressures?
+3. How can historians distinguish a genuine shift in evidential standards from a change in the kinds of records that survived?
+4. Why do some forms of evidence—measurement, testimony, experiment, or tradition—gain authority in particular contexts?
+5. How have instruments changed what people could observe and what they considered real?
+6. When does replication strengthen a claim, and when do different methods make direct replication impossible?
+7. How have scientific communities handled evidence that is reliable but difficult to reproduce?
+8. What makes an observation count as a fact rather than an artifact of a method or instrument?
+9. How do background assumptions shape which evidence researchers notice, record, or disregard?
+10. Can evidence be evaluated independently of the institutions and communities that produce and interpret it?
+
+### 2. Trust, authority, and expertise
+11. How have societies decided who is qualified to produce or interpret knowledge?
+12. What makes some forms of expertise trusted in one historical period and rejected in another?
+13. How do social status, credentials, gender, class, race, and ethnicity influence whose claims are believed?
+14. When does public trust in experts reflect careful evaluation, and when does it rely mainly on institutional reputation?
+15. How do experts earn authority beyond formal training and professional titles?
+16. Why do some communities rely more on local practitioners, witnesses, or elders than on credentialed specialists?
+17. How have conflicts between academic, professional, religious, and traditional authorities been resolved—or left unresolved?
+18. When does skepticism toward experts improve knowledge, and when does it make reliable knowledge harder to establish?
+19. How do mistakes by respected institutions change public trust in knowledge more broadly?
+20. Can institutions earn durable trust while acknowledging uncertainty and disagreement?
+
+### 3. Institutions and organization of knowledge
+21. How have universities, academies, laboratories, museums, libraries, and government agencies shaped what could be known?
+22. Why have some institutions encouraged open criticism while others discouraged challenges to established claims?
+23. How do funding systems shape which questions researchers ask and which findings receive attention?
+24. When do professional rules improve the reliability of knowledge, and when do they protect established interests?
+25. How have journals, peer review, and scientific societies changed the circulation and evaluation of claims?
+26. How do bureaucracies transform uncertain findings into rules, statistics, or official categories?
+27. What determines whether institutions correct errors quickly or allow them to persist?
+28. How have political and religious authorities supported scientific inquiry while also limiting it?
+29. Can institutions preserve specialized expertise without isolating experts from public needs and criticism?
+30. How do rival institutions compete to define authoritative knowledge?
+
+### 4. Knowledge, power, and exclusion
+31. How have political power and economic interests shaped which questions could safely be asked?
+32. Which forms of knowledge have been suppressed, appropriated, or excluded from official histories of science?
+33. How have colonialism and empire influenced the collection and classification of knowledge?
+34. When has scientific research challenged unequal power, and when has it helped justify or strengthen it?
+35. How have people excluded from formal institutions created and preserved knowledge?
+36. What evidence can reveal the contributions of researchers whose work was uncredited or erased?
+37. How do classifications of people and nature reflect the interests of those who create them?
+38. When does sharing knowledge across cultures produce genuine exchange, and when does it become extraction?
+39. How have laws, patents, and ownership rules shaped access to knowledge and control over its use?
+40. Can histories of knowledge correct past exclusions without treating communities or traditions as internally uniform?
+
+### 5. Categories, facts, and measurement
+41. How have new measurement systems changed the categories societies use to describe people, nature, and social life?
+42. When do classifications reveal meaningful patterns, and when do they impose divisions that obscure complexity?
+43. How have statistics changed what governments, institutions, and publics regard as social problems?
+44. What makes a measurement valid when the thing being measured—such as intelligence, health, or poverty—is contested?
+45. How do changes in units, instruments, or definitions alter apparent trends across time?
+46. Can historical data be compared reliably when the people, categories, and methods used to collect it have changed?
+47. How do maps, diagrams, tables, and models shape reasoning rather than merely display results?
+48. When do numerical measures increase accountability, and when do they encourage people to optimize the measure rather than the underlying goal?
+49. How do metaphors and analogies influence scientific classification and explanation?
+50. What determines whether a new category becomes widely accepted and used?
+
+### 6. Disagreement, controversy, and consensus
+51. Why do some scientific disagreements lead to better methods and stronger explanations while others remain entrenched?
+52. How can historians distinguish productive scientific controversy from disputes driven mainly by status or institutional rivalry?
+53. What causes communities to converge on a shared conclusion despite persistent disagreement about its interpretation?
+54. When does consensus reflect strong evidence, and when can it reflect conformity or exclusion?
+55. How have minority positions within science influenced later research, even when they were initially rejected?
+56. What kinds of evidence or argument can change the minds of experts committed to competing theories?
+57. How do public controversies alter scientific research agendas and standards of proof?
+58. Can disagreement improve collective reasoning when participants do not share standards of evidence?
+59. Why do some controversies persist after key factual questions have been settled?
+60. How can societies distinguish legitimate uncertainty from strategically manufactured doubt?
+
+### 7. Methods, technologies, and ways of knowing
+61. How have experiments changed the relationship between observation, intervention, and explanation?
+62. Why have some research methods become authoritative while others remained marginal?
+63. How have new technologies created forms of evidence that older theories could not easily interpret?
+64. When do computational models extend human reasoning, and when do they conceal assumptions behind complexity?
+65. How have research practices changed when observations became large-scale, automated, or remote?
+66. How can researchers compare knowledge produced through controlled experiments with knowledge gained through long-term observation or practice?
+67. What makes a method portable across different places and populations?
+68. How do ethical rules change what can be studied and what counts as an acceptable method?
+69. When does reliance on instruments increase objectivity, and when does it create new forms of dependence and uncertainty?
+70. How have technologies for recording and communicating information changed what can be preserved as knowledge?
+
+### 8. Transmission, education, and public knowledge
+71. How have schools and universities shaped what societies regard as basic, authoritative, or useful knowledge?
+72. Why do some ideas spread widely while others remain confined to specialist communities?
+73. How have translation and language differences changed the circulation of scientific ideas?
+74. What gets lost when knowledge moves from local practice into formal textbooks, databases, or policy documents?
+75. How do public demonstrations, museums, exhibitions, and popular writing shape beliefs about science?
+76. When does simplifying an explanation make knowledge accessible, and when does it distort the underlying uncertainty?
+77. How do communication technologies change the speed, reach, and credibility of competing claims?
+78. Why do educational systems preserve some inherited ideas while encouraging students to question others?
+79. How have oral, written, and digital forms of knowledge altered what communities can remember and share?
+80. Can public engagement improve research questions, rather than only improve public acceptance of research?
+
+### 9. Knowledge outside formal science
+81. How can historians compare scientific knowledge with practical, Indigenous, religious, and craft traditions without forcing them into the same categories?
+82. What makes practical knowledge reliable when it is transmitted through apprenticeship rather than explicit theory?
+83. How do communities test and revise knowledge that is tied to place, identity, or long experience?
+84. When do formal scientific methods overlook patterns that local practitioners can detect?
+85. How have different knowledge systems influenced one another, including through unequal relationships?
+86. Can knowledge be useful and dependable without fitting the forms of proof favored by scientific institutions?
+87. How do practices such as healing, farming, navigation, and building preserve knowledge across generations?
+88. What responsibilities arise when researchers study, publish, or commercialize knowledge held by communities?
+89. How do societies decide which inherited practices to retain, modify, or reject?
+90. Can plural knowledge systems cooperate when they disagree about causes, evidence, or what counts as success?
+
+### 10. Historical explanation and contemporary relevance
+91. How can historians determine whether an idea changed society or merely reflected changes already underway?
+92. What evidence is needed to trace how a claim moved from observation to theory, institution, and public policy?
+93. How should histories of science account for chance discoveries, failed projects, and abandoned research programs?
+94. Why do some scientific ideas recur after having been rejected, and what explains their later acceptance?
+95. How do historical narratives of scientific progress shape present-day expectations about research and innovation?
+96. Can studying past scientific errors help distinguish correctable mistakes from enduring limits of knowledge?
+97. How should histories of scientific harm inform current decisions without treating all research as inherently untrustworthy?
+98. What can past episodes of public disagreement teach about communicating uncertainty today?
+99. How do societies decide which unanswered questions deserve public resources and long-term attention?
+100. What historical conditions help people disagree about knowledge while remaining open to evidence, criticism, and revision?

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Project Pathfinder corpus
+    url: https://IsaiahN.github.io/pathfinder/
+    about: Browse all 1,300 problems and their verdicts.
+  - name: Method and privacy
+    url: https://github.com/IsaiahN/pathfinder#readme
+    about: How the derivation works and what data is public.

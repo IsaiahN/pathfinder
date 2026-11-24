@@ -1,0 +1,58 @@
+# Public links and distribution
+
+All links below were fetched on 2026-11-23 unless marked otherwise. Fetch method is recorded honestly: direct HTML fetch where possible, public search-indexed text with reduced weight where the publisher blocked direct access. Nothing is cited as read unless it was actually opened or returned in full through the search integration.
+
+## 1. Framework sources actually fetched this session
+
+| what | URL | verified content |
+|---|---|---|
+| Recursive Self-Improvement Trap | https://adventuresinml.substack.com/p/the-recursive-self-improvement-trap | Isaiah N, 2026-11-19. Contains the sentence that most governs this question: even with the rules and a simulation, *"you would not get the same result without the exact events playing out."* Also states the simulation limit and the prestige/action rule. Fetched directly. |
+| The Library of Babel: Locating The Book of Books | https://adventuresinml.substack.com/p/the-library-of-babel-locating-the | Isaiah N, 2026-10-02. Gives the proximity/vocabulary bootstrap and the stopping rule: *"you can cut your search short if the set of books returned is small and descriptive enough that it provides a general shape of the answer that satisfies your question."* Fetched directly. |
+| Canonical figures README (local) | `FRAMEWORK/reference/FIGURES_README_canonical.md` | States that the figures outrank the code, rulings and docs, and that the framework returns *"a shape, not a name."* |
+| Verbatim figure text (local) | `FRAMEWORK/reference/03-FIGURES_TEXT.md` | The primary source for every `Fig N :line` citation in this folder. |
+| Formula and seat map (local) | `FRAMEWORK/figures/THE_FORMULA.md`, `FRAMEWORK/figures/THE_SEAT_MAP_Field_Guide_amended.md` | Mode rule, direction discipline, falsifier rule, correlation valence. |
+
+Six further essays (How Intelligence Actually Works, Decoding Tacit Knowledge, How a Society of Agents Would Work, They're Scanning Books When They Should, The Hard Problem is About Source, Arrival of the Fittest) are carried from the completed exemplar's canonical mapping into `05_what_shape_means.md` and marked as carried, not re-opened this session. The two that were opened directly are marked as such there.
+
+## 2. World sources actually fetched or read this session
+
+| source | URL | what was verified | fetch method |
+|---|---|---|---|
+| Blount, Lenski and Losos, *Contingency and determinism in evolution: Replaying life's tape*, Science 2018, plus the MSU release | https://msutoday.msu.edu/news/2018/11/is-it-possible-to-replay-the-tape-of-life | The review found *"a complex picture of evolutionary change in which both contingency and determinism are evident."* Losos: *"Why does convergence occur sometimes and not others?"* This is the single best low-overlap analogue: the same question in evolutionary biology, with an empirical answer that refuses both pure determinism and pure contingency. | MSU release fetched directly in full; the Science abstract was obtained through the search index and is counted as the same witness. |
+| Cox, Arnold and Villamayor Tomás 2010, *A Review of Design Principles for Community-based Natural Resource Management*, Ecology and Society 15(4):38 | https://www.ecologyandsociety.org/vol15/iss4/art38/main.html | 91 studies coded; the principles are *"well supported empirically"*; Principle 2 is congruence with local conditions; the authors record the critique that the principles risk being seen as *"a magic bullet or institutional panacea."* General principles that explicitly require local fitting. | Fetched directly in full HTML. |
+| Capoccia and Kelemen 2007, *The Study of Critical Junctures*, World Politics 59(3) | https://www.cambridge.org/core/journals/world-politics/article/study-of-critical-junctures-theory-narrative-and-counterfactuals-in-historical-institutionalism/BAAE0860F1F641357C29C9AC72A54758 | Abstract fetched: *"Contingency is the key characteristic of critical junctures, and counterfactual reasoning and narrative methods are necessary to analyze contingent factors and their impact."* The reference list also reveals the shared pool with Mahoney, Pierson, Arthur and David. | Cambridge abstract and references fetched directly; full text not open. |
+| Wikipedia, *Path dependence* | https://en.wikipedia.org/wiki/Path_dependence | *"history matters"* as the broad claim; increasing returns and positive feedback as the specific claim; Thelen's critique that applications to politics are *"too contingent and too deterministic."* Useful as a map of the literature, low independent weight. | Fetched directly in full. |
+| Whiten et al. 1999, *Cultures in chimpanzees*, Nature 399 | https://www.nature.com/articles/21415 | 39 behaviour patterns customary or habitual in some communities and absent in others where ecological explanations had been discounted. Same general learning capacity, different local traditions. | Search-indexed abstract and references only; publisher preview. Reduced weight. |
+| Gould's tape-of-life thesis, via *Convergent evolution as natural experiment*, Interface Focus 2015 | https://royalsocietypublishing.org/rsfs/article/5/6/20150040/27568/Convergent-evolution-as-natural-experiment-the | *"any replay of the tape would lead evolution down a pathway radically different from the road actually taken"* (Gould 1989, quoted in the paper). The paper argues that convergence can be a natural experiment against radical contingency. | Search-indexed full passage. Reduced weight. |
+| Mahoney 2000, *Path Dependence in Historical Sociology*, Theory and Society 29 | https://www.critical-juncture.net/uploads/2/1/9/9/21997192/mahoney_path_dependence_in_historical_sociology.pdf | *"path dependence characterizes specifically those historical sequences in which contingent events set into motion institutional patterns or event chains that have deterministic properties."* The single clearest statement that the two candidate answers are different parts of one mechanism. Direct PDF fetch unsupported; text obtained through the search index. Reduced weight, recorded as such. |
+| North 1991, *Institutions*, Journal of Economic Perspectives 5(1) | https://pubs.aeaweb.org/doi/10.1257/jep.5.1.97 | *"history in consequence is largely a story of institutional evolution in which the historical performance of economies can only be understood as a part of a sequential story."* Also the increasing-returns account of path dependence. Direct PDF fetch returned 403; text obtained through the search index and the AEA article page. Reduced weight. |
+| Acemoglu and Robinson, *Why Nations Fail* lecture slides, MIT 2012 | https://economics.mit.edu/sites/default/files/inline-files/Why%20Nations%20Fail.pdf | *"outcomes during these critical junctures not historically determined, partly contingent (≈ stochastic)."* Directly supports the claim that the general theory itself inserts contingency. Direct PDF fetch unsupported; text obtained through the search index. Reduced weight. |
+| MIT News, *All the difference in the world*, 2012 | https://news.mit.edu/2012/why-nations-fail-0323 | Confirms the inclusive/extractive framework and gives natural experiments (North and South Korea, Nogales) in which similar starting conditions diverge. Fetched directly in full. |
+
+**Fetch failures recorded honestly:** the Mahoney, North and Acemoglu/Robinson PDFs could not be fetched directly (unsupported content type or 403). Their text was obtained through the public search integration and is marked reduced weight in `10_source_ledger.csv`. Nothing from those pages is quoted beyond what the search returned.
+
+## 3. What the wider literature bears on the verdict
+
+- **The two answers are not rivals in the literature either.** Mahoney's formulation puts contingent events and deterministic properties in one sentence. North's account puts increasing returns (a general mechanism) inside a sequential story (a particular route). Acemoglu and Robinson make critical junctures partly stochastic inside a general theory of inclusive and extractive institutions. The world literature, read as secondary corroboration, agrees with the figure verdict that the either/or is a union. Because these sources share a pool (they cite one another), their agreement is one witness, not three (Fig 2 :40).
+- **The genuine low-overlap witnesses are evolutionary biology and animal behaviour.** The replay-of-life review finds both convergence and contingency; chimpanzee communities show same-capacity, different-tradition variation. Both corroborate the *shape* of the answer, not the institutional fact. Their independence is the reason they are worth more than a fourth institutional-theory paper.
+- **One conflict was found and returned to census.** Thelen's critique says path-dependence applications to politics are "too contingent and too deterministic." Read as a conflict, it would say the framework's general/specific partition is wrong. Re-census dissolves it: Thelen is objecting to a *QWERTY-style* application where the initial choice is fluky and the path unavoidable. The figures' recursion allows the loop sign to change (Fig 12 :121) and the weighting to be learnable (Symbols `w`), so the framework does not assert the unavoidable path. The verdict was not flipped; the source was narrowed to mechanism-shape corroboration.
+
+## 4. Distribution rules: offer, do not push
+
+- **Fig 4 :22:** *"Only methods cross up. Only head starts come down."* Sending the full architecture before a recipient has described a residual sends a recording, not a generator. Lead with the separator and its refuter.
+- **Fig 10 :42:** *"A verifier that can reconstruct the claim cannot verify it."* An outside frame that has absorbed the framework before giving a verdict has joined the frame being checked.
+- **Fig 9 :27-28:** *"describe it before you go looking, or any frame you pick will seem to fit."* Ask what the recipient would expect to see if the separator were true before giving them the sources.
+- **Seat map:** *"High correlation is disqualifying for a verdict and efficient for a convention."* A list selected for people who already agree produces a convention, not corroboration.
+- **Fig 11 :61:** *"The seat's power is asymmetric. Introduction is available; exclusion is not."* You can add a venue; you cannot subtract the channel once it is open. Choose public opt-in venues accordingly.
+
+**Recommended order in a reply:** (1) the separator and its five refuters; (2) ask what the recipient would count as a failure; (3) record their verdict; (4) only then the three links, with the note that the figures, not the summary, are the authority.
+
+## 5. The two-stage offer
+
+**Stage 1.** Send the residual and the pre-registered refuter. Ask for a failure, not assent. Fig 10 :52: *"Bring a characterised residual, never the source."*
+
+**Stage 2, opt-in only.** If the recipient is curious, send the local figure extract, the formula and the architecture article. Their stage-1 verdict is already recorded, so later agreement is never pooled as corroboration (Fig 2 :40).
+
+**Stage 3, opt-in only.** Offer the formula as a method to reuse. This is permitted because it is a generator (Fig 4 :22). Each user must state their own ground, write their own refuter before the run, and label the mode of the result, because a frame *"cannot check the direction of its own question"* (formula, "Direction").
+
+**Hard precondition:** stages 1 to 3 work only if the stage-1 separator survives. The current draft states it as `general` on structure and `specified` on application. If a reader shows that the general/specific allocation is a universal constant, the separator fails and the offer is withdrawn.

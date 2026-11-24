@@ -1,0 +1,94 @@
+# WATSON answer: how do cultural transmission and biological evolution interact to shape collective behavior?
+
+**Mode: `specified` on the interaction, `general` on the structural shape. Not `grounded`.**
+
+**Status: SIMULATED DERIVATION, not a ground reading.** This run synthesizes `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md` and `08_expert_verification_packet.md`. It is checked for internal consistency against the figures. By its own rule (The Recursive Self-Improvement Trap: "the truly testable output would need to be derived from the real architecture or working the formula yourself") it cannot settle the question it reports on. No measurement was taken.
+
+## QUESTION
+
+Decide, in effect terms, what the Tether says about the interaction of cultural transmission and biological evolution in producing collective behavior. Option A: treat them as one inheritance process at two speeds and search for the dominant channel. Option B: treat them as two closures with different currency and anchor, joined across a scale membrane by a signed cycle, and keep the verdicts separate. What each leads to: A averages away the slot-level residual and spends the independence of the people checking it; B sends a checkable shape, written refuters, and an open measurement program.
+
+## DOMAIN CENSUS
+
+R by arity, symmetry and scale, then one line per domain with actors / currency / anchor, partition or union, and order by dependency.
+
+- **R (the residual).** Some collective behaviors spread faster than allele-frequency change permits and persist more reliably than individual learning permits, while transmitted practice changes the environment that selects genes. Arity: two transmission channels plus the individual learner at their contact. Symmetry: ordered, not a symmetric join; practice produces a selective environment and genes send down biases. Scale: within-lifetime and across-generation, joined by a membrane. Fig 9 :54-57 makes this a union compound, not one hard question: a case in two conditions is not a harder case of either.
+- **Domain 1, genetic evolution.** Actors: alleles, organisms, external environment. Currency: differential reproduction. Anchor: population genetic data and the external environment. Unmaintained habitat, no seat. Fig 11 :56 "Unmaintained. No maintainer and no live frame in the seat. The habitat is pure contact, nothing selects, and what survives is what the ground kept."
+- **Domain 2a, unmaintained cultural contact.** Actors: models, learners, copied variants. Currency: fidelity and bias of social learning. Anchor: observed transmission rates and behavioral phenotypes. Pure contact: exposure, imitation, vertical and oblique copying.
+- **Domain 2b, maintained cultural introduction.** Actors: teachers, institutions, norm entrepreneurs. Currency: introduction of variants, pedagogy, conformity and prestige bias. Anchor: the same behavioral data plus the provenance of the introduction. Maintained habitat, a maintainer-like seat that can introduce but not exclude.
+- **Domain 3, collective behavior.** Actors: the population repertoire, norms, institutions. Currency: spread rate per behavior slot and cumulative retention. Anchor: population-level behavioral and genetic measurement. This is the composed output; it is a property of agent-and-habitat.
+- **Partition or union.** D1 and D2 are a union, not a partition of one process (Fig 8 :45). D2a and D2b are a union inside the cultural channel, so both must be kept (Fig 9 :54).
+- **Order by dependency.** Resolve the residual per slot before naming a channel (Fig 1 :19); name what each channel affords; state what counts as progress; then choose a measurement (Fig 3 :20). Across scales, methods cross up and head starts come down (Fig 4 :22).
+
+Strain test applied: mapping genes and culture onto members of the six-term substrate strains Fig 13, because the six are substrate states and structures while genes and culture are frames. Re-census moved them to domains with their own actors, currency and anchor. A second strain, culture as wholly maintained, was resolved by splitting D2 into D2a and D2b. Both are recorded in 01 §6. Neither was smoothed over.
+
+## TETHER (primary, verbatim)
+
+Cited against `FRAMEWORK/reference/03-FIGURES_TEXT.md`. Quotes are verbatim from the SVGs.
+
+- Fig 10 :68 "Different actors, a different currency, a different ground, and a lossy transform between." -> two inheritance channels are two frames, so neither is a faster version of the other; their union can have a surplus.
+- Fig 8 :45 "Two frames together reach what neither reaches alone." -> the interaction is a union with a surplus, not a restatement of one channel.
+- Fig 11 :55 "Two modes, and only one of them has a seat." -> cultural transmission splits into pure contact and maintained introduction; treating it as one mode was a strain, now re-censused.
+- Fig 11 :61 "The seat's power is asymmetric. Introduction is available; exclusion is not." -> teachers and institutions can add a practice but cannot subtract the habitat.
+- Fig 12 :77 "A produces B; B did not exist before." -> a practice can generate a selective environment that was not there before.
+- Fig 12 :121 "The output re-enters as input. The sign of the loop decides whether it closes, and a chain cannot close by construction." -> the composed object is a cycle whose sign decides stabilization or runaway; a chain cannot represent it.
+- Fig 4 :22 "Only methods cross up. Only head starts come down." -> the scale membrane carries reapplicable methods upward and cheaper searches downward, never recordings.
+- Fig 11 :39 "capability is a property of agent-and-habitat, never of the agent alone" -> collective behavioral capacity is not stored in genes or individual minds.
+- Fig 11 :70 "A test harness is a substituted habitat. Which is why a synthetic solve proves wiring and never capability." -> single-channel experiments do not settle the interaction.
+- Fig 1 :19 "The residual is indexed by object slot, not aggregated." -> the live signal is which behavior spreads, not a global culture-versus-genes average.
+- Fig 9 :32 "you get a kind of thing, never the answer itself" -> the framework returns the shape of any gene-culture answer, not the name of the gene or norm.
+- Fig 2 :40 "agreement about the world is worthless when the agreeing frames share an evidence pool" -> agreement among modellers who share a tradition is one witness.
+- Fig 10 :42 "A verifier that can reconstruct the claim cannot verify it." -> the first contact carries the residual and refuter, never the framework interior.
+
+Triangulation status: the two-closures verdict is triangulated across Fig 10 (level rule), Fig 8 (union rule) and Fig 11 (habitat modes), three low-overlap figure roles. The cycle verdict is triangulated across Fig 12 (production and cycle) and Fig 4 (membrane direction). The agent-and-habitat verdict is triangulated across Fig 11 and Katz's independent evo-devo result (low overlap in evidence pool). The shape-not-a-name limit is triangulated across Fig 9 and the canonical figures README. The catalyst-like reading of cultural practice is single-source (Fig 12 :119) and needs a persistence instrument; it is labelled `specified`, not smoothed into a settled claim.
+
+## WORLD (secondary, each source read)
+
+World sources corroborate only. Field, author and venue are given with a quote actually read on 2026-11-22.
+
+- **Cultural evolution / population genetics.** Kasser SM, Lala KN, Fortunato L, Feldman MW, "Not by Selection Alone: Expanding the Scope of Gene-Culture Coevolution", Evolutionary Anthropology 34(3), 2025, open access at PMC12275967: "a key aspect of gene-culture coevolution theory is that biological and cultural evolutionary processes interact through mutual causal feedback." Predicts a two-way cycle; corroborates Fig 12 :121. Overlap: high, shares the Feldman tradition with several sources below.
+- **Complexity science / mathematical modelling.** Creanza N, Feldman MW, "Complexity in models of cultural niche construction with selection and homophily", PNAS 111(Suppl 3), 2014, open access at PMC4113930: "Cultural transmission, selection, and homophily interact to produce complex evolutionary dynamics, including oscillations, stable polymorphisms of all cultural phenotypes, and simultaneous stability of oscillation and fixation." Predicts cycles and polymorphism rather than global fixation; corroborates Fig 12 :121 and Fig 1 :19. Overlap: high, same modelling pool.
+- **Cultural evolution / evolutionary modelling.** Rendell L, Fogarty L, Laland KN, "Runaway cultural niche construction", Philosophical Transactions of the Royal Society B 366(1566), 2011, open access at PMC3048990: "Cultural niche-constructing practices can generate selection for specific gene-based traits and hitchhike to fixation through the build up of statistical associations between practice and trait." Predicts practice-to-genes production; corroborates Fig 12 :77. Overlap: high, Laland tradition.
+- **Cognitive development / human pedagogy.** Csibra G, Gergely G, "Natural pedagogy as evolutionary adaptation", Philosophical Transactions of the Royal Society B 366(1567), 2011, open access at PMC3049090: "By providing a qualitatively new type of social learning mechanism, natural pedagogy is not only the product but also one of the sources of the rich cultural heritage of our species." Predicts that the transmission mechanism is itself biologically evolved and feeds back into culture; corroborates the cycle. It also gives an explicit falsifier: "These claims can be falsified by finding a species that teaches by communication or a human society that does not do so." Overlap: low relative to the modelling pool.
+- **Neuroscience / evo-devo.** Katz PS, "Neural mechanisms underlying the evolvability of behaviour", Philosophical Transactions of the Royal Society B 366(1574), 2011, open access at PMC3130364: "the structure and physiology of the nervous system helps direct the evolution of behaviour down certain paths that recur over evolutionary time." Predicts that genes send down a bias (a head start) rather than a behavior replay; corroborates Fig 4 :24 and Fig 11 :39. Overlap: low.
+- **Domestication / complex systems.** Van Amburg C, Babel D, Feldman MW, "Domestication as gene-culture coevolution", PNAS 123(38), 2026, doi 10.1073/pnas.2620741123, abstract read through Europe PMC: "Stable quasiperiodic cycles in both domesticates and domesticators are also possible." Predicts a signed cycle; corroborates Fig 12 :121. Overlap: high, Feldman tradition; full text is subscription and was not read.
+- **Theoretical biology / teaching.** Shimodaira T, Ohtsuki H, "Evolution of teaching under the incomplete chance of vertical cultural transmission", Journal of Theoretical Biology 637, 2027, doi 10.1016/j.jtbi.2026.112616, abstract read through Europe PMC: "teaching becomes dramatically unfavored in both scenarios when the probability of oblique transmission increases." Predicts that the maintained-introduction mode is site-specific; sharpens D2b without conflicting with it. Overlap: moderate; abstract only.
+- **Animal behaviour / mate choice.** Federico D, Cosme M, Dechaume-Moncharmont FX, Ferdy JB, Pocheville A, "Gene-Culture Coevolution Favours the Emergence of Traditions in Mate Choice through Conformist Social Learning", bioRxiv preprint, 2025, doi 10.1101/2025.09.05.674569, abstract read through Europe PMC: "the interaction between cultural and genetic transmission creates novel evolutionary dynamics." Predicts a union surplus; corroborates Fig 8 :45. Overlap: low, but a non-peer-reviewed preprint and labelled as such.
+- **Institutional / field definition.** Cultural Evolution Society, "What is cultural evolution?", public page, 2026, https://culturalevolutionsociety.org/about-cultural-evolution/what-is-cultural-evolution/: "Humans and other cultural species are the joint product of both our genetic and cultural inheritances." Predicts a two-channel composition; corroborates the domain census. Overlap: low, an institutional explainer rather than a research article.
+- **Framework essays (secondary, framework author).** Isaiah N, "The Library of Babel: Locating The Book of Books", 2026: "You can cut your search short if the set of books returned is small and descriptive enough that it provides a general shape of the answer that satisfies your question." "The Hard Problem is About Source", 2026: "If several paths create the same behavior, then behavior is a projection with lossy information." "How Intelligence Actually Works", 2026: "It can be inherited or taught, so the recipient need not pay the bill themselves, but something, somewhere, already paid it." "The Recursive Self-Improvement Trap", 2026: "Prestige can fund an action. It can give an action a budget to be tried. But it cannot settle an action. Only the ground can settle it." "Decoding Tacit Knowledge", 2026: "When contact isn't possible, the best you can send is a plain description of what you'd expect to see, because anyone can check that against the world." These predict a shape, a source-discriminating instrument, a paid transmission bill, no prestige verdict, and effect-term outreach. They corroborate the figure verdict but all share the framework author and evidence pool.
+
+No world source conflicts with the figure verdict. The conflict rule was not triggered. The strongest apparent tension, Shimodaira and Ohtsuki on the fragility of teaching, is a site-specific result about D2b, not a denial of the cycle, so it sharpens rather than reverses the reading. Agreement inside the Feldman and Laland modelling pool is one witness, not four.
+
+## VERDICT (from the figures)
+
+The shape survives; the specific bindings do not. Genetic and cultural evolution are two closures with different currency and anchor, so their composition is a union with a surplus rather than one channel at two speeds. Cultural transmission is itself two modes, unmaintained contact and maintained introduction. The two channels compose across a scale membrane that carries methods up and head starts down, and close into a cycle whose sign decides whether collective behavior stabilizes or runs away. Collective capability belongs to agent-and-habitat. The framework does not name which gene or norm fills a slot; world cases are provenanced bindings, not derivations. This is a `specified`, ungrounded result, and this run is a simulated derivation rather than a ground reading.
+
+- **cost if wrong:** bounded and locatable. The packet states its mode, refuters and lineage before the conclusion, so an error is findable rather than invisible. The real cost is spending the independence of outside readers by sending a global narrative instead of a shape with slot-level refuters. Fig 2 :42 "Buy independence in proportion to the cost of being wrong." That cost is avoidable by leading with the shape and its refuter.
+- **undoable:** yes. The specific bindings are removable without touching the derivation; `07_the_tether_answer.md` and `08_expert_verification_packet.md` already remove them. A sent claim can be superseded by a corrected packet, and no primitive has to be withdrawn. If a refuter fires, the failed finding is retracted in the record and the reach falls because something was added, not because something was deleted (Formula step 3).
+- **reversed by:** a ground reading, not agreement. Slot-resolved measurement showing that global aggregates predict behavior spread as well as slot-resolved rates would break Fig 1 :19. A practice that leaves the selective environment unchanged would break the production cycle at Fig 12 :77. An agent-only improvement that moved the ground would break Fig 11 :39-40. A practice that crosses the membrane and returns unchanged would break Fig 4 :22. A single-channel model that pays the same bargain would break Fig 8 :45. Two instruments with different evidence agreeing on the same slot-level claim would be corroboration at maximum independence (Fig 8 :50). Until one of these fires, the verdict stands as `candidate`.
+
+## Sources
+
+- [Cultural Evolution Society, What is cultural evolution?](https://culturalevolutionsociety.org/about-cultural-evolution/what-is-cultural-evolution/)
+- [Cultural Evolution Society, homepage](https://culturalevolutionsociety.org/)
+- [Human Behavior and Evolution Society](https://www.hbes.com/)
+- [Behavioral and Brain Sciences, Cambridge Core](https://www.cambridge.org/core/journals/behavioral-and-brain-sciences)
+- [bioRxiv](https://www.biorxiv.org/)
+- [Not by Selection Alone: Expanding the Scope of Gene-Culture Coevolution](https://pmc.ncbi.nlm.nih.gov/articles/PMC12275967/)
+- [Complexity in models of cultural niche construction with selection and homophily](https://pmc.ncbi.nlm.nih.gov/articles/PMC4113930/)
+- [Runaway cultural niche construction](https://pmc.ncbi.nlm.nih.gov/articles/PMC3048990/)
+- [Natural pedagogy as evolutionary adaptation](https://pmc.ncbi.nlm.nih.gov/articles/PMC3049090/)
+- [Neural mechanisms underlying the evolvability of behaviour](https://pmc.ncbi.nlm.nih.gov/articles/PMC3130364/)
+- [Domestication as gene-culture coevolution](https://doi.org/10.1073/pnas.2620741123)
+- [Evolution of teaching under the incomplete chance of vertical cultural transmission](https://doi.org/10.1016/j.jtbi.2026.112616)
+- [Gene-Culture Coevolution Favours the Emergence of Traditions in Mate Choice through Conformist Social Learning](https://doi.org/10.1101/2025.09.05.674569)
+- [The Library of Babel: Locating The Book of Books](https://adventuresinml.substack.com/p/the-library-of-babel-locating-the)
+- [The Hard Problem is About Source](https://adventuresinml.substack.com/p/the-hard-problem-is-about-source)
+- [How Intelligence Actually Works](https://adventuresinml.substack.com/p/how-intelligence-actually-works)
+- [The Recursive Self-Improvement Trap](https://adventuresinml.substack.com/p/the-recursive-self-improvement-trap)
+- [Decoding Tacit Knowledge](https://adventuresinml.substack.com/p/decoding-tacit-knowledge-why-context)
+- [The figures, as text (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\03-FIGURES_TEXT.md)
+- [Figures README, canonical local copy](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\FIGURES_README_canonical.md)
+- [THE FORMULA (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\figures\THE_FORMULA.md)
+- [THE SEAT MAP Field Guide (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\figures\THE_SEAT_MAP_Field_Guide_amended.md)
+- Folder material synthesized: `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md`, `08_expert_verification_packet.md`.

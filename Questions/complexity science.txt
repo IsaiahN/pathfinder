@@ -1,0 +1,121 @@
+## Complexity Science and Network Theory: 100 Unresolved Questions
+
+### 1. Foundations, definitions, and explanation
+1. What distinguishes a genuinely complex system from a merely complicated one?
+2. Can complexity be defined by a single measurable quantity, or does it require different measures for different systems?
+3. Which features—nonlinearity, feedback, adaptation, heterogeneity, or network structure—are necessary for complex behavior to emerge?
+4. When does describing a system as “emergent” explain its behavior, and when does it merely rename what is not yet understood?
+5. Can macro-level patterns be derived from micro-level rules without losing essential information?
+6. Which kinds of macroscopic properties are genuinely irreducible to the behavior of individual components?
+7. How should researchers distinguish a system’s organizing principles from patterns produced by measurement or analysis choices?
+8. Can two systems with very different components and mechanisms belong to the same universality class?
+9. What makes a model of a complex system explanatory rather than simply capable of reproducing observed patterns?
+10. Can a general theory of complex systems make testable predictions across domains without erasing important domain-specific differences?
+
+### 2. Emergence, self-organization, and collective behavior
+11. Under what conditions do local interactions produce stable large-scale order rather than continual fluctuations?
+12. How can researchers distinguish self-organization from organization imposed by external constraints or hidden coordination?
+13. Which types of local rules produce robust collective behavior across different initial conditions?
+14. When do small changes in interaction rules trigger abrupt transitions in a system’s collective state?
+15. Can emergent patterns be predicted from interaction rules when the components themselves are changing?
+16. How do competing forms of positive and negative feedback determine whether a pattern grows, stabilizes, or collapses?
+17. When does diversity among components promote collective resilience, and when does it impede coordination?
+18. Can collective behavior arise without shared goals, central control, or common information?
+19. How does the spatial scale of local interactions affect the size and persistence of emergent structures?
+20. What evidence would show that a large-scale pattern has causal power over its constituent parts, rather than merely summarizing them?
+
+### 3. Network structure and dynamics
+21. Which network properties most strongly determine how fast or widely a process spreads: degree distribution, clustering, community structure, or something else?
+22. When do highly connected hubs stabilize a network, and when do they make it more vulnerable to targeted failure?
+23. How do overlapping, multiplex networks change the spread of information, disease, risk, or cooperation?
+24. How should network models represent links that vary in strength, direction, duration, and meaning?
+25. When can a network’s topology be treated as fixed, and when must link formation and removal be modeled as part of the dynamics?
+26. How do hidden or unobserved connections bias conclusions about network structure and system behavior?
+27. Can researchers infer a network’s causal influence from observed correlations when the network itself is only partially measured?
+28. What makes a network robust to random failure but fragile to coordinated or strategic disruption?
+29. How do spatial constraints and physical costs alter the behavior predicted by abstract network models?
+30. When do community boundaries reduce contagion, and when do they help sustain it?
+
+### 4. Prediction, uncertainty, and causal inference
+31. Which complex systems are predictably governed by stable statistical regularities even when individual outcomes are unpredictable?
+32. How can researchers distinguish fundamental unpredictability from uncertainty caused by incomplete data or imperfect models?
+33. What determines the useful prediction horizon for a system with nonlinear feedback and changing structure?
+34. Can forecasts remain reliable when predictions themselves alter people’s behavior and thereby change the system?
+35. How should uncertainty be quantified when possible outcomes depend on poorly known mechanisms as well as random variation?
+36. When do ensemble forecasts capture genuine uncertainty, and when do they simply repeat the same structural assumptions?
+37. Can causal mechanisms be identified in systems where interventions change several connected parts at once?
+38. How can researchers test whether a model’s predictions generalize to new conditions rather than merely fit historical data?
+39. What kinds of data are sufficient to identify causal influence in a system with feedback, confounding, and hidden variables?
+40. When is a system too sensitive to initial conditions for precise prediction, yet still predictable at the level of distributions or regimes?
+
+### 5. Critical transitions, tipping points, and resilience
+41. Can impending tipping points be detected reliably from early-warning signals in real-world systems?
+42. How often do indicators such as rising variance or slower recovery falsely signal an approaching transition?
+43. Do all abrupt changes result from gradual loss of resilience, or can some occur without detectable warning?
+44. How do multiple interacting tipping points alter the likelihood and consequences of systemic change?
+45. When can a system recover after crossing a threshold, and when does hysteresis make reversal difficult?
+46. Which interventions can shift a system away from a tipping point without producing harmful side effects elsewhere?
+47. Can resilience be measured in a way that distinguishes resistance to disturbance from the ability to recover or reorganize?
+48. How do slow-moving variables, such as accumulated stress or resource depletion, create sudden system-wide change?
+49. Under what conditions does modularity prevent local failures from becoming systemic cascades?
+50. Can deliberate disturbance sometimes increase a system’s long-term resilience, and how could that be tested?
+
+### 6. Cascades, contagion, and systemic risk
+51. When does a local shock remain contained, and when does it trigger a cascade across a network?
+52. How do threshold-based contagion and simple exposure-based contagion interact in the same system?
+53. Which network structures most effectively limit cascading failures without blocking beneficial diffusion?
+54. How do correlated risks change the usefulness of diversification in financial, ecological, or infrastructure networks?
+55. Can systemic risk be measured before a crisis when connections and exposures are partly hidden?
+56. When do interventions that protect individual components increase fragility at the system level?
+57. How do feedback between physical networks and social or financial networks amplify crises?
+58. Can stress tests anticipate rare cascades when the mechanisms and network structure may change during a crisis?
+59. What determines whether a cascade dies out, becomes localized, or repeatedly reignites?
+60. How should regulators or managers balance the efficiency of tightly connected systems against their exposure to cascading failure?
+
+### 7. Epidemics, information, and social dynamics
+61. How do mobility, household structure, institutions, and online connections jointly shape epidemic spread?
+62. When does clustering in contact networks slow transmission, and when does it create persistent reservoirs of infection?
+63. How do behavioral changes in response to an epidemic alter the epidemic’s own dynamics?
+64. Which features of a social network make misinformation spread farther or persist longer than accurate information?
+65. Can information cascades be distinguished from genuine changes in people’s beliefs or preferences?
+66. Under what conditions do social movements grow through local recruitment, and when do they depend on broader structural shifts?
+67. How do identity, trust, and group boundaries change the transmission of norms or political behavior across networks?
+68. When does social influence promote consensus, and when does it intensify polarization or fragmentation?
+69. Can a platform’s recommendation system be modeled as part of the social network rather than as an external influence?
+70. How can researchers identify whether a movement’s apparent turning point reflects a real coordination threshold or changes in visibility and reporting?
+
+### 8. Adaptation, learning, and evolution
+71. How does learning by individual agents change the long-term behavior of the systems they collectively form?
+72. When does adaptation make a system more resilient, and when does it cause agents to exploit the system in ways that undermine it?
+73. How do strategic agents respond to network interventions, and when does that response defeat the intervention’s intended effect?
+74. Can evolutionary dynamics explain the emergence of cooperation in networks when short-term incentives favor defection?
+75. How do cultural transmission and biological evolution interact to shape collective behavior?
+76. Under what conditions do adaptive networks converge to stable structures rather than continually reorganize?
+77. How does competition among different strategies alter the system’s response to shocks?
+78. When can learning produce collective intelligence, and when does it amplify shared errors?
+79. How do institutions and informal norms constrain or redirect the adaptation of networked agents?
+80. Can a system’s capacity to adapt be predicted from its structure before a crisis occurs?
+
+### 9. Modeling, measurement, and reproducibility
+81. How can researchers choose the right level of detail when simpler models are easier to analyze but may omit decisive mechanisms?
+82. Which network measurements remain reliable when data are incomplete, sampled unevenly, or collected through biased platforms?
+83. How should models represent agents whose rules, goals, or access to information differ across time and context?
+84. What standards can establish that an agent-based model is empirically grounded rather than an illustrative story?
+85. How can researchers compare models that reproduce the same observed pattern using different underlying mechanisms?
+86. When should a model prioritize interpretability, predictive accuracy, mechanistic realism, or usefulness for intervention?
+87. How can researchers test complex-system models when controlled experiments are impossible or ethically unacceptable?
+88. What practices would make computational results in complexity science more reproducible across software, data, and parameter choices?
+89. How can scale-dependent measurements be compared when a system looks organized at one scale and disordered at another?
+90. Can machine-learning models reveal genuine system mechanisms, or do they mainly capture correlations that fail under changing conditions?
+
+### 10. Intervention, control, and cross-domain theory
+91. Is it possible to control a complex networked system without fully understanding its internal structure?
+92. Which intervention strategies work when agents adapt strategically and the network changes in response?
+93. When does targeting a small number of influential nodes outperform broad, distributed intervention?
+94. How can intervention designers anticipate displacement effects, where reducing one risk shifts it elsewhere in the system?
+95. What ethical principles should guide interventions in systems where benefits and harms are distributed unevenly?
+96. Can systems be steered toward desirable outcomes while preserving their capacity for self-organization?
+97. Which insights about epidemics, financial crises, traffic, ecosystems, and social movements genuinely transfer across domains?
+98. How can researchers tell whether a shared mathematical pattern reflects a shared mechanism or only a superficial resemblance?
+99. What kinds of cross-disciplinary collaboration are needed to build models that connect network structure to institutional, ecological, or behavioral processes?
+100. Can complexity science develop reliable principles for deciding when to predict, when to prepare for multiple scenarios, and when to focus on resilience instead?

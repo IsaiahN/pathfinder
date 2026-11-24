@@ -1,0 +1,121 @@
+## Information Theory and the Foundations of Computation: 100 Unresolved Questions
+
+### 1. What information is
+1. Is information a physical property of a system, a relation between a system and an observer, or both?
+2. Can semantic information—information that means something—be defined independently of an interpreting agent?
+3. What distinguishes information from mere correlation?
+4. Can a signal carry information if no system can detect or interpret it?
+5. Is information fundamentally discrete, or can it be continuous at the physical level?
+6. How should information be defined when the relevant possibilities or probability distributions are unknown?
+7. Can information exist without uncertainty, or is uncertainty essential to the concept?
+8. What separates information from knowledge, data, and evidence?
+9. Do different physical systems instantiate the same information, or only structurally similar representations?
+10. Is there a single notion of information that coherently applies across physics, biology, cognition, and society?
+
+### 2. Information, physics, and thermodynamics
+11. What physical resources are required to create, store, transmit, and erase information?
+12. How universal is the relationship between information erasure and thermodynamic cost in real, noisy systems?
+13. Can information be transferred or transformed without a corresponding physical change in the carrier?
+14. How should information be defined in quantum systems when measurement outcomes depend on the measurement context?
+15. What becomes of information in black holes, and how should its apparent preservation be reconciled with quantum theory?
+16. Is the information content of a physical system observer-dependent, or can it be specified objectively?
+17. How do information and causal structure constrain each other in physical theories?
+18. Can information-theoretic principles explain why physical laws take their observed form?
+19. What is the correct account of information in systems far from thermodynamic equilibrium?
+20. Can information flow provide a more fundamental account of physical processes than energy flow alone?
+
+### 3. Communication and coding
+21. How close can real communication systems come to theoretical limits when channels change unpredictably?
+22. Which coding strategies best protect messages when errors are correlated rather than independent?
+23. How should a communication system allocate bandwidth among accuracy, speed, robustness, and energy use?
+24. Can communication be made reliable when sender and receiver do not share a stable code or common context?
+25. How do systems negotiate new meanings or protocols without an agreed-upon starting code?
+26. What determines whether redundancy improves reliability or instead wastes scarce communication capacity?
+27. How can a receiver distinguish noise from a rare but meaningful signal?
+28. When does compression preserve the information that matters, and who determines what matters?
+29. Can communication systems remain reliable when the channel is shaped by an adversary who adapts to the code?
+30. How should information theory model communication that changes the beliefs or behavior of its participants?
+
+### 4. Information, meaning, and interpretation
+31. Can semantic content be measured without reducing meaning to statistical predictability or behavioral effect?
+32. What makes a representation about something rather than merely correlated with it?
+33. How do context and background knowledge change the information conveyed by the same signal?
+34. Can two agents interpret the same data differently while both interpretations remain rational?
+35. How should uncertainty about meaning be distinguished from uncertainty about whether a signal was received?
+36. Can meaning be grounded in physical interaction without invoking a human-like interpreter?
+37. What role do goals and needs play in determining which information is useful?
+38. Can a message be objectively misleading, or does misleadingness always depend on an audience and context?
+39. How can a system represent ambiguity without prematurely collapsing it into a single interpretation?
+40. What would count as evidence that a machine understands information rather than merely processing its structure?
+
+### 5. Biological information and the origin of life
+41. In what sense does genetic material store information, and where does the biological meaning of that information reside?
+42. How do cells distinguish functional signals from molecular noise in changing environments?
+43. Can biological information be defined without reference to evolution, function, or an organism’s survival?
+44. How do cells integrate signals from multiple pathways when those signals conflict or arrive at different times?
+45. What mechanisms make cellular communication reliable despite molecular noise and component turnover?
+46. How does information move between genes, proteins, cells, organisms, and environments?
+47. Can epigenetic inheritance be described as information transmission, and what distinguishes it from inherited state or bias?
+48. How do cells decide which environmental information to ignore, retain, or act on?
+49. What is the minimum information-processing capacity needed for a system to adaptively respond to its environment?
+50. How did early life acquire mechanisms for storing, copying, and interpreting information before modern cellular systems existed?
+
+### 6. Brains, cognition, and perception
+51. What kinds of information are represented in neural activity, and how can they be distinguished from mere statistical patterns?
+52. Does the brain encode information in identifiable neural representations, or is information distributed across dynamics and connections?
+53. How does the nervous system decide which sensory signals deserve attention?
+54. What determines whether perception reflects incoming evidence, prior expectations, or their interaction?
+55. How does the brain combine information from different senses when they conflict?
+56. Can consciousness be explained in information-theoretic terms, and what observations would discriminate competing accounts?
+57. How does memory preserve useful structure while discarding irrelevant detail?
+58. When does compression in perception support efficient cognition, and when does it produce systematic distortion?
+59. How can a brain estimate uncertainty about its own beliefs and decisions?
+60. What information-processing features distinguish intelligence from sophisticated pattern recognition?
+
+### 7. Learning, inference, and decision-making
+61. How can a learner distinguish a stable pattern from a coincidence in a changing environment?
+62. What is the best formal account of learning when data are sparse, noisy, and unevenly informative?
+63. How should a system balance exploration for new information against acting on what it already knows?
+64. When does prior knowledge improve inference, and when does it lock a learner into a mistaken model?
+65. Can information gain alone guide rational inquiry, or must it be combined with relevance, cost, and consequences?
+66. How should decision-makers compare information that reduces uncertainty with information that changes what actions are possible?
+67. What makes a causal explanation more informative than a predictive correlation?
+68. How can learners detect when the environment has changed enough to invalidate what they previously learned?
+69. Is there a principled way to quantify the value of information before its content is known?
+70. How should a decision system act when the information needed to choose well is unobtainable or fundamentally uncertain?
+
+### 8. Computation and its foundations
+71. What physical processes qualify as computation, rather than merely evolving according to rules?
+72. Is computation a property of the system itself, or of how an observer maps its states to inputs and outputs?
+73. What distinguishes a general-purpose computer from a system that can imitate a computation only under a chosen interpretation?
+74. Are there physically meaningful limits to computation beyond familiar limits on time, memory, and energy?
+75. How should computation be defined in analog, chemical, biological, and quantum systems?
+76. Can computation occur without discrete symbols or a central processor?
+77. What determines whether a computational model captures the causal structure of the system it describes?
+78. Can any physical process be simulated efficiently, or do some systems resist useful simulation even when they are computable in principle?
+79. How do randomness and nondeterminism affect what can be computed and what can be predicted?
+80. What role does the observer play in deciding which physical states count as computational states?
+
+### 9. Information in AI and machine learning
+81. What information do large learning systems actually encode in their parameters?
+82. How can researchers distinguish generalizable representations from patterns that only fit training data?
+83. When does compression in a model preserve useful structure, and when does it erase rare but important cases?
+84. Can a model reliably communicate uncertainty about unfamiliar inputs, or does it mainly reflect the limits of its training and evaluation?
+85. How do training data, objectives, and feedback channels shape the information an AI system learns to prioritize?
+86. Can a model identify when its sources are misleading, rather than merely reproducing their patterns?
+87. What makes information generated by an AI system trustworthy when its internal reasoning is difficult to interpret?
+88. How should systems combine information from tools, users, and learned parameters when those sources conflict?
+89. Can AI systems develop useful internal representations of causal structure from observational data alone?
+90. What evidence would show that an AI system can use information flexibly in new contexts rather than relying on familiar associations?
+
+### 10. Social information, reliability, and misinformation
+91. How do trust, reputation, and social identity affect whether information is believed or shared?
+92. Why do some false claims spread more effectively than accurate information, even when corrective evidence is available?
+93. How can a society distinguish reliable expertise from persuasive but poorly grounded claims?
+94. When does repetition increase confidence without increasing the actual evidence for a claim?
+95. How do media platforms’ ranking and recommendation systems alter the information people encounter and trust?
+96. Can institutions make public information more reliable without suppressing legitimate disagreement or minority evidence?
+97. How should information systems handle claims whose truth is uncertain, contested, or dependent on future events?
+98. What kinds of transparency help people evaluate information, and when does disclosure overwhelm or mislead them?
+99. How does unequal access to information shape power, coordination, and social inequality?
+100. Can a shared information environment be maintained when communities disagree about sources, standards of evidence, and what counts as relevant context?

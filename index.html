@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Pathfinder — a human-validation benchmark</title>
+  <meta name="description" content="1,300 questions, one method, and an open record of every human verdict. Explore the corpus and help test the Tether/WATSON metatheory.">
+  <link rel="stylesheet" href="assets/app.css">
+  <script>
+    // Recover a deep link that the 404 fallback encoded as ?p=...
+    (function () {
+      try {
+        var params = new URLSearchParams(location.search);
+        var p = params.get('p');
+        if (p) {
+          var clean = p.replace(/^\//, '');
+          history.replaceState(null, '', '/pathfinder/' + clean + location.hash);
+        }
+      } catch (e) { /* local file:// use — leave URL alone */ }
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-head">
+    <a class="brand" href="./" aria-label="Project Pathfinder home">
+      <span class="brand-mark">PF</span>
+      <span>Project Pathfinder</span>
+    </a>
+    <nav>
+      <a href="./">Corpus</a>
+      <a href="README.md">Method</a>
+      <a href="https://github.com/IsaiahN/pathfinder">GitHub repo</a>
+    </nav>
+  </header>
+
+  <main id="app" aria-live="polite">
+    <div class="loading">Loading corpus…</div>
+  </main>
+
+  <footer class="site-foot">
+    <span>Project Pathfinder</span>
+    <span id="generated-at"></span>
+    <span>Votes and verdicts are public. No email addresses are stored here.</span>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

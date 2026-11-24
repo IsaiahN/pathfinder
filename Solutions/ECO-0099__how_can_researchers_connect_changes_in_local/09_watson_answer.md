@@ -1,0 +1,75 @@
+# WATSON answer: connecting local species interactions to global biodiversity patterns
+
+**Mode: `general` on the structural shape, `specified` on the three checkable sub-claims.**
+
+**Status: SIMULATED DERIVATION, not a ground reading.** This run synthesizes `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md` and `08_expert_verification_packet.md`. It is checked for internal consistency against the figures. By its own rule (*The Recursive Self-Improvement Trap*: LLM output can "simulate an approximate answer/output with the formula" but "the truly testable output would need to be derived from the real architecture or working the formula yourself"), it cannot settle the question it reports on. No new measurement was taken.
+
+## QUESTION
+
+Decide, in effect terms, what the Tether says about the claim that researchers can connect changes in local species interactions to global patterns of biodiversity loss and ecosystem function. Option A: treat the global pattern as a magnified local interaction and search for one universal scaling law. Option B: treat the crossing as a directional membrane, carry a method up, measure the round-trip gap and triangulate two low-overlap frames against a ground that does not update. What each leads to: A delivers a named law with no source gate and hides the live per-slot residual in an average; B delivers a checkable shape, three written refuters and an open slot until a ground settles it. The figures decide for B.
+
+## DOMAIN CENSUS
+
+R by arity, symmetry and scale, then one line per domain with actors / currency / anchor, partition or union, and order by dependency.
+
+- **R (the residual).** The transform failure between a measured local interaction change and a measured global pattern. Arity: at least two scales, so this is over a crossing, not one quantity. Symmetry: asymmetric, local change produces the pattern (production `⇒`), while the pattern is a lossy projection that cannot name a unique local source. Scale: first order at the site, second order at the biome or metacommunity, third order at the biosphere. Fig 1 :19: "The residual is indexed by object slot, not aggregated." Aggregating into a global mean destroys the signal that says where to look.
+- **Domain 1, local interaction frame.** Actors: species and the relations pollination, predation, competition, dependency, plus conditions light, water, temperature, season, terrain. Currency: interaction strength, local abundance, fitness. Anchor: field manipulation and measurement at a site. Ground-visible.
+- **Domain 2, scaling / membrane frame.** Actors: methods, instruments, indices, hierarchical models. Currency: what crosses up (methods), what comes down (head starts), R_T. Anchor: the round trip tested at a held-out site. Ground-visible only through the round trip.
+- **Domain 3, global pattern frame.** Actors: biomes, realms, taxa, indicators, global compilations. Currency: statistical order and mapped effect sizes. Anchor: global observation and assessment, which does not update because a local model prefers it. Ground-visible, different ground from Domain 1.
+- **Domain 4, verification frame.** Actors: expert readers, reviewers, data keepers. Currency: agreement versus residual. Anchor: the ground, never agreement. In this simulated run all seats draw on one evidence pool, so their agreement is one pool talking, not corroboration.
+- **Partition or union:** union compound. The local and global frames share species names but draw on different evidence. Fig 9 :54: "And when the split lands on a union rather than a partition, unbundle before you search again." Local mechanism, global pattern and ecosystem function are three overlapping conditions with different grounds.
+- **Order by dependency (Fig 3):** name the residual per slot, state what counts as progress at the global scale, plan the crossing, then learn and carry the method rather than the recording. Fig 3 :27: "A link with no instrument is not a link that works. It is a link nobody has looked at."
+
+Strain test: a literal mapping of ecological actors onto Fig 13's six physical terms would need forcing, so it was refused at re-census. Fig 13 is used only for recursion and for the unreachable-is-a-verdict rule. See `01_figure_grounded_audit.md` F9.
+
+## TETHER (primary, verbatim)
+
+Cited against `FRAMEWORK/reference/03-FIGURES_TEXT.md`. Quotes are verbatim from the figures.
+
+- **Domain 1, local.** Fig 11 :43 "The habitat is enumerated, never composed." -> the habitat is read off the world, not composed from a list of important species. Fig 11 :52 "And contact cascades. Scoping the habitat to direct contact is how DDT reached the eagles: first-order enumeration, second-order effect, and the residual that mattered was three steps out." -> the effect is commonly several steps out. Fig 1 :19 "The residual is indexed by object slot, not aggregated." -> report per taxon, interaction and site. Verdict: **triangulated** (Fig 11 enumeration and Fig 1 slot rule, two distinct figures).
+- **Domain 2, membrane.** Fig 4 :21 "The membrane is the boundary between the sizes, and the rule about what may cross it. Not a wall: a filter with a direction." -> the crossing has a direction. Fig 4 :22 "Only methods cross up. Only head starts come down." -> a site transcript is not a bridge. Fig 4 :30 "So take the round trip and measure the gap. Without it you are navigating by dead reckoning: confident about a position nobody checked." -> R_T is measured, not assumed. Verdict: **triangulated** (Fig 4 membrane plus the `THE_FORMULA.md` step-6 round trip; different documents).
+- **Domain 3, global.** Fig 10 :68 "Different actors, a different currency, a different ground, and a lossy transform between. That is why there is no top rung and no regress: a generator crosses, an instance does not, and the level it lands on remakes it." -> global is not a larger local. Fig 9 :32 "you get a kind of thing, never the answer itself" -> a shape, not a law. Fig 13 :134 "Unreachable is a verdict here, not a silence" -> naming a specific law is a `gap`, recorded plainly. Verdict: **triangulated** for "not a larger copy" and the shape limit; **gap** for any specific scaling law.
+- **Domain 4, verification.** Fig 2 :29 "An anchor is whatever settles the question and does not change its answer because of what any frame thinks. A measurement, an experiment, a counter, a market, a patient outcome. If it moves when you push on it, it is not an anchor." Fig 2 :31 "Independence, between two frames, is how little they draw on the same evidence. Two people reading the same report are not two frames; two instruments pointed at the same thing are. Independence is what makes agreement mean something." Fig 8 :45 "Two frames together reach what neither reaches alone." -> range field and global frames separately. Fig 2 :35 "Alignment is triangulation, not negotiation. A mirror cannot correct you." -> consensus is not a bridge. Verdict: **triangulated** (Fig 2 anchor/independence and Fig 8 union surplus).
+
+Triangulation summary: the structural shape is triangulated across low-overlap figure pairs (Fig 4 with Fig 10; Fig 11 with Fig 1; Fig 2 with Fig 8). The claim that a specific universal scaling law connects the scales is **gap** after re-census, not a silence. The one strain, a literal Fig 13 mapping, was named and refused. Nothing was smoothed.
+
+## WORLD (secondary sources read)
+
+World sources corroborate but never overrule the figures. Five of the eight are Wikipedia articles, which share a host and a tertiary-summary style; their agreement with each other is one pool, not several witnesses. Nyström et al. and IPBES are independent of that pool.
+
+- **Empirical ecology / scaling.** Jakob Nyström, Jeffrey R. Smith, Lisa Mandle, Andrew Gonzalez, Thomas B. Schön, Tobias Andermann et al., "Global biodiversity models exhibit low predictive accuracy on local scales", *Nature Ecology & Evolution*, 2026 (opened 2026-11-23): "there is a challenging gap between effect size inference and local prediction". Predicts a nonzero, measurable R_T for averaged global models; corroborates the Fig 4 round-trip claim. Overlap: low, primary peer-reviewed article.
+- **Macroecology.** Wikipedia contributors, "Macroecology", 2026 (opened 2026-11-23), quoting Brown 1999: ecological systems "exhibit a great deal of order", and Lawton: the field "seeks to get above the mind-boggling details of local community assembly to find a bigger picture". Predicts a global pattern frame with its own currency; corroborates Domain 3. Overlap: Wikipedia pool.
+- **Community ecology.** Wikipedia contributors, "Trophic cascade", 2026 (opened 2026-11-23): "Trophic cascades are powerful indirect interactions that can control entire ecosystems" and "These trophic interactions shape patterns of biodiversity globally"; the Yellowstone caveat says the system is open and affected by factors other than wolf reintroduction. Predicts multi-step cascades plus context openness; corroborates Fig 11 :52. Overlap: Wikipedia pool.
+- **Network ecology / complexity.** Wikipedia contributors, "Ecological network", 2026 (opened 2026-11-23): "An ecological network is a representation of the biotic interactions in an ecosystem, in which species (nodes) are connected by pairwise interactions (links)". Predicts that the local object is actors plus relations; corroborates the Domain 1 census. Overlap: Wikipedia pool.
+- **Macroecology / statistics.** Wikipedia contributors, "Species-area relationship", 2026 (opened 2026-11-23): "Ecologists have proposed a wide range of factors determining the slope and elevation of the species–area relationship", with a dispute between mechanistic and random-sampling explanations. Predicts one pattern with several candidate sources; corroborates the asymmetry claim. Overlap: Wikipedia pool and same subfield as Macroecology.
+- **Theoretical ecology / scaling.** Wikipedia contributors, "Metabolic theory of ecology", 2026 (opened 2026-11-23): a theory "from the level of cells all the way to the biosphere", but "MTE's ability to explain patterns of diversity remains controversial". Predicts a candidate method that crosses scales but is contested; corroborates the `gap` verdict for a named law rather than conflicting with it. Overlap: Wikipedia pool.
+- **Human perception / color science (low overlap with ecology).** Wikipedia contributors, "Metamerism (color)", 2026 (opened 2026-11-23): "Metamerism occurs because each type of cone responds to the cumulative energy from a broad range of wavelengths, so that different combinations of light across all wavelengths can produce an equivalent receptor response and the same tristimulus values or color sensation." Predicts that a lossy reading cannot name its source; corroborates Fig 9 :32. Overlap: Wikipedia pool but a different field and evidence base.
+- **Institutional / science-policy.** IPBES, "Global Assessment Report on Biodiversity and Ecosystem Services", 2019 (opened 2026-11-23): "IPBES is to perform regular and timely assessments of knowledge on biodiversity and ecosystem services and their interlinkages at the global level." Predicts a global anchor institution that aggregates rather than manipulates; corroborates the different-ground claim for Domain 3. Overlap: low, institutional source.
+
+No world source conflicts with the figure verdict; the conflict rule was not triggered. Agreement among the Wikipedia pages is discounted as a shared pool. Nyström et al. supplies the only independent quantitative witness for a measured gap.
+
+## VERDICT (from the figures)
+
+The shape survives; the specific law does not exist in the figures. Local and global are separated by a directional membrane with a lossy transform. Enumerate the contact habitat around the changed interaction and follow cascades at least two steps out; keep the residual per slot instead of hiding it in a mean; carry a method up and bring it down at held-out sites while measuring R_T; refuse to name the local source from the global reading; range a field frame and a global frame separately against a ground neither can move. The figures return a shape, not an exponent or an index, so the request for a universal law is `gap` after a genuine census. This is `general` on the shape and `specified` on the three checkable sub-claims, ungrounded and candidate.
+
+- **cost if wrong:** bounded and locatable. The packet is mode-labelled, states refuters before the conclusion and records the lineage, so an error is findable rather than invisible. The real cost is spending the independence of outside readers by sending a recording instead of a generator, which Fig 2 :42 prices: "Buy independence in proportion to the cost of being wrong." That cost is avoidable by leading with the shape claim and its refuter.
+- **undoable:** yes. The gap is the absence of a named law, not a commitment to one. A measured R_T, a source-discriminating instrument and an invertible-projection test can be added without withdrawing any primitive. A sent claim can be superseded by a corrected packet.
+- **reversed by:** a ground reading, not agreement. An instrument that separates candidate local mechanisms behind one coarse reading would name what the map cannot; a local method with R_T indistinguishable from zero across several biomes would break the lossy-transform claim; a comprehensive set of first-order-only cascades would break the habitat-enumeration claim. Until one of these fires, the verdict stands as `candidate`.
+
+## Sources
+
+- [The figures, as text (local canonical extract)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\03-FIGURES_TEXT.md)
+- [Figures README (canonical local copy)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\FIGURES_README_canonical.md)
+- [THE FORMULA (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\figures\THE_FORMULA.md)
+- [Global biodiversity models exhibit low predictive accuracy on local scales](https://www.nature.com/articles/s41559-026-03205-z)
+- [Macroecology](https://en.wikipedia.org/wiki/Macroecology)
+- [Trophic cascade](https://en.wikipedia.org/wiki/Trophic_cascade)
+- [Ecological network](https://en.wikipedia.org/wiki/Ecological_network)
+- [Species-area relationship](https://en.wikipedia.org/wiki/Species%E2%80%93area_relationship)
+- [Metabolic theory of ecology](https://en.wikipedia.org/wiki/Metabolic_theory_of_ecology)
+- [Metamerism (color)](https://en.wikipedia.org/wiki/Metamerism_(color))
+- [IPBES Global Assessment](https://www.ipbes.net/global-assessment)
+- [The Library of Babel: Locating The Book of Books](https://adventuresinml.substack.com/p/the-library-of-babel-locating-the)
+- [The Hard Problem is About Source](https://adventuresinml.substack.com/p/the-hard-problem-is-about-source)
+- [The Recursive Self-Improvement Trap](https://adventuresinml.substack.com/p/the-recursive-self-improvement-trap)
+- [Decoding Tacit Knowledge: Why Context, Subtext, and Pretext Matter](https://adventuresinml.substack.com/p/decoding-tacit-knowledge-why-context)

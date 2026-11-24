@@ -1,0 +1,78 @@
+# WATSON answer: how can researchers compare experimental knowledge with observational or practice knowledge?
+
+**Mode: `specified`, not `grounded`.**
+
+**Status: SIMULATED DERIVATION, not a ground reading.** This run synthesizes `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md` and `08_expert_verification_packet.md`. It is checked for internal consistency against the figures. By its own rule (LLM output is "simulacra" and "the truly testable output would need to be derived from the real architecture or working the formula yourself") it cannot settle the question it reports on. No measurement was taken.
+
+## QUESTION
+
+Decide, in effect terms, what a checkable comparison of two bodies of knowledge looks like. One body comes from controlled experiments (intervention, control, random assignment, isolation). The other comes from long-term observation or practice (unmanipulated records, temporal sequence, skill learned by contact). Option A: pool them into one ranked score. Option B: translate one into the other's vocabulary as if translation moved the boundary. Option C: keep them separate, range each against a shared ground, measure the transport loss, declare the substituted habitat, and split into domains of validity where each wins on a different subset. What each leads to: A scores a frame with a quantity that frame produces and averages away the live difference; B mistakes an import for a new atom and debits no independence; C produces a checkable shape with five refuters written in advance and a scope map instead of a winner.
+
+## DOMAIN CENSUS
+
+R by arity, symmetry and scale, then one line per domain with actors / currency / anchor, partition or union, and order by dependency.
+
+- **R (the residual).** The comparison itself. Arity: a binary relation among two frames and a ground, not a scalar. Symmetry: ordered, because Fig 8 defines comparison as a threshold relation, while pooling is a symmetric collapse. Scale: each body is a settled first-order structure; the comparison is second order. Fig 1 :19 says "The residual is indexed by object slot, not aggregated."
+- **Domain 1, experimental frame.** Actors: experimenter, treatment, control, random assignment, instrument, protocol. Currency: subtraction of the control, production of the outcome, threshold comparison, replicability. Anchor: the outcome under intervention, re-runnable. Fig 1 :27 says "A frame cannot score itself with a quantity it also produces."
+- **Domain 2, observation and practice frame.** Actors: observer, practitioner, field site, long time series, cases, community of practice. Currency: temporal succession, co-occurrence, pattern recognition, tacit skill. Anchor: the long-run unmanipulated record.
+- **Domain 3, comparison and verification frame.** Actors: meta-researcher, methodologist, replication, registered-report reviewer. Currency: residuals, cross-checks, round-trip gap R_T. Anchor: the ground, that is the outcome both frames aim to predict, never agreement between them. Fig 2 :29 says "An anchor is whatever settles the question and does not change its answer because of what any frame thinks."
+- **Partition or union.** Union. A surplus exists only where closures differ and a residual is aimed. Fig 8 :45 says "Two frames together reach what neither reaches alone." Fig 8 :29 gives the condition: "low overlap: B does not draw on A's evidence". Fig 9 :4 requires a split where each rule works on a different subset.
+- **Order by dependency.** Describe R before choosing a frame; refuse the blend and the self-scoring hierarchy before composing; settle each first-order body before the second-order comparison; measure the round trip before transport; let the ground vote.
+
+Strain test applied: Fig 11 on habitat substitution and the world literature on field experiments govern different objects, so no contradiction after re-census. The live strain is the operand type of comparison at second order, recorded below.
+
+## TETHER (primary, verbatim)
+
+Cited against `FRAMEWORK/reference/03-FIGURES_TEXT.md`. Quotes are verbatim from the SVGs. Verdicts are kept per domain and never averaged.
+
+- **D1 to D3, ground and independence.** Fig 2 :35 "Alignment is triangulation, not negotiation. A mirror cannot correct you." -> comparison ranges frames against an anchor, it does not negotiate a ranking. Fig 2 :40 "disqualifying for a verdict: agreement about the world is worthless when the agreeing frames share an evidence pool" -> independence is a condition, not a courtesy. Fig 2 :42 "Buy independence in proportion to the cost of being wrong." -> spend budget on separation. **`triangulated`** (Fig 1 ground-as-only-metric, Fig 2 anchor and independence, Fig 7 ground votes; low overlap among the three).
+- **Comparison order.** Fig 8 :53 "Residual first, frame second." and Fig 9 :27 "describe it before you go looking, or any frame you pick will seem to fit" -> the residual is described in effect terms before any method is named. **`triangulated`** (Fig 8 and Fig 9).
+- **Transport.** Fig 4 :30 "So take the round trip and measure the gap. Without it you are navigating by dead reckoning: confident about a position nobody checked." -> a transported finding carries a measurable gap R_T. Fig 4 :25 "A recording carried upward looks like knowledge and is a description of one occasion." -> the record is not the method. **`triangulated`** (Fig 4 plus low-overlap world fields, statistics and medicine).
+- **Habitat limit.** Fig 11 :70 "A test harness is a substituted habitat. Which is why a synthetic solve proves wiring and never capability." and Fig 11 :66 "Isolation is not removal of the habitat. It is substitution of one habitat for another." -> an experiment proves wiring, not field capability. **`single-source`** on the figure side (Fig 11 isolation law), with independent world corroboration from experimental economics, ecology and medicine.
+- **Splitting the union.** Fig 9 :4 "Disagreements that do not shrink with effort, where each rule keeps working well on a different subset, are not one hard question but several well-formed ones. Split it rather than search." -> scopes, not a winner. **`triangulated`** (Fig 9 plus Fig 10 locally-correct frames).
+- **Verification.** Fig 10 :42 "A verifier that can reconstruct the claim cannot verify it." and Fig 10 :52 "Bring a characterised residual, never the source." -> the first contact carries the residual and refuter, not the framework. **`single-source`** on the figure side (Fig 10), corroborated by the practice of anonymous review and registered reports.
+- **Structure of the two bodies.** Fig 12 :117 "isomer. Same atoms, different bond, different substance. The difference is invisible in the formula and decisive in the behaviour." -> over a declared shared atom set they are isomers, otherwise a functional group. Fig 12 :104 "A settled molecule becomes an atom for whatever composes over it. So irreducible is a fact about a level and never about the world" -> the comparison is second order. **`single-source`** for the figure definition (Fig 12), with the atom-set normalisation declared rather than assumed.
+- **Live strain.** The Operators table restricts comparison to "a threshold relation between two quantities", while second-order operands are settled bodies now atoms. Named, not smoothed. No figure closes it.
+
+## WORLD (secondary sources read; author, venue, year, quote, prediction, status)
+
+1. **Sociology of science.** Harry Collins (as summarised by Wikipedia contributors), "Experimenter's regress", Wikipedia, accessed 2026-11-23. Quote: "since experimentation is a matter of skilful practice, it can never be clear whether a second experiment has been done sufficiently well to count as a check on the results of a first". Predicts that a published protocol is not a complete record of the experiment. **corroborates** Fig 4 :25 and Fig 1 :27. Overlap: low with the figures, but shares the Collins corpus with source 5.
+2. **Philosophy of science.** Stanford Encyclopedia of Philosophy, "Experiment in Physics", first published 1998, revised 2023. Quote: "Different apparatuses have different backgrounds and systematic errors, making the coincidence, if it is an artifact, most unlikely." Predicts that independent instruments, not agreement inside one frame, give reason to believe a result. **corroborates** Fig 2 :31 and :35. Overlap: low.
+3. **Research methods / statistics.** Wikipedia contributors, "External validity", accessed 2026-11-23. Quote: "field studies are not by their nature high in external validity and laboratory studies are not by their nature low in external validity." Predicts a scope map rather than a winner. **corroborates** Fig 9 :4. Overlap: low.
+4. **Social science methodology.** Wikipedia contributors, "Triangulation (social science)", accessed 2026-11-23. Quote: "The concept of triangulation is borrowed from navigational and land surveying techniques that determine a single point in space with the convergence of measurements taken from two other distinct points." Predicts that the two measurement points must be distinct. **corroborates** Fig 2 :31. Overlap: shared word "triangulation" with Fig 2, so weak as independent evidence.
+5. **Knowledge management / cognition.** Wikipedia contributors drawing on Polanyi and Collins, "Tacit knowledge", accessed 2026-11-23. Quote: "tacit knowledge is personal and contextual; it is distributed across knowing subjects, and cannot easily be aggregated." Predicts that aggregation loses the skill signal. **corroborates** Fig 1 :22 and Fig 4 :25. Overlap: shares Collins with source 1.
+6. **Experimental economics / engineering / ecology.** Wikipedia contributors, "Field experiment", accessed 2026-11-23. Quote: "Field experiments can act as benchmarks for comparing observational data to experimental results." Predicts a partial bridge, not a full restoration of the habitat. **corroborates** Fig 11 :66 while limiting F5. Overlap: low.
+7. **Medicine.** Wikipedia contributors, "Real world evidence", accessed 2026-11-23. Quote: "An RWD resource can be fit for addressing some questions, but not others." Predicts fitness for purpose as a scope condition. **corroborates** Fig 9 :4. Overlap: low.
+8. **Ethology / anthropology / psychology.** Wikipedia contributors, "Naturalistic observation", accessed 2026-11-23. Quote: "because extraneous variables cannot be controlled as in a laboratory, it is difficult to replicate findings and demonstrate their reliability." Predicts a genuine tradeoff, not a hierarchy. **corroborates** Fig 11 :70. Overlap: low.
+9. **Metascience.** Center for Open Science, "Registered Reports", accessed 2026-11-23. Quote: "Peer review occurs prior to observing the outcomes of the research." Predicts that the method can be checked before the result biases the check. **corroborates** Fig 10 :42. Overlap: low.
+10. **Search / shape.** Isaiah N, "The Library of Babel: Locating The Book of Books", adventuresinml Substack, 2026-10-02. Quote: "you can cut your search short if the set of books returned is small and descriptive enough that it provides a general shape of the answer that satisfies your question." Predicts a narrowed shape, not a method name. **corroborates** Fig 9 :32. Overlap: high, same author as the figures.
+11. **Instrument discrimination.** Isaiah N, "The Hard Problem is About Source", adventuresinml Substack, 2026-08-28. Quote: "If several paths create the same behavior, then behavior is a projection with lossy information." Predicts that a controlled reading cannot name its field source. **corroborates** Fig 4 :30. Overlap: high, same author.
+
+No world source conflicts with the figure verdict, so the conflict rule was not triggered. Sources 10 and 11 share an author and an evidence pool with the figures; their agreement is expected and carries little independent weight. Sources 1 to 9 are from distinct fields, but sources 1 and 5 share the Collins corpus, so they are one witness on the tacit-skill point, not two.
+
+## VERDICT (from the figures)
+
+The shape survives; the prestige hierarchy and the lossless translation do not. A checkable comparison keeps the two frames separate, buys independence between them, ranges them against one anchor that neither can move, describes the residual before choosing a method, reports the round-trip gap, declares the substituted habitat, and splits into domains of validity where each wins on a different subset. Over a declared shared atom set the two bodies are isomers; as practised they are a functional group. Skill travels by contact, not by a complete record. This is a `specified`, ungrounded result. The live strain is the operand type of comparison at second order.
+
+- **cost if wrong:** bounded and locatable. The packet states five refuters and a mode before the conclusion, so an error is findable rather than invisible. The real cost is spending the independence of outside readers by sending the full framework before the residual, which Fig 2 :42 prices as buying independence in proportion to the cost of being wrong. That cost is avoidable by leading with the refuter.
+- **undoable:** yes. The comparison can be re-scoped without withdrawing either body of knowledge. A scope map can be corrected by adding the missing habitat condition, and a transported result can be re-reported with its measured gap. No primitive has to be removed.
+- **reversed by:** a ground reading, not agreement. A pooled estimate preserving the live difference signal and settled by an anchor neither frame authored would reverse F1; a zero-gap transport would reverse F4; full habitat reproduction preserving capability, or an agent-only improvement changing contact, would reverse F5; a single method dominating at the ground across all subsets would reverse the split verdict; a novice reproducing expert skill from the record alone would reverse F8. An instrument that settles the second-order operand type would clear the strain. Until one of these fires, the verdict stands as `candidate`.
+
+## Sources
+
+- [Figures text with line numbers (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\03-FIGURES_TEXT.md)
+- [Figures README, canonical usage rule (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\FIGURES_README_canonical.md)
+- [WATSON 60: the figures as metalaws (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\60_FIGURES_AS_METALAWS.md)
+- [THE FORMULA (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\figures\THE_FORMULA.md)
+- [Experimenter's regress](https://en.wikipedia.org/wiki/Experimenter%27s_regress)
+- [Experiment in Physics, Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/physics-experiment/)
+- [External validity](https://en.wikipedia.org/wiki/External_validity)
+- [Triangulation (social science)](https://en.wikipedia.org/wiki/Triangulation_(social_science))
+- [Tacit knowledge](https://en.wikipedia.org/wiki/Tacit_knowledge)
+- [Field experiment](https://en.wikipedia.org/wiki/Field_experiment)
+- [Real world evidence](https://en.wikipedia.org/wiki/Real_world_evidence)
+- [Naturalistic observation](https://en.wikipedia.org/wiki/Naturalistic_observation)
+- [Registered report](https://en.wikipedia.org/wiki/Registered_report)
+- [Registered Reports, Center for Open Science](https://www.cos.io/initiatives/registered-reports)
+- [The Library of Babel: Locating The Book of Books](https://adventuresinml.substack.com/p/the-library-of-babel-locating-the)
+- [The Hard Problem is About Source](https://adventuresinml.substack.com/p/the-hard-problem-is-about-source)

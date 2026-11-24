@@ -1,0 +1,87 @@
+# WATSON answer: tabletop tests of whether gravity can entangle quantum systems
+
+**Mode: `specified`, not `grounded`.**
+
+**Status: SIMULATED DERIVATION, not a ground reading.** This WATSON run synthesizes material already in `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md` and `08_expert_verification_packet.md`. It is checked for internal consistency against the figures. By its own rule (The Recursive Self-Improvement Trap, 2026-11-19: LLM output is simulacra and "the truly testable output would need to be derived from the real architecture or working the formula yourself") it cannot settle the question it reports on. No measurement was taken.
+
+## QUESTION
+
+Decide, in effect terms, what the Tether says about tabletop experiments that test whether gravity can entangle quantum systems. Option A: treat a spin correlation above threshold as a verdict that gravity is quantum and name the resulting theory. Option B: treat the readout as the ground, the witness as a filter, the observation as a union of correlation plus classical-channel exclusion, and return only the shape "the gravitational mediator has a nonclassical degree of freedom". What each leads to: A announces a name the experiment does not deliver and spends the independence of the people asked to check it; B sends a checkable shape, four refuters written in advance, and an honest stop at the current instrument budget.
+
+## DOMAIN CENSUS
+
+R by arity, symmetry and scale, then one line per domain with actors / currency / anchor, partition or union, and order by dependency.
+
+- **R (the residual).** No existing observation separates a quantum-capable gravitational mediator from a classical one at a scale where both frames predict the same macroscopic world. Arity: two object slots, the two masses and their spins (Fig 1 :19, "The residual is indexed by object slot, not aggregated"). Symmetry: the Newtonian interaction and the witness are exchange-symmetric, so an observed asymmetry flags a non-gravitational actor. Scale: mesoscopic, far from the Planck scale. Scale is a separate quantity from arity and symmetry.
+- **Domain 1, quantum information / witness frame.** Actors: two spins, two spatial superpositions, correlation threshold. Currency: entanglement and visibility. Anchor: the measured spin correlation. Question type: partition with a threshold, entangled or not.
+- **Domain 2, gravitational physics frame.** Actors: two masses, Newtonian potential / field, possibly gravitons. Currency: gravitational phase. Anchor: measured relative phase. Question type: reachability, whether the quantum-channel atom is inside classical closure.
+- **Domain 3, experimental / habitat frame.** Actors: interferometers, traps, thermal bath, electromagnetic and Casimir-Polder forces, tidal gradients, back-action. Currency: coherence time, decoherence rate. Anchor: the instrument readout. Question type: union compound, correlation AND exclusion.
+- **Domain 4, verification / interpretation frame.** Actors: expert readers and modelling paradigms. Currency: agreement and residual. Anchor: the ground, never agreement. In this simulated run all seats draw on one evidence pool, so independence is zero.
+- **Partition or union.** D1 and D2 are a union with surplus (low overlap). D3 overlaps both and is a compound with its own loop. "Entanglement observed" is itself a union of two conditions, not one hard measurement.
+- **Order by dependency.** Describe the residual before naming a frame; refuse the unconditional inference before minting a new claim; settle the first-order readout before the second-order interpretation; name last, if a provenanced import earns it.
+
+Strain test applied: Fig 6 says import adds an atom, but the framework's six already include network, so the import is into the physics frame, not a new framework primitive. Re-census dissolves the strain. One live strain remains in the world column: the literature disagrees about how strong a positive witness is. It is recorded, not used to flip the figure verdict.
+
+## TETHER (primary, verbatim)
+
+Cited against `FRAMEWORK/reference/03-FIGURES_TEXT.md`. Quotes are verbatim from the SVGs. Verdicts are per domain and are never averaged.
+
+**Domain 1, triangulated.** Fig 2 :29-30 "An anchor is whatever settles the question and does not change its answer because of what any frame thinks. A measurement, an experiment, a counter, a market, a patient outcome. If it moves when you push on it, it is not an anchor." -> the spin readout is the anchor, not theorist agreement. Fig 9 :60 "Use filters for the budget and witnesses for the verdict. Never let a filter hand you a verdict." -> the witness narrows frames and does not name a theory. Fig 9 :32 "you get a kind of thing, never the answer itself" -> only a shape is licensed. Corroborated from outside the framework by Bose et al. and Marletto and Vedral, whose reasoning does not draw on the figures.
+
+**Domain 2, triangulated.** Fig 6 :21 "MINT composes inside the closure and can never add an atom." -> classical gravitational closure cannot compose the quantum-channel atom; the experiment is necessary. Fig 8 :32 "Closure is idempotent. Composing inside a closed set never leaves it, so no search, however long, adds an atom. This one is definitional: it is what closure means." -> more analysis of the classical frame cannot substitute for the instrument. Fig 6 :14 "the only operator that moves the wall" -> import, here arriving with a measurement. Low overlap between Fig 6 and the quantum information theorem, so the agreement is weak but not circular.
+
+**Domain 3, single-source in the figures, corroborated on status.** Fig 11 :43 "The habitat is enumerated, never composed." and Fig 11 :48 "You do not invent the list. You read it off the world, and what you cannot perceive or measure yet is the residual." -> enumerate every classical channel to second order. Fig 11 :52-53 "And contact cascades. Scoping the habitat to direct contact is how DDT reached the eagles: first-order enumeration, second-order effect, and the residual that mattered was three steps out." -> first-order shielding is not enough. Fig 6 :34-35 "The question is not whether a sensor could exist. It is whether anything, at any resolution, is already returning something that fails to resolve." -> instruments already exist, so this is unreached at this budget rather than unreachable in principle. Fig 8 :39 "So a search that finds nothing is never a proof of absence." -> a null result does not establish classical gravity.
+
+**Domain 4, gap on the name, verdict on the shape stands.** Fig 2 :40 "agreement about the world is worthless when the agreeing frames share an evidence pool" -> this simulated second seat is not a witness. Fig 8 :51 "Convergent derivation and adopted import look identical in the contents. Only the record of where each came from separates them." -> the graviton claim from Danielson et al. is a different frame's derivation, not a figure result. Fig 2 :42 "Buy independence in proportion to the cost of being wrong." -> ask an outside reader for a verdict before showing any theory.
+
+**Triangulation summary.** The filter-not-verdict claim is triangulated across Fig 9 and Fig 2 with the physics witness papers. The closure claim is triangulated across Fig 6, Fig 8 and the independent quantum information theorem. The habitat/enumeration claim is single-source in the figures with world corroboration on status. The name of the theory is a `gap`: the figures return a shape, and the world sources disagree about the strength of the inference.
+
+## WORLD (secondary sources read)
+
+World sources corroborate only; they never overrule a figure verdict. Fields were chosen for low overlap with the framework author where possible.
+
+- **Field:** quantum gravity phenomenology / experimental proposal. **Author / venue / year:** Sougato Bose et al., Physical Review Letters 119, 240401, 2017, arXiv:1707.06050. **Quote:** "two objects cannot be entangled without a quantum mediator". **Prediction:** a spin correlation above threshold certifies a quantum coherent mediator. **Verdict:** corroborates Domain 1 and the shape.
+- **Field:** quantum information theory. **Author / venue / year:** Chiara Marletto and Vlatko Vedral, Physical Review Letters 119, 240402, 2017, arXiv:1707.06036. **Quote:** "any system (e.g. a field) capable of mediating entanglement between two quantum systems must itself be quantum". **Prediction:** entanglement is an indirect witness of the quantisation of the mediator, without quantum control over gravity. **Verdict:** corroborates Domain 2.
+- **Field:** quantum foundations / theory. **Author / venue / year:** Marta Maria Marchese, Martin Plávala, Matthias Kleinmann and Stefan Nimmrichter, Physical Review A 111, 042202, 2025, arXiv:2401.07832. **Quote:** "one can generate the same amount of entanglement in this setup by using classical time evolution given by Newton's laws of motion". **Prediction:** the correlation alone does not discriminate quantum from classical mediation. **Verdict:** conflicts with an unconditional inference, confirms the union compound, sends the derivation back to the census where observation, shape and name were separated.
+- **Field:** history and philosophy of physics. **Author / venue / year:** Nick Huggett, Niels Linnemann and Mike Schneider, arXiv:2205.09013, 2022. **Quote:** "ultimately arguing that the positive claim of witness is equivocal". **Prediction:** the meaning of a positive result depends on the modelling paradigm. **Verdict:** conflicts with any move from shape to name; corroborates the filter reading.
+- **Field:** quantum gravity theory. **Author / venue / year:** Daine L. Danielson, Gautam Satishchandran and Robert M. Wald, Physical Review D 105, 086001, 2022, arXiv:2112.10798. **Quote:** "Newtonian entanglement implies the existence of graviton entanglement". **Prediction:** a positive witness supports the graviton claim. **Verdict:** conflicts with the shape-only reading as a stronger claim from a different frame; recorded as a live tension, not adopted.
+- **Field:** experimental optomechanics. **Author / venue / year:** Umang Mishra et al., arXiv:2611.03159, 2026. **Quote:** "benchmarking inferred entanglement-to-decoherence rate ratios nearly two orders of magnitude beyond the state of the art for tests of gravity at the quantum-classical interface". **Prediction:** the required regime is being approached but not reached. **Verdict:** corroborates the unreached status in Domain 3.
+- **Field:** experimental gravitation / instrumentation. **Author / venue / year:** Sander M. Vermeulen et al., Physical Review X 15, 011034, 2025, arXiv:2404.07524. **Quote:** "tabletop-scale Michelson laser interferometers to probe for fluctuations in space-time". **Prediction:** a second tabletop route with a different target. **Verdict:** corroborates the scale distinction (F11).
+- **Field:** philosophy of physics / interpretation. **Author / venue / year:** Emily Adlam, arXiv:2204.08064, 2022 (abstract-level reading). **Quote:** "a positive outcome to these experimenst would rule out a class of quantum gravity models that we refer to as `psi`-incomplete quantum gravity". **Prediction:** the result rules out a model class rather than selecting one theory. **Verdict:** corroborates filter-not-name.
+- **Field:** human cognition / source discrimination. **Author / venue / year:** Isaiah N, The Hard Problem is About Source, adventuresinml, 2026-08-28. **Quote:** "The answer is unreached until a better instrument exists". **Prediction:** metamerism at the spin-correlation readout requires a discriminator, not a name. **Verdict:** corroborates Domain 3. **Overlap:** high, framework author, one evidence pool.
+- **Field:** metatheory / canonical usage. **Author / venue / year:** Isaiah N, figures README, GitHub local canonical copy, 2026. **Quote:** "what a missing thing would have to look like (a shape, not a name)". **Prediction:** only a shape is returned. **Verdict:** corroborates Domain 1. **Overlap:** high, framework author.
+
+No world source overrules a figure verdict. Three sources conflict with the unconditional shape-to-name inference and were handled by re-census (observation / shape / name separated), not by flipping the verdict. Framework-authored sources share one evidence pool with the figures, so their agreement is one witness, not several.
+
+## VERDICT (from the figures)
+
+The spin-correlation readout is the anchor. The witness is a filter, not a verdict: a correlation above threshold with every classical channel excluded licenses the shape "the gravitational mediator has at least one nonclassical degree of freedom", and nothing more. The observation is a union compound of correlation and exclusion, with exclusion the live bottleneck; classical Newtonian time evolution can produce the same correlation. A null result is not a proof of classical gravity. The experiment is unreached at this budget, not unreachable in principle. This is a `specified`, ungrounded result. The name of a theory is a gap that the figures do not fill and the instrument has not paid for. The strongest single figure-grounded point for outreach is canonical: no last room, so no tabletop experiment delivers a final theory.
+
+- **cost if wrong:** bounded and locatable. The packet is mode-labelled, states refuters before the conclusion and records the lineage, so an error is findable. The real cost is spending the independence of outside readers by sending a theory name before a shape, which Fig 2 :42 prices: "Buy independence in proportion to the cost of being wrong." That cost is avoidable by leading with the shape claim and its four refuters.
+- **undoable:** yes. The name claims are withheld rather than asserted, so no primitive has to be withdrawn. A future positive result with a closed exclusion argument can move the shape to `grounded` by adding settlement, not by rewriting the derivation. If refuter 1 in `01` fires, the isomer claim in `06` is withdrawn and the shape is narrowed accordingly.
+- **reversed by:** a ground reading, not agreement. A two-slot correlation above threshold with an independently bounded exclusion argument would license the shape as settled; an instrument that discriminates the quantum-mediator history from classical time evolution would resolve the live strain; a classical local channel that reproduces the correlation in the same geometry would break the shape claim; a figure re-census making a threshold name-bearing would reverse the filter reading. Until one of these fires, the verdict stands as `candidate`.
+
+## Sources
+
+- [Figures README, canonical local copy](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\FIGURES_README_canonical.md)
+- [The figures, as text (verbatim, with line numbers)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\03-FIGURES_TEXT.md)
+- [WATSON 60: the figures as metalaws](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\60_FIGURES_AS_METALAWS.md)
+- [THE FORMULA](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\figures\THE_FORMULA.md)
+- [THE SEAT MAP Field Guide, amended](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\figures\THE_SEAT_MAP_Field_Guide_amended.md)
+- [A Spin Entanglement Witness for Quantum Gravity, Bose et al.](https://arxiv.org/abs/1707.06050)
+- [Gravitationally-induced entanglement between two massive particles, Marletto and Vedral](https://arxiv.org/abs/1707.06036)
+- [Gravitationally Mediated Entanglement: Newtonian Field vs. Gravitons, Danielson et al.](https://arxiv.org/abs/2112.10798)
+- [Quantum Gravity in a Laboratory?, Huggett et al.](https://arxiv.org/abs/2205.09013)
+- [Newton's laws of motion generating gravity-mediated entanglement, Marchese et al.](https://arxiv.org/abs/2401.07832)
+- [Photon Counting Interferometry with GQuEST, Vermeulen et al.](https://arxiv.org/abs/2404.07524)
+- [Taming a macroscopic free mass through continuous quantum measurement, Mishra et al.](https://arxiv.org/abs/2611.03159)
+- [Tabletop Experiments for Quantum Gravity Are Also Tests of the Interpretation of Quantum Mechanics, Adlam](https://arxiv.org/abs/2204.08064)
+- [The Hard Problem is About Source](https://adventuresinml.substack.com/p/the-hard-problem-is-about-source)
+- [The Library of Babel: Locating The Book of Books](https://adventuresinml.substack.com/p/the-library-of-babel-locating-the)
+- [The Recursive Self-Improvement Trap](https://adventuresinml.substack.com/p/the-recursive-self-improvement-trap)
+- [Decoding Tacit Knowledge](https://adventuresinml.substack.com/p/decoding-tacit-knowledge-why-context)
+- [How a Society of Agents Would Work](https://adventuresinml.substack.com/p/how-a-society-of-agents-would-work)
+- [They're Scanning Books When They Should Be Studying Nature](https://adventuresinml.substack.com/p/theyre-scanning-books-when-they-should)
+- [How Intelligence Actually Works](https://adventuresinml.substack.com/p/how-intelligence-actually-works)
+- [Arrival of the Fittest: The Tether Architecture](https://medium.com/@IsaiahNwukor/arrival-of-the-fittest-the-tether-architecture-1de7edf641ec)
+- Folder material synthesized: `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md`, `08_expert_verification_packet.md`.

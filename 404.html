@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting…</title>
+  <script>
+    // GitHub Pages SPA fallback: encode the requested deep path and hand it to index.html.
+    (function () {
+      var base = '/pathfinder/';
+      var path = location.pathname || '';
+      var rel = path.indexOf(base) === 0 ? path.slice(base.length) : path.replace(/^\//, '');
+      var query = '?p=' + encodeURIComponent(rel);
+      if (location.search) query += '&' + location.search.replace(/^\?/, '');
+      location.replace(base + query + (location.hash || ''));
+    })();
+  </script>
+</head>
+<body>
+  <p>Redirecting to the <a href="/pathfinder/">Project Pathfinder corpus</a>…</p>
+</body>
+</html>

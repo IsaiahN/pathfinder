@@ -1,0 +1,77 @@
+# WATSON answer: what kinds of information neural activity represents, and how to tell them from patterns
+
+**Mode: `specified`, not `grounded`.**
+
+**Status: SIMULATED DERIVATION, not a ground reading.** This WATSON run synthesizes `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md` and `08_expert_verification_packet.md`. It is checked for internal consistency against the figures. By its own rule (*The Recursive Self-Improvement Trap*: simulated output is not the testable output, which would need the real architecture or the formula worked by hand) it cannot settle the question it reports on. No recording, intervention, or behavioural measurement was taken.
+
+## QUESTION
+
+Decide, in effect terms, what the Tether says about a recording of neural activity. Option A: count every decodable, compressible, or predictable regularity as represented information. Option B: count a regularity as represented only when it is a held term, bonded to action and to a ground, refusable, and settled by something that does not move when the frame changes its mind. What each leads to: A fills the library with quantities the analyst produces and removes the standing of a representation claim to be refuted; B yields a four-gate discriminator, a bond-based taxonomy, and an honest open slot where no instrument can discriminate sources.
+
+## DOMAIN CENSUS
+
+R by arity, symmetry and scale, then one line per domain with actors, currency and anchor. Partition or union, then order by dependency.
+
+- **R (the residual).** One regularity in one recording under two conditions: what kinds exist, and how a kind is told from a pattern. Arity: two, so a **union compound** (Fig 9 :54: *"when the split lands on a union rather than a partition, unbundle before you search again"*). Symmetry: raw correlation is symmetric (Fig 12 :59: *"swap the operands. Does the meaning change? No."*), while a representation bears order toward action and ground (Fig 12 :72: *"swap them. Does it become a different thing? Yes."*). Scale: per slot, never an aggregate (Fig 1 :19: *"The residual is indexed by object slot, not aggregated."*).
+- **Domain 1, the neural system as frame.** Actors: neurons, populations, library, belief, action, observation. Currency: per-slot residual and prediction. Anchor: behavioural contact in a habitat. This is a partition-boundary question at the level of composition, but it cannot score itself (Fig 1 :27: *"A frame cannot score itself with a quantity it also produces."*).
+- **Domain 2, the analyst frame.** Actors: experimenter, decoder, instrument, statistical model. Currency: description length, decodability, explained variance, correlation. Anchor: the behavioural ground held outside the recording. Overlap with Domain 1 through the same recording must be declared (Fig 2 :31: *"Independence, between two frames, is how little they draw on the same evidence."*).
+- **Domain 3, the ground and habitat.** Actors: world, task, outcome, other frames, other sensoria. Currency: settlement and refusal. Anchor: itself, must not update (Fig 2 :29: *"An anchor is whatever settles the question and does not change its answer because of what any frame thinks."*).
+- **Partition or union.** Union with two loops, taxonomy and discriminator, overlapping because the taxonomy needs the discriminator's criterion. Unbundle before searching (Fig 9 :55: *"What remains is smaller and it is also categorically different: a case in two conditions is not a harder case of either."*).
+- **Order by dependency (Fig 3).** Perception, then vocabulary, then objective, then planning, then learn and carry. The discriminator supplies the objective and is therefore upstream of the taxonomy. Fig 3 :27: *"A link with no instrument is not a link that works. It is a link nobody has looked at."*
+
+Strain test: the Fig 13 six-term composition rule was tried on the content taxonomy and strained. Re-census showed Fig 13 governs cross-kind composition while the taxonomy is a bond taxonomy of held terms. Different objects, so no strain remains.
+
+## TETHER (primary, verbatim)
+
+Cited against `FRAMEWORK/reference/03-FIGURES_TEXT.md`. Quotes are verbatim from the SVGs.
+
+- **Domain 1, neural frame.** Fig 1 :23 *"The ground enters as the only metric."* and Fig 1 :25 *"coverage, and compression achieved"* plus Fig 1 :27 *"They are frame-internal. A frame cannot score itself with a quantity it also produces."* -> frame-internal scores cannot confer representation standing. **triangulated** with Fig 2 :45 *"Frames range against the ground. They do not negotiate with it."* (low overlap: metric disqualification versus anchor geometry).
+- **Domain 1, refusability.** Fig 5 :53 *"refuted: a term we hold is wrong; a term is owed that says so"* and Fig 10 :19 *"→ install what can be violated"* -> a representation must be capable of being made false. **triangulated** (mint amendment and ground maintainer are independent figures).
+- **Domain 1, per slot.** Fig 1 :22 *"Aggregating across slots is how a live signal disappears into an average."* -> the discriminator runs per unit, region, or object. **triangulated** with Fig 10 :26 *"stale percepts, dropped transients, saturated metrics, pooled readings"* (independent channel-failure reading).
+- **Domain 2, analyst.** Fig 9 :60 *"Use filters for the budget and witnesses for the verdict. Never let a filter hand you a verdict."* and Fig 2 :40 *"disqualifying for a verdict: agreement about the world is worthless when the agreeing frames share an evidence pool"* -> decoder accuracy is a budget filter, not a witness. **triangulated** (two distinct figures).
+- **Domain 2, bond taxonomy.** Fig 12 :46 *"A bond is the typed relation between two operands. There are seven, they are not interchangeable, and which one holds is not recoverable from the operands."* and Fig 12 :117 *"isomer. Same atoms, different bond, different substance. The difference is invisible in the formula and decisive in the behaviour."* -> equal vectors with different bonds are different kinds. **single-source** for the figure definition (Fig 12 family; the Symbols table restates the same notation and is not an independent witness).
+- **Domain 3, ground.** Fig 2 :29 *"An anchor is whatever settles the question and does not change its answer because of what any frame thinks."* and Fig 11 :40 *"An improvement that does not change contact changes nothing, however much it improves."* -> capability is agent-and-habitat; the ground must be named and must not move. **triangulated** (independent figures).
+- **Cross-cutting, order.** Fig 3 :20 *"The chain is ordered by dependency, not by importance."* and Fig 9 :54 above -> discriminator upstream of taxonomy. **triangulated**.
+- **Cross-cutting, stop.** Fig 9 :32 *"you get a kind of thing, never the answer itself"* and Fig 13 :134 *"Unreachable is a verdict here, not a silence"* -> shape, not a name; which instrument would settle a case is a `gap` at the figure level. **triangulated**.
+- **Cross-cutting, honesty.** Fig 10 :42 *"A verifier that can reconstruct the claim cannot verify it."* -> send the residual and refuter before the framework. **single-source** (Fig 10; corroborated outreach-side by Fig 2 :35 but with different subject matter, so counted separately as triangulated for outreach only).
+- **Round trip.** Fig 4 :30 *"So take the round trip and measure the gap. Without it you are navigating by dead reckoning: confident about a position nobody checked."* -> the four-gate shorthand is a lossy condensation; `R_T` is nonzero and only qualitatively measured here.
+
+## WORLD (secondary sources read)
+
+World sources are corroboration only, never overrule the figures. Overlap is declared.
+
+- **Philosophy of cognitive science / low overlap.** J Brendan Ritchie, David Michael Kaplan and Colin Klein, "Decoding the Brain: Neural Representation and the Limits of Multivariate Pattern Analysis in Cognitive Neuroscience", *The British Journal for the Philosophy of Science* 70(2), 2019: *"decodability is a poor guide for revealing the content of neural representations."* Predicts that a four-gate discriminator is needed because decoding alone fails. **Corroborates** the figure verdict. Overlap: low, no stake in the framework.
+- **Systems neuroscience.** C Daniel Salzman, Kenneth H Britten and William T Newsome, "Cortical microstimulation influences perceptual judgements of motion direction", *Nature* 346, 1990: *"Microstimulation biased the animals' judgements towards the direction of motion encoded by the stimulated neurons."* Predicts that an intervention that moves behaviour settles a representation claim. **Corroborates** the ground gate.
+- **Systems neuroscience.** C Daniel Salzman, CM Murasugi, KH Britten and WT Newsome, "Microstimulation in visual area MT", *Journal of Neuroscience* 12(6), 1992: *"The data demonstrate a functional link between the activity of direction selective neurons and perceptual judgements of motion direction."* Same prediction, same lab and paradigm. **Corroborates**, but overlap with the 1990 paper is high, so these two are one witness, not two.
+- **Experimental neuroscience.** Carsen Stringer, Marius Pachitariu, Nicholas Steinmetz, Matteo Carandini and Kenneth D Harris, "High-dimensional geometry of population responses in visual cortex", *Nature* 571, 2019: *"A neuronal population encodes information most efficiently when its stimulus responses are high-dimensional and uncorrelated, and most robustly when they are correlated and lower-dimensional."* Predicts a geometric constraint, not a list of represented kinds. **Corroborates** the bond taxonomy and per-slot gate.
+- **Computational neuroscience.** Bruno B Averbeck, Peter E Latham and Alexandre Pouget, "Neural correlations, population coding and computation", *Nature Reviews Neuroscience* 7, 2006: *"variability in the brain is typically correlated, and although the exact effects of these correlations are not known, it is known that they can be large."* Predicts that correlation alone is verdict-ambiguous. **Corroborates** the filter-not-witness rule.
+- **Information theory in neuroscience.** Rodrigo Quian Quiroga and Stefano Panzeri, "Extracting information from neuronal populations", *Nature Reviews Neuroscience* 10, 2009: *"Decoding has the advantage of being similar to real behavioural calculations, but it may lose information contained in the neural responses."* Predicts two currencies that do not add. **Corroborates** Fig 12 :125.
+- **Framework essays, high overlap.** Isaiah N, "The Hard Problem is About Source" (2026): *"If several paths create the same behavior, then behavior is a projection with lossy information"*; "The Library of Babel" (2026): *"You can cut your search short if the set of books returned is small and descriptive enough that it provides a general shape of the answer that satisfies your question."*; "Decoding Tacit Knowledge" (2026): *"When contact isn't possible, the best you can send is a plain description of what you'd expect to see, because anyone can check that against the world."*; "The Recursive Self-Improvement Trap" (2026): simulated output is not the testable output. All **corroborate** but share the author and evidence pool of the figures, so they carry little independent weight.
+
+No source conflicts with the figure verdict. The conflict rule was not triggered. Agreement among sources that share the framework author is one witness, not several.
+
+## VERDICT (from the figures)
+
+**The shape survives; any specific naming of a represented cell or population does not.** Four gates govern: per-slot location, a typed bond to action or another held term, refusability, and settlement by a ground that does not move, with a second frame that does not share the recording. Decoder accuracy, compression, and population geometry are filters for budget, not witnesses for the verdict. Kinds are bond arrangements and levels, so equal firing vectors with different bonds are isomers and cannot be separated by an activation catalogue. The framework returns the shape and the falsifiers, not the name. Which instrument would discriminate the sources of a given regularity is left open at the figure level. This is a `specified`, ungrounded result.
+
+- **cost if wrong:** bounded and locatable. The claim is mode-labelled, states five refuters before the conclusion, and records the lineage, so an error is findable rather than invisible. The real cost is spending an outside reader's independence by sending a conclusion instead of a generator, which Fig 2 :42 prices: *"Buy independence in proportion to the cost of being wrong."* That cost is avoidable by leading with the four gates and their refuter.
+- **undoable:** yes. The four-gate discriminator can be corrected without touching the figure set. `07_the_tether_answer.md` and `08_expert_verification_packet.md` already remove the naming overreach and the single-scalar reading. No primitive has to be withdrawn, and a sent claim can be superseded by a corrected packet.
+- **reversed by:** a ground reading, not agreement. An intervention that moves the animal's judgment in the direction predicted by a candidate regularity, a removal that degrades it while the population mean is controlled, a bond-discrimination experiment separating equal vectors with different downstream roles, a second frame that did not use the same recording, or any of the five pre-registered falsifiers would move the verdict. A derivation that recovers bond type from the operand vector alone would break the isomer claim. Prestige or agreement is not such an instrument.
+
+## Sources
+
+- [The figures, as text (local extract)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\03-FIGURES_TEXT.md)
+- [Figures README, canonical local copy](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\FIGURES_README_canonical.md)
+- [THE FORMULA (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\figures\THE_FORMULA.md)
+- [THE SEAT MAP Field Guide (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\figures\THE_SEAT_MAP_Field_Guide_amended.md)
+- [Decoding the Brain: Neural Representation and the Limits of MVPA](https://pmc.ncbi.nlm.nih.gov/articles/PMC6505581/)
+- [Microstimulation in visual area MT (1992)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6575906)
+- [Cortical microstimulation influences perceptual judgements (1990)](https://www.nature.com/articles/346174a0)
+- [High-dimensional geometry of population responses in visual cortex](https://pmc.ncbi.nlm.nih.gov/articles/PMC6642054)
+- [Neural correlations, population coding and computation](https://pubmed.ncbi.nlm.nih.gov/16760916/)
+- [Extracting information from neuronal populations](https://www.nature.com/articles/nrn2578)
+- [The Library of Babel: Locating The Book of Books](https://adventuresinml.substack.com/p/the-library-of-babel-locating-the)
+- [The Hard Problem is About Source](https://adventuresinml.substack.com/p/the-hard-problem-is-about-source)
+- [The Recursive Self-Improvement Trap](https://adventuresinml.substack.com/p/the-recursive-self-improvement-trap)
+- [Decoding Tacit Knowledge](https://adventuresinml.substack.com/p/decoding-tacit-knowledge-why-context)
+- Folder material synthesized: `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md`, `08_expert_verification_packet.md`, `10_source_ledger.csv`, `11_audit.md`.

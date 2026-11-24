@@ -1,0 +1,96 @@
+# WATSON answer: can intelligence be defined without reference to human performance?
+
+**Mode: `general` on the structural shape, `specified` on the per-domain verdicts, not `grounded`.**
+
+**Status: SIMULATED DERIVATION, not a ground reading.** This run synthesizes `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md` and `08_expert_verification_packet.md`. It is checked for internal consistency against the figures. By its own rule (*The Recursive Self-Improvement Trap*: "the truly testable output would need to be derived from the real architecture or working the formula yourself") it cannot settle the question it reports on. No measurement was taken.
+
+## QUESTION
+
+Decide, in effect terms, what the Tether says about the claim that intelligence may be defined either with or without reference to human performance. Option A: a definition that uses human performance as its reference class is the only honest one. Option B: a definition that omits human performance is the only objective one. What each leads to: A makes human judgment the anchor of a term used for arbitrary systems and inherits the axes an instrument cannot measure; B removes the reference word but relocates the anchor into environments, goals, reward or resource limits, and usually carries the human definitions into the new notation without recording the import. Neither option asks whether a definition is a verdict, or whether the definition question is the right question. The third route, taken here, refuses the pair and substitutes the contact question.
+
+## DOMAIN CENSUS
+
+R by arity, symmetry and scale, then one line per domain with actors, currency and anchor; partition or union; order by dependency.
+
+- **R (the residual).** The gap between what "intelligence" promises to pick out and what any definition pins down. Arity: two in the question as asked, three in the residual (property of an agent, performance score against a reference class, maintained practice). Symmetry: the two options are not mirror cases; one supplies an anchor whose legitimacy needs testing, the other owes an account of what settles the term without one. Scale: a term in a library, a capability of agent-and-habitat, and a selection history of a lineage. Fig 9 :4-5 splits the non-shrinking disagreement into several well-formed questions; Fig 9 :54 makes it a union, not a partition.
+- **Domain 1, definitional / linguistic frame.** Actors: terms, dictionaries, expert panels, working definitions. Currency: agreement about a shared meaning. Anchor: none that settles a verdict; human performance is proposed. Question type: a convention, not a verdict (Fig 10 :46, :49).
+- **Domain 2, unmaintained selection.** Actors: lineages, environments, differential survival. Currency: contact with the ground, survival. Anchor: the ground, which does not update on the label. Question type: where the word does no work (Fig 11 :36).
+- **Domain 3, maintained capability practice.** Actors: the seat, habitat, actors, conditions, relations, instruments. Currency: residual, contact, capability. Anchor: the ground read through instruments. Question type: the replacement question (Fig 11 :39-40).
+- **Domain 4, verification / outreach frame.** Actors: expert readers, journal reviewers, editors. Currency: agreement and residual. Anchor: the ground, never agreement. In this simulated run all seats draw on one pool of essays, figures and papers, so this domain's independence is zero.
+- **Order by dependency.** Settle convention versus verdict before choosing a definition (Fig 10 :46); decide anchor legitimacy for the question before the reference class (Fig 2 :36-38); refuse the wrong term before minting a replacement (THE_FORMULA step 2); enumerate the habitat rather than compose it (Fig 11 :43-48).
+
+Strain test applied before concluding: Fig 11 :36 governs D2 and Fig 11 :37-39 governs D3, so their apparent conflict is a domain error, not a contradiction. Fig 2 anchor legitimacy and Fig 11 question replacement govern different quantities. One strain stays live: a universal-intelligence scalar versus Fig 1 :19 per-slot residuals (audit S3). It is named, not smoothed.
+
+## TETHER (primary, verbatim)
+
+Cited against `FRAMEWORK/reference/03-FIGURES_TEXT.md`. Quotes are verbatim from the SVGs.
+
+- Fig 11 :34 "What is intelligence?" and Fig 11 :35 "The wrong question, and this figure is the replacement for it." -> the literal choice is refused, not answered.
+- Fig 11 :39 "So the answerable question is not what intelligence is, but what makes a system capable. And capability is a property of agent-and-habitat, never of the agent alone." -> the replacement subject.
+- Fig 11 :40 "A system cannot be made more capable by improving the agent in isolation. An improvement that does not change contact changes nothing, however much it improves." -> an agent-only definition is the wrong object.
+- Fig 11 :41 "Which is the same move as asking what generates lift rather than whether a thing is a bird. The substrate question dissolves; the contact question does not." -> the lift analogue.
+- Fig 11 :36 "Where nothing maintains anything, intelligence is a label applied afterwards to a lineage that met its ground. Nothing was intelligent; selection ran. The word does no work there." -> D2 verdict only.
+- Fig 11 :43 "The habitat is enumerated, never composed." and Fig 11 :48 "You do not invent the list. You read it off the world, and what you cannot perceive or measure yet is the residual." -> how D3 is scoped.
+- Fig 10 :46 "A convention makes no claim about the world; a verdict and an atom both do. The seat may author what has no truth value and nothing that does." and Fig 10 :49 "Declaring a meaning does not ground it." -> D1 verdict.
+- Fig 10 :47 "a convention that decides an outcome has stopped being one" -> definitions must not be promoted into decisions about who counts.
+- Fig 2 :36 "An anchor is legitimate when the question is constitutively about it." and Fig 2 :37 "Human judgment is the right anchor for is this a good answer for a person, because the question is about people. It is only an instrument for is this code correct, and instruments can be wrong on axes they do not measure." -> the conditional legitimacy of the human reference.
+- Fig 2 :29 "An anchor is whatever settles the question and does not change its answer because of what any frame thinks. A measurement, an experiment, a counter, a market, a patient outcome." -> removing one anchor owes another.
+- Fig 8 :51 "Convergent derivation and adopted import look identical in the contents. Only the record of where each came from separates them." -> a human-free definition needs provenance before it counts as independent.
+- Fig 1 :19 "The residual is indexed by object slot, not aggregated." and Fig 1 :22 "Aggregating across slots is how a live signal disappears into an average." -> a general score is the wrong output shape.
+- Fig 7 :13 "agreement compounds, evidence does not." and Fig 7 :35 "A room's agreement is variation, not a verdict. Selection between rooms is where the ground votes." -> signatories and reviewer pools are not witnesses.
+- Fig 9 :54 "And when the split lands on a union rather than a partition, unbundle before you search again." -> why the either/or is refused.
+- Fig 9 :32 "you get a kind of thing, never the answer itself." and Fig 13 :134 "Unreachable is a verdict here, not a silence," -> the honest stop.
+- Fig 8 :39 "So a search that finds nothing is never a proof of absence." -> the stop is not a claim that definitions cannot exist.
+- Fig 2 :42 "Buy independence in proportion to the cost of being wrong." -> the outreach rule.
+
+Triangulation status: the refusal of the question is triangulated across Fig 11 (habitat capability) and Fig 10 (convention versus verdict), low overlap between a capability claim and a checking-arrangement rule. The conditional legitimacy of the human reference is triangulated across Fig 2 (anchor legitimacy) and Fig 8 (provenance of imports), low overlap. The union reading is single-source on the figure side (Fig 9), with three world witnesses that partly share one psychometrics evidence pool. The per-slot constraint is triangulated across Fig 1 and Fig 11 :48-51. The scalar versus per-slot question is a live strain, not a verdict.
+
+## WORLD (secondary sources read)
+
+World sources corroborate only; they never overrule a figure. Overlap is declared rather than hidden.
+
+- **AI / definitions, mathematical measure.** Shane Legg and Marcus Hutter, "A Formal Measure of Machine Intelligence", IDSIA-10-06 / ar5iv cs/0605024, 2006. "A fundamental problem in artificial intelligence is that nobody really knows what intelligence is." Also "We take a number of well known informal definitions of human intelligence that have been given by experts, and extract their essential features." Predicts that a human-free definition still carries human-definition provenance. Corroborates Fig 8 :51. Overlap: one of two papers by the same authors, counted as one witness.
+- **AI / definition survey.** Legg and Hutter, "A Collection of Definitions of Intelligence", IDSIA-07-07 / arXiv:0706.3639, Frontiers in Artificial Intelligence and Applications 157, 2007. "Despite a long history of research and debate, there is still no standard definition of intelligence." Predicts a union, not one settled term. Corroborates Fig 9 :4-5. Overlap: same author pair as above.
+- **AI / formal definition.** Legg and Hutter, "Universal Intelligence: A Definition of Machine Intelligence", Minds & Machines 17:4, 2007 (arXiv:0712.3329 abstract and record read). The abstract repeats the extraction-from-human-definitions provenance. Predicts an imported anchor, corroborates Fig 2 :29 and Fig 8 :51. Overlap: same author pair.
+- **AI / definition theory.** Pei Wang, "On Defining Artificial Intelligence", Journal of Artificial General Intelligence 10(2), 2019. "a dictionary definition is descriptive as it summarizes the existing usage of the term, while a working definition is prescriptive as it specifies a proposed usage of the term." Predicts a convention, corroborates Fig 10 :46. Overlap: distinct from the Legg and Hutter pool; read via public search index because direct PDF fetch was unsupported, recorded with reduced weight.
+- **AI / philosophy.** Richard S. Sutton, "John McCarthy's Definition of Intelligence", JAGI, 2020, quoting McCarthy 1997: "Intelligence is the computational part of the ability to achieve goals in the world." Predicts a human-free binding by subtraction ("the computational part of"), corroborates the isomer reading in `06` Q1. Overlap: same venue as Wang; read via search index.
+- **Human cognition / psychometrics.** Robert J. Sternberg, "A Theory of Adaptive Intelligence and Its Relation to General Intelligence", Journal of Intelligence 7(4):23, 2019, open access. "to state that the tests measure intelligence because they correlate with specific individual outcomes may tell us more about what kinds of behavior our culture values than about what intelligence is." Predicts that a performance-referenced definition scores the culture's values, corroborates Fig 1 :27 "They are frame-internal. A frame cannot score itself with a quantity it also produces." Overlap: low with the AI pool.
+- **History of psychometrics.** Elizabeth Hiser and Carl Francis, "Intelligence: A Brief History", Journal of Inquiry and Research 72, 2000. "The problem with any definition of intelligence relying on outcomes such as behaviour or performance is the danger of confusing intelligence with other constructs which are more clearly defined, such as attainment." Predicts the confusion of definition with outcome, corroborates Fig 10 :47 and Fig 1 :27. Overlap: partly the same psychometrics pool as Sternberg.
+- **Foundations of computing.** A. M. Turing, "Computing Machinery and Intelligence", Mind LIX(236), 1950. "Instead of attempting such a definition I shall replace the question by another, which is closely related to it and is expressed in relatively unambiguous words." Predicts refusal of the definition question, corroborates Fig 11 :35; but Turing's replacement defines via human performance, which corroborates the conditional-legitimacy reading in C1. Overlap: genuinely low with all other pools.
+- **Animal behaviour.** "Bumble bee cognition", Science, 19 Nov 2026. "Animal intelligence is defined as the ability to change behavior to adapt to new situations by using cognition rather than instinct or trial and error." A human-free definition that already names contact and change, corroborating Fig 11 :39-40 from a low-overlap field.
+- **Philosophy of comparative cognition.** "Methods in Comparative Cognition", Stanford Encyclopedia of Philosophy, 2023. "How best to define \"cognition\" is an area of debate". The anthropomorphism discussion predicts that a human reference as a guide to other minds "loads the deck", corroborating Fig 2 :37 on instruments with blind axes. Overlap: low.
+- **Animal cognition / method.** Lars Chittka, "What is cognition?", Current Biology, 2019. "Taking the cognitive approach entails asking questions about what information is (in some way) represented by an individual"; warns that all-inclusive definitions license fashionable claims about intelligence. Corroborates per-slot enumeration, Fig 1 :19. Overlap: low.
+- **Framework metatheory / canonical essays.** Isaiah N, "How Intelligence Actually Works" (Substack, 2026-09-16): "The intelligence we experience is the emergent result of extensive mapping of a complex system against unknown and unforgiving environments." Also "The Recursive Self-Improvement Trap" and "Decoding Tacit Knowledge", both opened in full: "the truly testable output would need to be derived from the real architecture or working the formula yourself" and "Sounding right isn't the same as being checked against the world, which is why I call the Turing test a test of fluency, not of accuracy." These predict the capability claim and the simulated status of this run. Overlap: maximal, same author and evidence pool as the figures, so they are one witness and contribute no independent corroboration.
+
+No world source conflicts with the figure verdict; the conflict rule was not triggered. The AI-definition sources are one pool, the psychometrics sources a second partly overlapping pool, the animal-behaviour and computing sources are low-overlap corroborators, and the essays share the framework author.
+
+## VERDICT (from the figures)
+
+The either/or is refused. A definition of intelligence is a convention, not a verdict, and a convention that decides an outcome has stopped being one. Human performance is a conditionally legitimate anchor: right where the question is constitutively about people, instrumental elsewhere and wrong on axes it does not measure. Removing the reference word relocates the anchor into environments, goals, reward or resource limits; the provenance record, not the wording, decides whether the result is an independent arrival or an imported human definition. In the unmaintained domain the word does no work. In the maintained domain the answerable question is what makes a system capable, a property of agent-and-habitat, with residuals indexed per slot. No figure line returns a definition; the result is `general` on the shape, `specified` on D2 and D3, ungrounded, and `unreached` rather than silence. One live strain (scalar versus per-slot residual) is recorded with its falsifier.
+
+- **cost if wrong:** bounded and locatable. The packet states mode, three checkable sub-claims and five refuters before the conclusion, so an error is findable rather than invisible. The real cost is spending the independence of outside readers by sending a definition presented as a result instead of a residual and a refuter. Fig 2 :42 prices that ("Buy independence in proportion to the cost of being wrong"), and it is avoidable by leading with the shape claim.
+- **undoable:** yes. No definition is withdrawn here, because none is asserted. The union framing, the conditional anchor reading and the capability claim can be corrected independently; `06_isomers_and_order.md` and `08_expert_verification_packet.md` already state which corrections would fire. An agreed convention can be replaced without moving any ground.
+- **reversed by:** a ground reading, not agreement. A source-discriminating instrument showing that a definition leaves no live per-slot residual and has a non-updating anchor would move the result toward `grounded`. A demonstrably agent-only improvement that moves the ground, a derivation showing the capability claim does not cover artifacts, or one settled definition with a non-updating anchor would reverse the verdict. A figure re-census admitting that a general scalar preserves per-slot residuals would clear the live strain. Until one of these fires, the verdict stands as `candidate`.
+
+## Sources
+
+- [Verbatim figure text with line numbers (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\03-FIGURES_TEXT.md)
+- [Canonical figures README (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\FIGURES_README_canonical.md)
+- [THE FORMULA (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\figures\THE_FORMULA.md)
+- [Figures as metalaws (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\60_FIGURES_AS_METALAWS.md)
+- [A Formal Measure of Machine Intelligence](https://ar5iv.labs.arxiv.org/html/cs/0605024)
+- [A Collection of Definitions of Intelligence](https://ar5iv.labs.arxiv.org/html/0706.3639)
+- [Universal Intelligence: A Definition of Machine Intelligence](https://arxiv.org/abs/0712.3329)
+- [On Defining Artificial Intelligence](https://doi.org/10.2478/jagi-2019-0002)
+- [John McCarthy's Definition of Intelligence](http://www.incompleteideas.net/papers/Sutton-JAGI-2020.pdf)
+- [A Theory of Adaptive Intelligence and Its Relation to General Intelligence](https://pmc.ncbi.nlm.nih.gov/articles/PMC6963795/)
+- [Intelligence: A Brief History](https://scispace.com/pdf/intelligence-a-brief-history-z12469v1oj.pdf)
+- [Computing Machinery and Intelligence](https://academic.oup.com/mind/article/LIX/236/433/986238)
+- [Bumble bee cognition](https://www.science.org/doi/full/10.1126/science.aek1724)
+- [Methods in Comparative Cognition](https://plato.stanford.edu/entries/comparative-cognition/)
+- [What is cognition?](https://www.cell.com/current-biology/fulltext/S0960-9822(19)30614-1)
+- [How Intelligence Actually Works](https://adventuresinml.substack.com/p/how-intelligence-actually-works)
+- [The Recursive Self-Improvement Trap](https://adventuresinml.substack.com/p/the-recursive-self-improvement-trap)
+- [Decoding Tacit Knowledge: Why Context, Subtext, and Pretext Matter](https://adventuresinml.substack.com/p/decoding-tacit-knowledge-why-context)
+- [The Library of Babel: Locating The Book of Books](https://adventuresinml.substack.com/p/the-library-of-babel-locating-the)
+- Folder material synthesized: `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md`, `08_expert_verification_packet.md`.

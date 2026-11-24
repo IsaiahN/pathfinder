@@ -1,0 +1,79 @@
+# WATSON answer: regions beyond the observable universe
+
+**Mode: `general` on the shape, `specified` on the per-domain verdicts, `gap` for a named beyond-horizon region. Not `grounded`.**
+
+**Status: SIMULATED DERIVATION, not a ground reading.** This run synthesises `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md` and `08_expert_verification_packet.md`, checked for internal consistency against the figures. *The Recursive Self-Improvement Trap* states that "the truly testable output would need to be derived from the real architecture or working the formula yourself." This run cannot settle the question it reports on. No cosmological measurement was taken.
+
+## QUESTION
+
+Decide, in effect terms, what the Tether says about the question: are there regions beyond the observable universe, and can any of their properties be tested? Option A: treat it as one question and answer yes or no. Option B: split it into an anchored part and an unanchored part, give each its own verdict, and refuse a name until a ground returns. What each leads to: A lets a positive topology signature be reported as proof of a specific region, and lets a negative search be reported as proof of absence; B keeps the gap honest, keeps D4 reachable, and states what would reverse each verdict.
+
+## DOMAIN CENSUS
+
+R by arity, symmetry and scale; one line per domain with actors / currency / anchor; partition or union; order by dependency.
+
+- **R (residual).** Arity: two conditions conjoined, existence and testability, so a union compound. Symmetry: the horizon is one-way and observer relative; "beyond" is a relation between an observer and a light cone, not a property of the world. Scale: particle horizon (roughly 46.5 Gly comoving), event horizon (roughly 16 Gly), and global topology that may exceed both. Fig 1 :19: "The residual is indexed by object slot, not aggregated." For unreadable slots the residual is not zero, it is unreadable.
+- **D1, in-horizon cosmology.** Actors: photons, CMB, galaxies, curvature Omega_k. Currency: returned observations. Anchor: CMB and large-scale structure, which do not move when we think about them. Anchored domain.
+- **D2, the horizon.** Actors: past light cone, scale factor, dark-energy w. Currency: causal access. Anchor: none that settles "what lies beyond"; the horizon is a feature of our observational situation, not an object in the world. Boundary, not a domain with its own ground.
+- **D3, a named beyond-horizon region.** Actors: putative galaxies, bubbles, pocket universes. Currency: existence claims. Anchor: none. Not yet a domain under the census rule that a domain needs a nameable anchor.
+- **D4, global properties with in-horizon traces.** Actors: multiply connected topology, curvature, bubble collisions, kSZ bulk flows. Currency: statistically testable signatures. Anchor: CMB maps and galaxy surveys. Anchored domain.
+- **D5, verification and outreach.** Actors: expert readers and instruments. Currency: agreement and residual. Anchor: the ground, never agreement. In this simulated run all seats share one evidence pool.
+- **Union and order.** D1 and D4 are anchored; D3 is not. Union, so unbundle (Fig 9 :54). Dependency order: D1 returns something, D4 supplies vocabulary, then D3 is assessed last. A reading at D3 before D1 and D4 are settled is a reading of nothing (Fig 3 :22).
+
+Strain test applied: "no last room" strains when read as a physical claim about space. Re-census sends it back to frames and closures, where it governs the reach of inquiry and not spatial extent (`01` F8). No strain remains after re-census.
+
+## TETHER (primary, verbatim)
+
+Cited against `FRAMEWORK/reference/03-FIGURES_TEXT.md`. Quotes are verbatim from the SVGs. Verdicts are per domain and are never averaged.
+
+- **D1, in-horizon cosmology: anchored, specified.** Fig 1 :19 "The residual is indexed by object slot, not aggregated." Fig 1 :13 "a global R near zero with one live slot residual is a legal state." -> a good global fit to cosmology does not close the live beyond-horizon slots. *Status: triangulated* across Fig 1 and the CMB / large-scale-structure anchors (low overlap between a frame figure and survey data).
+- **D2, the horizon: boundary, general.** Fig 8 :32 "Closure is idempotent. Composing inside a closed set never leaves it, so no search, however long, adds an atom." Fig 6 :23 "No frame escapes its own closure. The bound moves only on contact with a frame whose closure differs." -> the horizon is the frame's wall, not a world wall, and it is observer relative. *Status: triangulated* across Fig 8, Fig 6 and Ord's causal-region paper (independent field).
+- **D3, a named beyond-horizon region: gap.** Fig 8 :39 "So a search that finds nothing is never a proof of absence." Fig 6 :34-35 "The question is not whether a sensor could exist. It is whether anything, at any resolution, is already returning something that fails to resolve. Where nothing is, there is no edge to extend from, and the search for a proto-instrument is a search for one that is already there." Fig 13 :134 "Unreachable is a verdict here, not a silence" -> existence is neither asserted nor denied; direct properties are unreadable. *Status: triangulated* for the gap (the two figure lines plus Luminet's testability asymmetry, low overlap).
+- **D3 instrument split: gap, specified.** Fig 8 :40-43 "Underivable-in-principle and unreachable-at-this-budget are different facts, and they issue different instructions. Underivable: go outside. Unreachable-at-budget: the term is already in the closure and was not found, so the remedy is more search, not another atom." -> beyond the event horizon is underivable by light; beyond the current particle horizon alone is unreachable at this budget. *Status: triangulated* across Fig 8 and Ord / ScienceInsights (physics, independent of the figures).
+- **D4, global properties with traces: reachable in principle, specified.** Fig 2 :29-30 "An anchor is whatever settles the question and does not change its answer because of what any frame thinks." Fig 6 :14 "the only operator that moves the wall" -> CMB and survey data are anchors that can settle a compact topology; no positive detection exists yet. *Status: triangulated* across Fig 2, Luminet (mathematics / cosmology) and Copi et al. (observational cosmology).
+- **D4 asymmetry: general.** Fig 6 :27 "Which is why some unreachability is depth and some is genuine absence, and from inside the frame the two look the same." -> a bounded signature can fire, an unbounded whole cannot be confirmed. *Status: triangulated* across Fig 6 and Luminet.
+- **Shape limit: general.** Fig 9 :32 "you get a kind of thing, never the answer itself." Fig 13 :134-135 "It cannot say which primitive is missing, because naming it would mean already holding it." -> the framework returns a shape and refuses to name a region. *Status: triangulated* across Fig 9, Fig 13 and the canonical README.
+- **D5 verification: general.** Fig 2 :40 "disqualifying for a verdict: agreement about the world is worthless when the agreeing frames share an evidence pool." Fig 2 :42 "Buy independence in proportion to the cost of being wrong." -> this simulated second seat is one witness, not two. *Status: single-source internal* (all sources in this run share an evidence pool).
+- **Split discipline: general.** Fig 9 :54 "And when the split lands on a union rather than a partition, unbundle before you search again." Fig 9 :60 "Use filters for the budget and witnesses for the verdict. Never let a filter hand you a verdict." *Status: triangulated* across Fig 9 and *The Library of Babel* essay, which calls it a "bundle" of problems (high overlap: framework author, so weak corroboration).
+
+## WORLD (secondary sources read)
+
+World sources corroborate only. Overlap is declared rather than hidden.
+
+- **Physics / causal limits.** Toby Ord, *The Edges of Our Universe*, arXiv:2104.01191, 2021. Quote: "distinguishes four principal regions: the affectable universe, the observable universe, the eventually observable universe, and the ultimately observable universe." Prediction: "observable" is several slots, not one. Corroborates D2 and the D3 underivable/unreachable split. Overlap: low with the figures.
+- **Mathematics / cosmic topology.** Jean-Pierre Luminet, *Cosmic Topology*, Scholarpedia 10(8):31544, 2015. Quote: "no physical measure can ever prove that space is infinite, but a sufficiently small, finite space model could be testable." Prediction: asymmetric confirmability across the horizon. Corroborates D3 gap and D4 reachability. Overlap: low.
+- **Observational cosmology.** Craig J. Copi et al., *The Topology of the Universe*, arXiv:2606.24886 / Nature Astronomy, 2026. Quote: "Whether cosmic topology is observable remains uncertain, but current and future data offer an unprecedented opportunity to probe the global structure of the Universe." Prediction: partial, instrument-limited reach. Corroborates D4 with a budget caveat. Overlap: low.
+- **Philosophy of science.** James Read and Baptiste Le Bihan, *The landscape and the multiverse: What's the problem?*, Synthese 199, 2021. Quote: a multiverse scenario is scientific only when it "leads, or could potentially lead, to an empirical signature." Prediction: testability is the criterion, not plausibility. Corroborates the D3 / D4 split. Overlap: low.
+- **Philosophy of cosmology.** Patrick James Ryan, *Cosmic topology, underdetermination, and spatial infinity*, European Journal for Philosophy of Science 14, 2024. Quote: "It is well-known that the global structure of every space-time model for relativistic cosmology is observationally underdetermined." Prediction: a global topology claim is underdetermined even with good data. Corroborates the D3 gap. Overlap: low.
+- **Public science synthesis.** ScienceInsights, *What Exists in the Universe Beyond the Horizon?*, 2026-09-27. Quote: "Our observational limit is not a wall or a boundary in space. It is a boundary in information, set by the finite speed of light and the finite age of the cosmos." Prediction: observer-relative horizon. Corroborates D2. Overlap: low; lower evidential weight because it is a public synthesis rather than a peer-reviewed source.
+- **Search / information theory.** Isaiah N, *The Library of Babel: Locating The Book of Books*, 2026. Quote: "Perhaps your problem was a bundle or conflation of several problems masquerading as one?" Prediction: union split. Corroborates Fig 9 :54. Overlap: high (framework author).
+- **Validation / self-validation.** Isaiah N, *The Recursive Self-Improvement Trap*, 2026. Quote: "the output is only as good as the validator. The agent, or the tool, or the frame, or the theory, cannot validate itself." Prediction: this derivation cannot settle its own claim. Corroborates simulated status. Overlap: high.
+- **Instrument discrimination.** Isaiah N, *The Hard Problem is About Source*, 2026. Quote: "It was proven wrong not by argument, but by the arrival of a better instrument." Prediction: proto-instrument rule. Corroborates Fig 6 :32-35. Overlap: high.
+- **Human cognition / tacit knowledge.** Isaiah N, *Decoding Tacit Knowledge*, 2026. Quote: "When contact isn't possible, the best you can send is a plain description of what you'd expect to see, because anyone can check that against the world." Prediction: describe the refuter before the theory. Corroborates the two-stage offer. Overlap: high.
+
+No world source conflicts with the figure verdict. Copi et al. and Ryan differ in optimism about future detectability, but that is a disagreement about budget and instruments, which Fig 8 :40-43 already separates from underivability. It is recorded as a live parameter, not smoothed over. The four essays share an author and an evidence pool with the figures, so their agreement is expected and carries little independent weight.
+
+## VERDICT (from the figures)
+
+The question is a union and must be unbundled. D1 is anchored and its residual closes. D2 is a frame boundary, observer relative, not a physical wall. D3, a named beyond-horizon region, is `gap`: direct properties are unreachable in principle beyond the event horizon and unreachable at this budget beyond the particle horizon alone; existence is neither asserted nor denied. D4, global properties that leave traces, is reachable in principle with an anchor, and no positive detection exists yet, with an asymmetry: a finite signature can be confirmed, an infinite whole cannot. The framework returns this shape and refuses to name what is out there. This is `general` and `specified`, with an honest `gap`, and it is ungrounded.
+
+- **cost if wrong:** bounded and locatable. If the union split is wrong, a refuter written in advance (C1) exposes it; if the D3 gap is wrong, a returned signal closes it; if the D4 reachability claim is wrong, a decisive null survey with stated coverage narrows it. The real avoidable cost is spending an outside reader's independence by sending a picture of the beyond instead of a characterised residual and a refuter. Fig 2 :42 says "Buy independence in proportion to the cost of being wrong."
+- **undoable:** yes. The D4 claims are revisable with new data; the D3 gap is retractable the moment a source-discriminating return appears; the split is re-examinable by re-census. No primitive has to be withdrawn, and no physical claim is staked on the gap being permanent.
+- **reversed by:** a ground reading, not agreement. A signal whose source is demonstrably beyond the particle horizon closes D3. A matched CMB circle pair or topological lensing signature settles a D4 property. A measurement of `w >= −1/3` collapses the underivable class into the unreachable one. A measurement proving space infinite would retract the asymmetry. A re-census showing that "no last room" governs physical extent rather than closures would break the shape. Until one of these fires, the verdict stands as candidate.
+
+## Sources
+
+- [Figures text extract with line numbers (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\03-FIGURES_TEXT.md)
+- [Figures README, canonical (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\FIGURES_README_canonical.md)
+- [THE FORMULA (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\figures\THE_FORMULA.md)
+- [The Edges of Our Universe (Toby Ord, 2021)](https://arxiv.org/abs/2104.01191)
+- [Cosmic Topology (Jean-Pierre Luminet, Scholarpedia, 2015)](http://www.scholarpedia.org/article/Cosmic_Topology)
+- [The Topology of the Universe (Copi et al., 2026)](https://arxiv.org/abs/2606.24886)
+- [The landscape and the multiverse: What's the problem? (Read and Le Bihan, 2021)](https://link.springer.com/article/10.1007/s11229-021-03137-0)
+- [Cosmic topology, underdetermination, and spatial infinity (Ryan, 2024)](https://link.springer.com/article/10.1007/s13194-024-00576-7)
+- [What Exists in the Universe Beyond the Horizon? (ScienceInsights, 2026)](https://scienceinsights.org/what-exists-in-the-universe-beyond-the-horizon)
+- [The Library of Babel: Locating The Book of Books (Isaiah N, 2026)](https://adventuresinml.substack.com/p/the-library-of-babel-locating-the)
+- [The Recursive Self-Improvement Trap (Isaiah N, 2026)](https://adventuresinml.substack.com/p/the-recursive-self-improvement-trap)
+- [The Hard Problem is About Source (Isaiah N, 2026)](https://adventuresinml.substack.com/p/the-hard-problem-is-about-source)
+- [Decoding Tacit Knowledge (Isaiah N, 2026)](https://adventuresinml.substack.com/p/decoding-tacit-knowledge-why-context)
+- Folder material synthesised: `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md`, `08_expert_verification_packet.md`, `11_audit.md`

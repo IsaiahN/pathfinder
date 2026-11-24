@@ -1,0 +1,133 @@
+Here are **100 contested economics theory questions**, split into ten modules. They’re phrased as questions you can investigate, rather than as claims that economists are divided into two neat camps. Some disagreements are about core theory; others concern which theory best explains a particular economy or policy. For example, the fiscal-policy debate is not simply “deficits matter” versus “deficits never matter”: it also concerns inflation, interest rates, debt dynamics, and what policymakers can reliably control. <citation src="2,3"></citation>
+
+## 1. Macroeconomic fluctuations and recessions
+
+1. Are recessions mainly caused by declines in aggregate demand, disruptions to supply, or interacting shocks?
+2. Do recessions occur because wages and prices adjust too slowly, or because the economy is prone to deeper instability?
+3. Are business cycles mostly the result of unexpected shocks, or do they emerge from ordinary economic decisions and feedback loops?
+4. Do low interest rates during a boom create harmful investment “malinvestments,” or are recessions better explained by demand shortfalls and financial shocks?
+5. Can recessions be prevented, or can policy only soften them?
+6. Are economic downturns self-correcting, or can weak demand persist without intervention?
+7. Should economic models assume people and firms form expectations rationally, or use more psychologically and institutionally realistic alternatives?
+8. Do small shocks sometimes trigger large recessions because economies contain tipping points and feedback loops?
+9. How important are financial crises compared with ordinary changes in spending and production?
+10. Can one general theory explain both short recessions and prolonged depressions?
+
+## 2. Inflation, unemployment, and price-setting
+
+11. Is inflation primarily driven by excess demand, supply disruptions, money and credit, expectations, or some combination?
+12. Is there a stable trade-off between inflation and unemployment, or does that relationship shift with expectations and economic conditions?
+13. How much does inflation depend on firms’ market power and pricing strategies?
+14. Do workers’ wage demands cause persistent inflation, or do wages mainly respond to prices and labor-market conditions?
+15. Are inflation expectations a major cause of inflation, or are they mostly a response to actual price changes?
+16. When inflation rises, how can economists distinguish a demand-driven episode from a supply-driven one?
+17. Do firms adjust prices slowly because of costs and contracts, or do they change them strategically?
+18. Is “potential output” a useful measurable guide for policy, or too uncertain to rely on?
+19. Does reducing inflation usually require higher unemployment, or can better policy avoid much of that cost?
+20. Should governments and central banks target a low positive inflation rate, zero inflation, or a different goal?
+
+## 3. Money, banking, and central banks
+
+21. Do central banks control the money supply, or mainly influence interest rates and credit conditions?
+22. Is money best understood as a medium created by banks and public institutions, as a commodity-like asset, or both?
+23. Do commercial banks lend out prior deposits, or does lending itself create deposits?
+24. Should monetary policy be the main tool for stabilizing the economy, or should fiscal policy play a larger role?
+25. Do interest-rate changes reliably control inflation and employment, or do their effects vary substantially across time and economies?
+26. Should central banks follow fixed rules, use discretion, or combine both?
+27. Does central-bank independence improve economic outcomes, or weaken democratic accountability?
+28. Should central banks respond to asset-price booms and financial instability, even when consumer-price inflation is low?
+29. Are financial crises caused mainly by excessive risk-taking, unstable credit growth, bad regulation, or structural features of finance?
+30. Should governments issue digital public money, and how might that affect commercial banks and financial stability?
+
+## 4. Government spending, deficits, and public debt
+
+31. Under what conditions does government spending raise total output rather than displace private activity?
+32. How large is the fiscal multiplier, and why does it vary across recessions, expansions, and countries?
+33. Do persistent deficits raise inflation, interest rates, or both—or can their effects remain limited in some circumstances?
+34. When is public debt sustainable, and how should sustainability be measured?
+35. Can a government that issues its own currency run out of fiscal capacity, and what constraints matter most?
+36. Should fiscal policy aim to balance budgets over the business cycle, stabilize the debt ratio, or prioritize employment and price stability?
+37. Are automatic stabilizers—such as unemployment benefits and progressive taxes—more reliable than new discretionary stimulus?
+38. Does public borrowing crowd out private investment, or can it support private activity by raising demand and income?
+39. Should governments use a job guarantee as a tool for employment and inflation stabilization?
+40. How much of the disagreement between Modern Monetary Theory and mainstream macroeconomics concerns economic mechanisms, and how much concerns policy priorities and risk judgments? <citation src="1,2,3"></citation>
+
+## 5. Economic growth, productivity, and technology
+
+41. What are the deepest drivers of long-run economic growth: technology, capital, education, institutions, or something else?
+42. Is technological progress mostly created by private firms, public research, or collaboration between them?
+43. Does economic growth continue through improving productivity, or do aging populations and resource limits constrain it?
+44. Why do some technologies spread quickly while others take decades to affect economy-wide productivity?
+45. Does automation usually create more jobs over time than it eliminates, and how does the answer vary by occupation?
+46. Will AI raise productivity broadly, or mostly benefit a narrow set of firms and workers?
+47. Can economic growth be separated from rising resource use and environmental damage?
+48. Do patents encourage innovation by rewarding invention, or impede it by restricting competition and follow-on research?
+49. Does competition encourage firms to innovate, or can temporary market power provide the profits and stability needed for research?
+50. Why do productivity slowdowns happen, and how can economists tell a genuine slowdown from measurement problems?
+
+## 6. Inequality, poverty, and distribution
+
+51. Does income inequality hinder growth by reducing broad-based investment and demand, or help growth by rewarding saving and risk-taking?
+52. How much inequality reflects differences in skill and effort, and how much reflects inheritance, bargaining power, discrimination, or market structure?
+53. Does inequality of opportunity matter more than inequality of outcomes, and can one be reduced without the other?
+54. Do minimum wages reduce poverty, or can they reduce employment for some workers?
+55. Do higher taxes on the wealthy reduce productive investment, or mainly reduce rent-seeking and concentration?
+56. How much can education and training reduce wage inequality when jobs and bargaining power are unevenly distributed?
+57. Does globalization reduce global poverty while worsening inequality within some countries?
+58. Are large wealth differences mainly a result of unequal returns, unequal saving, inheritance, or ownership of scarce assets?
+59. Should policy focus on cash transfers, public services, wage-setting institutions, or asset ownership to reduce poverty?
+60. How should economists compare policies that increase total income with those that distribute it more evenly?
+
+## 7. Labor markets and employment
+
+61. Is unemployment mainly caused by insufficient demand, mismatches between workers and jobs, wages that do not adjust, or institutional barriers?
+62. Does a flexible labor market create more jobs, or mainly shift risk from employers to workers?
+63. Do unions raise wages and protect workers at the cost of employment, or improve productivity and counterbalance employer power?
+64. Does a higher minimum wage meaningfully reduce hiring, or can firms absorb costs through lower profits, prices, or turnover?
+65. How much of the gender pay gap reflects occupation and hours, and how much reflects discrimination and unequal caregiving burdens?
+66. Is gig work a more efficient form of flexible employment, or does it transfer costs and insecurity onto workers?
+67. What determines workers’ bargaining power: productivity, labor-market competition, unions, law, or employer concentration?
+68. Does immigration lower wages for some workers, raise overall productivity, or produce different effects across skill groups and time horizons?
+69. Should unemployment be treated as an unavoidable feature of market adjustment or as a policy failure that can be substantially reduced?
+70. How should economists value unpaid care work and household production in measuring employment and economic output?
+
+## 8. Trade, globalization, and industrial policy
+
+71. Does free trade raise overall welfare enough to justify concentrated losses among workers and regions?
+72. Should countries prioritize comparative advantage or maintain domestic capacity in strategically important industries?
+73. When does industrial policy correct market failures, and when does it protect inefficient firms?
+74. Do tariffs protect jobs and supply chains, or raise costs and invite retaliation?
+75. Does international trade tend to reduce global inequality while increasing inequality within trading nations?
+76. Should countries restrict foreign investment or technology transfers in industries tied to national security?
+77. Can governments successfully “pick winners,” or are they more likely to misallocate resources and reward political connections?
+78. Do global supply chains make economies more efficient but more vulnerable to disruption?
+79. Are trade deficits economically harmful, or do they often reflect saving, investment, and capital flows rather than a simple loss of competitiveness?
+80. How should international institutions balance national policy autonomy with rules for trade, finance, and investment?
+
+## 9. Firms, markets, and business power
+
+81. Are large firms more productive because they exploit economies of scale, or do they become powerful by limiting competition?
+82. How should economists distinguish profits earned through innovation from rents earned through market power?
+83. Do mergers usually improve efficiency, or often reduce competition and bargaining power?
+84. Are digital platforms natural monopolies, and if so, should they be regulated like public utilities?
+85. Does competition policy protect consumers best through lower prices, greater choice, more innovation, or all three?
+86. Do shareholders, managers, workers, or other stakeholders have the strongest claim on a firm’s purpose and profits?
+87. How do firms decide whether to employ workers directly, use contractors, or outsource production?
+88. Are executive pay differences driven mainly by productivity and scarce talent, or by bargaining power and weak governance?
+89. Do financial markets help direct investment to its most productive uses, or can speculation and short-term incentives distort investment?
+90. Should firms be required to account for environmental and social harms that are not reflected in market prices?
+
+## 10. Economic methods, welfare, and alternative frameworks
+
+91. Can economic theories make reliable predictions about systems where people adapt to policies and expectations?
+92. Should economics favor unified mathematical models, or use many models tailored to different questions?
+93. Are standard cost-benefit analyses adequate when effects are uncertain, unequal, or difficult to value in money?
+94. Should economic policy maximize total output, total welfare, individual freedom, or some combination?
+95. Can people’s well-being be measured reliably through income and consumption, or do health, security, relationships, and autonomy need equal weight?
+96. Do behavioral economics findings require replacing standard models of rational choice, or mainly modifying them?
+97. Can ecological economics describe limits to material growth better than conventional growth models?
+98. Do Austrian, Post-Keynesian, Marxian, institutional, feminist, and complexity approaches offer distinct explanations that mainstream models miss?
+99. What evidence should count most when competing economic theories disagree: historical cases, natural experiments, randomized trials, mathematical consistency, or predictive accuracy?
+100. Can economics be value-neutral, or do choices about what to measure and optimize inevitably embed ethical and political judgments?
+
+A helpful way to work through the list is to pick a question and ask: **What are the competing explanations? What evidence would distinguish them? What assumptions does each rely on? And what policy choice changes if one explanation is right?**

@@ -1,0 +1,91 @@
+# WATSON answer: how much do geography, disease and endowments shape institutions compared with political choice?
+
+**Mode: `specified` on the shape, `general` on the per-slot rule, `gap` on the single comparative magnitude. Not `grounded`.**
+
+**Status: SIMULATED DERIVATION, not a ground reading.** This run synthesizes `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md` and `08_expert_verification_packet.md`. It is checked for internal consistency against the figures. By its own rule (Recursive Self-Improvement Trap: LLM output is an approximate simulated answer and *"the truly testable output would need to be derived from the real architecture or working the formula yourself"*) it cannot settle the question it reports on. No measurement was taken.
+
+## QUESTION
+
+Decide, in effect terms, what the Tether says about the request for a comparative magnitude: how much of institutional development is due to geography, disease environments and resource endowments, against how much to political choices. Option A: return a single share, for example "institutions explain three-quarters". Option B: keep the figure-derived shape and report the single share as `gap`. What each leads to: A sums two incommensurable currencies, aggregates away the per-slot signal, and presents a contested instrument as an anchor; B returns four separate domain verdicts, five refuters written in advance, and an honest stop at the limit of the instruments.
+
+## DOMAIN CENSUS
+
+R by arity, symmetry and scale, then one line per domain with actors, currency and anchor; partition or union; order by dependency.
+
+- **R (the residual).** The gap between an observed institutional arrangement and what any one of the four arguments predicts alone. Arity: four named conditions, so a **union compound**. Symmetry: not interchangeable; a persistent geographic constraint and a discrete political choice are not swappable operands. Scale: biophysical conditions over centuries and continents, political choice within polities over years. Fig 9 :4-5: *"First: is there a fact here? Disagreements that do not shrink with effort, where each rule keeps working well on a different subset, are not one hard question but several well-formed ones. Split it rather than search."*
+- **Domain 1, environmental-material.** Actors: terrain, climate, pathogens, soils, crops, minerals. Currency: settlement feasibility and material constraint. Anchor: measurable mortality, land quality, latitude. This is a partition boundary question for its own slot.
+- **Domain 2, institutional-formal.** Actors: constitutions, property rights, courts, suffrage. Currency: rules and enforcement, a convention that has decided outcomes. Anchor: an actually observed rule. This is a partition question for its own slot.
+- **Domain 3, political-agency.** Actors: leaders, coalitions, voters, revolutions. Currency: deliberate choice and contingent sequence. Anchor: a recorded decision, weakly available. This is a union domain, overlapping D1 and D2.
+- **Domain 4, verification and meta.** Actors: researchers, journals, instruments, indices. Currency: agreement and residuals. Anchor: the checkable institutional outcome, but no controlled origin experiment exists, so independence is near zero.
+- **Partition or union.** Union. Fig 9 :54-55: *"And when the split lands on a union rather than a partition, unbundle before you search again."* Conditions overlap and interact; intersections are the interesting cases.
+- **Order by dependency.** Settle each slot against its own anchor, refuse the aggregate before minting any share (formula step 2), describe the residual before choosing a frame (Fig 9 :27-28). The chain breaks at vocabulary and objective: there is no term for what a disease environment and a rule-making seat jointly afford.
+
+Strain test applied: mapping the physical six-term set onto these social variables was tried and declined, because it only fit with a strain and therefore governs another quantity (see `01` §4). No strained mapping is used below.
+
+## TETHER (primary, verbatim)
+
+Cited against `FRAMEWORK/reference/03-FIGURES_TEXT.md`. Every quote is verbatim from the figure text extract.
+
+- Fig 9 :4-5 "First: is there a fact here? Disagreements that do not shrink with effort, where each rule keeps working well on a different subset, are not one hard question but several well-formed ones. Split it rather than search." -> the persistent debate is a union compound; split it, do not search for one magnitude.
+- Fig 9 :54 "And when the split lands on a union rather than a partition, unbundle before you search again." -> unbundle the four conditions.
+- Fig 1 :19 "The residual is indexed by object slot, not aggregated." -> each condition gets its own slot and its own anchor; an aggregate share drops the signal.
+- Fig 12 :125 "A composition costs in two currencies, and they do not add." -> material constraint and political choice cannot be summed into one percentage.
+- Fig 12 :129-130 "Summing them into one figure is the error this names, not the fix for it. A price in bits and a price in actions are two readings, held apart." -> the requested sum is the named error, not a fix.
+- Fig 2 :29-30 "An anchor is whatever settles the question and does not change its answer because of what any frame thinks. A measurement, an experiment, a counter, a market, a patient outcome." -> an anchor must not move when a frame pushes on it; settler mortality moves under Albouy's recoding, so it is an instrument and not yet an anchor.
+- Fig 10 :47 "a convention that decides an outcome has stopped being one" -> an institution that has allocated property or suffrage is now a constraint on later political choice.
+- Fig 12 :104 "A settled molecule becomes an atom for whatever composes over it." -> later political choices compose over the settled institution; this is recursion, not a new primitive.
+- Fig 11 :49 "An actor's valence is relative to the residual, not a property it carries." -> a resource is a curse or a blessing depending on the residual, so it cannot be assigned a fixed weight.
+- Fig 2 :40 "disqualifying for a verdict: agreement about the world is worthless when the agreeing frames share an evidence pool" -> the environmental and institutional accounts here use overlapping samples and cases, so their agreement is one pool talking.
+- Fig 8 :39 "So a search that finds nothing is never a proof of absence." -> `gap` is a verdict about reachability with the held concepts, not a claim that the world lacks an answer.
+- Fig 13 :134 "Unreachable is a verdict here, not a silence" -> the aggregate magnitude is reported as unreachable, not omitted.
+
+Triangulation status: the union verdict is triangulated across Fig 9 and the Library of Babel essay (low overlap between a dependency rule and a search-process essay). The two-currency verdict is triangulated across Fig 12 and Fig 3 (different dependency reason for the same separation). The per-slot rule is `single-source` in Fig 1, corroborated directionally by Fig 9. The institution-as-constraint verdict is triangulated across Fig 10 and Fig 12. The political-choice-as-actor verdict is `single-source` in Fig 11. The `gap` verdict is triangulated across Fig 8 and Fig 13. No verdict is averaged across domains. The six-term physical mapping is a named strain, declined.
+
+## WORLD (secondary sources read)
+
+World sources corroborate only; they never overrule the figures. All were opened 2026-11-23.
+
+- **Development economics / colonial origins.** Daron Acemoglu, Simon Johnson and James A. Robinson, "The Colonial Origins of Comparative Development", NBER Working Paper 7771 (2000), published American Economic Review 91(5) (2001): *"Our estimates imply that differences in institutions explain approximately three-quarters of the income per capita differences across former colonies."* Predicts a dominant institutional channel. Corroborates the existence of a real institutional slot; conflicts with any claim that the comparison is already settled, since the estimate is contested. Overlap with other development sources: high, shared sample and method.
+- **Economic history / factor endowments.** Stanley L. Engerman and Kenneth L. Sokoloff, "Factor Endowments, Institutions, and Differential Paths of Growth", NBER Historical Working Paper h0066 (1994): *"the roots of these disparities in the extent of inequality lay in differences in the initial factor endowments of the respective colonies"*. Predicts a real material channel feeding through inequality into institutions. Corroborates D1 and D2 as separate slots. Overlap: medium, shares the colonial sample with AJR.
+- **Development economics / instrument critique.** David Y. Albouy, "The Colonial Origins of Comparative Development: An Empirical Investigation: Comment", American Economic Review 102(6) (2012): *"instrumental-variable estimates become unreliable, often with infinite confidence intervals"*. Predicts that the anchor for one slot moves under recoding. Corroborates F2. Overlap: high with AJR, since it is a comment on the same data.
+- **Development economics / reply.** Daron Acemoglu, Simon Johnson and James A. Robinson, "The Colonial Origins of Comparative Development: An Empirical Investigation: Reply", American Economic Review 102(6) (2012): the alternative coding is *"coded inconsistently"* and limiting outliers strengthens the original results. Predicts continued disagreement. Conflicts with Albouy on the data, not with the figure verdict. Overlap: high with AJR.
+- **Public debate / geography hypothesis.** Daron Acemoglu, James A. Robinson and Jared Diamond, "'Why Nations Fail'", New York Review of Books, 16 August 2012. Acemoglu and Robinson: *"Though at times the process of institutional development has been influenced by geography or disease ecology (as our own academic research joint with Simon Johnson has documented), these are not the major factors shaping institutional variation today."* Diamond replies that the Neolithic Revolution *"merely"* accounts for *"about half of prosperity differences today around the world as a whole"*. Predicts four incompatible magnitudes from the protagonists themselves. Corroborates F1. Overlap: high with the AJR source; one witness, not two.
+- **Cultural biogeography / low overlap.** Angela M. Chira, Russell D. Gray and Carlos A. Botero, "Geography is not destiny: A quantitative test of Diamond's axis of orientation hypothesis", Evolutionary Human Sciences 6, e5 (2024): *"the Eurasian continent is not significantly more ecologically homogeneous than other continental regions"* and *"Our findings highlight the perils of single factor explanations"*. Predicts that the simplest geographic story fails a direct test. Corroborates the union verdict from a different field and method. Overlap: low with the economics sources.
+- **Political science / cultural evolution / low overlap.** David D. Laitin, Joachim Moortgat and Amanda Lea Robinson, "Geographic axes and the persistence of cultural diversity", PNAS 109(26) (2012): the results provide *"significant confirmation of the relationship between geographic orientation and cultural homogenization"*, while noting that *"state makers have had agency both in determining the borders of their states and in influencing cultural homogenization in them"*. Predicts a real geographic effect entangled with agency. **Conflicts** with the 2024 result on Eurasian homogeneity. The conflict rule applies: it sends the reading back to the union census and a check of estimands, and it does not flip any figure verdict.
+- **Metatheory / canonical usage.** Isaiah N, figures README (GitHub, branch general-agent): *"what a missing thing would have to look like (a shape, not a name)"* and *"Indiscernibility is not identity."* Predicts a shape and a recorded stop; corroborates the form of the answer. Overlap: high, same author as the figures.
+- **Human cognition / source discrimination.** Isaiah N, "The Hard Problem is About Source" (adventuresinml Substack, 2026): *"If several paths create the same behavior, then behavior is a projection with lossy information"* and *"An instrument that can't distinguish these cases demonstrates its own inadequacy"*. Predicts that a reading cannot name its source without a discriminating instrument; corroborates F2.
+- **Human cognition / tacit knowledge.** Isaiah N, "Decoding Tacit Knowledge" (adventuresinml Substack, 2026-11-10): *"When contact isn't possible, the best you can send is a plain description of what you'd expect to see, because anyone can check that against the world."* Predicts describe-the-residual-first outreach; corroborates Fig 9.
+- **Search / shape.** Isaiah N, "The Library of Babel: Locating The Book of Books" (adventuresinml Substack, 2026-10-02): *"You can cut your search short if the set of books returned is small and descriptive enough that it provides a general shape of the answer that satisfies your question."* Predicts a narrowed shape; corroborates the method.
+- **Validation / self-validation.** Isaiah N, "The Recursive Self-Improvement Trap" (adventuresinml Substack, 2026-11-19): *"the output is only as good as the validator. The agent, or the tool, or the frame, or the theory, cannot validate itself."* Predicts that this derivation cannot settle its own claim; corroborates the simulated status.
+
+Most world sources share an author or an evidence pool with each other or with the framework; their agreement is noted, not counted as independent corroboration. One genuine conflict exists between the 2012 PNAS and 2024 Evolutionary Human Sciences results, and it was handled by re-census rather than by flipping a verdict.
+
+## VERDICT (from the figures)
+
+The shape survives, the single number does not. The four conditions form a union that must be unbundled; each is ranged against its own anchor; material constraint and political choice are priced in different currencies that do not add; and a single percentage aggregates away the per-slot signal. Institutions are a convention that has already decided outcomes and now constrains later choice, while political choice is an actor in the habitat with relative valence. Published magnitudes (three-quarters, about half, 50 percent, infinite intervals) are readings in different accountings from one evidence pool, not rival estimates of one quantity. The six-term physical mapping is strained and declined. Result: `specified` on the shape, `general` on the per-slot rule, `gap` on the comparative magnitude, ungrounded, candidate.
+
+- **cost if wrong:** bounded and locatable. The packet states mode, five refuters and provenance before the conclusion, so an error is findable rather than invisible. The real cost is spending the independence of outside readers by sending a single-number conclusion instead of a generator; Fig 2 :42 prices it: *"Buy independence in proportion to the cost of being wrong."* That cost is avoidable by leading with the shape and its refuters.
+- **undoable:** yes. The aggregate claim is removable without touching the four domain verdicts; `07_the_tether_answer.md` and `08_expert_verification_packet.md` already remove it. No primitive has to be withdrawn, and a superseding packet can replace a sent one.
+- **reversed by:** a ground reading, not agreement. A common-currency instrument accepted as an anchor by both frames, an additive non-interacting decomposition that turns the union into a partition, a settler-mortality series invariant to the disputed recoding, or a well-typed `⋛` comparison whose operands are quantities at one level, would each move the verdict. A figure re-census that licenses an aggregate residual over all slots would break the per-slot rule. Until one of these fires, the verdict stands as `candidate`.
+
+## Sources
+
+- [Figures README, canonical](https://github.com/IsaiahN/tether/blob/general-agent/figures/README.md)
+- [Figures text extract with line numbers (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\03-FIGURES_TEXT.md)
+- [Canonical figures README (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\FIGURES_README_canonical.md)
+- [THE_FORMULA (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\figures\THE_FORMULA.md)
+- [SEAT MAP field guide (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\figures\THE_SEAT_MAP_Field_Guide_amended.md)
+- [The Colonial Origins of Comparative Development, NBER 7771](https://www.nber.org/papers/w7771)
+- [The Colonial Origins of Comparative Development, AER 2001](https://www.aeaweb.org/articles?id=10.1257%2Faer.91.5.1369)
+- [Factor Endowments, Institutions, and Differential Paths of Growth, NBER h0066](https://www.nber.org/papers/h0066)
+- [Albouy comment on Colonial Origins, AER 2012](https://www.aeaweb.org/articles?id=10.1257%2Faer.102.6.3059)
+- [Acemoglu, Johnson and Robinson reply, AER 2012](https://www.aeaweb.org/articles?id=10.1257%2Faer.102.6.3077)
+- [Why Nations Fail exchange, New York Review of Books](https://www.nybooks.com/articles/2012/08/16/why-nations-fail)
+- [Guns, Germs and Steel, Britannica](https://www.britannica.com/topic/Guns-Germs-and-Steel)
+- [Geography is not destiny, Evolutionary Human Sciences 2024](https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/geography-is-not-destiny-a-quantitative-test-of-diamonds-axis-of-orientation-hypothesis/3196029E586CC58C6696D5AB9994ADF7)
+- [Geographic axes and the persistence of cultural diversity, PNAS 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC3387047)
+- [The Hard Problem is About Source](https://adventuresinml.substack.com/p/the-hard-problem-is-about-source)
+- [Decoding Tacit Knowledge](https://adventuresinml.substack.com/p/decoding-tacit-knowledge-why-context)
+- [The Library of Babel: Locating The Book of Books](https://adventuresinml.substack.com/p/the-library-of-babel-locating-the)
+- [The Recursive Self-Improvement Trap](https://adventuresinml.substack.com/p/the-recursive-self-improvement-trap)
+- Folder material synthesized: `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md`, `08_expert_verification_packet.md`

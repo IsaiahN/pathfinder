@@ -1,0 +1,59 @@
+# Public links, wider literature, and distribution
+
+All URLs below were fetched on 2026-11-23 unless stated otherwise. Failed fetches and limited retrievals are recorded rather than hidden. World sources are secondary corroboration; the figures decide.
+
+## 1. Verified public links actually fetched
+
+| what | URL | verified content |
+|---|---|---|
+| Canonical figure text with line numbers (local) | `FRAMEWORK/reference/03-FIGURES_TEXT.md` | Figures 1 to 13, Operators and Symbols tables, verbatim with SVG line numbers. Every `Fig N :line` citation in this folder resolves here. |
+| Canonical figures usage rule (local) | `FRAMEWORK/reference/FIGURES_README_canonical.md` | "the quotes are the authority, not this summary"; "a shape, not a name"; metalaw and indiscernibility statements. |
+| Eight-step loop and mode rule (local) | `FRAMEWORK/figures/THE_FORMULA.md` | Steps 1 to 8, the three guards, the three questions of step 7, mode `general · specified · grounded`. |
+| Figures as metalaws (local) | `FRAMEWORK/reference/60_FIGURES_AS_METALAWS.md` | The figures are the ground for design questions; the seat must not request rulings the figures already decide. |
+| HRI community portal | https://humanrobotinteraction.org/ | "HRI is the multidisciplinary study of human-robot interaction." Links to HRI 2027, Journal of HRI, steering committee contact and resources. |
+| HRI 2027 | https://humanrobotinteraction.org/2027/ | 22nd annual ACM/IEEE conference, Santa Clara, 8 to 12 March 2027. Submission tracks include full papers, short contributions, alt.HRI and Late Breaking Reports (deadline 8 December 2026). |
+| Frontiers in Robotics and AI, HRI section | https://www.frontiersin.org/journals/robotics-and-ai/sections/human-robot-interaction | Public submission route, public editor board, 504 articles listed at time of reading. |
+| Frontiers Research Topic 86654 | https://www.frontiersin.org/research-topics/86654/human-robot-interaction-in-physical-robot-tasks-learning-adaptation-and-safety | "Submission open"; explicitly covers learning, adaptation and safety with humans in physical tasks. |
+| International Journal of Social Robotics | https://link.springer.com/journal/12369 | "offers a platform for multidisciplinary research and development in social robotics"; encourages engineering through social sciences; hybrid model; 544 open access articles. |
+| IJSR contact page | https://link.springer.com/journal/12369/contact-the-journal | Inquiries routed through the public Springer Nature support portal. |
+| Cognitive Science Society | https://cognitivesciencesociety.org/ | Mission statement spanning AI, linguistics, anthropology, psychology, neuroscience, philosophy and education; public submissions, listserv and contact form. |
+| Cognitive Science Society submissions | https://cognitivesciencesociety.org/submissions/ | Public conference submission route listed in the society navigation. |
+
+**Failed or limited fetches, recorded honestly.** `https://journal.hri.org/` returned a transport error; it is not listed as a contact point. `https://academic.oup.com/bioscience/article/55/6/489/363397` (Galef and Laland 2005) returned 403, so the BioScience paper is excluded from the witness list; its Crossref bibliographic record was read, but no text was quoted from it. `https://ojs.aaai.org/index.php/AAAI/article/view/33705` (Beliaev and Pedarsani 2025) was blocked by bot protection, so that source is quoted from the publisher abstract deposited in Crossref and is marked as such in the ledger. Two Semantic Scholar API calls returned 429 and one NCBI esearch call returned 500; substitutes were opened instead. Nothing in the ledger is cited as read unless a page, abstract record, or local file was actually opened.
+
+## 2. Wider literature that bears on the question
+
+Low-overlap fields first. Each was opened on 2026-11-23 and recorded in `10_source_ledger.csv`.
+
+- **Animal behaviour and cultural evolution.** L. Rendell, R. Boyd, D. Cownden, M. Enquist, K. Eriksson, M. W. Feldman, L. Fogarty, S. Ghirlanda, T. Lillicrap and K. N. Laland, "Why Copy Others? Insights from the Social Learning Strategies Tournament," *Science* 328(5975):208-213, 2010. Open PMC manuscript. Quote: "Social learning (learning through observation or interaction with other individuals) is widespread in nature and is central to the remarkable success of humanity, yet it remains unclear why it pays to copy, and how best to do so." Also: "Social learning proved advantageous because individuals frequently demonstrated the highest-payoff behavior in their repertoire, inadvertently filtering information for copiers." Prediction: interaction with other agents is a real learning channel, and its value comes from the other agent's ground-filtered demonstration. **Corroborates** F1 and F4. Note that the winning strategy weighted information by age, which also supports the history condition F5. Single witness for this field.
+- **Experimental social science.** J. Lorenz, H. Rauhut, F. Schweitzer and D. Helbing, "How social influence can undermine the wisdom of crowd effect," *PNAS* 108(22):9020-9025, 2011. Open PMC article. Quote: "even mild social influence can undermine the wisdom of crowd effect in simple estimation tasks"; also "social influence diminishes the diversity of the group without improvements of its collective error." Prediction: showing people the aggregate of others narrows diversity without adding accuracy. **Corroborates** F2 and F4 with a genuinely different evidence pool from the framework essays. This is the strongest external witness in the packet.
+- **Developmental psychology.** M. Tomasello, M. Carpenter, J. Call, T. Behne and H. Moll, "Understanding and sharing intentions: The origins of cultural cognition," *Behavioral and Brain Sciences* 28(5):675-691, 2005. Cambridge Core abstract opened. Quote: "the ability to participate with others in collaborative activities with shared goals and intentions: shared intentionality"; also "Human children's skills of shared intentionality develop gradually during the first 14 months of life as two ontogenetic pathways intertwine." Prediction: perspective taking is built through joint attention and collaboration over developmental time, not by receiving a label. **Corroborates** F1, F5 and F8.
+- **Machine learning and engineering.** M. Beliaev and R. Pedarsani, "Inverse Reinforcement Learning by Estimating Expertise of Demonstrators," *AAAI* 39(15):15532-15540, 2025. Publisher abstract via Crossref (full text blocked). Quote: "utilizing suboptimal and heterogeneous demonstrations presents a substantial challenge due to the varied nature of real-world data. However, standard IL algorithms consider these datasets as homogeneous, thereby inheriting the deficiencies of suboptimal demonstrators." Prediction: treating different people as one homogeneous pool loses the per-demonstrator signal. **Corroborates** F2. Limited evidentiary weight because only the abstract record was opened.
+- **Clinical cognitive science.** M. Atacan Yasgucelkal, A. D. Elmali and B. Korkmaz, "Social Cognition and Theory of Mind," *Neuropsychiatric Investigation* 62(3):100-108, 2024. Publisher abstract via Crossref. Quote: "Theory of Mind, on the other hand, is the mental mechanism that a person uses every day to explain a word or attitude of another or to predict a behavior of another." Also: "In simulation technique, one puts themselves in the shoes of another person and uses themselves as their reference point." Prediction: two distinguishable mechanisms, self-projection and other-modelling; the first is exactly what F6 says must be refusable. **Corroborates** F6, with moderate overlap with the developmental field.
+- **AI evaluation, deliberately included as a conflict source.** M. Kosinski, "Evaluating Large Language Models in Theory of Mind Tasks," *PNAS* 2024, arXiv:2302.02083. Quote: "the intriguing possibility that ToM, previously considered exclusive to humans, may have spontaneously emerged as a byproduct of LLMs' improving language skills." Prediction if taken at face value: text-only training suffices, which appears to conflict with F1 and F5. The conflict was returned to the census and resolved as a source-discrimination shadow (audit §4); the verdict was not flipped. **Conflicts as written, then subordinated to the figures.**
+- **Framework essays, canonical reading only, not independent world witnesses.** Isaiah N, "Decoding Tacit Knowledge" (2026-11-10), "The Library of Babel" (2026-10-02), "The Hard Problem is About Source" (2026-08-28), "How a Society of Agents Would Work" (2026-10-22), "The Recursive Self-Improvement Trap" (2026-11-19), all Adventures in Machine Learning. Key quotes in `05_what_shape_means.md`. Overlap with the figures is maximal (same author and evidence pool), so they carry no independent corroboration weight.
+- **Venue pages opened, no verdict bearing.** The HRI, Frontiers, Springer and Cognitive Science Society pages listed in §1 and in `03_public_contact_points.csv` establish public opt-in routes only. They are silent on the question.
+
+## 3. Distribution rules: offer, do not push
+
+Figure-grounded reasons:
+
+- **Fig 4 :22** "Only methods cross up. Only head starts come down." Sending the full framework before a reader has described a residual sends a recording, not a generator. Lead with the shape claim and the six refuters; offer links after.
+- **Fig 10 :42** "A verifier that can reconstruct the claim cannot verify it." A recipient who has absorbed the whole architecture before giving a stage-1 verdict has joined the frame being checked.
+- **Fig 9 :27-28** "describe it before you go looking, or any frame you pick will seem to fit." Ask what the recipient would expect to see if the shape claim were true before giving them the sources.
+- **Fig 2 :40** "agreement about the world is worthless when the agreeing frames share an evidence pool." A mass send selected for likely agreement produces a convention, not corroboration.
+- **Fig 2 :31-32** Independence decides whether more contacts buy more evidence. Choose venues and recipients with different evidence pools; do not keep approaching the same community until it agrees.
+
+**Recommended order in a reply:** (1) the four necessary conditions and the two further ones, with modes; (2) the six refuters and the question "what would you count as a failure?"; (3) record the verdict before showing any framework material; (4) only then the three local links and the two external papers, with the note that the figures, not the summary, are the authority; (5) offer the formula as a reusable method with the instruction that each user writes their own refuter.
+
+## 4. The two-stage offer
+
+1. **Stage 1:** send the residual in effect terms, the shape claim, and the six pre-registered refuters. Ask what the recipient would count as a failure. Record their verdict *before* any theory is shown.
+2. **Stage 2, opt-in only:** if they are curious, offer the three local sources and the two low-overlap external papers. Their later agreement is never pooled as corroboration (Fig 2 :40).
+3. **Stage 3:** offer the formula as a method to reuse. It is a generator, so giving it away does not give away an answer (Fig 4 :22). Each user must state their own ground, mode, and refuter (Formula, "Direction").
+
+**Hard precondition:** stages 1 to 3 only work if the stage-1 claim survives. As drafted, it is a shape with six stated ways to fail, not a finished empirical result. Treat a refutation as a successful outcome of the contact.
+
+## 5. What this agent cannot do
+
+This agent did not host, upload, or send anything. The venues in `03_public_contact_points.csv` are public routes for a human to use. If material is hosted, prefer an opt-in download page over an attachment pushed to a list, so a recipient can decline contact cleanly.

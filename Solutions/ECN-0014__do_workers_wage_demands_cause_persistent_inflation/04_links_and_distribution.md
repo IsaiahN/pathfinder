@@ -1,0 +1,63 @@
+# Public links and distribution
+
+Every URL marked **fetched** below was opened directly on 2026-11-23 and the quoted sentence was read on the page. URLs marked **carried** come from the validated exemplar and were not re-opened in this run. Failed fetches are listed at the end and nothing unread is cited as a source.
+
+## Verified sources fetched in this run
+
+| what | URL | verified content |
+|---|---|---|
+| Wage-price spiral, economics overview | https://en.wikipedia.org/wiki/Wage%E2%80%93price_spiral | Defines the spiral as a process in which "wage increases cause price increases, which in turn cause wage increases, in a positive feedback loop". Reports that IMF studies "have found that even short-term spirals rarely led to a 'sustained' increase in wage and price levels". Carries Friedman's "It's the external manifestation of inflation, but not its source" and Mitchell and Erickson on union decline making it "progressively difficult to tie inflation to unions, and thus to worker demands". |
+| Blanchard, The Wage Price Spiral, NBER WP 1771 | https://www.nber.org/papers/w1771 | December 1985, DOI 10.3386/w1771. Abstract: "after an increase in aggregate demand, the process of adjustment of nominal prices and nominal wages results from attempts by workers to maintain or increase their real wage and by firms to maintain or increase their markups of prices over wages." Also: "under staggering of price and wage decisions, the adjustment takes time." This is the common-source reading with persistence supplied by staggering. |
+| BIS Bulletin 55, household inflation expectations | https://www.bis.org/publ/bisbull55.htm | De Fiore, Goel, Igan and Moessner, 23 May 2022. "Household inflation expectations have risen alongside higher inflation. These expectations matter for central banks since they affect consumption decisions and wage demands, shaping the public debate on inflation." Also: households "are more influenced by the prices of frequently purchased items". |
+| Granger causality, statistics | https://en.wikipedia.org/wiki/Granger_causality | "the Granger causality tests whether X forecasts Y"; "Granger causality is not necessarily true causality"; and the common-cause warning: "If both X and Y are driven by a common third process with different lags, one might still fail to reject the alternative hypothesis of Granger causality. Yet, manipulation of one of the variables would not change the other." Also: "In practice it may be found that neither variable Granger-causes the other, or that each of the two variables Granger-causes the other." |
+| Positive feedback, systems and engineering | https://en.wikipedia.org/wiki/Positive_feedback | "A produces more of B which in turn produces more of A"; positive feedback is "a process that occurs in a feedback loop where the outcome of a process reinforces the inciting process to build momentum". Donella Meadows: "Positive feedback loops are sources of growth, explosion, erosion, and collapse in systems. A system with an unchecked positive loop ultimately will destroy itself. That's why there are so few of them. Usually, a negative loop will kick in sooner or later." |
+| Phillips curve, economics | https://en.wikipedia.org/wiki/Phillips_curve | "The traditional Phillips curve story starts with a wage Phillips curve." "Since the 1970s, the equation has been changed to introduce the role of inflationary expectations... This produces the expectations-augmented wage Phillips curve." "The introduction of inflationary expectations into the equation implies that actual inflation can feed back into inflationary expectations and thus cause further inflation." Also the wage determination equation in which money wage growth "falls with the unemployment rate, U". |
+| Confounding, causal inference | https://en.wikipedia.org/wiki/Confounding | "Failure to control for a confounder results in a spurious association between exposure and outcome." "Confounding is a causal concept rather than a purely statistical one, and therefore cannot be fully described by correlations or associations alone." "Confounders are threats to internal validity." |
+| FEDS Note, oil prices and core inflation | https://www.federalreserve.gov/econres/notes/feds-notes/the-effect-of-oil-prices-on-core-inflation-recent-evidence-from-the-advanced-economies-20261109.html | De Michelis, Orak, Pradhan and Queralto, 9 November 2026. "do supply shocks like oil-price increases pose a transitory or a persistent threat to price stability?"; "inflation expectations depend on past inflation outcomes"; "the post-pandemic surge in inflation was extraordinary and the result of a confluence of factors, including reopening demand, fiscal stimulus, labor-market tightness, supply-chain disruptions, and high energy prices"; "second-round effects have not yet materialized; however, risks are mounting." It separately estimates persistence and pass-through. |
+| Recursive Self-Improvement Trap, essay | https://adventuresinml.substack.com/p/the-recursive-self-improvement-trap | "Prestige can fund an action. It can give an action a budget to be tried. But it cannot settle an action. Only the ground can settle it." Also: "the output is only as good as the validator. The agent, or the tool, or the frame, or the theory, cannot validate itself." And: "LLMs can quickly simulate an approximate answer/output with the formula found in the architecture post... the truly testable output would need to be derived from the real architecture or working the formula yourself." |
+| The Hard Problem is About Source, essay | https://adventuresinml.substack.com/p/the-hard-problem-is-about-source | "If several paths create the same behavior, then behavior is a projection with lossy information"; an instrument "can't comment on the source"; "The answer is unreached until a better instrument exists"; "It was proven wrong not by argument, but by the arrival of a better instrument." This is the source-discrimination rule applied to the wage-price reading. |
+| Decoding Tacit Knowledge, essay | https://adventuresinml.substack.com/p/decoding-tacit-knowledge-why-context | "When contact isn't possible, the best you can send is a plain description of what you'd expect to see, because anyone can check that against the world." Also: "Agreement is the whole point when you're settling what words mean. It's worthless for settling what's true when both sides learned from the same sources." And the navigator image: "Two navigators don't find their position by agreeing with each other. Each takes a bearing on the same fixed landmark, and nobody can talk the landmark into moving." |
+| Institutional venue pages | https://www.iza.org/publications/dp ; https://www.bis.org/publications/working-paper ; https://www.federalreserve.gov/econres/notes/feds-notes/default.htm ; https://www.nber.org/papers/w1771 | Fetched to verify the public contact venues in `03_public_contact_points.csv`. None is a personal contact. |
+
+**Carried, not re-opened this run:** https://github.com/IsaiahN/tether/tree/general-agent/figures and the canonical figures README on that branch. These are verified in the exemplar and listed here for orientation; the local copies under `FRAMEWORK/` are the authority used for every figure quote in this folder.
+
+## What in the wider literature bears on the residual
+
+1. **The loop is real but bounded.** The wage-price spiral entry records both the positive-feedback mechanism and the IMF finding that short-term spirals rarely produce a sustained rise in wage and price levels. Meadows's systems rule explains why: positive loops are usually checked by a negative loop. This supports "both arms exist, persistence is conditional", not "wages are the origin" and not "wages never matter".
+2. **The common source is documented, not hypothetical.** Blanchard's 1985 abstract places the adjustment after an increase in aggregate demand, with workers defending real wages and firms defending markups. The 2026 FEDS note attributes the post-pandemic surge to a confluence of demand, fiscal, labor-market, supply-chain and energy factors and warns that its estimated pass-through may partly reflect co-movement with global demand pressure. These are independent institutional statements of Fig 2's collapse 2.
+3. **Direction is an identification problem, not a correlation problem.** The Granger and confounding entries both say that shared-source structure defeats observational direction. That is why D4's verdict is `general` on the ceiling and `gap` on the instrument, rather than an empirical preference for A or B.
+4. **Wage growth is a pooled reading.** The BIS finding that households respond to frequently purchased items and hold higher expectations than professional forecasters is a concrete instance of Fig 10's "pooled readings" channel failure. It also explains why a survey of perceived prices is not a clean demand instrument (F7).
+5. **Persistence and pass-through are different objects.** The FEDS note estimates them as separate coefficients with different timing. That is the empirical counterpart of Fig 12 :121, where the sign of the loop and the gain of the loop are different questions.
+
+None of these sources was used to overrule a figure. Where a source appeared to strain a figure reading (for example, the possibility that a wage push could be self-sustaining), the census was re-run: it belongs to the cycle structure of F1, so both arms are retained and kept per domain.
+
+## Distribution: offer, do not push
+
+- **Fig 4 :22:** "Only methods cross up. Only head starts come down." Sending the full framework before a recipient has described a residual sends a recording, not a generator. Lead with the shape claim and its refuter.
+- **Fig 10 :42:** "A verifier that can reconstruct the claim cannot verify it." A recipient who has absorbed the architecture before giving a verdict has joined the frame being checked.
+- **Fig 9 :27-28:** "describe it before you go looking, or any frame you pick will seem to fit." Ask what they would expect to see if the claim were true before offering any link.
+- **Fig 2 :40:** "disqualifying for a verdict: agreement about the world is worthless when the agreeing frames share an evidence pool". Do not select recipients for likely agreement and do not pool their replies.
+- **Fig 7 :35:** "A room's agreement is variation, not a verdict. Selection between rooms is where the ground votes."
+
+Recommended order in any reply: (1) the shape claim and its three refuters; (2) the question "what would you count as a failure here?"; (3) only then, if asked, the links. Never the links first.
+
+## The two-stage offer
+
+**Stage 1, before any theory.** The recipient checks the type claim, the common-cause claim and the aggregation claim against their own knowledge, and returns a verdict on the refuters. Record that verdict before any framework material is shown.
+
+**Stage 2, opt-in.** Only after stage 1 is recorded are the figures and the formula offered. A later agreement is a conversation, never corroboration, because the recipient now holds the interiors (Fig 10 :42, Fig 2 :40).
+
+**Stage 3, if wanted.** The formula is a method and may be given away: "Only methods cross up" (Fig 4 :22). But each user needs their own ground and their own pre-registered refuter, because a frame cannot check the direction of its own question.
+
+## Fetch failures, recorded honestly
+
+- `https://plato.stanford.edu/entries/causal-inferences/` returned 404. Rerouted to the Wikipedia Confounding and Granger causality pages, both opened.
+- `https://www.economist.com/finance-and-economics/2023/06/15/wage-price-spirals-are-far-scarier-in-theory-than-in-practice` returned 403. Not cited; the IMF finding is taken from the opened Wikipedia overview instead.
+- `https://www.anderson.ucla.edu/documents/areas/fac/hrob/wage_push.pdf` returned an unsupported content type. Not cited directly; the Mitchell and Erickson point is quoted from the opened Wikipedia overview, which cites it.
+- `https://www.aeaweb.org/journals/aej/macro` returned 404. The contact CSV lists the AEA root with an explicit verify-before-use note.
+- `https://www.bis.org/publications/working-paper.htm` returned 404; the working series was then reached at `https://www.bis.org/publications/working-paper` and verified.
+- `https://www.ecb.europa.eu/pub/pdf/scpwps/html/index.en.html` returned 404. No ECB URL is cited as verified in this folder.
+
+## Zip
+
+No archive was created. If one is made, prefer an opt-in download page over an attachment pushed to a list, so a recipient can decline contact. This agent cannot host or send anything.

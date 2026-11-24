@@ -1,0 +1,81 @@
+# WATSON answer: the strong CP problem as a figure-governed residual
+
+**Mode: `specified` on the shape, `general` on structural claims, not `grounded`.**
+
+**Status: SIMULATED DERIVATION, not a ground reading.** This WATSON run synthesizes material in `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md` and `08_expert_verification_packet.md`. It is checked for internal consistency against the figures. By its own rule (*The Recursive Self-Improvement Trap*: LLM output approximates an answer but *"the truly testable output would need to be derived from the real architecture or working the formula yourself"*) it cannot settle the question it reports on. No measurement was taken here; one published EDM bound is quoted from the literature.
+
+## QUESTION
+
+Decide, in effect terms, what the Tether says about the strong CP problem: why the neutron has no measurable electric dipole moment. Option A: accept theta_bar near zero as a raw fact or impose it by hand. Option B: treat the ten-order gap between the QCD-permitted EDM and the measured bound as a residual owed a mechanism from a frame whose closure differs, and keep the specific mechanism open until a ground settles it. What each leads to: A stops at a stipulation and hides the residual; B yields a checkable shape, written refuters and a named instrument that would close the slot.
+
+## DOMAIN CENSUS
+
+R by arity, symmetry and scale, then one line per domain with actors / currency / anchor, partition or union, order by dependency.
+
+- **R (the residual).** The neutron EDM slot. QCD permits `d_n` of order `5.2 x 10^-16 e cm` times theta_bar for generic theta_bar; the ground returns `d_n = (0.0 +/- 1.1_stat +/- 0.2_sys) x 10^-26 e cm`, implying `theta_bar < 10^-10`. Arity: one observable slot, two contributing CP conditions. Symmetry: theta_bar is periodic on [0, 2 pi]; CP is the symmetry under test; the residual compares two magnitudes ten orders apart. Scale: non-perturbative and first order inside QCD, higher scale at the candidate mechanisms. Fig 9 :57 names it a union compound, not one hard question.
+- **Domain 1, QCD theory frame.** Actors: theta_bar, `G Gtilde`, instantons, quark masses, Yu/Yd. Currency: predicted EDM magnitude. Anchor: none internal, theta_bar is an input. Not a settling domain.
+- **Domain 2, experimental frame.** Actors: ultracold neutrons, Ramsey fields, 199Hg comagnetometer. Currency: measured EDM and upper bound. Anchor: the published number, which does not update on theory. This is the ground.
+- **Domain 3, weak-interaction frame.** Actors: CKM phase, K and B meson CP violation. Currency: CP violation magnitude. Anchor: observed CP violation in K/B decays. It predicts about `10^-32 e cm` for the neutron EDM, so it refuses "CP is conserved." Different closure from D1, low overlap.
+- **Domain 4, mechanism / beyond-SM frame.** Actors: PQ symmetry, axion, massless up quark, Nelson-Barr, inflation/anthropic selection. Currency: dynamical relaxation of theta_bar_eff. Anchor: none yet, no axion detection and no nonzero EDM. Candidate imports, not a settling domain.
+- **Order by dependency (Fig 3 :20-21).** Anchor the ground, state both CP phases in effect terms, set the objective, refuse the global-CP term before minting, search QCD closure with SEARCHED, then go OUTWARD for an import described in effect terms. Only a new ground settles which.
+
+Strain test: Fig 6's import rule and the axion's "setting theta_bar to zero" do not conflict after re-census, because closure access and world ontology are different quantities (Fig 6 :25 *"An import adds no atom to the world"*). No strain left after re-census.
+
+## TETHER (primary, verbatim)
+
+Cited against `local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\03-FIGURES_TEXT.md`. Quotes are verbatim from the SVGs. Verdict per domain is kept separate and never averaged.
+
+- **D0, the residual slot.** Fig 1 :19 *"The residual is indexed by object slot, not aggregated."* -> the neutron EDM is one slot; baryogenesis and electron/mercury EDMs are other slots. `triangulated` (Fig 1 and the experiment's per-observable reporting). Mode `general`.
+- **D2, the ground.** Fig 2 :29-30 *"An anchor is whatever settles the question and does not change its answer because of what any frame thinks. A measurement, an experiment, a counter, a market, a patient outcome. If it moves when you push on it, it is not an anchor."* -> the Abel et al. value anchors; theory's preference does not. `triangulated` (Fig 2 and the published measurement). Mode `grounded` for the bound.
+- **D1, the closure.** Fig 6 :21 *"MINT composes inside the closure and can never add an atom."* and Fig 6 :23 *"No frame escapes its own closure. The bound moves only on contact with a frame whose closure differs."* -> QCD cannot derive theta_bar from inside. `single-source` for the closure claim (Fig 6), corroborated by world sources that theta_bar is an input. Mode `specified`.
+- **D3, the union.** Fig 9 :57 *"a case in two conditions is not a harder case of either."* -> strong and weak CP conditions must be unbundled. `triangulated` (Fig 9 and two ground observations with different anchors). Mode `specified`.
+- **D4, the import and the shape.** Fig 13 :115 *"The set is closed. The arrangements are not. That gap is why import exists."* Fig 9 :32 *"you get a kind of thing, never the answer itself."* Fig 9 :27-28 *"describe it before you go looking, or any frame you pick will seem to fit."* -> the shape is a dynamic, weak-compatible, ground-testable relaxation; the mechanism is not named. `triangulated` (Fig 9, Fig 13 and canonical README). Mode `specified`.
+- **D4, the null result.** Fig 8 :39 *"So a search that finds nothing is never a proof of absence."* -> the EDM is a bound, not exact zero. `triangulated` (Fig 8 and a low-overlap statistics source). Mode `general` for the logic.
+- **D4, the stop.** Fig 13 :134 *"Unreachable is a verdict here, not a silence"* (the figure line continues with a comma). Fig 8 :40-43 *"Underivable-in-principle and unreachable-at-this-budget are different facts, and they issue different instructions."* -> which mechanism is right is unreachable at this budget; more search, not a new primitive. `triangulated` (Fig 13 and Fig 8). Mode `specified`.
+- **Distribution rule.** Fig 10 :42 *"A verifier that can reconstruct the claim cannot verify it."* Fig 2 :35 *"Alignment is triangulation, not negotiation. A mirror cannot correct you."* -> send the residual and refuter first; agreement is not evidence. `triangulated`.
+
+No domain is assigned `gap`: after a genuine re-census, each domain has at least one governing line. The specific mechanism remains a `gap` in the world, not in the figures, and is reported as unreachable at this budget rather than smoothed over.
+
+## WORLD (secondary sources read)
+
+World sources corroborate only; they never overrule the figures. Each source: field, author / venue / year, quote, prediction here, and status.
+
+- **Particle physics, encyclopedia.** Wikipedia contributors, "Strong CP problem", Wikipedia, last edited 2026-10-02, accessed 2026-11-23: *"The angle theta_bar can take any value between zero and 2 pi, so it taking on such a particularly small value is a fine-tuning problem called the strong CP problem."* Predicts an unconstrained angle and a fine-tuning residual; corroborates D1 and D4. Overlap high with other encyclopedic and review sources.
+- **Particle physics, encyclopedia.** Wikipedia contributors, "Axion", Wikipedia, accessed 2026-11-23: *"its value is not predicted by the theory, but must be measured"* and *"naturally relaxing the CP-violation parameter to zero."* Predicts that theta_bar is an input and that PQ is a candidate relaxation; corroborates D1 and D4. Overlap high with the strong CP article.
+- **Experimental particle physics.** C. Abel et al., "Measurement of the permanent electric dipole moment of the neutron", Phys Rev Lett 124, 081803 (2020), arXiv:2001.11966, accessed 2026-11-23: *"The measured value of the neutron EDM is d_n = (0.0 +/- 1.1_stat +/- 0.2_sys) x 10^-26 e cm."* Predicts a bounded angle; corroborates D2 directly. This is the anchor source, not a frame opinion.
+- **Experimental nuclear physics.** NC State / TUNL neutron EDM group, public research page, accessed 2026-11-23: *"The axion ground state dynamically forces QCD theory to be CP-symmetric by setting thetaQCD to zero."* Also the CKM phase gives *"a practically unobservable nEDM value at the 10^-32 e cm level"* and the QCD angle *"allows a nEDM as large as 10^-16 e cm."* Predicts the dynamic-relaxation shape and refuses "CP conserved"; corroborates D3 and D4. Note the page asserts the axion mechanism as the solution; this solution declines that name and records the disagreement as a frame preference, not a conflict with any figure line.
+- **Phenomenology review.** Anson Hook, "TASI Lectures on the Strong CP Problem and Axions", arXiv:1812.02669 (2018, rev 2023), accessed 2026-11-23: *"I start by introducing the Strong CP problem from both a classical and a quantum mechanical perspective, calculating the neutron eDM and discussing the theta vacua. Next, I review the various solutions..."* Predicts that multiple solutions exist and are reviewed, not settled; corroborates the open slot in D4. Overlap high with Peccei's review.
+- **Phenomenology review.** R. D. Peccei, "The Strong CP Problem and Axions", Lect Notes Phys 741, 3-17 (2008), arXiv:hep-ph/0607268, accessed 2026-11-23: *"this parameter must be very small (theta_bar <= 10^-9)"* and *"the chiral solution proposed by Peccei and Quinn which has associated with it a light pseudoscalar particle, the axion."* Predicts a small parameter and one named chiral solution; corroborates D1 and D4, but its naming of the axion is a frame contribution, not a figure verdict.
+- **Statistics and reproducible science (low overlap).** Samuel Pawel, Rachel Heyard, Charlotte Micheloud and Leonhard Held, "Replication of null results: Absence of evidence or evidence of absence?", eLife 2024;12:RP92311, accessed 2026-11-23: *"Absence of evidence is not evidence of absence - the title of the 1995 paper by Douglas Altman and Martin Bland has since become a mantra in the statistical and medical literature."* (Rendered with a hyphen for the source dash.) It distinguishes *"testing for an exactly zero effect versus testing for an effect within an interval around zero."* Predicts that the EDM bound is an interval, not an exact zero; corroborates Fig 8 :39. This is the genuinely independent witness: near-zero overlap with particle physics.
+- **Human cognition / source discrimination.** Isaiah N, "The Hard Problem is About Source", adventuresinml Substack, 2026-08-28, opened 2026-11-23: *"If several paths create the same behavior, then behavior is a projection with lossy information."* Predicts that a null EDM cannot name its source; corroborates the shape-not-a-name limit. Overlap high (framework author).
+- **Human cognition / tacit knowledge.** Isaiah N, "Decoding Tacit Knowledge", adventuresinml Substack, 2026-11-10, opened 2026-11-23: *"When contact isn't possible, the best you can send is a plain description of what you'd expect to see, because anyone can check that against the world."* Predicts describe-the-residual-first outreach; corroborates Fig 9 :27-28. Overlap high.
+- **Search / shape.** Isaiah N, "The Library of Babel: Locating The Book of Books", adventuresinml Substack, 2026-10-02, opened 2026-11-23: *"you can cut your search short if the set of books returned is small and descriptive enough that it provides a general shape of the answer that satisfies your question."* Predicts a narrowed shape, not a filled slot; corroborates. Overlap high.
+- **Validation / self-validation.** Isaiah N, "The Recursive Self-Improvement Trap", adventuresinml Substack, 2026-11-19, opened 2026-11-23: *"the output is only as good as the validator. The agent, or the tool, or the frame, or the theory, cannot validate itself."* Predicts that this derivation cannot settle its own claim; corroborates the simulated status. Overlap high.
+
+No world source conflicts with a figure verdict and the conflict rule was not triggered. The NC State page's assertion that the axion is the solution is a frame preference inside a world source; it does not overrule Fig 9 :32, and it is recorded rather than hidden. The four essays share the framework author, and the two encyclopedia entries plus the two reviews draw on a common physics literature pool, so their agreement with the figures is expected and carries little independent weight. The one low-overlap witness is the eLife statistics paper.
+
+## VERDICT (from the figures)
+
+The shape survives: the strong CP residual is a single neutron EDM slot whose smallness cannot be derived inside QCD's closure; the null result is a bound, not a zero; the weak frame refuses "CP is conserved"; and any solution must relax theta_bar_eff dynamically, coexist with the large weak CP phase, and be falsifiable by an EDM or axion measurement. The specific mechanism does not survive as a claim: axion, massless up quark, Nelson-Barr and anthropic selection are names from the physics frame with no completed source gate, and the figures return a kind of thing, never the answer itself. Verdict `specified`, ungrounded, candidate. The stop is unreachable at this budget, which is a verdict rather than a silence.
+
+- **cost if wrong:** bounded and locatable. The packet is mode-labelled, states refuters before the conclusion and records the lineage, so an error is findable rather than invisible. The real cost is spending the independence of outside readers by sending a preferred mechanism instead of a shape and a refuter. Fig 9 :60 *"Use filters for the budget and witnesses for the verdict. Never let a filter hand you a verdict."* That cost is avoidable by leading with the shape claim and its refuter.
+- **undoable:** yes. The named mechanisms are removable without touching the derivation; `07_the_tether_answer.md` and `08_expert_verification_packet.md` already remove them. A sent claim can be superseded by the corrected packet, and no primitive has to be withdrawn.
+- **reversed by:** a ground reading, not agreement. A deeper nEDM measurement returning a nonzero value with theta_bar extracted, an axion detection with the predicted relaxation and alternatives excluded, or a lattice derivation that fixes theta_bar inside the closure would move the verdict. A reader's agreement is not such an instrument (Fig 2 :35). Until one of these fires, the verdict stands as `candidate`.
+
+## Sources
+
+- [The figures, as text (local extract)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\03-FIGURES_TEXT.md)
+- [figures README, canonical local copy](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\FIGURES_README_canonical.md)
+- [THE FORMULA (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\figures\THE_FORMULA.md)
+- [Measurement of the permanent electric dipole moment of the neutron](https://arxiv.org/abs/2001.11966)
+- [Measurement of the Permanent Electric Dipole Moment of the Neutron, APS record](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.081803)
+- [TASI Lectures on the Strong CP Problem and Axions](https://arxiv.org/abs/1812.02669)
+- [The Strong CP Problem and Axions](https://arxiv.org/abs/hep-ph/0607268)
+- [Strong CP problem, Wikipedia](https://en.wikipedia.org/wiki/Strong_CP_problem)
+- [Axion, Wikipedia](https://en.wikipedia.org/wiki/Axion)
+- [NC State / TUNL neutron EDM group](https://exnuc.wordpress.ncsu.edu/neutron-edm)
+- [Replication of null results: Absence of evidence or evidence of absence?](https://pmc.ncbi.nlm.nih.gov/articles/PMC11090505)
+- [The Hard Problem is About Source](https://adventuresinml.substack.com/p/the-hard-problem-is-about-source)
+- [Decoding Tacit Knowledge: Why Context](https://adventuresinml.substack.com/p/decoding-tacit-knowledge-why-context)
+- [The Library of Babel: Locating The Book of Books](https://adventuresinml.substack.com/p/the-library-of-babel-locating-the)
+- [The Recursive Self-Improvement Trap](https://adventuresinml.substack.com/p/the-recursive-self-improvement-trap)

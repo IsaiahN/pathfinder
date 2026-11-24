@@ -1,0 +1,85 @@
+# WATSON answer: could one major shift trigger changes in other parts of the Earth system?
+
+**Mode: `specified` on the structural verdict, `general` on union framing and the stop, `gap` on the named chain. Not `grounded`.**
+
+**Status: SIMULATED DERIVATION, not a ground reading.** This run synthesizes material already in `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md` and `08_expert_verification_packet.md`. It is checked for internal consistency against the figures. By its own rule (RSI essay: LLM output is an approximate simulation and *"the truly testable output would need to be derived from the real architecture or working the formula yourself"*) it cannot settle the question it reports on. No measurement was taken.
+
+## QUESTION
+
+State in effect terms: does a critical threshold crossing in one Earth-system element change the state of other, non-co-located elements through physical coupling, and can those changes themselves cross thresholds? Option A: yes, one shift propagates and may cascade. Option B: no, elements respond only to local forcing. What each leads to: A requires a per-receiver-slot claim with a medium, a bond type, a loop sign and a window; B requires a per-element local forcing account with no cross-element residual. The figures decide the shape of the answer. The ground decides the instance.
+
+## DOMAIN CENSUS
+
+R by arity, symmetry and scale; then one line per domain with actors / currency / anchor; partition or union; order by dependency.
+
+- **R (the residual).** A cross-element residual that per-element models do not predict. Arity: many slots. Symmetry: coupling is ordered, not interchangeable. Scale: crosses local, regional and global strata. Symbols :38 to :39: it is *"always a slice: what cannot be perceived yet is residual and simply cannot be read."*
+- **D1, physical coupling and habitat.** Actors: tipping elements (AMOC, ice sheets, Amazon, coral, permafrost, monsoons), media (ocean circulation, moisture recycling, rivers, albedo, carbon cycle), conditions (temperature, freshwater flux). Currency: contact and influence travelling. Anchor: measurement and the geological record. Union member.
+- **D2, detection and channel.** Actors: indicators, instruments, observation windows. Currency: signal against noise; channel bandwidth. Anchor: the same ground reached through a channel that can decay. Union member.
+- **D3, modelling and assessment.** Actors: modelers, reviewers, assessment bodies. Currency: agreement and residuals. Anchor: the ground, never agreement. Union member.
+- **D4, decision.** Actors: institutions, policymakers. Currency: action budget and prestige versus ground contact. Anchor: the outcome the ground returns. Union member.
+- **Partition or union.** Union, not partition. A detector is a physical actor; an assessment changes policy; policy changes forcing. Fig 9 :55: *"A bundled problem is usually a union of overlapping conditions, not a list of separate ones."* Verdicts per domain are kept separate and never averaged.
+- **Order by dependency.** Describe the residual per slot (Fig 9 :27 to :28), enumerate the habitat outward (Fig 11 :44), type the bond (Fig 12), check the channel (Fig 10 :24), settle each domain against the ground (Fig 2 :29), then decide (D4). Fig 3 :19: *"Optimising a link that already works cannot rescue one that does not."*
+
+Strain test: Fig 11's DDT line was first read as a claim about DDT, then re-censed as a domain-agnostic contact law with DDT as the instance. Fig 12 :121 was first read as forbidding a cascade chain, then re-censed with Fig 12 :48, which makes the chain the degenerate case. No hidden strain remains.
+
+## TETHER (primary, verbatim)
+
+Cited against `FRAMEWORK/reference/03-FIGURES_TEXT.md`. Quotes are verbatim from the SVGs.
+
+- Fig 11 :52 "And contact cascades. Scoping the habitat to direct contact is how DDT reached the eagles: first-order enumeration, second-order effect, and the residual that mattered was three steps out." -> contact propagates outward; first-order scoping misses the three-steps-out residual. Governs D1. **triangulated** with Fig 13 :24 and Fig 12 :48.
+- Fig 11 :44 "List everything in contact with the residual, then what is in contact with those, and outward until the cascade stops mattering." -> the method is enumeration, not composition. Governs D1. **single-source** for the enumeration rule; corroborated at world level by Brovkin et al. 2021.
+- Fig 1 :19 "The residual is indexed by object slot, not aggregated." -> a global mean hides the live receiver. Governs D1 and D2. **triangulated** with Fig 1 :22 and Fig 11 :49.
+- Fig 12 :72 "A then B; B needs A to have happened" -> sequence, ordered; not the same as a trigger. Governs bond typing. **triangulated** with Fig 12 :77 and the Operators table.
+- Fig 12 :77 "A produces B; B did not exist before" -> production, the bond a "trigger" claim actually commits to. **single-source** for the distinction inside the framework; the world terminology dispute in Klose et al. 2021 corroborates its relevance.
+- Fig 12 :121 "cycle. The output re-enters as input. The sign of the loop decides whether it closes, and a chain cannot close by construction." -> a chain transmits, a positive loop amplifies. Governs D1. **triangulated** with Fig 13 :31 and Fig 12 :48.
+- Fig 13 :31 "a remainder compounding through a chain that amplifies is chaos, and the detail a crossing discards reappears above it as noise." -> unpredictability enters at the turn. **single-source** for the chaos claim.
+- Fig 10 :24 "the ground does not decay, the channel does" -> detection failure is channel failure. Governs D2. **triangulated** with Fig 10 :25 and Fig 6 :32.
+- Fig 6 :40 "What is unavailable is a sensor for something that has never registered anywhere, at any resolution. That is the whole of it." -> a narrow instrument limit, not a blanket ban. Governs D2. **single-source**.
+- Fig 9 :55 "A bundled problem is usually a union of overlapping conditions, not a list of separate ones." -> one lever leaves intersections standing. Governs the union framing. **triangulated** with Fig 8 :45 and Fig 9 :54.
+- Fig 2 :40 "disqualifying for a verdict: agreement about the world is worthless when the agreeing frames share an evidence pool" -> the world assessments are one witness. Governs D3. **triangulated** with Fig 7 :35 and Fig 8 :49.
+- Fig 10 :47 "a convention that decides an outcome has stopped being one" -> a decision threshold that fixes the outcome is a verdict, not a convention. Governs D4. **triangulated** with Fig 2 :42.
+- Fig 11 :66 "Isolation is not removal of the habitat. It is substitution of one habitat for another." -> reversal is substitution, not subtraction. Governs D1 and D4. **single-source** within the framework; the Global Tipping Points Report 2025 corroborates irreversibility at world level.
+- Fig 9 :32 "you get a kind of thing, never the answer itself" -> no named cascade. Governs the stop. **gap**.
+- Fig 13 :135 "It cannot say which primitive is missing, because naming it would mean already holding it." -> the gap is a verdict, not silence. **gap**.
+
+## WORLD (secondary sources opened)
+
+World sources are corroboration only. Overlap is declared rather than hidden.
+
+- **Earth system / complexity.** Klose, Wunderling, Winkelmann and Donges 2021, "What do we mean, 'tipping cascade'?", *Environmental Research Letters* 16 125011, opened 2026-11-22: "This sequence of events does not necessarily have to be causal opposed to when event A directly causes event B in a domino effect." Predicts that cascade types differ by bond, and that critical slowing down fails for the following element in a domino cascade. **corroborates** C1 and C2. Overlap: shares Wunderling and Donges with the broader PIK pool.
+- **Earth system / sociotechnical.** Eker, Lenton, Powell, Scheffran, Smith, Swamy and Zimm 2024, "Cross-system interactions for positive tipping cascades", *Earth System Dynamics* 15 789-800, opened 2026-11-22: "not every cross-system interaction leads to a cascading effect". Predicts a union of overlapping conditions and a need for integrated modelling and harmonized indicators. **corroborates** D1, D2 and the union framing. Overlap: shares Lenton with the Global Tipping Points Report.
+- **Palaeoclimate.** Brovkin et al. 2021, "Past abrupt changes, tipping points and cascading impacts in the Earth system", *Nature Geoscience* 14 550-558, abstract read 2026-11-22: "abrupt changes arise from slow changes in one component of the Earth system that eventually pass a critical threshold, or tipping point, after which impacts cascade through coupled climate–ecological–social systems." Predicts cross-system cascading impacts and observation-length dependence of detection. **corroborates** F1 and D2. Overlap: cites Lenton and Donges; same review pool.
+- **Assessment synthesis.** Global Tipping Points Report 2025, University of Exeter Global Systems Institute, project site opened 2026-11-22: "The effects of tipping points will be transmitted and amplified throughout our globalised world." Predicts transmission and amplification, and states "If we wait for certainty that tipping points have been crossed before we act, it will be too late." **corroborates** F1 and F10. Overlap: led by Lenton, 160 authors; the largest overlap with Eker et al.
+- **Mathematics / network science, low overlap.** Watts 2002, "A simple model of global cascades on random networks", *PNAS* 99 5766-5771, abstract from public index 2026-11-22, direct fetch 403: "The origin of large but rare cascades that are triggered by small initial shocks is a phenomenon that manifests itself as diversely as cultural fads, collective action, the diffusion of norms and innovations, and cascading failures in infrastructure and organizational networks." Predicts that small shocks can trigger large cascades under a threshold condition. **corroborates** the shape at maximum independence. Reduced weight because the full text was not fetched.
+- **Network science summary, low overlap.** Wikipedia, "Global cascades model", opened 2026-11-22: "Global cascades models are a class of models aiming to model large and rare cascades that are triggered by exogenous perturbations which are relatively small compared with the size of the system." Predicts threshold dependence and power-law cascade sizes on sparse networks. **corroborates** the shape. Secondary source, not independent of Watts.
+- **Human cognition / source discrimination.** Isaiah N, "The Hard Problem is About Source", *adventuresinml* Substack, 28 Aug 2026, opened 2026-11-22: "If several paths create the same behavior, then behavior is a projection with lossy information (it cannot define consciousness in full)." Predicts that a cross-element reading cannot name its source without a discriminator. **corroborates** the `gap` verdict. Overlap: framework author, maximal overlap, no independent witness weight.
+- **Search / shape.** Isaiah N, "The Library of Babel: Locating the Book of Books", *adventuresinml* Substack, 2 Oct 2026, opened 2026-11-22: "you can cut your search short if the set of books returned is small and descriptive enough that it provides a general shape of the answer that satisfies your question." Predicts a shape, not a filled chain. **corroborates** the stop. Overlap: framework author.
+- **Tacit knowledge / contact.** Isaiah N, "Decoding Tacit Knowledge", *adventuresinml* Substack, 10 Nov 2026, opened 2026-11-22: "When contact isn't possible, the best you can send is a plain description of what you'd expect to see, because anyone can check that against the world." Predicts the outreach ordering. **corroborates** the two-stage offer. Overlap: framework author.
+- **Validation / prestige.** Isaiah N, "The Recursive Self-Improvement Trap", *adventuresinml* Substack, 19 Nov 2026, opened 2026-11-22: "Prestige can fund an action. It can give an action a budget to be tried. But it cannot settle an action. Only the ground can settle it." Predicts that this derivation cannot settle its own claim. **corroborates** the simulated status and D4. Overlap: framework author.
+
+No world source conflicts with the figure verdict, so the conflict rule was not triggered. The four Earth-system sources are one evidence pool, not four witnesses; the network-science frame is the low-overlap corroborator; the essays share the framework author and carry no independent weight.
+
+## VERDICT (from the figures)
+
+The shape survives and the named chain does not. One shift can change other parts of the Earth system because contact propagates outward through an enumerated habitat, influence travels through held network structures, and a remainder compounding through an amplifying chain becomes chaos. The residual is per receiver slot, not a global average. What "trigger" means is a bond-type question, and the field's own terminology dispute is an instance of it. Amplification needs a re-entrant loop with a positive sign, since a chain cannot close by construction. Failed early warning is a decayed channel, not safety. Reversal is asymmetric and the conditions form a union. No figure line returns which element tips which, at what threshold, or when; that is `gap`, unreached rather than silence. Verdicts per domain are separate and never averaged. This is `specified` and `general`, ungrounded, candidate.
+
+- **cost if wrong:** bounded and locatable at the framework level, large at the Earth-system level. The packet is mode-labelled, states refuters before the conclusion and records provenance, so a framework error is findable rather than invisible. The real cost is spending an outside reader's independence by sending a recording instead of a generator, which Fig 2 :42 prices: *"Buy independence in proportion to the cost of being wrong."* At the application level the cost is driven by the decision rule in D4: a convention that decides an outcome cannot settle whether action is warranted (Fig 10 :47), and the assessment source states the downside of waiting for certainty. That cost is not avoided by agreement; it is avoided by sourcing the claim and testing the refuters.
+- **undoable:** yes at the framework level. The shape and its refuters can be withdrawn without touching the figures; `07` and `08` already withhold every specific binding. No primitive has to be withdrawn. At the application level a policy built on a false named chain can be superseded when a source-discriminating instrument returns, because reversal is substitution of a habitat rather than subtraction of a condition (Fig 11 :66). The two silent failures (Fig 11 :68 and :69) must be watched: what you failed to reproduce and what you unintentionally introduced.
+- **reversed by:** a ground reading, not agreement. A source-discriminating measurement separating a common driver from direct production would settle the bond type. A receiver-side early-warning record that stays reachable through the first element's transition would distinguish the domino case. A return experiment distinguishing subtraction from substitution would settle reversibility. A per-element residual vector across three or more elements would test the global-scalar claim. Any of these moves a specific verdict to `candidate` or `grounded`; none is supplied here.
+
+## Sources
+
+- [The figures, as text (local, verbatim with line numbers)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\03-FIGURES_TEXT.md)
+- [Figures README, canonical local copy](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\FIGURES_README_canonical.md)
+- [THE FORMULA (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\figures\THE_FORMULA.md)
+- [What do we mean, 'tipping cascade'? Klose et al. 2021](https://iopscience.iop.org/article/10.1088/1748-9326/ac3955)
+- [Cross-system interactions for positive tipping cascades, Eker et al. 2024](https://esd.copernicus.org/articles/15/789/2024/)
+- [Past abrupt changes, tipping points and cascading impacts, Brovkin et al. 2021](https://www.nature.com/articles/s41561-021-00790-5)
+- [Global Tipping Points Report 2025](https://global-tipping-points.org/)
+- [A simple model of global cascades on random networks, Watts 2002](https://www.pnas.org/doi/10.1073/pnas.082090499)
+- [Global cascades model (Wikipedia)](https://en.wikipedia.org/wiki/Global_cascades_model)
+- [The Hard Problem is About Source](https://adventuresinml.substack.com/p/the-hard-problem-is-about-source)
+- [The Library of Babel: Locating the Book of Books](https://adventuresinml.substack.com/p/the-library-of-babel-locating-the)
+- [Decoding Tacit Knowledge](https://adventuresinml.substack.com/p/decoding-tacit-knowledge-why-context)
+- [The Recursive Self-Improvement Trap](https://adventuresinml.substack.com/p/the-recursive-self-improvement-trap)
+- Folder material synthesized: `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md`, `08_expert_verification_packet.md`.

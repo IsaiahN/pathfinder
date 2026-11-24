@@ -1,0 +1,36 @@
+# Private outreach and lead data — never commit (hard privacy rule)
+Leads/
+Outreach/
+
+# Local environment and secrets
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Office lock/temp files
+~$*
+*.tmp
+
+# Logs that may contain local paths or private notes
+Logs/
+
+# Node (only if the site is ever built locally)
+node_modules/

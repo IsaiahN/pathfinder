@@ -1,0 +1,100 @@
+# WATSON answer: do mergers usually improve efficiency, or often reduce competition and bargaining power?
+
+**Mode: `general` on the structural shape, `specified` on the four per-domain findings, `gap` on the empirical sign and frequency, not `grounded`.**
+
+**Status: SIMULATED DERIVATION, not a ground reading.** This WATSON run synthesizes `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md` and `08_expert_verification_packet.md`. It is checked for internal consistency against the figures. By its own rule (*The Recursive Self-Improvement Trap*: LLM output is "simulacra" and "the truly testable output would need to be derived from the real architecture or working the formula yourself"), it cannot settle the claim it reports on. No measurement was taken.
+
+## QUESTION
+
+Decide, in effect terms, whether a composition that changes two independent firms into one usually pays in efficiency or usually costs in competition and bargaining power. Option A: accept the question as a single either/or and choose a side. Option B: refuse the scalar, split the residual into slot-indexed anchor tests, state what would settle each, and report the empirical sign as a `gap` until a ground reading exists. What each leads to: A averages non-addable slots, lets a self-scored projection count as a witness, uses a concentration filter as a verdict, and treats a declared welfare convention as a figure fact. B returns a checkable shape, six pre-registered refuters, and an honest stop with the lineage recorded.
+
+## DOMAIN CENSUS
+
+R by arity, symmetry and scale, then one line per domain with actors, currency and anchor; partition or union; order by dependency.
+
+- **R (the residual).** Gap between a projected efficiency saving and a registered outcome, per slot. Arity: four slots (S1 cost and output, S2 price and variety, S3 innovation and entry, S4 input-side terms including wages). Symmetry: the two conjuncts are not mirror images and join under none of Fig 12's seven bonds, so the either/or is not a comparison in the figure's sense. Scale: firm, market, welfare convention; the firm-to-welfare transform is lossy. Fig 9 names a union compound, not one hard question.
+- **Domain 1, the firm as composition.** Actors: the two firms then the merged firm, managers, plants, assets. Currency: cost, output, investment, projected synergy. Anchor: a cost counterfactual independent of the merging parties' influence, model-dependent until a retrospective measures it. Question type: one slot of a union.
+- **Domain 2, the market as measurement device.** Actors: remaining firms, consumers, workers, suppliers. Currency: price, wage, quantity, variety, quality. Anchor: competition itself, explicitly named as a market anchor in Fig 2 :29. Question type: overlaps D1 and D4; union, not partition.
+- **Domain 3, the evaluation frame.** Actors: agencies, courts, economists, expert witnesses. Currency: evidence, burden of proof, decisions. Anchor: consumer or total welfare, a declared convention. Question type: a separate loop consuming D1 and D2.
+- **Domain 4, the question-posing frame.** Actors: the asker of "usually" and the aggregation itself. Currency: frequency, an average over cases. Anchor: none for an unqualified "usually"; it would need a defined population and per-slot results. Question type: union of overlapping conditions.
+- **Order by dependency.** Settle D2's anchor before admitting D1's claim; settle D1 and D2 per slot before D3 chooses a convention; unbundle D4 before all three (Fig 3 :20, Fig 9 :54).
+
+Strain test applied: Fig 13's substrate rules were tried on firms and withdrawn by re-census; firms are frames, not states or structures. Fig 12's isomer definition was tried on the before-and-after event and withdrawn because the actor set changes; a narrowed two-design analogue survives with a falsifier. Fig 12's two currencies were tried on the Williamson tradeoff and withdrawn because both terms there are money. All three withdrawals are visible in `06_isomers_and_order.md` and `01_figure_grounded_audit.md` section 8.
+
+## TETHER (primary, verbatim)
+
+Cited against `FRAMEWORK/reference/03-FIGURES_TEXT.md`. Quotes are verbatim from the SVGs.
+
+- Fig 1 :19 "The residual is indexed by object slot, not aggregated." -> no scalar "usually"; each slot has its own verdict.
+- Fig 1 :22 "Aggregating across slots is how a live signal disappears into an average." -> the question's either/or is an averaging error.
+- Fig 1 :27 "They are frame-internal. A frame cannot score itself with a quantity it also produces." -> party-projected synergies are not witnesses.
+- Fig 2 :29 "An anchor is whatever settles the question and does not change its answer because of what any frame thinks. A measurement, an experiment, a counter, a market, a patient outcome. If it moves when" -> competition is eligible as an anchor because the question is constitutively about market outcomes.
+- Fig 2 :33 "The anchor must not update." -> if the merged firm can move price and wage readings, they stop anchoring the efficiency claim.
+- Fig 2 :34 "If it does, panel 3 turns into panel 1: the anchor becomes another frame, everything drifts together, and the drift is coherent, which is why nobody notices." -> market power is the anchor-capture case, not merely a high price.
+- Fig 2 :35 "Alignment is triangulation, not negotiation. A mirror cannot correct you." -> agreement among selected studies is not corroboration.
+- Fig 3 :27 "A link with no instrument is not a link that works. It is a link nobody has looked at." -> the cost-versus-power discriminator is the weak link.
+- Fig 4 :22 "Only methods cross up. Only head starts come down." -> a validated retrospective design travels; its result does not.
+- Fig 9 :32 "you get a kind of thing, never the answer itself" -> the figures give the test, not the sign.
+- Fig 9 :55 "A bundled problem is usually a union of overlapping conditions, not a list of separate ones." -> unbundle before searching.
+- Fig 9 :60 "Use filters for the budget and witnesses for the verdict. Never let a filter hand you a verdict." -> HHI and market share are budget filters.
+- Fig 10 :18 "a declared meaning is not a grounded one" -> the welfare standard is a convention.
+- Fig 10 :47 "a convention that decides an outcome has stopped being one" -> a standard that predetermines the verdict is disqualified.
+- Fig 11 :40 "A system cannot be made more capable by improving the agent in isolation. An improvement that does not change contact changes nothing, however much it improves." -> a cost saving that changes contact is distinguishable from a power gain that changes only leverage.
+- Fig 11 :49 "An actor's valence is relative to the residual, not a property it carries." -> the large firm is not good or bad by kind.
+- Fig 12 :117 "isomer. Same atoms, different bond, different substance. The difference is invisible in the formula and decisive in the behaviour." -> the narrowed design-level analogue, not the event-level claim.
+- Fig 13 :134 "Unreachable is a verdict here, not a silence," -> the empirical `gap` is reported, not hidden.
+- Symbols table :43 "R is measured per slot, never as a single global number." -> the formal statement of the non-aggregation rule.
+
+Triangulation status: the refusal of the scalar verdict is triangulated across Fig 1, Fig 9 and the Symbols table (low overlap between per-slot indexing, union/partition analysis and the notation). The anchor-discrimination verdict is triangulated across Fig 2, Fig 11 and Fig 10, with Goodhart's law as a low-overlap world corroborator only. The self-scoring disqualification is triangulated across Fig 1 and Fig 5 with the DOJ verifiability rule as an independent field formulation. The convention claim is single-source for the figure rule (Fig 10). The empirical sign and frequency are a `gap` in every domain. The two-currencies reading and the substrate analogy are live strains that were withdrawn by re-census, not smoothed over.
+
+## WORLD (secondary sources read)
+
+World sources are corroboration only. The field sources share data, industries and enforcement-margin selection, so they are counted as one broad evidence pool, not several witnesses. The framework essays share an author and carry no independent witness weight.
+
+- **Competition policy, canonical field document.** DOJ and FTC, "2023 Merger Guidelines" (justice.gov, 2023): "verifiable, and have been verified, using reliable methodology and evidence not dependent on the subjective predictions of the merging parties or their agents." Predicts that self-scored efficiencies are inadmissible; corroborates C1. Overlap: the Guidelines are one institutional source, distinct from the figures.
+- **Competition policy, historical field record.** DOJ Antitrust Division, "The Merger Guidelines And The Integration Of Efficiencies Into Antitrust Review Of Horizontal Mergers" (justice.gov, archived page): "cost savings almost always benefit consumers because even a monopolist would pass some portion of any cost savings on to its customers, unless its demand function was perfectly inelastic." Predicts a conditional cost-pass-through mechanism; corroborates the contact distinction while leaving the elasticity to measurement. Overlap: same institution as the Guidelines; count together.
+- **Welfare standard debate.** DOJ Antitrust Division, "Welfare Standards And Merger Analysis: Why Not The Best?" (justice.gov): argues for a total welfare standard against the exclusive consumer welfare focus. Predicts an unresolved declared convention; corroborates Fig 10. Overlap: same institution.
+- **Empirical merger effects, representative sample.** Vivek Bhattacharya, Gastón Illanes and coauthors, "Merger Effects and Antitrust Enforcement: Evidence from US Consumer Packaged Goods" (NBER Working Paper 31123, 2025): "a small average price effect of mergers (-0.6% to 1.0%) but substantial heterogeneity in effects, with a standard deviation between 4.0–7.5 pp." Predicts that a signed average discards the signal; corroborates the refusal of "usually". Overlap: CPG and enforcement-margin selection; one witness.
+- **Empirical merger effects, agency retrospectives.** FTC Bureau of Economics, Merger Retrospective Program overview and study list (ftc.gov, 2020 pages): retrospectives determine "ex post how, if at all, a particular merger affected equilibrium behavior in one or more markets", with a focus on short-run price changes and limited evidence on innovation and productivity. Predicts that the instrument exists but has bounded reach; corroborates Fig 6 :32. Overlap: agency pool, cite with the DOJ sources as one institutional evidence pool.
+- **Hospital retrospectives.** FTC, "Economics at the FTC: Retrospective Merger Analysis with a Focus on Hospitals" (Farrell, Pautler and Vita volume, 2009): "price increases are found over half the time", with substantial cross-industry diversity. Predicts price effects in close-rival mergers; this is the apparent conflict with the near-zero CPG average, returned to the census as a union-reporting and selection problem rather than used to flip a verdict.
+- **Labour market concentration.** Trent L. Thompson, "Measuring labor market concentration using the QCEW" (Monthly Labor Review, U.S. Bureau of Labor Statistics, 2024): a 10 percent increase in concentration associated with about 0.3 percent lower wages in OLS and about 1.0 percent in IV; top-two merger meets the presumption in 60 percent of non-monopsony local markets. Predicts an input-side anchor failure; corroborates D3. Overlap: shares the Azar, Marinescu and Steinbaum instrument family.
+- **Labour market concentration, original study.** José Azar, Ioana Marinescu and Marshall Steinbaum, "Labor Market Concentration" (Journal of Human Resources, 2022): "mergers of employers have the potential to significantly increase labor market power", with a 5 percent OLS to 17 percent IV wage decline from the 25th to 75th concentration percentile. Predicts the same; counts in the same labour pool.
+- **Labour market concentration, public summary.** NBER Digest, "Employer Concentration and Stagnant Wages" (NBER, 2018): the average market had the equivalent of 2.5 recruiting employers. Same pool, cited once.
+- **Williamson tradeoff, original.** Oliver E. Williamson, "Economies as an Antitrust Defense: The Welfare Tradeoffs" (American Economic Review, 1968): "Suppose that a merger (or other combination) is proposed that yields economies but at the same time increases market power." Provides the field's own formulation of the tradeoff while leaving the sign to elasticities; corroborates the need for a ground reading. Overlap: historical foundation of the same field.
+- **Measurement and accountability, low overlap.** "Goodhart's law" (Wikipedia, accessed 2026-11-23): "When a measure becomes a target, it ceases to be a good measure." Predicts anchor capture in any system that targets a measure; corroborates C2 by analogy from a different field. Overlap: low, but it is a pattern, not an independent test of the economics.
+- **Human cognition and ground, framework essays.** Isaiah N, "How Intelligence Actually Works" (adventuresinml Substack, 2026), opened directly: "The ground must be immovable by persuasion and not bi-directional like the frames are." Predicts the anchor requirement; corroborates the figure verdict. Overlap: high, framework author.
+- **Shape and provenance, framework essay.** Isaiah N, "The Library of Babel: Locating the..." (adventuresinml Substack, 2026), carried from the exemplar's verified mapping: "You can cut your search short if the set of books returned is small and descriptive enough that it provides a general shape of the answer that satisfies your question." Predicts a narrowed shape instead of a filled slot; corroborates the method. Overlap: high.
+- **Validation, framework essay.** Isaiah N, "The Recursive Self-Improvement Trap" (adventuresinml Substack, 2026), carried: "the output is only as good as the validator. The agent, or the tool, or the frame, or the theory, cannot validate itself." Predicts that this derivation cannot settle its own claim; corroborates the simulated-status label. Overlap: high.
+
+No world source overrides the figure verdict. The one apparent conflict (near-zero average price effect versus price increases found over half the time in close-call retrospectives) was returned to the census and read as a union-reporting and selection problem (F9), not used to choose a side.
+
+## VERDICT (from the figures)
+
+The question's either/or is refused as a form. The residual is a union of four slot-indexed anchor tests, never a scalar. A cost saving projected by the merging parties is self-scoring and is not a witness until verified against a ground the parties cannot move. Where a merger confers power over price or wages, the readings that served as the measure begin to report the firm's influence, so the anchor has become a frame and the drift is coherent. Concentration metrics are budget filters, and the welfare standard is a declared convention whose keeper must declare the stake. A genuine efficiency gain changes contact and is distinguishable from a power gain that changes only leverage. The empirical sign and frequency of "usually" are a `gap`, reported as a verdict rather than silence, unreached at this budget rather than unreachable in principle. Verdicts per domain are kept separate and never averaged. Mode: `general` on the shape, `specified` on the per-domain findings, nothing `grounded`.
+
+- **cost if wrong:** bounded and locatable. The packet states mode, three checkable sub-claims and six refuters before the conclusion, so an error is findable rather than invisible. The larger cost is spending the independence of outside readers by sending a position on mergers instead of a test. Fig 2 :42 "Buy independence in proportion to the cost of being wrong." That cost is avoidable by leading with the shape claim and its refuter. If the shape is wrong and someone builds a research program on it, the waste is real but reversible because the refuters are public and the lineage is recorded.
+- **undoable:** yes. No figure line or field claim has to be withdrawn to change the empirical verdict; only a ground reading needs to be added. The structural overstatements that did occur were withdrawn locally and kept visible in `01` section 7, `06` Q1 and Q4, and `11`: the substrate analogy, the direct bond reading, the direct isomer claim, and the two-currencies application. None of them carries a verdict. A sent packet can be superseded by a corrected one.
+- **reversed by:** a ground reading, not agreement. A per-slot retrospective with a control specified before the event and an anchor outside the merging parties' influence could close the `gap` for a defined class. A demonstration that price and wage readings remain discriminating after the firm acquires power would reverse C2. A figure line fixing the sign for a named class, a typed bond admitting the reduction of two firms to one, a lossless reduction of the four slots to one quantity, or a derivation of one welfare standard from the figures would each fire one of the six pre-registered refuters in `01` section 5. Prestige or a large number of agreeing studies is not such an instrument (Fig 7 :13 "agreement compounds, evidence does not").
+
+## Sources
+
+- [Verbatim figure text with line numbers (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\03-FIGURES_TEXT.md)
+- [Figures README, canonical local copy](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\FIGURES_README_canonical.md)
+- [60_FIGURES_AS_METALAWS (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\60_FIGURES_AS_METALAWS.md)
+- [THE_FORMULA (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\figures\THE_FORMULA.md)
+- [2023 Merger Guidelines, overview](https://www.justice.gov/atr/merger-guidelines/overview)
+- [2023 Merger Guidelines, rebuttal evidence and efficiencies](https://www.justice.gov/atr/merger-guidelines/rebuttal-evidence)
+- [Welfare Standards And Merger Analysis: Why Not The Best?](https://www.justice.gov/atr/welfare-standards-and-merger-analysis-why-not-best)
+- [The Merger Guidelines And The Integration Of Efficiencies](https://www.justice.gov/archives/atr/merger-guidelines-and-integration-efficiencies-antitrust-review-horizontal-mergers)
+- [FTC Merger Retrospective Program, overview](https://www.ftc.gov/policy/studies/merger-retrospective-program/overview)
+- [FTC retrospective studies by the Bureau of Economics](https://www.ftc.gov/policy/studies/merger-retrospective-program/retrospective-studies-bureau-economics)
+- [Merger Effects and Antitrust Enforcement, NBER WP 31123](https://www.nber.org/system/files/working_papers/w31123/w31123.pdf)
+- [Economies as an Antitrust Defense, Williamson 1968](https://sites.duke.edu/collardwexler/files/2015/01/williamson_1968-1.pdf)
+- [Measuring labor market concentration using the QCEW, BLS 2024](https://www.bls.gov/opub/mlr/2024/article/measuring-labor-market-concentration-using-the-qcew.htm)
+- [Labor Market Concentration, Journal of Human Resources 2022](https://jhr.uwpress.org/content/57/s/s167)
+- [Employer Concentration and Stagnant Wages, NBER Digest 2018](https://www.nber.org/digest/may18/employer-concentration-and-stagnant-wages)
+- [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law)
+- [How Intelligence Actually Works](https://adventuresinml.substack.com/p/how-intelligence-actually-works)
+- [The Library of Babel: Locating the...](https://adventuresinml.substack.com/p/the-library-of-babel-locating-the)
+- [The Recursive Self-Improvement Trap](https://adventuresinml.substack.com/p/the-recursive-self-improvement-trap)
+- Folder material synthesized: `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md`, `08_expert_verification_packet.md`.

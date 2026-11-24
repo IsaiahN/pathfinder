@@ -1,0 +1,121 @@
+## Cognitive Science and Anthropology: 100 Unresolved Questions
+
+### 1. Universals and cultural variation
+1. Which features of human cognition are shared across all known societies, and which vary substantially across cultures?
+2. How can researchers distinguish a cognitive universal from a widespread pattern caused by similar environments or institutions?
+3. Are there basic cognitive capacities that develop similarly everywhere but are used differently across cultures?
+4. How much variation in attention, memory, and reasoning reflects cultural learning rather than biological differences?
+5. Do people in different societies categorize the world using fundamentally different mental structures, or mainly different learned categories?
+6. How can researchers avoid treating the cognitive norms of industrialized societies as a universal baseline?
+7. Which patterns of human behavior remain stable across historical periods, and which change when social conditions change?
+8. Are there limits to cultural variation imposed by shared human biology, and how can those limits be identified?
+9. How do researchers distinguish genuine cultural differences from differences produced by translation, testing, or sampling?
+10. Can a general theory of human cognition accommodate deep cultural variation without reducing it to individual differences?
+
+### 2. Perception, attention, and learning
+11. How does culture shape what people notice, ignore, or treat as important in their surroundings?
+12. To what extent does language influence perception, and under what conditions are its effects strongest?
+13. How do environments and daily practices train people to attend to different kinds of visual or social information?
+14. Do cultural differences in perception persist when people perform the same task under the same conditions?
+15. How do children learn which features of their environment are worth attending to?
+16. How do formal schooling and informal learning shape people’s expectations about evidence and explanation?
+17. Are cultural differences in memory caused by different strategies, different social goals, or different forms of experience?
+18. How do oral traditions and written records influence what people remember and how they organize the past?
+19. When does repeated exposure produce shared knowledge, and when does it produce divergent interpretations?
+20. How do people learn to distinguish reliable signals from noise in environments with different risks and information sources?
+
+### 3. Concepts, categories, and language
+21. How do languages and cultural practices jointly shape the categories people use to understand the world?
+22. Which concepts are difficult to learn without a particular language, and which can be acquired through nonlinguistic experience?
+23. How do cultures differ in how they divide up time, space, nature, and social relationships?
+24. Can people reason effectively about concepts that their language does not routinely name?
+25. How do metaphor and analogy shape thought across different languages and traditions?
+26. How do children learn culturally specific categories such as personhood, kinship, ownership, or responsibility?
+27. When do translation choices distort comparisons of concepts across cultures?
+28. How do new technologies and institutions create new categories that alter everyday thought?
+29. Are there universal foundations for concepts such as agency and causation, or are these concepts substantially culturally learned?
+30. How do people reconcile categories that are useful in everyday life but conflict with scientific or bureaucratic classifications?
+
+### 4. Reasoning, causation, and knowledge
+31. Do people across cultures use the same basic forms of reasoning but apply them to different problems?
+32. How do cultural practices influence what counts as a convincing explanation?
+33. Are some reasoning strategies more common in particular institutional settings, such as markets, schools, or courts?
+34. How do people infer cause and responsibility when outcomes arise from many interacting factors?
+35. What shapes whether a person explains events through individual choices, social relationships, institutions, or spiritual forces?
+36. How do people decide when evidence is sufficient to act, especially when waiting for certainty is costly?
+37. Can researchers identify cross-cultural differences in logical reasoning without confusing test familiarity with reasoning ability?
+38. How does access to formal education change people’s use of abstraction, statistics, and hypothetical reasoning?
+39. How do local expertise and scientific expertise differ in the evidence they rely on and the questions they ask?
+40. What makes knowledge credible within a community, and how do those standards change over time?
+
+### 5. Selfhood, emotion, and motivation
+41. How do cultures shape the experience and interpretation of emotions without determining them entirely?
+42. Are emotional categories such as anger, shame, or grief experienced similarly across societies, or do they vary in important ways?
+43. How do social norms influence which emotions people express, conceal, or recognize in others?
+44. How do cultural models of the self affect motivation, decision-making, and personal responsibility?
+45. Is the distinction between individual and collective identity universal, or does its importance depend on social organization?
+46. How do people learn what kinds of desires and ambitions are acceptable or admirable?
+47. How do cultures shape the relationship between emotion, bodily sensation, and explanation?
+48. When do people experience personal choice as self-directed, and when as shaped by obligations or relationships?
+49. How do ideas about character and moral worth influence how people interpret their own behavior?
+50. How do social change and migration alter people’s sense of identity, belonging, and emotional life?
+
+### 6. Cooperation, trust, and social learning
+51. How do people learn whom to trust when social networks and institutions differ?
+52. Which conditions support cooperation among strangers, and how do those conditions vary across societies?
+53. How do kinship, friendship, reputation, and formal rules interact to sustain cooperation?
+54. Why do people sometimes cooperate even when they expect no direct reward or punishment?
+55. How do children learn local norms of sharing, reciprocity, fairness, and obligation?
+56. Do people across cultures share similar intuitions about fairness, or do they apply different standards to different relationships?
+57. How do communities enforce norms when formal authorities are weak or absent?
+58. When does social learning preserve useful knowledge, and when does it spread ineffective or harmful practices?
+59. How do status and authority affect whose knowledge is copied or trusted?
+60. How do cooperation strategies change when people move from small communities into large, anonymous institutions?
+
+### 7. Morality, religion, and meaning
+61. Are there moral concerns that appear across all societies, and how do cultures interpret them differently?
+62. How do local histories and institutions shape judgments about fairness, harm, loyalty, and authority?
+63. How do people learn which actions are morally wrong, socially disapproved, or merely unusual?
+64. What roles do religion and ritual play in creating shared beliefs, emotional experiences, and social obligations?
+65. Can religious and spiritual beliefs be explained through general cognitive tendencies, or do institutions and histories do more explanatory work?
+66. How do people decide whether misfortune has social, natural, moral, or supernatural causes?
+67. What makes a ritual feel meaningful or effective to participants?
+68. How do stories and collective memories shape moral identity and political belonging?
+69. When do moral disagreements reflect different values, and when do they reflect different factual beliefs or social interests?
+70. How do societies change moral norms while maintaining a sense of continuity with their past?
+
+### 8. Childhood, development, and socialization
+71. How do caregiving practices shape children’s attention, emotional regulation, and expectations of other people?
+72. Which developmental patterns are robust across cultures, and which depend on family structure, schooling, or local work?
+73. How do children acquire social norms without explicit instruction?
+74. How do different childhood responsibilities affect learning, independence, and cooperation?
+75. When do developmental theories based on formal schooling generalize to children raised in other settings?
+76. How does growing up multilingual influence attention, memory, identity, and social understanding?
+77. How do children learn to navigate conflicts between family norms, peer norms, and institutional rules?
+78. How do differences in play, work, and storytelling shape children’s learning and social imagination?
+79. What influences the timing and form of children’s understanding of agency, intention, and responsibility?
+80. How do major changes in family life, technology, and education reshape development across generations?
+
+### 9. History, institutions, and cultural change
+81. How do institutions such as schools, markets, states, and religious organizations reshape habitual ways of thinking?
+82. Can researchers identify how a specific institution caused a cognitive or behavioral change rather than merely accompanying it?
+83. How do technologies change people’s memory, attention, communication, and sense of what can be known?
+84. Why do some cultural practices persist for generations while others change rapidly?
+85. How do colonialism, migration, and unequal power shape which forms of knowledge are preserved or dismissed?
+86. How do economic systems influence ideas about choice, obligation, ownership, and personal success?
+87. When do institutional rules change people’s values, and when do people follow rules without adopting their underlying assumptions?
+88. How do collective memories of conflict or displacement shape present-day reasoning and trust?
+89. Can changes in everyday cognitive practices be reconstructed from historical records, and what biases limit that reconstruction?
+90. How do people combine inherited traditions with new information and institutions without simply replacing one with the other?
+
+### 10. Methods, comparison, and theory
+91. How can studies compare cognitive processes across cultures without imposing a single culture’s assumptions about what counts as intelligence or rationality?
+92. What evidence is sufficient to establish that a cultural difference is real rather than an artifact of measurement?
+93. How should researchers combine laboratory experiments, ethnography, historical evidence, and population-level data?
+94. How can researchers test whether a cognitive pattern is caused by culture, ecology, institutions, or their interaction?
+95. What methods best capture variation within a culture rather than treating each society as internally uniform?
+96. How can studies account for the effects of migration, urbanization, media, and schooling on the populations they compare?
+97. How should researchers address the risk that study participants change their responses because they know they are being studied?
+98. Can theories of cognition make useful predictions about unfamiliar societies without reducing their practices to familiar categories?
+99. What would a genuinely cross-cultural science of the mind look like in its methods, concepts, and standards of evidence?
+100. How can researchers distinguish what is universal about human minds from what people learn through culture, history, and institutions?

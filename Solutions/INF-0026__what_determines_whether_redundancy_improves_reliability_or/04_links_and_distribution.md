@@ -1,0 +1,44 @@
+# Public links and distribution
+
+All links below were opened on 2026-11-23 unless marked otherwise. Quotes taken from them are in `10_source_ledger.csv`. Where a fetch failed, that is recorded rather than hidden.
+
+## 1. Verified sources actually fetched
+
+| what | URL | verified content |
+|---|---|---|
+| Shannon, *The Mathematical Theory of Communication* (full text) | https://archive.org/stream/in.ernet.dli.2015.503815/2015.503815.The-Mathematical_djvu.txt | 1949 University of Illinois Press volume; the 1948 Bell System Technical Journal paper is reprinted in it. Verified passages: "One minus the relative entropy is the redundancy. The redundancy of ordinary English ... is roughly 50%"; "The redundancy must be introduced in the proper way to combat the particular noise structure involved"; "A sizable fraction of the letters can be received incorrectly and still reconstructed by the context"; and, on the fundamental theorem, "by sending the information in a redundant form the probability of errors can be reduced." |
+| SEP, *Jury Theorems* | https://plato.stanford.edu/entries/jury-theorems/ | First published 2021. Section 3.3: "If diversity is small, i.e., individuals reason similarly, use similar evidence, etc., then judgments are highly correlated. Without any diversity, judgments coincide." Section 2.2: "Causal independence ... by no means makes votes probabilistically independent, since common causes create correlations." |
+| ECSS reliability digital handbook, *Modelling of common cause failure* | https://handbook.reliability.space/en/latest/system/handbook/reliability_prediction/modelling_common_cause_failure.html | Draft v0.4.5. Gives Q_S = Q_I² + Q_C and beta = lambda_C / lambda_T; states "The use of identical components in redundant system architecture bears the risk that an error ... leads to common cause failure of multiple redundant components" and "redundancy should be coupled with technical diversity and physical separation." |
+| NASA NTRS, *Common Cause Failures and Ultra Reliability* | https://ntrs.nasa.gov/citations/20160005837 | Harry W. Jones, conference paper, 2012. Public abstract: "Common cause failures are either common event failures, where the cause is a single external event, or common mode failures, where two systems fail in the same way for the same reason." |
+| Morante and Romero García-Rubio, *Correlation limits the reliability of ensemble decision making with large language models* | https://link.springer.com/article/10.1007/s44564-026-00040-z | Open access, published 2026-11-04. "a hundred agents correlated at 0.3 have the variance of about three independent ones"; "most of the ensemble adds cost and apparent agreement rather than independent evidence"; "consensus is not by itself evidence of correctness; among correlated agents, it may reflect redundancy." |
+| Larrick, Mannes and Soll, *The Social Psychology of the Wisdom of Crowds* | https://link.springer.com/chapter/10.1007/978-3-031-44424-1_7 | Chapter, first online 2024, original 2011. "Independent errors are more likely to bracket the truth, which cancel each other out when averaged together"; and, in the update, "discussion not only transmits error between individuals but also knowledge. There is a 'horse race' between the two." |
+| Isaiah N, *How a Society of Agents Would Work* | https://adventuresinml.substack.com/p/how-a-society-of-agents-would-work | 2026-10-22. "Ten copies watching the same thing are one opinion said ten times"; gives N/(1 + (N-1)rho) with the ceiling 1/rho, and the Universal Scalability Law coherence cost kappa with a peak past which "adding more makes the group slower." |
+| Isaiah N, *The Library of Babel: Locating The Book of Books* | https://adventuresinml.substack.com/p/the-library-of-babel-locating-the | 2026-10-02. "you can cut your search short if the set of books returned is small and descriptive enough that it provides a general shape of the answer that satisfies your question." |
+| Isaiah N, *The Hard Problem is About Source* | https://adventuresinml.substack.com/p/the-hard-problem-is-about-source | 2026-08-28. "If several paths create the same behavior, then behavior is a projection with lossy information"; it was the spectrometer, not an argument, that resolved the metamerism. |
+| arXiv cs.IT listing | https://arxiv.org/list/cs.IT/recent | Public information theory listing fetched 2026-11-23; 108 recent entries, including coding, correlated fading and channel-capacity work. Confirms an active public venue. |
+
+**Fetch failures, recorded honestly.** Direct PDF fetches of Shannon 1948 (Harvard and Illinois mirrors) returned an unsupported content type, so the archive.org full-text HTML was used and its text verified instead. The IEEE Information Theory Society publications subpage and the MDPI Entropy journal page returned transport or 403 errors on 2026-11-23; they are marked as unverified in `03_public_contact_points.csv` and should be rechecked before use.
+
+## 2. Wider literature that bears on the question
+
+1. **Shannon's two separate roles for redundancy.** In the source, English is about 50% redundant and a sizable fraction of letters can be reconstructed from context. In the channel, redundancy has to be "introduced in the proper way to combat the particular noise structure involved." These are different statements: a source property is not a design rule. This distinction is the world-side counterpart of the D1/D4 split in the audit.
+2. **Common cause failure.** Reliability engineering names the exact failure mode the figures call a shared evidence pool. The ECSS handbook's Q_S = Q_I² + Q_C separates independent failure from coupled failure; when Q_C is large, adding copies barely moves Q_S. Its remedy, diversity plus physical separation, is how an engineer buys independence at a cost.
+3. **Effective sample size.** The SEP entry and the recent LLM ensemble paper both give the same shape: correlated votes have an effective count bounded by 1/rho, so a hundred agents at rho = 0.3 behave like about three. This is the arithmetic Fig 2 :44 points at.
+4. **A real strain from the world literature.** The wisdom-of-crowds update says discussion can transmit knowledge as well as error, a "horse race" rather than a pure loss of independence. This does **not** flip the figure verdict. It sends us back to the census: discussion that brings new contact with the ground is Fig 8's import, while discussion that merely shares one pool is Fig 7's mirror chain. Both are predicted by the figures; the world source chooses which case a given discussion is.
+5. **Cost of coordination.** The Society of Agents essay cites Amdahl's law and the Universal Scalability Law: past a peak, adding members makes the group slower because of the coherence cost. This is the engineering face of Fig 12's second currency. It is a low-overlap corroboration of the claim that redundancy can consume more than it returns.
+
+## 3. Distribution rules
+
+- **Fig 4 :22-25**, "Only methods cross up. Only head starts come down. A recording carried upward looks like knowledge and is a description of one occasion." Send the shape claim and the refuter, not the full architecture.
+- **Fig 10 :42**, "A verifier that can reconstruct the claim cannot verify it." A recipient who has absorbed the framework before giving a verdict has joined the frame being checked.
+- **Fig 9 :27-28**, "describe it before you go looking, or any frame you pick will seem to fit." Ask what they would expect to see if the shape claim were true before showing any source.
+- **Seat Map :163**, "High correlation is disqualifying for a verdict and efficient for a convention." A list selected for likely agreement produces a convention, not corroboration.
+- **Fig 2 :42**, "Buy independence in proportion to the cost of being wrong." Spend the effort of finding a different closure on the cases where a wrong verdict is expensive.
+
+**Recommended order in a reply:** (1) the shape claim and its three refuters; (2) ask what they would count as a failure and record the answer; (3) only then the links, with the note that the figures, not the summary, are the authority. No bulk send, no personal emails, and an opt-out line in every one-to-one message.
+
+## 4. The two-stage offer
+
+Stage 1 is Fig 10 :52 ("Bring a characterised residual, never the source") and Fig 2 :45 ("Frames range against the ground. They do not negotiate with it"). Stage 2 is opt-in by construction: once the theory is shown, later agreement is not evidence (Fig 2 :40). Stage 3 sends a method, which is permitted by Fig 4 :22, but each user must name their own ground and write their own refuter, because a frame cannot check the direction of its own question.
+
+**Hard precondition:** none of the three stages works if the stage-1 shape fails the refuter. Correct it before sending.

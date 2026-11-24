@@ -1,0 +1,121 @@
+## Ecology and Biodiversity: 100 Unresolved Questions
+
+### 1. Biodiversity, stability, and resilience
+1. Does greater species diversity generally make ecosystems more stable, or does its effect depend on which species are present?
+2. Which kinds of stability matter most: resistance to change, recovery after disturbance, or persistence of ecosystem functions?
+3. Can biodiversity preserve ecosystem function when species identities and interactions are continually changing?
+4. How does variation among species within the same functional group affect ecosystem resilience?
+5. Are ecosystems with many rare species more resilient, or can rarity make them especially vulnerable to change?
+6. Does biodiversity stabilize ecosystems mainly through differences among species, or through the presence of particular influential species?
+7. How do diversity and stability relationships change across spatial and temporal scales?
+8. Can ecosystem resilience be measured in ways that work across forests, oceans, grasslands, and other systems?
+9. When does a diverse ecosystem become less stable because interactions among species amplify fluctuations?
+10. How much biodiversity is required to maintain essential ecosystem functions under rapid environmental change?
+
+### 2. Species interactions and ecological networks
+11. Which species interactions—predation, competition, mutualism, parasitism, or facilitation—most strongly shape ecosystem resilience?
+12. How do ecological networks change when species interactions vary with season, life stage, or environmental conditions?
+13. When do highly connected species stabilize ecological networks, and when do they make those networks vulnerable to collapse?
+14. How can researchers identify which interactions are essential when many species and relationships remain poorly observed?
+15. Do ecological networks become more robust when interactions are weak, or can strong interactions be necessary for stability?
+16. How do indirect effects propagate through food webs, and when do they outweigh direct interactions?
+17. Can the loss of one species trigger cascading extinctions, and what determines the scale of a cascade?
+18. How do mutualistic networks respond when one partner declines or changes its behavior?
+19. When do ecological networks reorganize after species loss, and when do they lose important functions?
+20. Can network structure predict which species or interactions should be prioritized for conservation?
+
+### 3. Species loss, extinction, and community change
+21. How does the order in which species disappear affect the functioning and stability of an ecosystem?
+22. Which traits make species especially vulnerable to extinction in rapidly changing environments?
+23. How do local extinctions differ in their ecological consequences from global extinctions?
+24. Can communities compensate for species loss through changes in the abundance or behavior of remaining species?
+25. How long can ecosystems continue functioning after key species have become too rare to perform their roles reliably?
+26. Which changes in species abundance are early signs of a coming ecological collapse?
+27. How do extinction risks change when species depend on one another for food, pollination, habitat, or reproduction?
+28. Can the loss of a species alter evolutionary trajectories enough to cause further losses?
+29. How should conservation weigh the loss of a unique species against the decline of many widespread species?
+30. When should restoration aim to bring back historical species, and when should it prioritize future ecological function?
+
+### 4. Climate change, disturbance, and ecological thresholds
+31. How will changing temperature and rainfall alter species interactions, not just the ranges of individual species?
+32. Can ecosystems adapt to climate change quickly enough through migration, evolution, or shifts in species composition?
+33. How do heat waves, droughts, fires, storms, and floods interact to produce ecological change?
+34. What determines whether an ecosystem recovers after disturbance or shifts into a new state?
+35. Can ecological tipping points be predicted reliably before changes become difficult to reverse?
+36. How often do early-warning indicators of ecosystem collapse provide false alarms or fail to appear?
+37. How do repeated disturbances affect ecosystems differently from a single disturbance of the same total intensity?
+38. When does disturbance maintain biodiversity, and when does it push ecosystems toward degradation?
+39. How do climate-driven shifts in species ranges create new competition, disease risks, or food-web connections?
+40. Can ecosystems that have crossed a threshold be restored, or are some changes effectively irreversible?
+
+### 5. Ecosystem functions and services
+41. Which species and interactions are most important for pollination, soil formation, nutrient cycling, water regulation, and carbon storage?
+42. How reliably can researchers predict ecosystem functions from species counts alone?
+43. When do different species perform interchangeable ecological roles, and when is that apparent redundancy misleading?
+44. How do multiple ecosystem functions respond when biodiversity declines?
+45. Can ecosystems maintain services humans depend on while losing much of their biodiversity?
+46. How should conservation balance measurable human benefits against ecological values that are difficult to quantify?
+47. What determines whether an ecosystem service can recover after species loss or habitat degradation?
+48. How do trade-offs among food production, carbon storage, water quality, and biodiversity emerge across landscapes?
+49. Can managing one ecosystem service undermine other ecological functions that are less visible or slower to change?
+50. How should societies value ecosystem functions whose benefits are diffuse, long-term, or shared across borders?
+
+### 6. Habitat, landscapes, and connectivity
+51. How much habitat must remain for populations and ecological interactions to persist over the long term?
+52. When does habitat fragmentation isolate vulnerable species, and when can it create new opportunities for diversity?
+53. What kinds of landscape connectivity help species move without also facilitating disease, invasive species, or other harms?
+54. How do habitat corridors affect gene flow, species interactions, and the spread of ecological disturbances?
+55. Can small protected areas maintain viable populations when the surrounding landscape is heavily altered?
+56. How do urban environments reshape ecological communities and their relationships with people?
+57. Which landscape patterns best support biodiversity under changing climate conditions?
+58. How do roads, fences, dams, and other infrastructure alter the movement of organisms and ecological processes?
+59. Can restoring connectivity reconnect ecosystems without disrupting established local communities?
+60. How should conservation planning account for species that move across administrative and national borders?
+
+### 7. Evolution, adaptation, and ecological change
+61. How quickly can species evolve traits that reduce their vulnerability to changing environments?
+62. When does adaptation help a species survive but make it more harmful to other species or ecosystem functions?
+63. How do ecological interactions influence which genetic traits spread through a population?
+64. Can evolution occur quickly enough to prevent ecosystem collapse under rapid climate change?
+65. How do changes in the behavior of predators, prey, or pollinators reshape ecological networks?
+66. When does hybridization help threatened species adapt, and when does it threaten their distinctiveness?
+67. How do species interactions constrain or enable evolutionary responses?
+68. Can ecological restoration succeed if it ignores the capacity of organisms to adapt and change?
+69. How does human-driven evolution—through harvesting, pollution, or habitat change—alter ecosystem relationships?
+70. What evidence can distinguish genetic adaptation from behavioral flexibility or movement to a new habitat?
+
+### 8. Invasive species, disease, and biological change
+71. What determines whether an introduced species becomes invasive and transforms an ecosystem?
+72. How do ecological networks change when a newly arrived species has no local predators or competitors?
+73. When can an introduced species fill a lost ecological role, and when does it intensify ecosystem disruption?
+74. How do climate change and human transport interact to increase the spread of invasive species?
+75. Can biological control reduce an invasive species without creating new ecological risks?
+76. How do diseases move through ecological networks that connect wildlife, livestock, and people?
+77. Which changes in biodiversity increase disease transmission, and under what conditions can biodiversity reduce it?
+78. How do wildlife trade and habitat disruption change the emergence and spread of infectious diseases?
+79. Can ecosystems recover after invasive species or pathogens have altered their interactions and food webs?
+80. How should managers respond when eradication is impossible and continued suppression has ecological side effects?
+
+### 9. Human activity, conservation, and restoration
+81. Which conservation strategies best protect ecological relationships as well as individual species?
+82. How can conservation programs protect biodiversity while respecting the rights and knowledge of local communities?
+83. When do protected areas conserve ecosystems effectively, and when do they displace pressures elsewhere?
+84. How should conservation account for Indigenous knowledge without treating diverse communities as having a single perspective?
+85. Can restoration recreate ecological interactions, or does it mainly rebuild physical habitat and species lists?
+86. How should restoration goals change when climate conditions no longer resemble historical conditions?
+87. When does active management strengthen resilience, and when does it prevent ecosystems from adapting on their own?
+88. How can conservation prioritize actions when ecological outcomes are uncertain and resources are limited?
+89. What should count as successful conservation: species persistence, ecosystem function, evolutionary potential, or human well-being?
+90. How can human communities and ecosystems adapt together without shifting environmental costs onto less powerful groups?
+
+### 10. Measurement, prediction, and ecological theory
+91. How can researchers observe complex ecological networks when many interactions are rare, hidden, or difficult to measure?
+92. Which measures of biodiversity best capture ecological difference, evolutionary history, and functional importance?
+93. How can ecological models represent changing species interactions without becoming too complex to test?
+94. Why do models that perform well in one region or period often fail under different ecological conditions?
+95. How can researchers distinguish natural fluctuations from early signs of long-term ecosystem change?
+96. What kinds of experiments can reveal ecosystem-level effects when controlled manipulation is impractical or unethical?
+97. How should field observations, experiments, remote sensing, Indigenous knowledge, and models be combined to improve ecological prediction?
+98. Can a general theory explain when ecological networks are resilient, or does resilience depend too strongly on context?
+99. How can researchers connect changes in local species interactions to global patterns of biodiversity loss and ecosystem function?
+100. What evidence would show that an ecosystem remains resilient—not merely intact today, but able to adapt as species, relationships, and conditions change?

@@ -1,0 +1,133 @@
+Here are **100 deep, unresolved business questions**, organized into ten modules. “Business” spans several research fields—strategy, organizational behavior, finance, marketing, operations, entrepreneurship, and governance—so these questions don’t all have the same kind of evidence or debate. Some concern competing theories; others are hard empirical questions where results may depend on industry, firm size, or time horizon.
+
+## 1. Competitive strategy and firm performance
+
+1. Why do some firms sustain superior performance for decades while others lose their advantage quickly?
+2. Are durable advantages built mainly from valuable resources, distinctive capabilities, market position, or institutional relationships?
+3. How can researchers distinguish a firm’s genuine strategic advantage from luck, timing, or favorable market conditions?
+4. Is it better for a firm to specialize in a narrow market or diversify across products and industries?
+5. When does diversification create useful synergies, and when does it make a company harder to manage?
+6. Should a firm compete primarily through lower costs, differentiated offerings, or a strategy that changes the rules of competition?
+7. Can firms reliably predict which capabilities will matter in future markets, or must strategy mostly adapt after conditions change?
+8. When does copying a competitor’s successful strategy work, and when does it destroy the distinctiveness that made it successful?
+9. How much of a company’s performance comes from management choices versus industry structure and broader economic conditions?
+10. Can a company remain strategically coherent while frequently changing its priorities?
+
+## 2. Organization design and decision-making
+
+11. When should a company centralize decisions, and when should it give authority to local teams?
+12. Do flatter organizations make better decisions, or do they create coordination problems and unclear accountability?
+13. How should firms divide work between permanent employees, contractors, suppliers, and automated systems?
+14. Why do organizational structures that work well at one stage of a company’s growth often fail at the next?
+15. When does bureaucracy protect a company from error, and when does it suppress initiative and adaptation?
+16. Should firms use standardized processes across the whole organization or allow teams to adapt them locally?
+17. How can organizations combine experimentation with reliable, repeatable operations?
+18. Are cross-functional teams more innovative, or do they create conflict and slow decision-making?
+19. What makes information travel accurately across organizational levels—and what causes it to become distorted?
+20. How can organizations change their structure without losing valuable knowledge, relationships, or trust?
+
+## 3. Leadership, culture, and work
+
+21. Which leadership behaviors actually improve organizational performance, and which merely correlate with it?
+22. Does a strong corporate culture improve coordination, or can it suppress dissent and independent judgment?
+23. How can companies tell whether employees genuinely share stated values or simply perform agreement?
+24. Does psychological safety increase learning and innovation, and when might it make teams less willing to challenge poor performance?
+25. How should firms balance employee autonomy with monitoring, standardization, and managerial control?
+26. Do performance-based pay and bonuses improve results, or encourage gaming, short-termism, and internal competition?
+27. When do remote and hybrid work arrangements improve productivity, and when do they weaken learning and collaboration?
+28. How do firms evaluate work fairly when outputs are hard to measure or depend on team contributions?
+29. Why do employees remain in some organizations despite poor conditions, and leave others despite attractive pay?
+30. Can organizations reduce burnout without lowering workloads or changing the underlying design of jobs?
+
+## 4. Innovation, research, and disruption
+
+31. Why do successful companies often struggle to respond to technologies that later transform their industries?
+32. Is disruptive innovation a general pattern, or a useful label applied selectively after the fact?
+33. When should an established company build a new venture internally rather than acquire a startup?
+34. Why do some research investments produce major innovations while others yield little commercial value?
+35. How should firms choose between improving existing products and pursuing uncertain, radical innovations?
+36. Does competition increase innovation, or can firms need temporary protection and high profits to justify research?
+37. How can a company assess an innovation whose market, customers, and business model are all uncertain?
+38. Do patents encourage useful invention overall, or impede follow-on research and market entry?
+39. How can firms capture value from innovation when knowledge spreads quickly and imitators can enter?
+40. What organizational conditions help unsuccessful experiments produce learning rather than blame or waste?
+
+## 5. Entrepreneurship and startups
+
+41. Why do some startups scale into durable businesses while others with similar ideas and resources fail?
+42. How much does startup success depend on founder skill versus timing, networks, financing, and luck?
+43. Are lean startup methods effective because they produce faster learning, or are they better suited to certain types of markets?
+44. When should founders prioritize growth over profitability, and how can they tell when growth is creating value?
+45. Does venture-capital funding help startups innovate, or push them toward narrow growth targets and premature scaling?
+46. How should investors value startups when revenue, user growth, and future markets provide conflicting signals?
+47. Why do founders often resist replacing themselves as a company grows, and when is leadership transition necessary?
+48. How can entrepreneurs distinguish genuine customer demand from interest that does not translate into purchases?
+49. Are startups more innovative than established companies, or do established firms simply have different strengths and constraints?
+50. How can business support systems—incubators, accelerators, and public funding—help startups without favoring businesses that would succeed anyway?
+
+## 6. Corporate governance, ownership, and finance
+
+51. Should a corporation primarily maximize shareholder returns, or balance shareholder interests with those of workers, customers, suppliers, and communities?
+52. When do boards meaningfully improve company oversight, and when do they mainly ratify executives’ decisions?
+53. How can boards monitor management without micromanaging or relying too heavily on information management chooses to provide?
+54. Do executive incentives align leaders with long-term company performance, or reward outcomes that are easy to measure and manipulate?
+55. When does activist investing improve a company, and when does it push firms toward short-term gains at the expense of long-term capacity?
+56. Does concentrated ownership make companies more accountable, or give powerful owners too much control?
+57. Should public companies face different incentives and obligations from private-equity-owned or founder-controlled firms?
+58. How do firms decide whether to reinvest profits, pay dividends, buy back shares, or reduce debt?
+59. Does access to financial markets help firms make better investments, or increase pressure to meet short-term targets?
+60. How can directors and executives oversee emerging strategic risks, such as AI, cybersecurity, and geopolitical disruption, when expertise and information are limited? <citation src="1,4"></citation>
+
+## 7. Customers, marketing, and competition
+
+61. How do customers make decisions when products are complex, quality is hard to judge, or information is incomplete?
+62. Do brands create genuine trust and product value, or mainly influence perceptions and willingness to pay?
+63. When does personalized marketing help customers find useful products, and when does it become manipulation?
+64. How should firms measure customer loyalty when repeat purchases may reflect habit, switching costs, or a lack of alternatives?
+65. Why do customers say they value sustainability, quality, or privacy but sometimes choose cheaper or less responsible products?
+66. How do online platforms change competition when the most valuable resource is control over customer access and data?
+67. When does network growth make a platform more useful, and when does it make the platform harder to challenge?
+68. Should companies optimize for customer satisfaction, retention, profit per customer, or broader long-term trust?
+69. How can companies tell whether advertising changes consumer behavior or merely reaches people who were already likely to buy?
+70. Do loyalty programs create durable relationships, or mostly shift purchases and discounts among competing firms?
+
+## 8. Operations, supply chains, and resilience
+
+71. How should firms balance efficiency and low cost against spare capacity and resilience to disruption?
+72. When should a company make a product or component itself rather than buy it from suppliers?
+73. Do just-in-time systems create excessive vulnerability, or can they be resilient when suppliers and logistics are managed well?
+74. How much redundancy is worth paying for when the probability and cost of future disruptions are uncertain?
+75. How can firms identify hidden dependencies in supply chains several tiers beyond their direct suppliers?
+76. When does outsourcing improve performance, and when does it weaken control, learning, and accountability?
+77. How should companies choose between global suppliers and regional or domestic production?
+78. Can firms forecast demand accurately enough to reduce waste without creating shortages?
+79. How should managers compare the costs of quality failures, safety incidents, delays, and prevention when those costs fall on different parties?
+80. Can supply-chain transparency improve accountability in practice, or does it often stop at reporting and certification?
+
+## 9. Technology, data, and artificial intelligence
+
+81. Why do some companies gain large benefits from new technology while others gain little despite buying similar tools?
+82. Does AI primarily automate existing tasks, expand what workers can do, or create new forms of work—and how does the balance vary by occupation?
+83. How should businesses measure AI’s impact when time saved on one task may create new work elsewhere?
+84. Which parts of a company should use AI for recommendations, and which should allow it to make decisions autonomously?
+85. How can firms determine whether AI systems improve performance across different customer and employee groups?
+86. Who should be accountable when an AI-driven business decision causes harm: the vendor, the firm, the manager, or the decision-maker?
+87. Does access to proprietary data create a lasting competitive advantage, or can competitors reproduce the same capabilities?
+88. How should companies balance data-driven decision-making with human judgment, especially when data are incomplete or biased?
+89. Will generative AI reduce the value of specialized expertise, or make expert workers more productive and influential?
+90. How can boards and executives govern AI risks without slowing useful experimentation or relying on technical checklists alone? <citation src="1"></citation>
+
+## 10. Responsibility, sustainability, and business purpose
+
+91. Can firms voluntarily address harms that reduce short-term profit, or do durable changes generally require regulation, consumer pressure, or investor incentives?
+92. When does corporate sustainability strategy improve business performance, and when does it involve real trade-offs?
+93. How can companies distinguish measurable environmental improvements from shifting emissions or harms to suppliers and other regions?
+94. Do voluntary ESG disclosures change company behavior, or mainly change how firms describe themselves?
+95. How should firms value environmental and social harms that are not reflected in prices or accounting systems?
+96. Can a business model be both financially sustainable and genuinely accountable to a social mission?
+97. How should companies resolve conflicts between workers, customers, owners, communities, and future generations?
+98. Do ethical business practices create a competitive advantage, or are they primarily obligations that firms should meet regardless of financial return?
+99. What kinds of corporate accountability actually change decisions: law, investor oversight, employee voice, public transparency, or consumer pressure?
+100. Is “business success” best measured by profit, growth, resilience, innovation, stakeholder outcomes, or some combination—and who gets to decide?
+
+A productive next step is to choose a module and turn it into a **debate map**: the main theories or camps, their strongest evidence, what each struggles to explain, and what evidence could change the debate.

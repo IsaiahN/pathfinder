@@ -1,0 +1,83 @@
+# WATSON answer: can a company distinguish real environmental improvement from shifted harm?
+
+**Mode: `specified` on the substantive claims, `general` on the structural shape. Not `grounded`.**
+
+**Status: SIMULATED DERIVATION, not a ground reading.** This run synthesizes `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md` and `08_expert_verification_packet.md`. It is checked for internal consistency against the figures. By its own rule (*The Recursive Self-Improvement Trap*: *"the truly testable output would need to be derived from the real architecture or working the formula yourself"*) it cannot settle the question it reports on. No measurement was taken.
+
+## QUESTION
+
+Decide, in effect terms, what the Tether says about the question: how can a company distinguish a measurable environmental improvement from the shifting of emissions or harms to suppliers and other regions? Option A: treat a lower reported number inside a chosen boundary as the improvement. Option B: treat the number as a frame that cannot by itself discriminate reduction from displacement, and specify what would. What each leads to: A accepts a metric that moves when the boundary is pushed and can brand harm displacement as progress; B sends a checkable procedure shape with refuters written in advance and an open slot until a ground reading settles it.
+
+## DOMAIN CENSUS
+
+R by arity, symmetry and scale, then one line per domain with actors / currency / anchor, partition or union, and order by dependency.
+
+- **R (the residual).** A company reports a lower environmental number `m(b)` inside boundary `b`. The same reading is consistent with total harm falling and with harm moving to a supplier, region, lifecycle stage or impact category. Arity: two quantities under one number, the local reading and the total-system harm, plus a free boundary variable. Symmetry: asymmetric and directed, so the relevant bonds are sequence, production, subtraction and comparison, not a symmetric join. Scale: first order in own operations, second order at suppliers, third order at regions and chains. Slots: region, supplier, gas, category, stage, time. Fig 9 names it a union compound: a case in two conditions is not a harder case of either.
+- **Domain 1, corporate reporting frame.** Actors: firm, boundary, Scope 1/2/3 categories, metrics, disclosure standard. Currency: reported units (tCO2e, m3, tonnes). Anchor: none of its own, because the number moves when the boundary is pushed. Question type: a partition boundary question about what falls inside `b`. Verdict: frame, not ground.
+- **Domain 2, physical and ecological ground.** Actors: atmospheric concentration, mass balance, physical flows, ecosystem state. Currency: physical units that do not consult any reporting boundary. Anchor: yes. Question type: the anchor itself. Verdict: the ground.
+- **Domain 3, supply-chain habitat.** Actors: suppliers, sub-suppliers, regions, lifecycle stages, impact categories. Currency: harm across every enumerated slot. Anchor: yes, but only as per-slot physical measurement; the habitat itself updates and is not the ground. Question type: enumerated, never composed; a contact cascade. Verdict: the place where the residual hides.
+- **Domain 4, verification and assurance frame.** Actors: auditors, standards bodies, regulators, independent instruments. Currency: independence between frames. Anchor: the ground, never agreement. Question type: the checking arrangement. Verdict: only low-overlap instruments can corroborate.
+- **Order by dependency.** Fix the anchor, then enumerate the habitat outward, then measure the per-slot residual without aggregating, then triangulate with low-overlap instruments, then settle against the ground and record the lineage. Corporate effort lands above the break because that is where the measurements already exist.
+
+Strain test applied: Fig 11 says the habitat is not the ground. Calling D3 anchored was a strain until re-census separated the anchor (per-slot physical measurement) from the habitat (the enumeration where harm may move). No strain after re-census.
+
+## TETHER (primary, verbatim)
+
+Cited against `FRAMEWORK/reference/03-FIGURES_TEXT.md`. Quotes are verbatim from the SVGs. Verdicts are kept per domain and never averaged.
+
+- Domain 1, Fig 2 :29 "An anchor is whatever settles the question and does not change its answer because of what any frame thinks." -> a reported number that moves with the boundary cannot settle the question. `single-source` for the figure line, corroborated by the GHG Protocol Corporate Standard's own stated objective of a true and fair account.
+- Domain 1, Fig 2 :30 "If it moves when you push on it, it is not an anchor." -> the boundary-invariance test is the discriminator. `single-source` within the figure set, triangulated with the consumption-based test in the world sources.
+- Domain 1, Fig 1 :27 "A frame cannot score itself with a quantity it also produces." -> self-report can be an instrument, not a verdict. `single-source`.
+- Domain 1, Fig 10 :18 "a declared meaning is not a grounded one." -> a neutrality claim declares a meaning; what is owed is something violable. `single-source`.
+- Domains 1 and 3, Fig 1 :19 "The residual is indexed by object slot, not aggregated." -> keep slot residuals separate. `triangulated` with Fig 10 :26 and Fig 12 flat-formula finding (low overlap).
+- Domains 1 and 3, Fig 1 :22 "Aggregating across slots is how a live signal disappears into an average." -> a single total erases the displacement signal. `triangulated`.
+- Domain 3, Fig 11 :43 "The habitat is enumerated, never composed." -> enumerate suppliers and regions outward. `single-source` within the figure set, corroborated by GHG Protocol Scope 3 categories.
+- Domain 3, Fig 11 :52 "Scoping the habitat to direct contact is how DDT reached the eagles: first-order enumeration, second-order effect, and the residual that mattered was three steps out." -> the fence-line boundary is the named failure mode. `single-source`.
+- Domain 3, Fig 11 :40 "An improvement that does not change contact changes nothing, however much it improves." -> a reduction that leaves total contact unchanged is not the improvement asked about. `single-source`.
+- Domain 4, Fig 2 :31 "Two people reading the same report are not two frames; two instruments pointed at the same thing are." -> independence is a property of evidence sources. `triangulated` with Fig 10 verifier non-access.
+- Domain 4, Fig 2 :40 "agreement about the world is worthless when the agreeing frames share an evidence pool." -> three auditors of one inventory are one witness. `triangulated`.
+- Domain 4, Fig 10 :42 "A verifier that can reconstruct the claim cannot verify it." -> record the outside verdict before showing the framework. `single-source`.
+- Cross-domain, Fig 9 :32 "you get a kind of thing, never the answer itself" -> the output is a shape, not a named standard. `triangulated` with the canonical figures README.
+- Cross-domain, Fig 9 :27 "describe it before you go looking, or any frame you pick will seem to fit" -> state the residual before choosing a frame. `single-source`.
+- Cross-domain, Fig 2 :42 "Buy independence in proportion to the cost of being wrong." -> spend the budget on a low-overlap checker, not a large audience. `single-source`.
+- Cross-domain, Fig 4 :30 "So take the round trip and measure the gap. Without it you are navigating by dead reckoning: confident about a position nobody checked." -> the condensation into "use a standard and assure it" carries a nonzero round-trip gap. `single-source`.
+
+Triangulation status: the no-anchor verdict for Domain 1 is `single-source` in the figures but corroborated from a different evidence pool by the world sources. The per-slot verdict for Domains 1 and 3 is `triangulated` across Fig 1, Fig 10 and Fig 12, which are low-overlap figures. The independence verdict for Domain 4 is `triangulated` across Fig 2 and Fig 10. The outward-enumeration verdict for Domain 3 is `single-source` in the figures, with a world-side corroboration from GHG Protocol Scope 3 that shares no evidence pool with the figures. No domain ended in `gap`; the missing item is a measurement obligation, not an absent figure line. The one apparent strain (habitat versus ground) was resolved by re-census.
+
+## WORLD (secondary sources read)
+
+World sources are corroboration only, and are never allowed to overrule a figure verdict.
+
+- **Field: corporate GHG accounting standard. Author: WRI / WBCSD (GHG Protocol), venue: GHG Protocol Corporate Standard publisher page, year: 2004, revised 2015, accessed 2026-11-22.** Quote: *"To help companies prepare a GHG inventory that represents a true and fair account of their emissions through the use of standardized approaches and principles."* Prediction: a corporate inventory is a frame producing a number, and the standard itself does not supply verification. Corroborates the Domain 1 no-anchor reading. Overlap: low with the figures.
+- **Field: value chain emissions measurement. Author: WRI / WBCSD (GHG Protocol), venue: Corporate Value Chain (Scope 3) Standard publisher page, year: 2011, accessed 2026-11-22.** Quote: *"the majority of total corporate emissions come from Scope 3 sources, which means many companies have been missing out on significant opportunities for improvement."* Prediction: the residual is mostly outside own operations, so enumeration must run outward. Corroborates Domain 3. Overlap: low with the figures.
+- **Field: corporate reporting practice. Authors: Stephen Russell and Yelena Akopian, venue: GHG Protocol / WRI blog, year: 2019, accessed 2026-11-22.** Quote: *"none of them explicitly considered how their products might increase emissions."* Prediction: in a review of more than 300 companies, increases elsewhere were systematically omitted, so a total can hide a slot. Corroborates Domains 1 and 3. Overlap: low with the figures, but shares the accounting field with the two GHG Protocol sources above (one evidence pool, counted once).
+- **Field: consumption-based accounting / earth systems. Author: Hannah Ritchie, venue: Our World in Data, year: 2019, accessed 2026-11-22.** Quote: *"If only territorial emissions were falling whilst consumption-based emissions were rising, this would suggest it was 'offshoring' emissions elsewhere."* Prediction: the boundary-invariance test is operationally available at country scale. Corroborates Domains 1 and 4. Overlap: low with the figures and with the accounting-standard sources.
+- **Field: economics / policy. Author: Wikipedia contributors (open reference, low authority), venue: Wikipedia, year: 2026, accessed 2026-11-22.** Quote: *"It is expressed as a percentage, and can be greater or less than 100%."* Prediction: the leakage ratio is a declared convention for the comparison bond and can exceed total cancellation. Corroborates the comparison requirement. Overlap: low with the figures, but used only for the ratio definition.
+- **Field: ecology (low overlap). Author: Wikipedia contributors (open reference, low authority), venue: Wikipedia, year: 2026, accessed 2026-11-22.** Quote: *"Biomagnification... is the increase in concentration of a substance in the tissues of organisms at successively higher levels in a food chain."* Prediction: first-order enumeration misses third-order effects. Corroborates the Fig 11 cascade shape, but Fig 11 already names DDT and Carson, so this is a retrodiction of the figure's own example, not an independent witness. Overlap: high, declared.
+- **Field: search and cognition. Author: Isaiah N, venue: adventuresinml (Substack), year: 2026, accessed 2026-11-22.** Quote: *"you can cut your search short if the set of books returned is small and descriptive enough that it provides a general shape of the answer that satisfies your question."* Prediction: the derivation should stop at a narrowed shape. Corroborates the shape limit. Overlap: high, framework author.
+- **Field: validation and self-validation. Author: Isaiah N, venue: adventuresinml (Substack), year: 2026, accessed 2026-11-22.** Quote: *"Prestige can fund an action. It can give an action a budget to be tried. But it cannot settle an action. Only the ground can settle it."* Prediction: this derivation cannot validate itself and no audience size helps. Corroborates the simulated-status declaration. Overlap: high, framework author.
+
+No world source conflicts with the figure verdict; the conflict rule was not triggered. The three accounting-field sources (two GHG Protocol pages and the WRI blog) draw on one evidence pool and are counted as one witness. The two essays share the framework author and are counted as one witness. Agreement among those pools is expected and carries little independent weight.
+
+## VERDICT (from the figures)
+
+The shape survives; any named standard does not follow from it. A reported number that moves with the boundary is a frame, not an anchor, and cannot discriminate reduction from displacement. A valid discrimination procedure must use a boundary-invariant physical anchor, enumerate suppliers, regions and lifecycle stages outward, keep residuals per slot and refuse to aggregate them, use at least two low-overlap instruments pointed at the same thing, and return a threshold comparison at a declared convention with a recorded lineage. No company is asserted to have shifted harm. The procedure shape is `specified` and ungrounded, with four refuters written in advance, and remains candidate until a ground reading settles it. The strongest single figure-grounded point is the DDT cascade: a fence-line boundary is exactly the first-order scoping that misses a third-order harm.
+
+- **cost if wrong:** the two errors are asymmetric. Accepting a displaced reduction as real is invisible from inside the frame and misallocates capital and reputation; it is the error Fig 2 :42 prices. Branding a genuine improvement as displacement is visible and undoable but costs unnecessary auditing. The per-slot boundary-invariant procedure raises up-front measurement cost and makes both errors findable; a single aggregate lowers the up-front cost and hides the first error.
+- **undoable:** yes. The procedure shape is a measurement protocol, not a primitive. A false leakage finding can be corrected by a better instrument, and a sent claim can be superseded by the corrected packet. Nothing has to be withdrawn from the figure set.
+- **reversed by:** a ground reading, not agreement. A boundary-invariant physical inventory across every enumerated slot that fires no off-slot residual would support world A (genuine reduction); a positive off-slot residual that cancels the local reduction at the declared threshold would support world B (displacement). A corporate-reported metric invariant under boundary redraw and matching that inventory would fire refuter 1; a single aggregate preserving the per-slot signal would fire refuter 2; a direct-operations measurement capturing a third-order harm would fire refuter 3; two readers of one report counting as independent frames would fire refuter 4. Until one of these fires, the verdict stands as candidate.
+
+## Sources
+
+- [Figures text with line numbers (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\03-FIGURES_TEXT.md)
+- [Figures README, canonical local copy](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\FIGURES_README_canonical.md)
+- [THE FORMULA (local)](local: C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\figures\THE_FORMULA.md)
+- [GHG Protocol Corporate Standard](https://ghgprotocol.org/corporate-standard)
+- [GHG Protocol Corporate Value Chain (Scope 3) Standard](https://ghgprotocol.org/standards/scope-3-standard)
+- [Many Companies Inaccurately Estimate the Climate Benefits of Their Products](https://ghgprotocol.org/blog/many-companies-inaccurately-estimate-climate-benefits-their-products)
+- [How do CO2 emissions compare when we adjust for trade?](https://ourworldindata.org/consumption-based-co2)
+- [Carbon leakage](https://en.wikipedia.org/wiki/Carbon_leakage)
+- [Biomagnification](https://en.wikipedia.org/wiki/Biomagnification)
+- [The Library of Babel: Locating The Book of Books](https://adventuresinml.substack.com/p/the-library-of-babel-locating-the)
+- [The Recursive Self-Improvement Trap](https://adventuresinml.substack.com/p/the-recursive-self-improvement-trap)
+- Folder material synthesized: `01_figure_grounded_audit.md`, `05_what_shape_means.md`, `06_isomers_and_order.md`, `07_the_tether_answer.md`, `08_expert_verification_packet.md`

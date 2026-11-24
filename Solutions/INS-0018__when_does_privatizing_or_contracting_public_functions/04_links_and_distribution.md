@@ -1,0 +1,41 @@
+# Public links and distribution
+
+All links below are public and were opened on 2026-11-23. Where a publisher blocked direct retrieval, the record says so and the quote was taken from the full-text excerpt returned by the search index or from Crossref metadata; those are marked explicitly in `10_source_ledger.csv`. Nothing is claimed to have been read that was not read.
+
+## Framework links actually opened
+
+| what | URL | what was verified |
+|---|---|---|
+| Verbatim figure text with line numbers | local: `C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\03-FIGURES_TEXT.md` | All `Fig N :line` citations in this folder were checked against this file with the validator's whitespace-normalising rule; 44 candidate quotes passed before drafting. |
+| Canonical figures README and usage rule | local: `C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\reference\FIGURES_README_canonical.md` | "They outrank everything else in the repo"; "a shape, not a name"; "a reading that makes one contradict another has misidentified its domain, not found a flaw." |
+| The eight-step loop and mode rule | local: `C:\Users\Admin\Desktop\Project Pathfinder\FRAMEWORK\figures\THE_FORMULA.md` | The SEARCHED / INWARD / OUTWARD split, the Direction discipline, and "Mode. general · specified · grounded. State which." |
+| Exemplar solution | local: `C:\Users\Admin\Desktop\Project Pathfinder\Solutions\QMGR-0037__spacetime_continuum_or_emergent\` | All 12 files read as the structural and tonal reference, including its retractions. |
+
+## World literature actually opened
+
+| what | URL | access | what it bears on |
+|---|---|---|---|
+| Mikušová Meričková, Nemec and Jakuš Muthová, "Contract management of municipal public services: the Slovak experience", Humanities and Social Sciences Communications 11:41 (2024) | https://www.nature.com/articles/s41599-023-02549-2 | full page retrieved | "a simple switch from public to private production is not an automatic better means of achieving such a goal"; "potential increases in efficiency via contracting out are unequivocally limited by the low quality of contract management." Direct corroboration of Fig 11 :40. |
+| Esteve, Garrido-Rodríguez, Moore, Schuster and Zafra Gómez, "Assessing the Effects of User Accountability in Contracting Out", JPART 34(2):211-223 (2024; online 2023) | https://academic.oup.com/jpart/article/34/2/211/7278588 | abstract in search index; metadata and abstract via Crossref DOI 10.1093/jopart/muad020 | user fees make contractor revenue depend on user satisfaction, and "contracting out where users pay service fees and thus have incentives to hold contractors accountable outperforms contracting out without user fees in quality-adjusted service provision." Corroborates the anchor condition in Fig 2 :29-30. |
+| Blomqvist and Winblad, "Contracting out welfare services: how are private contractors held accountable?", Public Management Review 24(2):233-254 (2022; online 2020) | https://www.tandfonline.com/doi/full/10.1080/14719037.2020.1817530 | abstract in search index; authors, venue and year via Crossref | "market accountability measures like contract termination and financial sanctions could not be applied as local governments lacked the capacity to enforce them." Corroborates Fig 10 :24 and the reachability finding. |
+| Petersen et al., "Is Contracting out of Public Services still the Great Panacea?", Social Policy & Administration 52(1):130-151 (2018) | https://onlinelibrary.wiley.com/doi/full/10.1111/spol.12297 | abstract in search index | "generalization of effects from contracting out should be made with caution and are likely to depend, among other things, on the transaction costs characteristics of the service, the market situation and the institutional/regulatory setting." Corroborates the habitat/contact claim. |
+| Kikeri and Nellis, "An Assessment of Privatization", World Bank Research Observer 19(1):87-118 (2004) | https://documents1.worldbank.org/curated/en/224791468336562655/pdf/764770JRN0Asse0Box0374379B00PUBLIC0.pdf | full text excerpt in search index; PDF binary not fetched | "in competitive sectors privatization has been a resounding success in improving firm performance. In infrastructure sectors, privatization improves welfare... when it is accompanied by proper policy and regulatory frameworks." Corroborates the contestability and framework conditions. |
+| Nellis, "Whatever Happened to Privatization? The World Bank and Divestiture: 1980-2020", CGD Working Paper 592 (2021) | https://www.cgdev.org/sites/default/files/Whatever-happened-to-privatization.pdf | full text excerpt in search index; PDF binary not fetched | "institutionally weak governments had very great difficulty creating, monitoring, and enforcing the detailed contracts." Corroborates the channel-capacity finding. |
+| Kirkpatrick, Parker and Zhang, "An Empirical Analysis of State and Private-Sector Provision of Water Services in Africa", World Bank (2013) | https://documents1.worldbank.org/curated/en/175701468202140255/pdf/775070JRN020060al0Analysis0of0State.pdf | full text excerpt in search index; PDF binary not fetched | "the analysis fails to show evidence of better performance by private utilities than by state-owned utilities"; "levels of corruption and governance were far more important in explaining efficiency differences between firms than was the ownership variable." Direct empirical corroboration of Fig 11 :40. |
+| Mulgan, "Contracting Out and Accountability", Australian Journal of Public Administration 56(4):106-116 (1997) | https://doi.org/10.1111/j.1467-8500.1997.tb02493.x | abstract and metadata via Crossref | "contracting out has the potential to reduce the extent of public accountability by transferring the provision of public services to members of the private sector who are generally not subject to the same accountability requirements as public officials." Corroborates the accountability half. |
+
+No world source conflicts with the figure-derived split. Conflicts would have sent the derivation back to the census, not flipped the verdict (Fig 2 :35: "Alignment is triangulation, not negotiation. A mirror cannot correct you."). Overlap is declared per source: these are different fields (public administration, development economics, water regulation, public sector accounting), so their agreement with the figures is weak independent corroboration of a shared institutional-economics tradition, not a separate witness to the framework itself.
+
+## Distribution: offer, do not push
+
+Figure-grounded reasons:
+
+- **Fig 4 :22**: "Only methods cross up. Only head starts come down." Sending the full framework before anyone has described a residual sends a recording, not a generator. Lead with the two conditions and the refuter; offer links after.
+- **Fig 9 :27-28**: "describe it before you go looking, or any frame you pick will seem to fit." Ask what the recipient would expect to see if each condition were true before giving them the literature.
+- **Fig 10 :52**: "Bring a characterised residual, never the source." A recipient who has absorbed the framework before giving a verdict has joined the frame being checked.
+- **Fig 9 :60**: "Use filters for the budget and witnesses for the verdict. Never let a filter hand you a verdict." A journal or conference venue is a filter for where to try; it is not evidence.
+- **Fig 2 :42**: "Buy independence in proportion to the cost of being wrong." A wrong answer about a public service is costly, so it is worth seeking frames that do not share our evidence pool. Purchasing agreement would spend exactly the independence we need.
+
+**Recommended order in a reply:** (1) the two conditions and the three refuters; (2) ask what the recipient would count as a failure and record the answer; (3) only then the three framework links and the source ledger, with the note that the figures, not our summary, are the authority; (4) optionally, the formula as a method to reuse, with the instruction that each user writes their own refuter and states their own mode.
+
+**Not done by this agent:** no hosting, no uploading, no sending. The two-stage offer is a packet for a human to host and send through the public channels in `03_public_contact_points.csv`. Prefer an opt-in download or submission route over an attachment pushed to a list.

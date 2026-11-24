@@ -1,0 +1,58 @@
+# Public links and distribution
+
+All links below were opened on 2026-11-22. Where a publisher blocked direct retrieval (Wiley full text returned HTTP 403 to the fetcher), the note records that the text was read from the search tool's extracted page content or from the author's copy. Nothing is cited here that was not read.
+
+## Verified framework links
+
+| what | URL | verified content |
+|---|---|---|
+| Figures and formula (canonical local) | `FRAMEWORK/reference/03-FIGURES_TEXT.md` | Verbatim text of Figures 1 to 13 plus the Operators and Symbols tables, with line numbers. Fig 11 :43-44 (enumerate the habitat), :61-63 (introduction not exclusion, permanent work), Fig 6 :21-25 (closure and import), Fig 8 :39-43 (no proof of absence, two unreachable kinds), Fig 4 :28-32 (lossy round trip). |
+| Canonical usage rule (canonical local) | `FRAMEWORK/reference/FIGURES_README_canonical.md` | "They outrank everything else in the repo: the code, the rulings and the docs answer to them... the quotes are the authority, not this summary." Also the re-census rule and the limit: a shape, not a name. |
+| Eight-step loop (canonical local) | `FRAMEWORK/figures/THE_FORMULA.md` | Mode rule, three guards as a product, step 7 (SEARCHED / INWARD / OUTWARD), "Use filters for the budget and witnesses for the verdict. Never let a filter hand you a verdict." |
+| SER Standards landing page | https://www.ser.org/page/SERstandards | Third edition June 2026, free English summary, downloadable tools, full citation. Read this session. |
+| SER Restoration Resource Center definition | https://ser-rrc.org/what-is-ecological-restoration | "Restoration practitioners do not carry out the actual work of ecosystem recovery. Rather, they create the conditions needed for recovery so the plants, animals, and microorganisms can carry out the work of recovery themselves." Also the self-organization benchmark and the maintenance distinction. |
+
+## Wider literature actually read (secondary corroboration only)
+
+| source | URL | what was verified and why it bears here |
+|---|---|---|
+| Gann et al. 2019, SER International Principles and Standards, 2nd ed., *Restoration Ecology* 27(S1) | https://onlinelibrary.wiley.com/doi/full/10.1111/rec.13035 | Publisher page blocked direct fetch (403); full text read from the search tool's extracted content and the BLM mirror. "reference models for ecological restoration are not based on immobilizing an ecological community at some past point in time, but rather increasing potential for native species and communities to recover and continue to reassemble, adapt, and evolve." Corroborates F6 (adjust the target, do not freeze history). |
+| Gann et al. 2026, SER Standards 3rd ed. | https://www.ser.org/page/SERstandards | Adds "native" to the definition and strengthens measurement. Corroborates that the field's own anchor is measurable recovery, not practitioner agreement. |
+| Scheffer, Carpenter, Foley, Folke and Walker 2001, "Catastrophic shifts in ecosystems", *Nature* 413:591-596 | https://www.gatsby.ucl.ac.uk/~pel/environment/catastrophe.pdf | Full text read via extracted content (PDF not directly fetchable). "to induce a switch back to the upper branch, it is not sufficient to restore the environmental conditions of before the collapse (F1). Instead, one needs to go back further, beyond the other switch point (F2)... known as hysteresis." Corroborates F3. |
+| Kéfi et al. 2016, "When can positive interactions cause alternative stable states in ecosystems?", *Functional Ecology* | https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2435.12601 | Publisher blocked direct fetch (403); text read from search extraction. "Once the shift happened, going back to the previous ecosystem state requires the external condition to decrease to lower values than the values at which the shift occurred." Corroborates F3, shares the regime-shift evidence pool with Scheffer 2001. |
+| Hobbs, Higgs and Harris 2009, "Novel ecosystems: implications for conservation and restoration", *Trends in Ecology and Evolution* 24(11):599-605 | https://www.sciencedirect.com/science/article/pii/S0169534709002018 | Abstract and section previews read. "When retention or restoration of historical ecosystems is no longer possible, or at least no longer feasible given anything short of heroic action and intensive manipulation and management, what other options are there that could be considered as valid conservation and/or restoration goals?" Corroborates F6. |
+| Perring, Standish and Hobbs 2013, "Incorporating novelty and novel ecosystems into restoration planning and practice", *Ecological Processes* 2:18 | https://link.springer.com/article/10.1186/2192-1709-2-18 | Open access, fetched in full. "Chief among the changes that are difficult to reverse are missing soil seed banks, nutrient enrichment, the presence of competitive non-native species, and reduced seed sources and land degradation associated with habitat fragmentation." Also: "invasive species, whether native or non-native, should still be tackled where they pose a threat." Corroborates F2 and F6 and warns against the lazy version of adaptation. |
+| Beschta and Ripple 2016, "Riparian vegetation recovery in Yellowstone", *Biological Conservation* 198:93-103 | https://trophiccascades.forestry.oregonstate.edu/sites/default/files/Beschta_Ripple2016.pdf | Authors' copy read via extracted text. "Some of the riparian plant communities in Yellowstone's northern range are in an early phase of recovery... 'full recovery' of these highly altered riparian ecosystems... will require time." Corroborates F5 and F7. |
+| Ripple and Beschta 2012, "Trophic cascades in Yellowstone: the first 15 years after wolf reintroduction", *Biological Conservation* | https://www.sciencedirect.com/science/article/abs/pii/S0006320711004046 | Abstract read. "the reintroduction of wolves restored a trophic cascade with woody browse species growing taller and canopy cover increasing in some, but not all places." Corroborates F4 (per-place, per-slot verdict) and F1 (introduction as the available move). |
+| Boulton et al. 2024, "Tipping point detection and early warnings in climate, ecological, and human systems", *Earth System Dynamics* 15:1117-1135 | https://esd.copernicus.org/articles/15/1117/2024/ | Open access HTML read. "Tipping points characterize a situation when a system experiences abrupt, rapid, and sometimes irreversible changes. Such shifts occur when a threshold is crossed and the system transitions from its current state to a contrasting one." Low-overlap complex-systems witness for F3 and for INWARD (better monitoring). |
+| OECD 2018, "Quasi-option value", in *Cost-Benefit Analysis and the Environment* | https://www.oecd.org/en/publications/cost-benefit-analysis-and-the-environment_9789264085169-en/full-report/component-16.html | Open access HTML read. "The point about waiting is that it gives us the chance to find out which of the two preservation values will occur... waiting (postponing) generates information and this information can greatly improve the efficiency of decision-making." Low-overlap economics witness: irreversibility changes the decision rule, so "same expectations" is not an option. |
+| Isaiah N, *The Recursive Self-Improvement Trap*, 2026 | https://adventuresinml.substack.com/p/the-recursive-self-improvement-trap | Fetched in full. "Prestige can fund an action. It can give an action a budget to be tried. But it cannot settle an action. Only the ground can settle it." Also the lineage passage used in F3. Same author as the figures, so high overlap, declared. |
+| Isaiah N, *The Hard Problem is About Source*, 2026 | https://adventuresinml.substack.com/p/the-hard-problem-is-about-source | Fetched in full. "It was proven wrong not by argument, but by the arrival of a better instrument." Corroborates the "what would settle it" section. |
+| Isaiah N, *The Library of Babel: Locating the Book of Books*, 2026 | https://adventuresinml.substack.com/p/the-library-of-babel-locating-the | Fetched in full. "you can cut your search short if the set of books returned is small and descriptive enough that it provides a general shape of the answer that satisfies your question." Grounds the word "shape". |
+| Isaiah N, *Decoding Tacit Knowledge*, 2026 | https://adventuresinml.substack.com/p/decoding-tacit-knowledge-why-context | Fetched in full. "When contact isn't possible, the best you can send is a plain description of what you'd expect to see, because anyone can check that against the world." Grounds the stage-1 order. |
+
+Overlap note: Perring 2013 and Hobbs 2009 share an author and an evidence pool; Scheffer 2001, Kéfi 2016 and Boulton 2024 share the regime-shift literature; the four essay sources share the framework author. Their agreement is therefore one or a few pools talking, not independent corroboration. The world verdict in `09_watson_answer.md` still comes from the figures.
+
+## Distribution: offer, do not push
+
+Figure-grounded reasons:
+
+- **Fig 4 :22-23** - "Only methods cross up. Only head starts come down." Sending the full architecture before a recipient has described a residual sends a recording, not a generator. Lead with the classification and its refuter; offer the links after.
+- **Fig 10 :42** - "A verifier that can reconstruct the claim cannot verify it." A recipient who has absorbed the whole framework before giving a verdict has joined the frame being checked.
+- **Fig 9 :27-28** - "describe it before you go looking, or any frame you pick will seem to fit." Ask what they would expect to see if the classification were true before giving them the essay links.
+- **Fig 2 :40** - "disqualifying for a verdict: agreement about the world is worthless when the agreeing frames share an evidence pool." A send selected for people who already agree produces a convention, not a check.
+- **Fig 8 :39** - "So a search that finds nothing is never a proof of absence." Do not read a silent response as agreement or as refutation.
+
+**Recommended order in a reply:** (1) the per-slot shape claim and the five refuters; (2) ask what the recipient would count as a failure and which slot they would measure first; (3) only then the figure passages and the SER standards link, with the note that the figures, not the summary, are the authority.
+
+## The two-stage offer
+
+1. **Stage 1:** the residual, the shape claim and the refuter, one-to-one. Ask for a failure, not an endorsement. Record their verdict before any framework material is shown. This is Fig 10 :52 ("Bring a characterised residual, never the source") and Fig 2 :45 ("Frames range against the ground. They do not negotiate with it.").
+2. **Stage 2, opt-in only:** the three local framework links and the SER standards link. Stage 2 is opt-in by construction because once a recipient holds the interiors, their agreement stops being evidence.
+3. **Stage 3, optional:** the formula as a reusable method, with the instruction that each user writes their own refuter and states their own mode. Fig 4 :22 permits sending a method; `THE_FORMULA.md` "Direction" explains why a frame cannot check its own question.
+
+**Hard precondition:** stages 1 to 3 only work if the stage-1 output survives. It is an untested shape: no site measurement was taken, so its verdicts are `candidate` (mode `specified`). The five refuters are the instrument.
+
+## Hosting
+
+The folder material can be zipped locally by the user. This agent cannot upload it or send it to anyone. Hosting it (Drive, Dropbox, a repo release) and sending the link is yours to do. Prefer an opt-in download page that lets a recipient decline contact over an attachment pushed to a list.
