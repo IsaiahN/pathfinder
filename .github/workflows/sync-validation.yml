@@ -181,12 +181,12 @@ jobs:
                   const cq = await gql(
                     `query($n:Int!){ repository(owner:"${owner}",name:"${repo}") {
                        discussion(number:$n){ comments(first:8, orderBy:{field:CREATED_AT,direction:DESC}) {
-                         nodes { body createdAt author { login } url }
+                         nodes { body createdAt author { login } }
                        } } } }`, { n: d.number });
                   latest = (cq.repository.discussion.comments.nodes || []).map(c => ({
                     author: c.author ? c.author.login : 'ghost',
                     body: String(c.body || '').slice(0, 500),
-                    created_at: c.createdAt, url: c.url
+                    created_at: c.createdAt, url: d.url
                   }));
                   latest.forEach(c => history.events.push({
                     problem_id: pid, type: 'discussion', actor: c.author,

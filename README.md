@@ -41,13 +41,15 @@ The figures are the authority. World sources corroborate, but they never overrul
 
 Start with the [corpus](https://isaiahn.github.io/pathfinder/). Pick a field from the registry rail, or search by ID or question text. Every problem page shows the question, the current answer, the figures it relies on, and any verdicts already recorded.
 
-Three buttons take you to a prefilled GitHub issue:
+Each problem has one canonical GitHub issue. The **Validate / Refute / Accept** buttons take you there, where you cast your verdict with a reaction:
 
-- **Validate** means you checked the derivation and it survived.
-- **Refute** means you found a concrete failure. Tell us what it is.
-- **Accept** means you take the answer as it stands, with its stated limits.
+- 👍 **Validate** — you checked the derivation and it survived.
+- 👎 **Refute** — you found a concrete failure. Write it in a comment.
+- 🎉 **Accept** — you take the answer as it stands, with its stated limits.
 
-One verdict per issue, please. Other people can vote on an issue with GitHub reactions. A 👍 means they confirm the verdict, a 👎 means they dispute it, a 🎉 means they accept the answer, and 👀 means they are reviewing it. You can browse everything already submitted in the [repo's issues](https://github.com/IsaiahN/pathfinder/issues).
+That is one verdict per GitHub account per problem. Reacting 👍 and 👎 both collapse to a single vote, with a refutation taking precedence. The site scores each problem as 👍 minus 👎 and sorts the corpus by that score, like a leaderboard. Reasons and rebuttals live in comments on the issue, which feed the life graph.
+
+There is also a **Discussion** tab on every problem. It opens a GitHub Discussion tied to that problem ID, where anyone can talk through the claim using their GitHub identity. The site reads those threads through a scheduled Action, so no sign-in is needed just to browse. You can see everything in the [repo's issues](https://github.com/IsaiahN/pathfinder/issues) and [discussions](https://github.com/IsaiahN/pathfinder/discussions).
 
 You need a GitHub account to submit or vote. That is the whole identity system. No email address is asked for or stored.
 

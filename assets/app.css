@@ -188,9 +188,10 @@ button { font-family: inherit; }
   background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-md);
   padding: 0 12px; height: 36px;
 }
-.searchbox:focus-within { border-color: var(--accent-border); box-shadow: 0 0 0 3px var(--accent-subtle); }
-.searchbox input { flex: 1; background: none; border: none; outline: none; color: var(--text-primary); font: inherit; }
-.searchbox input::placeholder { color: var(--text-muted); }
+.searchbox { border-color: var(--accent-border); background: linear-gradient(90deg, var(--accent-subtle), var(--bg-card) 60%); }
+.searchbox:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(240,160,80,0.14); }
+.searchbox input { flex: 1; background: none; border: none; outline: none; color: var(--text-primary); font: inherit; font-weight: 500; }
+.searchbox input::placeholder { color: var(--accent); opacity: 0.8; }
 .tabs { display: flex; gap: 2px; border-bottom: 1px solid var(--border); margin-bottom: 16px; overflow-x: auto; }
 .tab {
   background: none; border: none; border-bottom: 2px solid transparent; color: var(--text-muted);
@@ -303,11 +304,15 @@ tbody tr:hover { background: var(--bg-hover); }
 
 /* ── Command bar (bottom of main pane) ── */
 .command-bar {
-  display: flex; align-items: center; gap: 10px; background: var(--bg-card);
-  border: 1px solid var(--accent-border); border-radius: 100px; padding: 8px 10px 8px 16px;
-  margin-top: 18px; box-shadow: 0 0 0 3px var(--accent-subtle);
+  display: flex; align-items: center; gap: 10px;
+  background: linear-gradient(90deg, rgba(240,160,80,0.20), rgba(240,160,80,0.06) 70%, var(--bg-card));
+  border: 1.5px solid var(--accent); border-radius: 100px; padding: 8px 10px 8px 16px;
+  margin-top: 18px; box-shadow: 0 0 0 4px rgba(240,160,80,0.10), 0 10px 26px rgba(0,0,0,0.5);
   position: sticky; bottom: 0; z-index: 6;
 }
+.command-bar input { font-weight: 500; }
+.command-bar input::placeholder { color: var(--accent); opacity: 0.85; }
+.command-send { box-shadow: 0 0 14px rgba(240,160,80,0.55); }
 .answer-card {
   background: linear-gradient(135deg, #2b1f1a 0%, #24212b 46%, #171b26 100%);
   border-color: var(--accent-border);
