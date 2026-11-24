@@ -1,0 +1,58 @@
+name: Submit a question
+description: Propose a question for Path Finder to work through with WATSON.
+title: "[QUESTION] Short form of your question"
+labels: ["question", "user-submitted"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sending a question. It becomes public immediately, along with
+        your GitHub login. Do not include personal information or email addresses.
+        We work through the queue daily, up to 100 questions per day, and answer
+        each one with a full WATSON derivation filed under Solutions/user_submitted/
+        as USR-#####. You will get a reply here when it is done. Intake is unlimited;
+        the 100/day cap is on how many we process.
+  - type: textarea
+    id: question
+    attributes:
+      label: The question
+      description: One clear question. Concrete is better than abstract.
+      placeholder: What would you like checked?
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Field
+      description: Pick a field if you know one. Leave it unsorted and we will place it.
+      options:
+        - User submitted / unsorted
+        - Business
+        - Complexity science
+        - Cognitive science
+        - Earth systems
+        - Economics
+        - Ecology
+        - History of science and knowledge
+        - Information theory
+        - Institutional questions
+        - Origins of life
+        - Physics (QM and GR)
+        - Reasoning and intelligence
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Why it matters (optional)
+      description: What would change if this question were answered?
+  - type: input
+    id: source
+    attributes:
+      label: Source link (optional)
+      description: A public URL that motivated the question.
+  - type: markdown
+    attributes:
+      value: |
+        By submitting you agree that the question and the eventual answer are
+        published in this repository and on the Path Finder site.

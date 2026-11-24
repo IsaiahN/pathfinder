@@ -4,7 +4,7 @@
 
 A public experiment in checking ideas against hard questions.
 
-[**Explore the live corpus**](https://isaiahn.github.io/pathfinder/) · [**Open an example problem**](https://isaiahn.github.io/pathfinder/problem/QMGR-0037) · [Read the method](PLANS/00_MASTER_PLAN.md)
+[**Explore the live corpus**](https://isaiahn.github.io/pathfinder/) · [**Open an example problem**](https://isaiahn.github.io/pathfinder/problem/QMGR-0037) · [**Submit a question**](https://isaiahn.github.io/pathfinder/) · [Read the method](PLANS/00_MASTER_PLAN.md)
 
 Path Finder puts 1,300 open questions through one fixed method, then asks ordinary people to check what comes out. Every answer, verdict, and rebuttal stays in the open. It is not about proving a point. It is about finding out whether the method holds up when you keep testing it.
 
@@ -59,6 +59,14 @@ The life graph on each [problem page](https://isaiahn.github.io/pathfinder/probl
 
 Where a claim can be stated formally, a validator can attach a Lean certificate. Those get a `certified:lean` label and are checked in CI.
 
+## Submit a question
+
+The [site](https://isaiahn.github.io/pathfinder/) has a **＋ Submit a question** button. It opens a prefilled GitHub issue, which is where the question lives. You can pick a field, or leave it as `user_submitted` and let us sort it later.
+
+Intake is unlimited. The 100 per day cap is on **our** processing, not on you. Every day a workflow collects the unanswered issues into `data/submission_queue.json`, oldest first, and publishes each question's status in `data/submitted_questions.json` and on the **Submitted** tab of the site. The backlog simply carries forward.
+
+When a question reaches the front of the queue, we work it with WATSON and file a full twelve-file derivation under `Solutions/user_submitted/USR-#####/`. The ID comes from the issue number, so it never changes. We post a short answer back on the issue, which notifies you, and mark it `answered`. The field can be reassigned at that point, but the question always keeps its `user_submitted` origin.
+
 ## Privacy
 
 We take this seriously. There are no email addresses anywhere in this repository. Not in the issues, not in the data, not in the solution folders. The private lead files stay out of the public mirror entirely. Your GitHub login is the only identity recorded, and only aggregate vote counts are published.
@@ -70,8 +78,9 @@ If you spot an email address in here, please [open an issue](https://github.com/
 ```
 pathfinder/
 ├── index.html, 404.html, assets/     the Pages front-end and brand assets
-├── data/                             problems, verdicts, and history as JSON
+├── data/                             problems, verdicts, queue, and submissions as JSON
 ├── Solutions/                        1,300 folders, twelve files each
+│   └── user_submitted/               USR-##### answers to public questions
 ├── Registry/                         the ranking workbook and CSV mirrors
 ├── FRAMEWORK/                        the figures and method references
 ├── PLANS/                            the master plan and platform design

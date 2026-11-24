@@ -13,6 +13,7 @@
 
   var state = {
     config: {}, problems: [], validation: { problems: {} }, history: { events: [] },
+    submitted: { questions: [] }, queue: { items: [], daily_cap: 100 },
     ui: { category: '', query: '', verdict: '', tab: 'answer' }
   };
 
@@ -161,7 +162,17 @@
         '<div class="next-step"><span class="badge general">general</span><span>Structural shape, not settled.</span></div>' +
         '<div class="next-step"><span class="badge specified">specified</span><span>Bound by stated conditions.</span></div>' +
         '<div class="next-step"><span class="badge grounded">grounded</span><span>Settled against a ground.</span></div>' +
+      '</div>' +
+      '<div class="panel"><h3>Question queue</h3>' +
+        bar('Today’s batch', state.queue.queued_count || 0, state.queue.daily_cap || 100, 'purple',
+            (state.queue.queued_count || 0) + ' / ' + (state.queue.daily_cap || 100)) +
+        '<div class="next-step" style="margin-top:12px"><span class="arrow">→</span><span>' +
+          ((state.queue.waiting_count || 0) ? '<strong>' + state.queue.waiting_count + ' waiting</strong> for a later day.' :
+           '<strong>No backlog.</strong> New questions join today’s batch.') + '</span></div>' +
+        '<div class="next-step"><span class="arrow">→</span><span>Each answer becomes a full USR-##### solution folder.</span></div>' +
+        '<button class="btn btn-outline" id="rail-submit" style="margin-top:6px;width:100%">＋ Submit a question</button>' +
       '</div>';
+    right.onclick = function (e) { if (e.target.id === 'rail-submit') openSubmission(); };
 
     app.innerHTML =
       '<div class="page-head"><div class="eyebrow">Corpus · ' + esc(meta ? meta.name : 'all fields') + '</div>' +
@@ -172,7 +183,8 @@
         '<input id="q" type="search" placeholder="Search by ID or question text…" autocomplete="off" value="' + esc(state.ui.query) + '">' +
         '<span class="esc-key">⌘K</span></div></div>' +
       '<div class="tabs" id="vtabs">' +
-        [['', 'All'], ['open', 'Open'], ['validate', 'Validated'], ['refute', 'Refuted'], ['accept', 'Accepted']].map(function (x) {
+        [['', 'All'], ['open', 'Open'], ['validate', 'Validated'], ['refute', 'Refuted'],
+         ['accept', 'Accepted'], ['submitted', 'Submitted']].map(function (x) {
           return '<button class="tab' + (state.ui.verdict === x[0] ? ' active' : '') + '" data-v="' + x[0] + '">' + x[1] + '</button>';
         }).join('') + '</div>' +
       '<div class="table-card"><table><thead><tr><th>ID</th><th>Question</th><th>Mode</th><th>Verdict</th></tr></thead>' +
@@ -181,7 +193,25 @@
       '<button class="command-send" id="cmd-send">➤</button></div>';
 
     function drawRows() {
-      var q = state.ui.query.trim().toLowerCase();
+      var body = document.getElementById('rows');
+      var sq = state.ui.query.trim().toLowerCase();
+      if (state.ui.verdict === 'submitted') {
+        var subs = (state.submitted.questions || []).filter(function (r) {
+          return !sq || (r.id + ' ' + r.question + ' ' + (r.field || '')).toLowerCase().indexOf(sq) >= 0;
+        });
+        body.innerHTML = subs.length ? subs.map(function (r) {
+          var answerLink = r.status === 'answered'
+            ? ' · <a href="https://github.com/IsaiahN/pathfinder/tree/main/Solutions/user_submitted/' + encodeURIComponent(r.id) +
+              '" target="_blank" rel="noopener">solution ↗</a>' : '';
+          return '<tr><td class="id-cell"><a href="' + esc(r.source_issue) + '" target="_blank" rel="noopener">' +
+            esc(r.id) + '</a></td><td class="q-cell">' + esc(r.question) + '</td>' +
+            '<td>' + esc(r.field || 'user_submitted') + '</td>' +
+            '<td><span class="status-pill ' + esc(r.status) + '">' + esc(r.status) + '</span>' +
+            ' · <a href="' + esc(r.source_issue) + '" target="_blank" rel="noopener">issue ↗</a>' + answerLink + '</td></tr>';
+        }).join('') : '<tr><td colspan="4" class="empty">No submitted questions yet. Use “Submit a question” above.</td></tr>';
+        return;
+      }
+      var q = sq;
       var rows = state.problems.filter(function (p) {
         if (state.ui.category && (p.category || 'Other') !== state.ui.category) return false;
         if (q && (p.id + ' ' + p.question).toLowerCase().indexOf(q) < 0) return false;
@@ -190,7 +220,6 @@
         if (state.ui.verdict && state.ui.verdict !== 'open' && t.indexOf(state.ui.verdict) < 0) return false;
         return true;
       });
-      var body = document.getElementById('rows');
       if (!rows.length) { body.innerHTML = '<tr><td colspan="4" class="empty">No matching problems.</td></tr>'; return; }
       body.innerHTML = rows.slice(0, 300).map(function (p) {
         var mode = p.mode || 'specified';
@@ -377,6 +406,45 @@
           '<span class="muted">' + s[1] + '</span><span class="esc-key">' + s[0] + '</span></div>';
       }).join('') + '</div>');
   }
+  function openSubmission() {
+    var fields = ['user_submitted', 'Business', 'Complexity science', 'Cognitive science',
+      'Earth systems', 'Economics', 'Ecology', 'History of science and knowledge',
+      'Information theory', 'Institutional questions', 'Origins of life',
+      'Physics (QM and GR)', 'Reasoning and intelligence'];
+    openModal(
+      '<div class="modal-head"><strong>＋ Submit a question</strong><span class="spacer"></span><span class="esc-key">ESC</span></div>' +
+      '<div class="form-body">' +
+        '<div class="field"><label>The question</label><textarea id="s-q" placeholder="What would you like checked? One clear question."></textarea></div>' +
+        '<div class="field"><label>Field</label><select id="s-f">' + fields.map(function (f) {
+          return '<option value="' + esc(f) + '">' + esc(f) + '</option>';
+        }).join('') + '</select></div>' +
+        '<div class="field"><label>Why it matters (optional)</label><input id="s-c" placeholder="What would change if this were answered?"></div>' +
+        '<div class="field"><label>Source link (optional)</label><input id="s-s" placeholder="https://…"></div>' +
+        '<p class="form-note">Submitting opens a prefilled GitHub issue. Your GitHub login is the public identity; no email is asked for. Intake is unlimited; we process up to 100 questions a day. Each answer becomes a full USR-##### solution.</p>' +
+      '</div>' +
+      '<div class="form-actions"><button class="btn btn-outline" id="s-cancel">Cancel</button>' +
+      '<button class="btn btn-primary" id="s-go">Open GitHub issue →</button></div>');
+    document.getElementById('s-cancel').onclick = closeModal;
+    document.getElementById('s-go').onclick = function () {
+      var q = document.getElementById('s-q').value.trim().replace(/\s+/g, ' ');
+      if (!q) { document.getElementById('s-q').focus(); return; }
+      var f = document.getElementById('s-f').value;
+      var c = document.getElementById('s-c').value.trim();
+      var s = document.getElementById('s-s').value.trim();
+      var body = 'Question: ' + q + '\nField: ' + f +
+        (c ? '\nContext: ' + c : '') + (s ? '\nSource: ' + s : '') +
+        '\n\n---\nSubmitted from the Project Pathfinder site.';
+      var url = 'https://github.com/IsaiahN/pathfinder/issues/new?' + new URLSearchParams({
+        labels: 'question,user-submitted',
+        title: '[QUESTION] ' + q.slice(0, 90),
+        body: body
+      }).toString();
+      window.open(url, '_blank', 'noopener');
+      closeModal();
+    };
+  }
+
+  document.getElementById('submit-btn').addEventListener('click', openSubmission);
   document.getElementById('search-btn').addEventListener('click', openSearch);
   document.getElementById('shortcuts-btn').addEventListener('click', openShortcuts);
   document.getElementById('modal').addEventListener('click', function (e) { if (e.target.id === 'modal') closeModal(); });
@@ -388,12 +456,15 @@
   function start() {
     Promise.all([
       fetchJSON('data/config.json'), fetchJSON('data/problems.json'),
-      fetchJSON('data/validation.json'), fetchJSON('data/history.json')
+      fetchJSON('data/validation.json'), fetchJSON('data/history.json'),
+      fetchJSON('data/submitted_questions.json'), fetchJSON('data/submission_queue.json')
     ]).then(function (r) {
       state.config = r[0] || {};
       state.problems = (r[1] && r[1].problems) || [];
       state.validation = r[2] || { problems: {} };
       state.history = r[3] || { events: [] };
+      state.submitted = r[4] || { questions: [] };
+      state.queue = r[5] || { items: [], daily_cap: 100 };
       var meta = r[1] || {};
       var g = document.getElementById('generated-at');
       if (g) g.textContent = 'data ' + String(meta.generated_at || '').slice(0, 10);

@@ -1,0 +1,112 @@
+name: Question submission queue
+
+# Daily harvest of user-submitted questions into the public queue.
+# Intake is unlimited; the cap is on processing capacity (100 per day).
+# Answered / in-progress issues are excluded and carry their status forward.
+
+on:
+  issues:
+    types: [opened]
+  schedule:
+    - cron: "23 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: read
+
+concurrency:
+  group: question-queue
+  cancel-in-progress: false
+
+jobs:
+  queue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build submission and queue data
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const cap = 100;
+            const dataDir = path.join(process.cwd(), 'data');
+            fs.mkdirSync(dataDir, { recursive: true });
+
+            function field(body, label) {
+              if (!body) return '';
+              const line = body.match(new RegExp('^' + label + ':\\s*(.+)$', 'im'));
+              if (line) return line[1].trim();
+              const head = body.match(new RegExp('^###\\s+' + label + '\\s*$', 'im'));
+              if (head) {
+                const rest = body.slice(head.index + head[0].length);
+                const next = rest.search(/\n###\s/);
+                return (next >= 0 ? rest.slice(0, next) : rest).trim();
+              }
+              return '';
+            }
+
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              owner, repo, labels: 'question', state: 'all', per_page: 100
+            });
+
+            const records = issues.filter(i => !i.pull_request).map(issue => {
+              const labels = (issue.labels || []).map(l => (typeof l === 'string' ? l : l.name).toLowerCase());
+              const id = 'USR-' + String(issue.number).padStart(5, '0');
+              return {
+                id: id,
+                question: field(issue.body, 'Question') ||
+                          field(issue.body, 'The question') ||
+                          (issue.title || '').replace(/^\[QUESTION\]\s*/i, ''),
+                requested_field: field(issue.body, 'Field') || 'user_submitted',
+                field: field(issue.body, 'Field') || 'user_submitted',
+                status: labels.includes('answered') ? 'answered' :
+                        labels.includes('in-progress') ? 'in-progress' : 'pending',
+                submitter: issue.user ? issue.user.login : 'unknown',
+                context: field(issue.body, 'Context') || field(issue.body, 'Why it matters'),
+                source_url: field(issue.body, 'Source') || field(issue.body, 'Source link'),
+                source_issue: issue.html_url,
+                issue_number: issue.number,
+                created_at: issue.created_at,
+                updated_at: issue.updated_at,
+                answered_at: labels.includes('answered') ? issue.updated_at : ''
+              };
+            }).sort((a, b) => new Date(a.created_at) - new Date(b.created_at));
+
+            // Queue = the oldest unanswered, un-worked questions, capped at 100.
+            const available = records.filter(r => r.status === 'pending');
+            const queue = available.slice(0, cap);
+            const queuedIds = new Set(queue.map(r => r.id));
+            records.forEach(r => {
+              if (r.status === 'pending') r.status = queuedIds.has(r.id) ? 'queued' : 'waiting';
+            });
+
+            const generated_at = new Date().toISOString();
+            fs.writeFileSync(path.join(dataDir, 'submitted_questions.json'),
+              JSON.stringify({ generated_at, count: records.length, questions: records }, null, 2) + '\n');
+            fs.writeFileSync(path.join(dataDir, 'submission_queue.json'),
+              JSON.stringify({
+                generated_at, daily_cap: cap, queued_count: queue.length,
+                waiting_count: Math.max(0, available.length - cap),
+                items: queue.map((r, i) => ({ position: i + 1, id: r.id, question: r.question,
+                  field: r.requested_field, submitter: r.submitter, source_issue: r.source_issue,
+                  created_at: r.created_at }))
+              }, null, 2) + '\n');
+            core.info('Questions: ' + records.length + ', queued: ' + queue.length +
+                      ', answered: ' + records.filter(r => r.status === 'answered').length);
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/submitted_questions.json data/submission_queue.json
+          if git diff --cached --quiet; then
+            echo "No queue changes."
+          else
+            git commit -m "chore: refresh question submission queue [skip ci]"
+            git push
+          fi
