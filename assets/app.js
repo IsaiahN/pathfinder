@@ -16,6 +16,22 @@
     ui: { category: '', query: '', verdict: '', tab: 'answer' }
   };
 
+  var META = {
+    BUS:   { name: 'Business', summary: 'How firms gain and lose advantage, how organizations decide, and what makes strategies and markets work.' },
+    CMP:   { name: 'Complexity Science', summary: 'Emergence, nonlinear systems, resilience, and how simple local rules produce collective behavior.' },
+    COG:   { name: 'Cognitive Science', summary: 'Attention, memory, perception, reasoning, and how minds work with limited time and information.' },
+    EAR:   { name: 'Earth Systems', summary: 'Climate, oceans, cycles, and how the planet’s coupled systems respond to change.' },
+    ECN:   { name: 'Economics', summary: 'Markets, incentives, measurement, policy, and how economies fluctuate and grow.' },
+    ECO:   { name: 'Ecology', summary: 'Species interactions, biodiversity, stability, and how ecosystems persist under stress.' },
+    HIS:   { name: 'History of Science and Knowledge', summary: 'How ideas, institutions, and evidence have changed what counts as knowledge.' },
+    INF:   { name: 'Information Theory', summary: 'What information is, how it travels, and the limits it sets on prediction and inference.' },
+    INS:   { name: 'Institutional Questions', summary: 'How rules, organizations, and incentives shape behavior and drive institutional change.' },
+    ORI:   { name: 'Origins of Life', summary: 'How life begins, what counts as living, and what the evidence from early worlds can support.' },
+    QMGR:  { name: 'Physics I — QM and GR', summary: 'Quantum mechanics, general relativity, and the points where the two accounts fail to meet.' },
+    QMGR2: { name: 'Physics II — QM and GR', summary: 'Spacetime, observation, simulation, and what a physical theory can actually settle.' },
+    REA:   { name: 'Reasoning and Intelligence', summary: 'Defining intelligence, learning, causality, agency, limits, and how people and machines reason.' }
+  };
+
   function fetchJSON(path) {
     return fetch(path, { cache: 'no-store' })
       .then(function (r) { if (!r.ok) throw new Error(path + ' ' + r.status); return r.json(); })
@@ -104,7 +120,8 @@
 
   /* ── Dashboard ── */
   function renderDashboard() {
-    crumb.textContent = 'Corpus';
+    var meta = META[state.ui.category];
+    crumb.textContent = meta ? meta.name : 'Corpus';
     modePill.textContent = 'OPEN BENCHMARK';
     modePill.className = 'mode-pill';
 
@@ -120,7 +137,9 @@
       '<div class="rail-title">◇ Registry</div>' +
       '<div class="rail-item' + (state.ui.category ? '' : ' active') + '" data-cat="">All problems<span class="num">' + state.problems.length + '</span></div>' +
       Object.keys(counts).sort().map(function (k) {
-        return '<div class="rail-item' + (state.ui.category === k ? ' active' : '') + '" data-cat="' + esc(k) + '">' +
+        var nm = META[k] ? META[k].name : k;
+        return '<div class="rail-item' + (state.ui.category === k ? ' active' : '') + '" data-cat="' + esc(k) +
+          '" title="' + esc(nm) + '">' +
           '<span class="tree-icon">▦</span>' + esc(k) + '<span class="num">' + counts[k] + '</span></div>';
       }).join('') +
       '<div class="rail-foot">13 fields · 100 questions each</div>';
@@ -140,14 +159,15 @@
       '</div>' +
       '<div class="panel"><h3>Mode legend</h3>' +
         '<div class="next-step"><span class="badge general">general</span><span>Structural shape, not settled.</span></div>' +
-        '<div class="next-step"><span class="badge open">specified</span><span>Bound by stated conditions.</span></div>' +
-        '<div class="next-step"><span class="badge validate">grounded</span><span>Settled against a ground.</span></div>' +
+        '<div class="next-step"><span class="badge specified">specified</span><span>Bound by stated conditions.</span></div>' +
+        '<div class="next-step"><span class="badge grounded">grounded</span><span>Settled against a ground.</span></div>' +
       '</div>';
 
     app.innerHTML =
-      '<div class="page-head"><div class="eyebrow">Corpus · ' + esc(state.ui.category || 'all fields') + '</div>' +
-        '<h1>Project Pathfinder</h1>' +
-        '<p>One method, 1,300 questions, and an open record of every human verdict. Pick a problem, read the derivation, then validate, refute, or accept it.</p></div>' +
+      '<div class="page-head"><div class="eyebrow">Corpus · ' + esc(meta ? meta.name : 'all fields') + '</div>' +
+        '<h1>🧭 ' + esc(meta ? meta.name : 'Project Pathfinder') + '</h1>' +
+        '<p>' + esc(meta ? meta.summary :
+          'One method, 1,300 questions, and an open record of every human verdict. Pick a problem, read the derivation, then validate, refute, or accept it.') + '</p></div>' +
       '<div class="toolbar"><div class="searchbox"><span class="muted">⌕</span>' +
         '<input id="q" type="search" placeholder="Search by ID or question text…" autocomplete="off" value="' + esc(state.ui.query) + '">' +
         '<span class="esc-key">⌘K</span></div></div>' +
@@ -186,10 +206,12 @@
       var b = e.target.closest('.tab'); if (!b) return;
       state.ui.verdict = b.getAttribute('data-v'); renderDashboard();
     });
-    left.addEventListener('click', function (e) {
+    // Single handler slot: the rail is a persistent node, so addEventListener
+    // here would stack a new closure on every re-render.
+    left.onclick = function (e) {
       var b = e.target.closest('.rail-item'); if (!b) return;
       state.ui.category = b.getAttribute('data-cat'); renderDashboard();
-    });
+    };
     var jump = function () {
       var v = document.getElementById('cmd').value.trim().toUpperCase();
       if (v) location.href = './problem/' + encodeURIComponent(v);
@@ -220,11 +242,11 @@
           '<span class="tree-icon">▤</span><span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">' + esc(s.id) + '</span></div>';
       }).join('') +
       '<div class="rail-foot">Problem ' + id + ' of ' + state.problems.length + '</div>';
-    left.addEventListener('click', function (e) {
+    left.onclick = function (e) {
       var b = e.target.closest('.rail-item'); if (!b) return;
       if (b.id === 'back') { location.href = './'; return; }
       var sid = b.getAttribute('data-id'); if (sid) location.href = './problem/' + encodeURIComponent(sid);
-    });
+    };
 
     var figs = (p.figures_used || []).map(function (f) { return '<span class="badge count">' + esc(f) + '</span>'; }).join(' ');
     var folderUrl = 'https://github.com/IsaiahN/pathfinder/tree/main/' + encodeURI(p.solution_path || '');
