@@ -383,6 +383,11 @@
         ' SVG">' + esc(f) + ' ↗</button>';
     }).join(' ');
     var folderUrl = 'https://github.com/IsaiahN/pathfinder/tree/main/' + encodeURI(p.solution_path || '');
+    var figureLinksHtml =
+      '<div class="btn-row" style="margin-top:12px">' +
+        '<a class="btn btn-outline" href="https://adventuresinml.substack.com/p/arrival-of-the-fittest-the-tether" target="_blank" rel="noopener">✦ Learn about the figures ↗</a>' +
+        '<a class="btn btn-outline" href="https://medium.com/@IsaiahNwukor/how-intelligence-actually-works-40ac40fe32b0" target="_blank" rel="noopener">◈ How intelligence works ↗</a>' +
+      '</div>';
     var figCount = (p.figures_used || []).length;
     right.innerHTML =
       '<div class="panel"><h3>Next steps</h3>' +
@@ -429,11 +434,13 @@
       } else if (t === 'watson') {
         html = '<div class="card"><h2><span class="dot">◈</span> WATSON verdict</h2><div class="prose">' +
           esc(p.verdict_summary || 'No verdict summary available.') + '</div></div>' +
-          '<div class="card"><h2><span class="dot">◇</span> Figures used</h2><p>' + (figs || 'none recorded') + '</p></div>';
+          '<div class="card"><h2><span class="dot">◇</span> Figures used</h2><p>' + (figs || 'none recorded') + '</p>' +
+          figureLinksHtml + '</div>';
       } else if (t === 'figures') {
         html = '<div class="card"><h2><span class="dot">✦</span> Canonical figures</h2><p>' + (figs || 'none recorded') +
           '</p><p class="small">The figures are the authority. Verbatim text and line numbers live in <span class="mono">FRAMEWORK/reference/03-FIGURES_TEXT.md</span>.</p>' +
-          '<p><a href="' + esc(folderUrl) + '" target="_blank" rel="noopener">Open the full solution folder ↗</a></p></div>';
+          '<p><a href="' + esc(folderUrl) + '" target="_blank" rel="noopener">Open the full solution folder ↗</a></p>' +
+          figureLinksHtml + '</div>';
       } else if (t === 'sources') {
         html = '<div class="card"><h2><span class="dot">◈</span> Source ledger</h2><p>' + (p.world_sources || 0) +
           ' world sources read, ' + (p.fig_citations || 0) + ' figure citations in the derivation.</p>' +
