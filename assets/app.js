@@ -165,6 +165,26 @@
   }
 
   /* ── Dashboard ── */
+  function railFooterHtml() {
+    return '<div class="rail-actions">' +
+      '<button class="rail-submit" data-action="submit">＋ Submit a question</button>' +
+      '<div class="rail-link-title">GitHub</div>' +
+      '<a class="rail-link" href="https://github.com/IsaiahN/pathfinder/discussions" target="_blank" rel="noopener">' + GH_ICON + ' Discussions ↗</a>' +
+      '<a class="rail-link" href="https://github.com/IsaiahN/pathfinder/issues" target="_blank" rel="noopener">' + GH_ICON + ' Issues ↗</a>' +
+      '<a class="rail-link" href="https://github.com/IsaiahN/pathfinder" target="_blank" rel="noopener">' + GH_ICON + ' Repository ↗</a>' +
+      '<a class="rail-link" href="https://github.com/IsaiahN/pathfinder#readme" target="_blank" rel="noopener">' + GH_ICON + ' About and method ↗</a>' +
+      '</div>';
+  }
+
+  function githubPanelHtml() {
+    return '<div class="panel"><h3>On GitHub</h3>' +
+      '<a class="rail-link" href="https://github.com/IsaiahN/pathfinder/discussions" target="_blank" rel="noopener">' + GH_ICON + ' Discussions ↗</a>' +
+      '<a class="rail-link" href="https://github.com/IsaiahN/pathfinder/issues" target="_blank" rel="noopener">' + GH_ICON + ' Issues and verdicts ↗</a>' +
+      '<a class="rail-link" href="https://github.com/IsaiahN/pathfinder" target="_blank" rel="noopener">' + GH_ICON + ' Repository ↗</a>' +
+      '<a class="rail-link" href="https://github.com/IsaiahN/pathfinder#readme" target="_blank" rel="noopener">' + GH_ICON + ' About and method ↗</a>' +
+      '</div>';
+  }
+
   function renderDashboard() {
     var meta = META[state.ui.category];
     crumb.textContent = meta ? meta.name : 'Corpus';
@@ -178,6 +198,13 @@
     var cited = state.problems.filter(function (p) { return (p.figures_used || []).length; }).length;
     var verdicts = Object.keys(state.validation.problems || {}).reduce(function (n, k) {
       return n + ((state.validation.problems[k].verdicts || []).length); }, 0);
+    var vt = { validate: 0, refute: 0, accept: 0 };
+    Object.keys(state.validation.problems || {}).forEach(function (k) {
+      var c = state.validation.problems[k].counts || {};
+      vt.validate += c.validate || 0; vt.refute += c.refute || 0; vt.accept += c.accept || 0;
+    });
+    var verdictTotal = vt.validate + vt.refute + vt.accept;
+    function vpct(n) { return verdictTotal ? Math.round((n / verdictTotal) * 100) : 0; }
 
     left.innerHTML =
       '<div class="rail-title">◇ Registry</div>' +
@@ -189,7 +216,7 @@
           '<span class="tree-icon">▦</span><span class="rail-label">' + esc(k + ' - ' + nm) + '</span>' +
           '<span class="num">' + counts[k] + '</span></div>';
       }).join('') +
-      '<div class="rail-foot">13 fields · 100 questions each</div>';
+      '<div class="rail-foot">13 fields · 100 questions each</div>' + railFooterHtml();
 
     right.innerHTML =
       '<div class="panel"><h3>Next steps</h3>' +
@@ -199,10 +226,21 @@
         '<div class="next-step"><span class="arrow">→</span><span><strong>Refute before you endorse.</strong> A concrete failure is worth more than agreement.</span></div>' +
       '</div>' +
       '<div class="panel"><h3>Corpus health</h3>' +
-        bar('Solutions', solved, state.problems.length, 'green', solved + ' / ' + state.problems.length) +
+        bar('Solutions proposed', solved, state.problems.length, 'green', solved + ' / ' + state.problems.length) +
         bar('Sources read', sources, 25000, '', sources.toLocaleString()) +
         bar('Figure cited', cited, state.problems.length, 'purple', cited + ' / ' + state.problems.length) +
-        '<p class="meter-note">Health is a coverage meter, not a verdict. It says how much material exists, not whether any claim is true.</p>' +
+        '<div class="health-label" style="margin-top:14px"><span>Verdict mix</span><b>' + verdictTotal + ' votes</b></div>' +
+        '<div class="bar-track stacked">' +
+          '<div class="bar-fill green" style="width:' + vpct(vt.validate) + '%"></div>' +
+          '<div class="bar-fill red" style="width:' + vpct(vt.refute) + '%"></div>' +
+          '<div class="bar-fill blue" style="width:' + vpct(vt.accept) + '%"></div>' +
+        '</div>' +
+        '<div class="verdict-legend">' +
+          '<span><i class="dot-green"></i> validated ' + vt.validate + '</span>' +
+          '<span><i class="dot-red"></i> refuted ' + vt.refute + '</span>' +
+          '<span><i class="dot-blue"></i> accepted ' + vt.accept + '</span>' +
+        '</div>' +
+        '<p class="meter-note">Coverage is not correctness. Verdicts come from GitHub reactions on each problem’s issue.</p>' +
       '</div>' +
       '<div class="panel"><h3>Mode legend</h3>' +
         '<div class="next-step"><span class="badge general">general</span><span>Structural shape, not settled.</span></div>' +
@@ -217,7 +255,7 @@
            '<strong>No backlog.</strong> New questions join today’s batch.') + '</span></div>' +
         '<div class="next-step"><span class="arrow">→</span><span>Each answer becomes a full USR-##### solution folder.</span></div>' +
         '<button class="btn btn-outline" id="rail-submit" style="margin-top:6px;width:100%">＋ Submit a question</button>' +
-      '</div>';
+      '</div>' + githubPanelHtml();
     right.onclick = function (e) { if (e.target.id === 'rail-submit') openSubmission(); };
 
     var landing = meta ? '' :
@@ -499,7 +537,7 @@
           '<span class="rail-vote"><a data-vote href="' + esc(vu) + '" title="Validate">▲</a><b>' + sc +
           '</b><a data-vote href="' + esc(vu) + '" title="Refute">▼</a></span></div>';
       }).join('') +
-      '<div class="rail-foot">Problem ' + id + ' of ' + state.problems.length + '</div>';
+      '<div class="rail-foot">Problem ' + id + ' of ' + state.problems.length + '</div>' + railFooterHtml();
     left.onclick = function (e) {
       if (e.target.closest('[data-vote]')) return;
       var b = e.target.closest('.rail-item'); if (!b) return;
@@ -543,7 +581,7 @@
         }).join('') : '<p class="small">No verdicts yet. Be the first.</p>') +
         '<p class="small">validate ' + (counts.validate || 0) + ' · refute ' + (counts.refute || 0) + ' · accept ' + (counts.accept || 0) + '</p>' +
       '</div>' +
-      '<div class="panel"><h3>Submit a verdict</h3>' + actionButtons(p) + '</div>';
+      '<div class="panel"><h3>Submit a verdict</h3>' + actionButtons(p) + '</div>' + githubPanelHtml();
 
     var tabs = [['answer', 'Answer'], ['watson', 'WATSON'], ['figures', 'Figures'], ['sources', 'Sources'],
                 ['reader', 'Reader'], ['verdicts', 'Verdicts'], ['discussion', 'Discussion'], ['attempts', 'Attempts']];
@@ -863,6 +901,9 @@
     };
   }
 
+  document.addEventListener('click', function (e) {
+    if (e.target.closest('[data-action="submit"]')) openSubmission();
+  });
   document.getElementById('submit-btn').addEventListener('click', openSubmission);
   document.getElementById('theme-btn').addEventListener('click', openTheme);
   document.getElementById('menu-btn').addEventListener('click', function () {

@@ -167,6 +167,13 @@ button { font-family: inherit; }
 .rail-item .num { font-family: var(--font-mono); font-size: 0.68rem; color: var(--text-muted); margin-left: auto; }
 .tree-icon { color: var(--text-muted); font-size: 0.8rem; }
 .rail-foot { padding: 12px 14px; color: var(--text-muted); font-size: 0.72rem; }
+.rail-actions { padding: 12px 14px 16px; border-top: 1px solid var(--border); }
+.rail-submit { width: 100%; background: var(--accent-subtle); border: 1px solid var(--accent-border); color: var(--accent); border-radius: var(--radius-sm); padding: 8px 10px; font-size: 0.78rem; font-weight: 600; cursor: pointer; margin-bottom: 12px; }
+.rail-submit:hover { background: var(--accent); color: #000; }
+.rail-link-title { font-size: 0.65rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 6px; }
+.rail-link { display: flex; align-items: center; gap: 8px; padding: 5px 0; color: var(--text-secondary); font-size: 0.76rem; text-decoration: none; }
+.rail-link svg { width: 13px; height: 13px; fill: currentColor; flex: 0 0 auto; }
+.rail-link:hover { color: var(--accent); text-decoration: none; }
 
 /* ── Main content ── */
 .page-head { margin-bottom: 18px; animation: fadeIn 0.25s ease; }
@@ -283,6 +290,13 @@ tbody tr:hover { background: var(--bg-hover); }
 .bar-fill.green { background: var(--green); }
 .bar-fill.blue { background: var(--blue); }
 .bar-fill.purple { background: var(--purple); }
+.bar-fill.red { background: var(--red); }
+.bar-track.stacked { display: flex; }
+.bar-track.stacked .bar-fill { height: 100%; }
+.verdict-legend { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 8px; font-size: 0.68rem; color: var(--text-muted); }
+.verdict-legend span { display: inline-flex; align-items: center; gap: 4px; }
+.verdict-legend i { width: 7px; height: 7px; border-radius: 50%; display: inline-block; }
+.dot-green { background: var(--green); } .dot-red { background: var(--red); } .dot-blue { background: var(--blue); }
 .meter-note { font-size: 0.7rem; color: var(--text-muted); margin-top: 8px; line-height: 1.5; }
 
 .verdict-item { border-left: 2px solid var(--border); padding-left: 10px; margin-bottom: 12px; }
