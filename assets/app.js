@@ -306,6 +306,65 @@
     return out.join('\n');
   }
 
+  function loadDocInto(p, file, target) {
+    if (!target) return;
+    var key = p.id + '/' + file;
+    function show(txt) { target.innerHTML = mdToHtml(txt); }
+    if (state.docs[key]) { show(state.docs[key]); return; }
+    target.innerHTML = '<p class="muted">Loading ' + esc(file) + '…</p>';
+    fetch(p.solution_path + '/' + encodeURIComponent(file), { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.text() : 'This document is not available.'; })
+      .then(function (txt) { state.docs[key] = txt; show(txt); });
+  }
+
+  function parseCsv(text) {
+    var rows = [], row = [], field = '', quoted = false;
+    for (var i = 0; i < text.length; i++) {
+      var c = text[i];
+      if (quoted) {
+        if (c === '"' && text[i + 1] === '"') { field += '"'; i++; }
+        else if (c === '"') { quoted = false; }
+        else field += c;
+      } else if (c === '"') quoted = true;
+      else if (c === ',') { row.push(field); field = ''; }
+      else if (c === '\n') { row.push(field); rows.push(row); row = []; field = ''; }
+      else if (c !== '\r') field += c;
+    }
+    if (field || row.length) { row.push(field); rows.push(row); }
+    return rows;
+  }
+
+  function loadLedger(p, target) {
+    if (!target) return;
+    var key = p.id + '/10_source_ledger.csv';
+    function show(txt) {
+      var rows = parseCsv(txt);
+      if (rows.length < 2) { target.innerHTML = '<p class="small">No ledger rows.</p>'; return; }
+      var head = rows[0].map(function (h) { return h.trim(); });
+      var wanted = ['url', 'title', 'author', 'venue', 'year', 'quote', 'field', 'status'];
+      var cols = wanted.map(function (h) { return head.indexOf(h); }).filter(function (i) { return i >= 0; });
+      var html = '<p class="small">' + (rows.length - 1) + ' sources read · <a href="https://github.com/IsaiahN/pathfinder/blob/main/' +
+        encodeURI(p.solution_path + '/10_source_ledger.csv') + '" target="_blank" rel="noopener">open raw ledger ↗</a></p>' +
+        '<div class="table-card" style="max-height:520px;overflow:auto"><table><thead><tr>' +
+        cols.map(function (i) { return '<th>' + esc(head[i]) + '</th>'; }).join('') + '</tr></thead><tbody>' +
+        rows.slice(1).map(function (r) {
+          return '<tr>' + cols.map(function (i) {
+            var v = r[i] || '';
+            if (head[i] === 'url' && /^https?:\/\//.test(v)) {
+              return '<td><a href="' + esc(v) + '" target="_blank" rel="noopener">' + esc(v.slice(0, 60)) + '</a></td>';
+            }
+            return '<td>' + esc(v.slice(0, 240)) + '</td>';
+          }).join('') + '</tr>';
+        }).join('') + '</tbody></table></div>';
+      target.innerHTML = html;
+    }
+    if (state.docs[key]) { show(state.docs[key]); return; }
+    target.innerHTML = '<p class="muted">Loading ledger…</p>';
+    fetch(p.solution_path + '/10_source_ledger.csv', { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.text() : ''; })
+      .then(function (txt) { state.docs[key] = txt; show(txt); });
+  }
+
   function loadReaderDoc(p, file, container) {
     var target = document.getElementById('reader-content');
     if (!target) return;
@@ -428,24 +487,26 @@
     function drawTab() {
       var t = state.ui.tab, body = document.getElementById('tabbody'), html = '';
       if (t === 'answer') {
-        html = '<div class="card answer-card"><h2><span class="dot">✦</span> The Tether answer</h2><div class="prose">' +
-          esc(p.tether_summary || 'No summary available.') + '</div></div>' +
+        html = '<div class="card answer-card"><h2><span class="dot">✦</span> The Tether answer</h2>' +
+          '<div id="doc-answer" class="reader-doc"><p class="muted">Loading…</p></div></div>' +
           '<div class="card"><h2><span class="dot">◇</span> What this is</h2><p>A simulated derivation checked for internal consistency against the figures. It is not a ground reading and does not settle the question. Mode: <span class="badge ' + esc(mode) + '">' + esc(mode) + '</span></p></div>';
       } else if (t === 'watson') {
-        html = '<div class="card"><h2><span class="dot">◈</span> WATSON verdict</h2><div class="prose">' +
-          esc(p.verdict_summary || 'No verdict summary available.') + '</div></div>' +
+        html = '<div class="card"><h2><span class="dot">◈</span> WATSON answer</h2>' +
+          '<div id="doc-watson" class="reader-doc"><p class="muted">Loading…</p></div></div>' +
           '<div class="card"><h2><span class="dot">◇</span> Figures used</h2><p>' + (figs || 'none recorded') + '</p>' +
           figureLinksHtml + '</div>';
       } else if (t === 'figures') {
         html = '<div class="card"><h2><span class="dot">✦</span> Canonical figures</h2><p>' + (figs || 'none recorded') +
           '</p><p class="small">The figures are the authority. Verbatim text and line numbers live in <span class="mono">FRAMEWORK/reference/03-FIGURES_TEXT.md</span>.</p>' +
           '<p><a href="' + esc(folderUrl) + '" target="_blank" rel="noopener">Open the full solution folder ↗</a></p>' +
-          figureLinksHtml + '</div>';
+          figureLinksHtml + '</div>' +
+          '<div class="card"><h2><span class="dot">◇</span> Figure-grounded audit</h2>' +
+          '<div id="doc-figures" class="reader-doc"><p class="muted">Loading…</p></div></div>';
       } else if (t === 'sources') {
         html = '<div class="card"><h2><span class="dot">◈</span> Source ledger</h2><p>' + (p.world_sources || 0) +
           ' world sources read, ' + (p.fig_citations || 0) + ' figure citations in the derivation.</p>' +
-          '<p class="small">Every source, quote, access date and overlap note is in file 10 of the solution folder. World sources corroborate; they never overrule a figure.</p>' +
-          '<p><a href="' + esc(folderUrl) + '" target="_blank" rel="noopener">Open the source ledger ↗</a></p></div>';
+          '<p class="small">World sources corroborate; they never overrule a figure.</p>' +
+          '<div id="doc-sources"><p class="muted">Loading…</p></div></div>';
       } else if (t === 'verdicts') {
         html = '<div class="card"><h2><span class="dot">◉</span> Life graph</h2>' + renderLifeGraph(state.history.events, id) + '</div>' +
           '<div class="card"><h2><span class="dot">◇</span> Verdict detail</h2>' +
@@ -475,6 +536,11 @@
       };
       document.getElementById('propose-send').addEventListener('click', go);
       input.addEventListener('keydown', function (e) { if (e.key === 'Enter') go(); });
+
+      if (t === 'answer') loadDocInto(p, '07_the_tether_answer.md', document.getElementById('doc-answer'));
+      else if (t === 'watson') loadDocInto(p, '09_watson_answer.md', document.getElementById('doc-watson'));
+      else if (t === 'figures') loadDocInto(p, '01_figure_grounded_audit.md', document.getElementById('doc-figures'));
+      else if (t === 'sources') loadLedger(p, document.getElementById('doc-sources'));
     }
     document.getElementById('ptabs').addEventListener('click', function (e) {
       var b = e.target.closest('.tab'); if (!b) return;
