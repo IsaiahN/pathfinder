@@ -17,7 +17,8 @@
     config: {}, problems: [], validation: { problems: {} }, history: { events: [] },
     submitted: { questions: [] }, queue: { items: [], daily_cap: 100 },
     figures: [], docs: {}, theme: 'amber',
-    ui: { category: '', query: '', verdict: '', tab: 'answer' }
+    problemIssues: { issues: {} }, discussions: { discussions: {} },
+    ui: { category: '', query: '', verdict: '', tab: 'answer', sort: 'top' }
   };
 
   var META = {
@@ -68,6 +69,44 @@
     return '<span class="badge open">open</span>';
   }
 
+  function voteOf(id) {
+    var v = verdictFor(id) || {};
+    return { score: v.score || 0, up: v.upvotes || 0, down: v.downvotes || 0,
+             accepts: v.accepts || 0, voters: (v.voters || []).length };
+  }
+
+  function voteIssueUrl(p) {
+    var rec = state.problemIssues.issues[p.id];
+    if (rec) return rec.url;
+    var body = 'Problem: ' + p.id + '\n\n' + p.question + '\n\n' +
+      'Cast your verdict with a reaction on this issue:\n' +
+      '👍 validate · 👎 refute · 🎉 accept\n\n' +
+      'One verdict per GitHub account. Put your reason in a comment below.\n';
+    return 'https://github.com/IsaiahN/pathfinder/issues/new?' + new URLSearchParams({
+      labels: 'problem-verdict', title: '[PROBLEM] ' + p.id, body: body
+    }).toString();
+  }
+
+  function discussionUrl(p) {
+    var d = state.discussions.discussions[p.id];
+    if (d) return d.url;
+    return 'https://github.com/IsaiahN/pathfinder/discussions/new?' + new URLSearchParams({
+      category: 'ideas',
+      title: p.id + ' — ' + p.question.slice(0, 90),
+      body: 'Discussion for ' + p.id + '. ' + p.question +
+        '\n\nDerivation: https://isaiahn.github.io/pathfinder/problem/' + p.id + '\n'
+    }).toString();
+  }
+
+  function voteArrows(p) {
+    var v = voteOf(p.id), url = voteIssueUrl(p);
+    return '<span class="vote-cluster">' +
+      '<a class="vote-arrow up" href="' + esc(url) + '" target="_blank" rel="noopener" title="Validate (👍)">▲</a>' +
+      '<b>' + v.score + '</b>' +
+      '<a class="vote-arrow down" href="' + esc(url) + '" target="_blank" rel="noopener" title="Refute (👎)">▼</a>' +
+      '</span>';
+  }
+
   function issueUrl(id, kind, reason) {
     var repo = state.config.repo || 'IsaiahN/pathfinder';
     if (repo.indexOf('OWNER') === 0) return null;
@@ -81,14 +120,16 @@
     }).toString();
   }
 
-  function actionButtons(id) {
-    var kinds = ['validate', 'refute', 'accept'];
+  function actionButtons(p) {
+    var url = voteIssueUrl(p);
+    var kinds = [['validate', '👍'], ['refute', '👎'], ['accept', '🎉']];
     return '<div class="btn-row">' + kinds.map(function (k, i) {
-      var url = issueUrl(id, k);
       var cls = 'btn ' + (i === 0 ? 'btn-primary' : 'btn-outline');
-      return url ? '<a class="' + cls + '" href="' + esc(url) + '" target="_blank" rel="noopener">' +
-        k.toUpperCase() + '</a>' : '<span class="' + cls + '">' + k.toUpperCase() + '</span>';
-    }).join('') + '</div>';
+      return '<a class="' + cls + '" href="' + esc(url) + '" target="_blank" rel="noopener" title="React ' +
+        k[1] + ' on the GitHub issue">' + k[0].toUpperCase() + '</a>';
+    }).join('') +
+      '<a class="btn btn-outline" href="' + esc(discussionUrl(p)) + '" target="_blank" rel="noopener">💬 DISCUSSION</a>' +
+      '</div><p class="small">One verdict per GitHub account. React 👍 / 👎 / 🎉 on the issue and put your reason in a comment.</p>';
   }
 
   function bar(label, value, max, cls, suffix) {
@@ -185,13 +226,15 @@
           'One method, 1,300 questions, and an open record of every human verdict. Pick a problem, read the derivation, then validate, refute, or accept it.') + '</p></div>' +
       '<div class="toolbar"><div class="searchbox"><span class="muted">⌕</span>' +
         '<input id="q" type="search" placeholder="Search by ID or question text…" autocomplete="off" value="' + esc(state.ui.query) + '">' +
-        '<span class="esc-key">⌘K</span></div></div>' +
+        '<span class="esc-key">⌘K</span></div>' +
+        '<select id="sort" class="sort-select"><option value="top">▲ Top score</option>' +
+        '<option value="new">Newest</option><option value="id">By ID</option></select></div>' +
       '<div class="tabs" id="vtabs">' +
         [['', 'All'], ['open', 'Open'], ['validate', 'Validated'], ['refute', 'Refuted'],
          ['accept', 'Accepted'], ['submitted', 'Submitted']].map(function (x) {
           return '<button class="tab' + (state.ui.verdict === x[0] ? ' active' : '') + '" data-v="' + x[0] + '">' + x[1] + '</button>';
         }).join('') + '</div>' +
-      '<div class="table-card"><table><thead><tr><th>ID</th><th>Question</th><th>Mode</th><th>Verdict</th></tr></thead>' +
+      '<div class="table-card"><table><thead><tr><th>ID</th><th>Question</th><th>Mode</th><th>Verdict</th><th>Score</th></tr></thead>' +
       '<tbody id="rows"></tbody></table></div>' +
       '<div class="command-bar"><span class="muted">⌕</span><input id="cmd" placeholder="Type an ID to jump straight to a problem…">' +
       '<button class="command-send" id="cmd-send">➤</button></div>';
@@ -224,17 +267,27 @@
         if (state.ui.verdict && state.ui.verdict !== 'open' && t.indexOf(state.ui.verdict) < 0) return false;
         return true;
       });
-      if (!rows.length) { body.innerHTML = '<tr><td colspan="4" class="empty">No matching problems.</td></tr>'; return; }
+      if (state.ui.sort === 'top') rows.sort(function (a, b) {
+        return voteOf(b.id).score - voteOf(a.id).score || a.id.localeCompare(b.id);
+      });
+      else if (state.ui.sort === 'new') rows.sort(function (a, b) { return b.id.localeCompare(a.id); });
+      else rows.sort(function (a, b) { return a.id.localeCompare(b.id); });
+
+      if (!rows.length) { body.innerHTML = '<tr><td colspan="5" class="empty">No matching problems.</td></tr>'; return; }
       body.innerHTML = rows.slice(0, 300).map(function (p) {
         var mode = p.mode || 'specified';
         return '<tr><td class="id-cell"><a href="./problem/' + esc(p.id) + '">' + esc(p.id) + '</a></td>' +
           '<td class="q-cell">' + esc(p.question) + '</td>' +
           '<td><span class="badge ' + esc(mode) + '">' + esc(mode) + '</span></td>' +
-          '<td>' + badgeFor(p.id) + '</td></tr>';
-      }).join('') + (rows.length > 300 ? '<tr><td colspan="4" class="small">Showing 300 of ' + rows.length + '. Narrow the search.</td></tr>' : '');
+          '<td>' + badgeFor(p.id) + '</td>' +
+          '<td>' + voteArrows(p) + '</td></tr>';
+      }).join('') + (rows.length > 300 ? '<tr><td colspan="5" class="small">Showing 300 of ' + rows.length + '. Narrow the search.</td></tr>' : '');
     }
 
     document.getElementById('q').addEventListener('input', function (e) { state.ui.query = e.target.value; drawRows(); });
+    var sortSel = document.getElementById('sort');
+    sortSel.value = state.ui.sort;
+    sortSel.addEventListener('change', function (e) { state.ui.sort = e.target.value; drawRows(); });
     document.getElementById('vtabs').addEventListener('click', function (e) {
       var b = e.target.closest('.tab'); if (!b) return;
       state.ui.verdict = b.getAttribute('data-v'); renderDashboard();
@@ -422,16 +475,22 @@
     modePill.className = 'mode-pill ' + esc(mode);
 
     var section = p.section || 'Other';
-    var siblings = state.problems.filter(function (x) { return (x.section || 'Other') === section; }).slice(0, 40);
+    var siblings = state.problems.filter(function (x) { return (x.section || 'Other') === section; })
+      .sort(function (a, b) { return voteOf(b.id).score - voteOf(a.id).score || a.id.localeCompare(b.id); })
+      .slice(0, 40);
     left.innerHTML =
       '<div class="rail-item" id="back"><span class="tree-icon">←</span>All problems</div>' +
       '<div class="rail-title">▾ ' + esc(section) + '</div>' +
       siblings.map(function (s) {
+        var vu = voteIssueUrl(s), sc = voteOf(s.id).score;
         return '<div class="rail-item' + (s.id === id ? ' active' : '') + '" data-id="' + esc(s.id) + '">' +
-          '<span class="tree-icon">▤</span><span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">' + esc(s.id) + '</span></div>';
+          '<span class="tree-icon">▤</span><span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">' + esc(s.id) + '</span>' +
+          '<span class="rail-vote"><a data-vote href="' + esc(vu) + '" title="Validate">▲</a><b>' + sc +
+          '</b><a data-vote href="' + esc(vu) + '" title="Refute">▼</a></span></div>';
       }).join('') +
       '<div class="rail-foot">Problem ' + id + ' of ' + state.problems.length + '</div>';
     left.onclick = function (e) {
+      if (e.target.closest('[data-vote]')) return;
       var b = e.target.closest('.rail-item'); if (!b) return;
       if (b.id === 'back') { location.href = './'; return; }
       var sid = b.getAttribute('data-id'); if (sid) location.href = './problem/' + encodeURIComponent(sid);
@@ -473,13 +532,14 @@
         }).join('') : '<p class="small">No verdicts yet. Be the first.</p>') +
         '<p class="small">validate ' + (counts.validate || 0) + ' · refute ' + (counts.refute || 0) + ' · accept ' + (counts.accept || 0) + '</p>' +
       '</div>' +
-      '<div class="panel"><h3>Submit a verdict</h3>' + actionButtons(id) + '</div>';
+      '<div class="panel"><h3>Submit a verdict</h3>' + actionButtons(p) + '</div>';
 
     var tabs = [['answer', 'Answer'], ['watson', 'WATSON'], ['figures', 'Figures'], ['sources', 'Sources'],
-                ['reader', 'Reader'], ['verdicts', 'Verdicts'], ['attempts', 'Attempts']];
+                ['reader', 'Reader'], ['verdicts', 'Verdicts'], ['discussion', 'Discussion'], ['attempts', 'Attempts']];
     app.innerHTML =
       '<div class="page-head"><div class="eyebrow">Problem · ' + esc(p.category || '') + '</div>' +
-        '<h1 class="mono">' + esc(id) + '</h1><p class="question">' + esc(p.question) + '</p></div>' +
+        '<div class="title-row"><h1 class="mono">' + esc(id) + '</h1>' + voteArrows(p) + '</div>' +
+        '<p class="question">' + esc(p.question) + '</p></div>' +
       '<div class="tabs" id="ptabs">' + tabs.map(function (t) {
         return '<button class="tab' + (state.ui.tab === t[0] ? ' active' : '') + '" data-t="' + t[0] + '">' + t[1] + '</button>';
       }).join('') + '</div><div id="tabbody"></div>';
@@ -514,10 +574,25 @@
             return '<p class="small"><span class="mono">' + esc(x.validator || 'anonymous') + '</span> · ' +
               esc(String(x.type || '').toUpperCase()) + ' · ' + esc(String(x.created_at || '').slice(0, 10)) + '</p>' +
               '<p>' + esc(x.reason || '') + '</p>';
-          }).join('') : '<p class="small">No verdicts yet.</p>') + '</div>' + actionButtons(id);
+          }).join('') : '<p class="small">No verdicts yet.</p>') + '</div>' + actionButtons(p);
       } else if (t === 'reader') {
         renderReader(p, document.getElementById('tabbody'));
         return;
+      } else if (t === 'discussion') {
+        var d = state.discussions.discussions[id];
+        html = '<div class="card"><h2><span class="dot">💬</span> Discussion</h2>' +
+          (d ? '<p class="small">' + d.comments + ' comments · ' + d.reactions.up + ' up · ' +
+               d.reactions.down + ' down · updated ' + esc(String(d.updated_at || '').slice(0, 10)) + '</p>' +
+               (d.latest_comments || []).map(function (c) {
+                 return '<div class="verdict-item"><span class="who">' + esc(c.author) + '</span> ' +
+                   '<span class="when">' + esc(String(c.created_at || '').slice(0, 10)) + '</span>' +
+                   '<p>' + esc(String(c.body || '')) + '</p><a class="small" href="' + esc(c.url) +
+                   '" target="_blank" rel="noopener">reply ↗</a></div>';
+               }).join('')
+             : '<p class="small">No discussion yet. Start the thread; it will be tied to ' + esc(id) + '.</p>') +
+          '<div class="btn-row"><a class="btn btn-primary" href="' + esc(discussionUrl(p)) +
+          '" target="_blank" rel="noopener">' + (d ? 'Join the discussion ↗' : 'Start the discussion ↗') + '</a></div>' +
+          '<p class="small">Comments use your GitHub identity. No sign-in is needed on this site; GitHub handles it when you post.</p></div>';
       } else {
         html = '<div class="card"><h2><span class="dot">⟳</span> Attempts and rebuttals</h2>' +
           ((p.attempts && p.attempts.length) ? p.attempts.map(function (a) {
@@ -795,7 +870,8 @@
       fetchJSON('data/config.json'), fetchJSON('data/problems.json'),
       fetchJSON('data/validation.json'), fetchJSON('data/history.json'),
       fetchJSON('data/submitted_questions.json'), fetchJSON('data/submission_queue.json'),
-      fetchJSON('data/figures.json')
+      fetchJSON('data/figures.json'),
+      fetchJSON('data/problem_issues.json'), fetchJSON('data/discussions.json')
     ]).then(function (r) {
       state.config = r[0] || {};
       state.problems = (r[1] && r[1].problems) || [];
@@ -804,6 +880,8 @@
       state.submitted = r[4] || { questions: [] };
       state.queue = r[5] || { items: [], daily_cap: 100 };
       state.figures = (r[6] && r[6].figures) || [];
+      state.problemIssues = r[7] || { issues: {} };
+      state.discussions = r[8] || { discussions: {} };
       var meta = r[1] || {};
       var g = document.getElementById('generated-at');
       if (g) g.textContent = 'data ' + String(meta.generated_at || '').slice(0, 10);

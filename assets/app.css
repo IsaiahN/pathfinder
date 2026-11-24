@@ -109,6 +109,17 @@ button { font-family: inherit; }
   cursor: pointer; white-space: nowrap; transition: var(--transition);
 }
 .top-submit:hover { background: var(--accent); color: #000; }
+.searchbox { flex-wrap: nowrap; }
+.sort-select { background: var(--bg-card); border: 1px solid var(--border); color: var(--text-secondary); border-radius: var(--radius-md); padding: 0 10px; height: 36px; font: inherit; font-size: 0.78rem; cursor: pointer; }
+.title-row { display: flex; align-items: center; gap: 14px; }
+.vote-cluster { display: inline-flex; flex-direction: column; align-items: center; gap: 0; line-height: 1; font-family: var(--font-mono); font-size: 0.72rem; }
+.vote-arrow { color: var(--text-muted); font-size: 0.8rem; text-decoration: none; padding: 0 3px; }
+.vote-arrow:hover { color: var(--accent); text-decoration: none; }
+.vote-cluster b { color: var(--accent); font-size: 0.82rem; }
+.rail-vote { display: inline-flex; align-items: center; gap: 2px; margin-left: auto; font-family: var(--font-mono); font-size: 0.65rem; }
+.rail-vote a { color: var(--text-muted); text-decoration: none; }
+.rail-vote a:hover { color: var(--accent); }
+.rail-vote b { color: var(--text-secondary); min-width: 16px; text-align: center; }
 
 /* Submission form */
 .form-body { padding: 16px; display: flex; flex-direction: column; gap: 12px; }

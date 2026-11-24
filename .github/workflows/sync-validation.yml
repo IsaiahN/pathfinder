@@ -1,20 +1,28 @@
-name: Sync validation data
+name: Sync validation and discussions
 
-# Harvest labeled issues + reactions into data/*.json, commit if changed.
-# Pages is set to "Deploy from branch: main", so this commit rebuilds the site.
+# One canonical issue per problem (label: problem-verdict).
+# A GitHub user casts one verdict there: +1 validate, -1 refute, hooray accept.
+# Reasons and rebuttals are comments on that issue. One discussion per problem
+# lives in the Ideas category. All data is harvested server-side by this Action:
+# visitors to the static site never need to authenticate against GitHub.
 
 on:
   issues:
-    types: [opened, edited, reopened, closed, labeled, unlabeled]
+    types: [opened, edited, reopened, closed, labeled]
   issue_comment:
-    types: [created]
+    types: [created, edited]
+  discussion:
+    types: [created, edited]
+  discussion_comment:
+    types: [created, edited]
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
   issues: read
+  discussions: read
 
 concurrency:
   group: validation-sync
@@ -26,7 +34,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Harvest issues and reactions
+      - name: Harvest votes, reasons and discussions
         uses: actions/github-script@v7
         with:
           script: |
@@ -34,103 +42,186 @@ jobs:
             const path = require('path');
             const owner = context.repo.owner;
             const repo = context.repo.repo;
-            const label = 'validation';
-            const titleRe = /^\[(VALIDATE|REFUTE|ACCEPT)\]\s+([A-Z0-9]+-\d{4})/i;
             const dataDir = path.join(process.cwd(), 'data');
             fs.mkdirSync(dataDir, { recursive: true });
+            const generated_at = new Date().toISOString();
 
-            const per_page = 100;
-            let issues = [];
-            for (let page = 1; ; page++) {
-              const batch = await github.rest.issues.listForRepo({
-                owner, repo, state: 'all', labels: label, per_page, page
-              });
-              issues = issues.concat(batch.data);
-              if (batch.data.length < per_page) break;
+            const idRe = /^\[PROBLEM\]\s+([A-Z0-9]+-\d+)/i;
+            const rank = { refute: 3, validate: 2, accept: 1 };
+            const reactionToVerdict = { '+1': 'validate', '-1': 'refute', hooray: 'accept' };
+
+            // ── Canonical issues ──
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              owner, repo, labels: 'problem-verdict', state: 'all', per_page: 100
+            });
+            const canonical = {};
+            for (const issue of issues) {
+              if (issue.pull_request) continue;
+              const m = idRe.exec(issue.title || '');
+              if (!m) continue;
+              const pid = m[1].toUpperCase();
+              if (!canonical[pid] || new Date(issue.created_at) < new Date(canonical[pid].created_at)) {
+                canonical[pid] = issue;
+              }
             }
 
-            const validation = { generated_at: new Date().toISOString(), problems: {} };
-            const history = { generated_at: new Date().toISOString(), events: [] };
+            const validation = { generated_at, scheme: 'one-verdict-per-user-per-problem', problems: {} };
+            const history = { generated_at, events: [] };
+            const problemIssues = { generated_at, issues: {} };
 
-            for (const issue of issues) {
-              const m = titleRe.exec(issue.title || '');
-              if (!m) continue;
-              const kind = m[1].toLowerCase();
-              const pid = m[2].toUpperCase();
+            for (const [pid, issue] of Object.entries(canonical)) {
+              problemIssues.issues[pid] = {
+                number: issue.number, url: issue.html_url, title: issue.title
+              };
 
-              const reactions = await github.paginate(
-                github.rest.issues.listReactions,
-                { owner, repo, issue_number: issue.number, per_page }
-              );
-              const counts = {
-                '+1': 0, '-1': 0, hooray: 0, eyes: 0,
-                rocket: 0, heart: 0, laugh: 0, confused: 0, total: 0
+              const reactions = await github.paginate(github.rest.issues.listReactions, {
+                owner, repo, issue_number: issue.number, per_page: 100
+              });
+              const comments = await github.paginate(github.rest.issues.listComments, {
+                owner, repo, issue_number: issue.number, per_page: 100
+              });
+
+              const counts = { validate: 0, refute: 0, accept: 0 };
+              const raw = {
+                '+1': 0, '-1': 0, hooray: 0, eyes: 0, rocket: 0, heart: 0, laugh: 0, confused: 0, total: 0
               };
               for (const r of reactions) {
-                if (counts[r.content] !== undefined) counts[r.content]++;
-                counts.total++;
+                if (raw[r.content] !== undefined) raw[r.content]++;
+                raw.total++;
               }
 
-              if (!validation.problems[pid]) {
-                validation.problems[pid] = { verdicts: [], counts: { validate: 0, refute: 0, accept: 0 } };
+              // One verdict per GitHub login, highest precedence wins.
+              const byUser = {};
+              for (const r of reactions) {
+                const kind = reactionToVerdict[r.content];
+                if (!kind || !r.user || r.user.type === 'Bot') continue;
+                const login = r.user.login;
+                if (!byUser[login] || rank[kind] > rank[byUser[login].type]) {
+                  byUser[login] = { type: kind, at: r.created_at || issue.created_at };
+                }
               }
-              const entry = validation.problems[pid];
-              entry.verdicts.push({
-                type: kind,
-                validator: issue.user ? issue.user.login : 'unknown',
-                reason: (issue.body || '').slice(0, 4000),
+              const verdicts = Object.entries(byUser).map(([login, v]) => {
+                const comment = comments.find(c => c.user && c.user.login === login && !/^\[/i.test(c.body || ''));
+                return {
+                  type: v.type, validator: login,
+                  reason: comment ? String(comment.body).slice(0, 4000) : '',
+                  issue_url: issue.html_url,
+                  comment_url: comment ? comment.html_url : '',
+                  created_at: v.at,
+                  reactions: raw
+                };
+              }).sort((a, b) => new Date(a.created_at) - new Date(b.created_at));
+              verdicts.forEach(v => { counts[v.type]++; });
+
+              validation.problems[pid] = {
                 issue_url: issue.html_url,
                 issue_number: issue.number,
-                created_at: issue.created_at,
-                updated_at: issue.updated_at,
-                state: issue.state,
-                reactions: counts
-              });
-              if (entry.counts[kind] !== undefined) entry.counts[kind]++;
+                upvotes: raw['+1'], downvotes: raw['-1'], accepts: raw.hooray,
+                score: raw['+1'] - raw['-1'],
+                counts, verdicts, voters: Object.keys(byUser),
+                reactions: raw
+              };
 
-              history.events.push({
-                problem_id: pid,
-                type: kind,
-                actor: issue.user ? issue.user.login : 'unknown',
-                detail: (issue.body || '').slice(0, 200),
-                timestamp: issue.created_at,
-                source_issue: issue.html_url
-              });
-
-              // Comments on a validation issue are rebuttal rounds.
-              const comments = await github.paginate(
-                github.rest.issues.listComments,
-                { owner, repo, issue_number: issue.number, per_page }
-              );
+              for (const v of verdicts) {
+                history.events.push({
+                  problem_id: pid, type: v.type, actor: v.validator,
+                  detail: v.reason.slice(0, 200), timestamp: v.created_at,
+                  source_issue: issue.html_url
+                });
+              }
               for (const c of comments) {
                 if (!c.user || c.user.type === 'Bot') continue;
                 history.events.push({
-                  problem_id: pid,
-                  type: 'rebuttal',
-                  actor: c.user.login,
-                  detail: (c.body || '').slice(0, 200),
-                  timestamp: c.created_at,
-                  source_issue: issue.html_url
+                  problem_id: pid, type: 'rebuttal', actor: c.user.login,
+                  detail: String(c.body || '').slice(0, 200),
+                  timestamp: c.created_at, source_issue: issue.html_url,
+                  source_comment: c.html_url
                 });
               }
             }
 
-            history.events.sort(function (a, b) {
-              return new Date(a.timestamp) - new Date(b.timestamp);
-            });
+            // ── Discussions (GraphQL) ──
+            const gql = async (query, variables) => {
+              const res = await github.graphql(query, variables);
+              return res;
+            };
+            const meta = await gql(
+              `query { repository(owner:"${owner}", name:"${repo}") {
+                 id discussionCategories(first:30){ nodes { id slug } }
+               } }`);
+            const repoId = meta.repository.id;
+            const cat = (meta.repository.discussionCategories.nodes || [])
+              .find(c => c.slug === 'ideas' || c.slug === 'general');
+            const discussions = { generated_at, discussions: {} };
+            if (cat) {
+              const dq = await gql(
+                `query($id:ID!,$after:String){ repository(owner:"${owner}",name:"${repo}") {
+                   discussions(first:100, after:$after, categoryId:$id) {
+                     nodes { number title url createdAt updatedAt
+                       comments { totalCount }
+                       reactions(first:100) { nodes { content user { login } } }
+                     }
+                     pageInfo { hasNextPage endCursor }
+                   } } }`,
+                { id: cat.id, after: null });
+              const nodes = dq.repository.discussions.nodes || [];
+              for (const d of nodes) {
+                const m = /^([A-Z0-9]+-\d+)\s*[—\-:]/i.exec(d.title || '');
+                if (!m) continue;
+                const pid = m[1].toUpperCase();
+                if (!canonical[pid]) continue;
+                const rc = { up: 0, down: 0, total: 0 };
+                for (const r of (d.reactions.nodes || [])) {
+                  rc.total++;
+                  if (r.content === 'THUMBS_UP') rc.up++;
+                  if (r.content === 'THUMBS_DOWN') rc.down++;
+                }
+                let latest = [];
+                try {
+                  const cq = await gql(
+                    `query($n:Int!){ repository(owner:"${owner}",name:"${repo}") {
+                       discussion(number:$n){ comments(first:8, orderBy:{field:CREATED_AT,direction:DESC}) {
+                         nodes { body createdAt author { login } url }
+                       } } } }`, { n: d.number });
+                  latest = (cq.repository.discussion.comments.nodes || []).map(c => ({
+                    author: c.author ? c.author.login : 'ghost',
+                    body: String(c.body || '').slice(0, 500),
+                    created_at: c.createdAt, url: c.url
+                  }));
+                  latest.forEach(c => history.events.push({
+                    problem_id: pid, type: 'discussion', actor: c.author,
+                    detail: c.body.slice(0, 200), timestamp: c.created_at,
+                    source_issue: d.url
+                  }));
+                } catch (e) { core.warning('discussion comments: ' + e.message); }
+                discussions.discussions[pid] = {
+                  number: d.number, url: d.url, title: d.title,
+                  comments: d.comments.totalCount, reactions: rc,
+                  latest_comments: latest, updated_at: d.updatedAt
+                };
+              }
+            }
 
-            fs.writeFileSync(path.join(dataDir, 'validation.json'), JSON.stringify(validation, null, 2) + '\n');
-            fs.writeFileSync(path.join(dataDir, 'history.json'), JSON.stringify(history, null, 2) + '\n');
-            core.info('Synced ' + issues.length + ' issues -> ' + Object.keys(validation.problems).length + ' problems');
+            history.events.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+            const stamp = generated_at;
+            for (const [name, payload] of Object.entries({
+              'validation.json': validation, 'history.json': history,
+              'problem_issues.json': problemIssues, 'discussions.json': discussions
+            })) {
+              fs.writeFileSync(path.join(dataDir, name),
+                JSON.stringify(Object.assign({ generated_at: stamp }, payload), null, 2) + '\n');
+            }
+            core.info('Canonical issues: ' + Object.keys(canonical).length +
+                      ', discussions: ' + Object.keys(discussions.discussions).length);
 
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/validation.json data/history.json
+          git add data/validation.json data/history.json data/problem_issues.json data/discussions.json
           if git diff --cached --quiet; then
-            echo "No data changes to commit."
+            echo "No data changes."
           else
-            git commit -m "chore: sync validation data [skip ci]"
+            git commit -m "chore: sync verdicts and discussions [skip ci]"
             git push
           fi
