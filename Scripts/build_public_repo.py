@@ -104,8 +104,16 @@ def copy_clean(src, dst, stats):
 
 def main():
     if PUBLIC.exists():
-        shutil.rmtree(PUBLIC)
-    PUBLIC.mkdir(parents=True)
+        # Preserve .git so repeated builds stay in the same repository history.
+        for child in PUBLIC.iterdir():
+            if child.name == ".git":
+                continue
+            if child.is_dir():
+                shutil.rmtree(child)
+            else:
+                child.unlink()
+    else:
+        PUBLIC.mkdir(parents=True)
 
     stats = {"copied": 0, "redacted_files": 0, "redacted_emails": 0,
              "skipped_private": 0, "workbook_sanitized": 0}

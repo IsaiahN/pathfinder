@@ -1,0 +1,30 @@
+name: Lean certificate check
+
+# Optional: check Lean 4 proofs committed under certificates/.
+# A maintainer applies the `certified:lean` label after a clean run.
+
+on:
+  push:
+    paths:
+      - "certificates/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check whether any proofs exist
+        id: proofs
+        run: |
+          count=$(find certificates -name '*.lean' -type f 2>/dev/null | wc -l)
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+          if [ "$count" -eq 0 ]; then echo "No Lean proofs committed; skipping."; fi
+      - name: Verify proofs
+        if: steps.proofs.outputs.count != '0'
+        uses: leanprover/lean-action@v1
+        with:
+          auto-github-config: true
